@@ -12,12 +12,12 @@ A:: There are many ways to create objects in javascript as below
 1. **Object constructor:**
    The simplest way to create an empty object is using the Object constructor. Currently this approach is not recommended.
    ```javascript
-      var object = new Object();
+   var object = new Object();
    ```
 2. **Object's create method:**
    The create method of Object creates a new object by passing the prototype object as a parameter
    ```javascript
-      var object = Object.create(null);
+   var object = Object.create(null);
    ```
 3. **Object literal syntax:**
    The object literal syntax (or object initializer), is a comma-separated set of name-value pairs wrapped in curly braces.
@@ -32,23 +32,23 @@ A:: There are many ways to create objects in javascript as below
 4. **Function constructor:**
    Create any function and apply the new operator to create object instances,
    ```javascript
-      function Person(name) {
-        this.name = name;
-        this.age = 21;
-      }
-      var object = new Person("Sudheer");
+   function Person(name) {
+     this.name = name;
+     this.age = 21;
+   }
+   var object = new Person("Sudheer");
    ```
 5. **Function constructor with prototype:**
    This is similar to function constructor but it uses prototype for their properties and methods,
    ```javascript
-      function Person() {}
-      Person.prototype.name = "Sudheer";
-      var object = new Person();
+   function Person() {}
+   Person.prototype.name = "Sudheer";
+   var object = new Person();
    ```
    This is equivalent to an instance created with an object create method with a function prototype and then call that function with an instance and parameters as arguments.
    ```javascript
-      function func() {};
-      new func(x, y, z);
+   function func() {}
+   new func(x, y, z);
    ```
    **(OR)**
    ```javascript
@@ -62,19 +62,19 @@ A:: There are many ways to create objects in javascript as below
 6. **ES6 Class syntax:**
    ES6 introduces class feature to create the objects
    ```javascript
-      class Person {
-        constructor(name) {
-          this.name = name;
-        }
-      }
-      var object = new Person("Sudheer");
+   class Person {
+     constructor(name) {
+       this.name = name;
+     }
+   }
+   var object = new Person("Sudheer");
    ```
 7. **Singleton pattern:**
    A Singleton is an object which can only be instantiated one time. Repeated calls to its constructor return the same instance and this way one can ensure that they don't accidentally create multiple instances.
    ```javascript
-      var object = new (function () {
-        this.name = "Sudheer";
-      })();
+   var object = new (function () {
+     this.name = "Sudheer";
+   })();
    ```
 
 Q:: What is a prototype chain  
@@ -91,7 +91,7 @@ var employee1 = { firstName: "John", lastName: "Rodson" };
 var employee2 = { firstName: "Jimmy", lastName: "Baily" };
 function invite(greeting1, greeting2) {
   console.log(
-    greeting1 + " " + this.firstName + " " + this.lastName + ", " + greeting2
+    greeting1 + " " + this.firstName + " " + this.lastName + ", " + greeting2,
   );
 }
 invite.call(employee1, "Hello", "How are you?"); // Hello John Rodson, How are you?
@@ -105,7 +105,7 @@ var employee1 = { firstName: "John", lastName: "Rodson" };
 var employee2 = { firstName: "Jimmy", lastName: "Baily" };
 function invite(greeting1, greeting2) {
   console.log(
-    greeting1 + " " + this.firstName + " " + this.lastName + ", " + greeting2
+    greeting1 + " " + this.firstName + " " + this.lastName + ", " + greeting2,
   );
 }
 invite.apply(employee1, ["Hello", "How are you?"]); // Hello John Rodson, How are you?
@@ -119,7 +119,7 @@ var employee1 = { firstName: "John", lastName: "Rodson" };
 var employee2 = { firstName: "Jimmy", lastName: "Baily" };
 function invite(greeting1, greeting2) {
   console.log(
-    greeting1 + " " + this.firstName + " " + this.lastName + ", " + greeting2
+    greeting1 + " " + this.firstName + " " + this.lastName + ", " + greeting2,
   );
 }
 var inviteEmployee1 = invite.bind(employee1);
@@ -176,11 +176,11 @@ let arrayIntegers3 = arrayIntegersOriginal3.splice(3, 1, "a", "b", "c"); //retur
 Q:: What is the difference between slice and splice  
 A:: Some of the major difference in a tabular form
 
-| Slice | Splice |  
-| -------------------------------------------- | ----------------------------------------------- |  
-| Doesn't modify the original array(immutable) | Modifies the original array(mutable) |  
-| Returns the subset of original array | Returns the deleted elements as array |  
-| Used to pick the elements from array | Used to insert or delete elements to/from array |
+| Slice                                        | Splice                                          |
+| -------------------------------------------- | ----------------------------------------------- |
+| Doesn't modify the original array(immutable) | Modifies the original array(mutable)            |
+| Returns the subset of original array         | Returns the deleted elements as array           |
+| Used to pick the elements from array         | Used to insert or delete elements to/from array |
 
 Q:: How do you compare Object and Map  
 A:: **Objects** are similar to **Maps** in that both let you set keys to values, retrieve those values, delete keys, and detect whether something is stored at a key. Due to this reason, Objects have been used as Maps historically. But there are important differences that make using a Map preferable in certain cases.
@@ -198,8 +198,8 @@ A:: JavaScript provides both strict(===, !==) and type-converting(==, !=) equali
 1. Two strings are strictly equal when they have the same sequence of characters, same length, and same characters in corresponding positions.
 2. Two numbers are strictly equal when they are numerically equal. i.e, Having the same number value.
    There are two special cases in this,
-    1. NaN is not equal to anything, including NaN.
-    2. Positive and negative zeros are equal to one another.
+   1. NaN is not equal to anything, including NaN.
+   2. Positive and negative zeros are equal to one another.
 3. Two Boolean operands are strictly equal if both are true or both are false.
 4. Two objects are strictly equal if they refer to the same Object.
 5. Null and Undefined types are not equal with ===, but equal with ==. i.e,
@@ -241,8 +241,7 @@ Q:: What is a higher order function
 A:: Higher-order function is a function that accepts another function as an argument or returns a function as a return value or both.
 
 ```javascript
-const firstOrderFunc = () =>
-console.log("Hello, I am a First order function");
+const firstOrderFunc = () => console.log("Hello, I am a First order function");
 const higherOrder = (ReturnFirstOrderFunc) => ReturnFirstOrderFunc();
 higherOrder(firstOrderFunc);
 ```
@@ -280,7 +279,7 @@ let numberArray = [];
 const impureAddNumber = (number) => numberArray.push(number);
 //Pure
 const pureAddNumber = (number) => (argNumberArray) =>
-argNumberArray.concat([number]);
+  argNumberArray.concat([number]);
 //Display the results
 console.log(impureAddNumber(6)); // returns 1
 console.log(numberArray); // returns [6]
@@ -298,8 +297,8 @@ Let's take an example to demonstrate the usage,
 ```javascript
 let counter = 30;
 if (counter === 30) {
-let counter = 31;
-console.log(counter); // 31
+  let counter = 31;
+  console.log(counter); // 31
 }
 console.log(counter); // 30 (because the variable in if block won't exist here)
 ```
@@ -307,23 +306,24 @@ console.log(counter); // 30 (because the variable in if block won't exist here)
 Q:: What is the difference between let and var  
 A:: You can list out the differences in a tabular format
 
-| var | let |  
-| ----------------------------------------------------- | --------------------------- |  
-| It is been available from the beginning of JavaScript | Introduced as part of ES6 |  
-| It has function scope | It has block scope |  
-| Variables will be hoisted | Hoisted but not initialized |  
+| var                                                   | let                         |
+| ----------------------------------------------------- | --------------------------- |
+| It is been available from the beginning of JavaScript | Introduced as part of ES6   |
+| It has function scope                                 | It has block scope          |
+| Variables will be hoisted                             | Hoisted but not initialized |
+
 Let's take an example to see the difference,
 
 ```javascript
 function userDetails(username) {
-if (username) {
-console.log(salary); // undefined due to hoisting
-console.log(age); // ReferenceError: Cannot access 'age' before initialization
-let age = 30;
-var salary = 10000;
-}
-console.log(salary); //10000 (accessible due to function scope)
-console.log(age); //error: age is not defined(due to block scope)
+  if (username) {
+    console.log(salary); // undefined due to hoisting
+    console.log(age); // ReferenceError: Cannot access 'age' before initialization
+    let age = 30;
+    var salary = 10000;
+  }
+  console.log(salary); //10000 (accessible due to function scope)
+  console.log(age); //error: age is not defined(due to block scope)
 }
 userDetails("John");
 ```
@@ -337,12 +337,12 @@ A:: If you try to redeclare variables in a `switch block` then it will cause err
 ```javascript
 let counter = 1;
 switch (x) {
-case 0:
-let name;
-break;
-case 1:
-let name; // SyntaxError for redeclaration.
-break;
+  case 0:
+    let name;
+    break;
+  case 1:
+    let name; // SyntaxError for redeclaration.
+    break;
 }
 ```
 
@@ -351,14 +351,14 @@ To avoid this error, you can create a nested block inside a case clause and crea
 ```javascript
 let counter = 1;
 switch (x) {
-case 0: {
-let name;
-break;
-}
-case 1: {
-let name; // No SyntaxError for redeclaration.
-break;
-}
+  case 0: {
+    let name;
+    break;
+  }
+  case 1: {
+    let name; // No SyntaxError for redeclaration.
+    break;
+  }
 }
 ```
 
@@ -368,10 +368,10 @@ Let's see this behavior with an example,
 
 ```javascript
 function somemethod() {
-console.log(counter1); // undefined
-console.log(counter2); // ReferenceError
-var counter1 = 1;
-let counter2 = 2;
+  console.log(counter1); // undefined
+  console.log(counter2); // ReferenceError
+  var counter1 = 1;
+  let counter2 = 2;
 }
 ```
 
@@ -380,7 +380,7 @@ A:: IIFE (Immediately Invoked Function Expression) is a JavaScript function that
 
 ```javascript
 (function () {
-// logic here
+  // logic here
 })();
 ```
 
@@ -388,8 +388,8 @@ The primary reason to use an IIFE is to obtain data privacy because any variable
 
 ```javascript
 (function () {
-var message = "IIFE";
-console.log(message);
+  var message = "IIFE";
+  console.log(message);
 })();
 console.log(message); //Error: message is not defined
 ```
@@ -411,18 +411,18 @@ Let's take an example of adding function with memoization,
 
 ```javascript
 const memoizAddition = () => {
-let cache = {};
-return (value) => {
-if (value in cache) {
-console.log("Fetching from cache");
-return cache[value]; // Here, cache.value cannot be used as property name starts with the number which is not a valid JavaScript  identifier. Hence, can only be accessed using the square bracket notation.
-} else {
-console.log("Calculating result");
-let result = value + 20;
-cache[value] = result;
-return result;
-}
-};
+  let cache = {};
+  return (value) => {
+    if (value in cache) {
+      console.log("Fetching from cache");
+      return cache[value]; // Here, cache.value cannot be used as property name starts with the number which is not a valid JavaScript  identifier. Hence, can only be accessed using the square bracket notation.
+    } else {
+      console.log("Calculating result");
+      let result = value + 20;
+      cache[value] = result;
+      return result;
+    }
+  };
 };
 // returned function from memoizAddition
 const addition = memoizAddition();
@@ -452,7 +452,7 @@ In the same fashion, function declarations are hoisted too
 ```javascript
 message("Good morning"); //Good morning
 function message(name) {
-console.log(name);
+  console.log(name);
 }
 ```
 
@@ -464,11 +464,11 @@ For example, the prototype based inheritance written in function expression as b
 
 ```javascript
 function Bike(model, color) {
-this.model = model;
-this.color = color;
+  this.model = model;
+  this.color = color;
 }
 Bike.prototype.getDetails = function () {
-return this.model + " bike has" + this.color + " color";
+  return this.model + " bike has" + this.color + " color";
 };
 ```
 
@@ -476,13 +476,13 @@ Whereas ES6 classes can be defined as an alternative
 
 ```javascript
 class Bike {
-constructor(color, model) {
-this.color = color;
-this.model = model;
-}
-getDetails() {
-return this.model + " bike has" + this.color + " color";
-}
+  constructor(color, model) {
+    this.color = color;
+    this.model = model;
+  }
+  getDetails() {
+    return this.model + " bike has" + this.color + " color";
+  }
 }
 ```
 
@@ -496,10 +496,10 @@ A:: A closure is the combination of a function and the lexical environment withi
 
 ```javascript
 function Welcome(name) {
-var greetingInfo = function (message) {
-console.log(message + " " + name);
-};
-return greetingInfo;
+  var greetingInfo = function (message) {
+    console.log(message + " " + name);
+  };
+  return greetingInfo;
 }
 var myFunction = Welcome("John");
 myFunction("Welcome "); //Output: Welcome John
@@ -578,8 +578,7 @@ A:: You can delete a cookie by setting the expiry date as a passed date. You don
 For example, you can delete a username cookie in the current page as below.
 
 ```javascript
-document.cookie =
-"username=; expires=Fri, 07 Jun 2019 00:00:00 UTC; path=/;";
+document.cookie = "username=; expires=Fri, 07 Jun 2019 00:00:00 UTC; path=/;";
 ```
 
 **Note:** You should define the cookie path option to ensure that you delete the right cookie. Some browsers doesn't allow to delete a cookie unless you specify a path parameter.
@@ -587,12 +586,12 @@ document.cookie =
 Q:: What are the differences between cookie, local storage and session storage  
 A:: Below are some of the differences between cookie, local storage and session storage,
 
-| Feature | Cookie | Local storage | Session storage |  
-| --------------------------------- | ---------------------------------- | ---------------- | ------------------- |  
-| Accessed on client or server side | Both server-side & client-side | client-side only | client-side only |  
-| Lifetime | As configured using Expires option | until deleted | until tab is closed |  
-| SSL support | Supported | Not supported | Not supported |  
-| Maximum data size | 4KB | 5 MB | 5MB |
+| Feature                           | Cookie                             | Local storage    | Session storage     |
+| --------------------------------- | ---------------------------------- | ---------------- | ------------------- |
+| Accessed on client or server side | Both server-side & client-side     | client-side only | client-side only    |
+| Lifetime                          | As configured using Expires option | until deleted    | until tab is closed |
+| SSL support                       | Supported                          | Not supported    | Not supported       |
+| Maximum data size                 | 4KB                                | 5 MB             | 5MB                 |
 
 Q:: What is the main difference between localStorage and sessionStorage  
 A:: LocalStorage is the same as SessionStorage but it persists the data even when the browser is closed and reopened(i.e it has no expiration time) whereas in sessionStorage data gets cleared when the page session ends.
@@ -632,15 +631,15 @@ Let's take the example usage of onstorage event handler which logs the storage k
 
 ```javascript
 window.onstorage = function (e) {
-console.log(
-"The " +
-e.key +
-" key has been changed from " +
-e.oldValue +
-" to " +
-e.newValue +
-"."
-);
+  console.log(
+    "The " +
+      e.key +
+      " key has been changed from " +
+      e.oldValue +
+      " to " +
+      e.newValue +
+      ".",
+  );
 };
 ```
 
@@ -652,9 +651,9 @@ A:: You need to check browser support for localStorage and sessionStorage before
 
 ```javascript
 if (typeof Storage !== "undefined") {
-// Code for localStorage/sessionStorage.
+  // Code for localStorage/sessionStorage.
 } else {
-// Sorry! No Web Storage support..
+  // Sorry! No Web Storage support..
 }
 ```
 
@@ -663,9 +662,9 @@ A:: You need to check browser support for web workers before using it
 
 ```javascript
 if (typeof Worker !== "undefined") {
-// code for Web worker support.
+  // code for Web worker support.
 } else {
-// Sorry! No Web Worker support..
+  // Sorry! No Web Worker support..
 }
 ```
 
@@ -677,9 +676,9 @@ A:: You need to follow below steps to start using web workers for counting examp
 ```javascript
 let i = 0;
 function timedCount() {
-i = i + 1;
-postMessage(i);
-setTimeout("timedCount()", 500);
+  i = i + 1;
+  postMessage(i);
+  setTimeout("timedCount()", 500);
 }
 timedCount();
 ```
@@ -690,7 +689,7 @@ Here postMessage() method is used to post a message back to the HTML page
 
 ```javascript
 if (typeof w == "undefined") {
-w = new Worker("counter.js");
+  w = new Worker("counter.js");
 }
 ```
 
@@ -698,7 +697,7 @@ and we can receive messages from web worker
 
 ```javascript
 w.onmessage = function (event) {
-document.getElementById("message").innerHTML = event.data;
+  document.getElementById("message").innerHTML = event.data;
 };
 ```
 
@@ -728,7 +727,7 @@ The syntax of Promise creation looks like below,
 
 ```javascript
 const promise = new Promise(function (resolve, reject) {
-// promise description
+  // promise description
 });
 ```
 
@@ -736,12 +735,12 @@ The usage of a promise would be as below,
 
 ```javascript
 const promise = new Promise(
-(resolve) => {
-setTimeout(() => {
-resolve("I'm a Promise!");
-}, 5000);
-},
-(reject) => {}
+  (resolve) => {
+    setTimeout(() => {
+      resolve("I'm a Promise!");
+    }, 5000);
+  },
+  (reject) => {},
 );
 promise.then((value) => console.log(value));
 ```
@@ -765,11 +764,11 @@ Let's take a simple example of how to use callback function
 
 ```javascript
 function callbackFunction(name) {
-console.log("Hello " + name);
+  console.log("Hello " + name);
 }
 function outerFunction(callback) {
-let name = prompt("Please enter your name.");
-callback(name);
+  let name = prompt("Please enter your name.");
+  callback(name);
 }
 outerFunction(callbackFunction);
 ```
@@ -780,13 +779,13 @@ Let's take an example with the first function invoking an API call(simulated by 
 
 ```javascript
 function firstFunction() {
-// Simulate a code delay
-setTimeout(function () {
-console.log("First function called");
-}, 1000);
+  // Simulate a code delay
+  setTimeout(function () {
+    console.log("First function called");
+  }, 1000);
 }
 function secondFunction() {
-console.log("Second function called");
+  console.log("Second function called");
 }
 firstFunction();
 secondFunction();
@@ -820,10 +819,10 @@ A:: The EventSource object is used to receive server-sent event notifications. F
 
 ```javascript
 if (typeof EventSource !== "undefined") {
-var source = new EventSource("sse_generator.js");
-source.onmessage = function (event) {
-document.getElementById("output").innerHTML += event.data + "<br>";
-};
+  var source = new EventSource("sse_generator.js");
+  source.onmessage = function (event) {
+    document.getElementById("output").innerHTML += event.data + "<br>";
+  };
 }
 ```
 
@@ -832,20 +831,20 @@ A:: You can perform browser support for server-sent events before using it as be
 
 ```javascript
 if (typeof EventSource !== "undefined") {
-// Server-sent events supported. Let's have some code here!
+  // Server-sent events supported. Let's have some code here!
 } else {
-// No server-sent events supported
+  // No server-sent events supported
 }
 ```
 
 Q:: What are the events available for server sent events  
 A:: Below are the list of events available for server sent events
 
-| Event | Description |  
-|---- | ---------  
-| onopen | It is used when a connection to the server is opened |  
-| onmessage | This event is used when a message is received |  
-| onerror | It happens when an error occurs|
+| Event     | Description                                          |
+| --------- | ---------------------------------------------------- |
+| onopen    | It is used when a connection to the server is opened |
+| onmessage | This event is used when a message is received        |
+| onerror   | It happens when an error occurs                      |
 
 Q:: What are the main rules of promise  
 A:: A promise must follow a specific set of rules:
@@ -860,14 +859,14 @@ A:: You can nest one callback inside in another callback to execute the actions 
 
 ```javascript
 loadScript("/script1.js", function (script) {
-console.log("first script is loaded");
-loadScript("/script2.js", function (script) {
-console.log("second script is loaded");
-loadScript("/script3.js", function (script) {
-console.log("third script is loaded");
-// after all scripts are loaded
-});
-});
+  console.log("first script is loaded");
+  loadScript("/script2.js", function (script) {
+    console.log("second script is loaded");
+    loadScript("/script3.js", function (script) {
+      console.log("third script is loaded");
+      // after all scripts are loaded
+    });
+  });
 });
 ```
 
@@ -876,20 +875,20 @@ A:: The process of executing a sequence of asynchronous tasks one after another 
 
 ```javascript
 new Promise(function (resolve, reject) {
-setTimeout(() => resolve(1), 1000);
+  setTimeout(() => resolve(1), 1000);
 })
-.then(function (result) {
-console.log(result); // 1
-return result * 2;
-})
-.then(function (result) {
-console.log(result); // 2
-return result * 3;
-})
-.then(function (result) {
-console.log(result); // 6
-return result * 4;
-});
+  .then(function (result) {
+    console.log(result); // 1
+    return result * 2;
+  })
+  .then(function (result) {
+    console.log(result); // 2
+    return result * 3;
+  })
+  .then(function (result) {
+    console.log(result); // 6
+    return result * 4;
+  });
 ```
 
 In the above handlers, the result is passed to the chain of .then() handlers with the below work flow,
@@ -913,13 +912,13 @@ A:: Promise.race() method will return the promise instance which is firstly reso
 
 ```javascript
 var promise1 = new Promise(function (resolve, reject) {
-setTimeout(resolve, 500, "one");
+  setTimeout(resolve, 500, "one");
 });
 var promise2 = new Promise(function (resolve, reject) {
-setTimeout(resolve, 100, "two");
+  setTimeout(resolve, 100, "two");
 });
 Promise.race([promise1, promise2]).then(function (value) {
-console.log(value); // "two" // Both promises will resolve, but promise2 is faster
+  console.log(value); // "two" // Both promises will resolve, but promise2 is faster
 });
 ```
 
@@ -944,8 +943,8 @@ and if you declare inside a function, it has local scope
 x = 3.14; // This will not cause an error.
 myFunction();
 function myFunction() {
-"use strict";
-y = 3.14; // This will cause an error
+  "use strict";
+  y = 3.14; // This will cause an error
 }
 ```
 
@@ -982,7 +981,7 @@ A:: You can use the JavaScript typeof operator to find the type of a JavaScript 
 ```javascript
 typeof "John Abraham"; // Returns "string"
 typeof (1 + 2); // Returns "number"
-typeof [1, 2, 3] // Returns "object" because all arrays are also objects
+typeof [1, 2, 3]; // Returns "object" because all arrays are also objects
 ```
 
 Q:: What is undefined property  
@@ -1011,13 +1010,13 @@ console.log(typeof user); //object
 Q:: What is the difference between null and undefined  
 A:: Below are the main differences between null and undefined,
 
-| Null | Undefined |  
-| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |  
-| It is an assignment value which indicates that variable points to no object. | It is not an assignment value where a variable has been declared but has not yet been assigned a value. |  
-| Type of null is object | Type of undefined is undefined |  
-| The null value is a primitive value that represents the null, empty, or non-existent reference. | The undefined value is a primitive value used when a variable has not been assigned a value. |  
-| Indicates the absence of a value for a variable | Indicates absence of variable itself |  
-| Converted to zero (0) while performing primitive operations | Converted to NaN while performing primitive operations |
+| Null                                                                                            | Undefined                                                                                               |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| It is an assignment value which indicates that variable points to no object.                    | It is not an assignment value where a variable has been declared but has not yet been assigned a value. |
+| Type of null is object                                                                          | Type of undefined is undefined                                                                          |
+| The null value is a primitive value that represents the null, empty, or non-existent reference. | The undefined value is a primitive value used when a variable has not been assigned a value.            |
+| Indicates the absence of a value for a variable                                                 | Indicates absence of variable itself                                                                    |
+| Converted to zero (0) while performing primitive operations                                     | Converted to NaN while performing primitive operations                                                  |
 
 Q:: What is eval  
 A:: The eval() function evaluates JavaScript code represented as a string. The string can be a JavaScript expression, variable, statement, or sequence of statements.
@@ -1029,21 +1028,21 @@ console.log(eval("1 + 2")); //  3
 Q:: What is the difference between window and document  
 A:: Below are the main differences between window and document,
 
-| Window | Document |  
-| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |  
-| It is the root level element in any web page | It is the direct child of the window object. This is also known as Document Object Model(DOM) |  
-| By default window object is available implicitly in the page | You can access it via window.document or document. |  
-| It has methods like alert(), confirm() and properties like document, location | It provides methods like getElementById, getElementsByTagName, createElement etc |
+| Window                                                                        | Document                                                                                      |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| It is the root level element in any web page                                  | It is the direct child of the window object. This is also known as Document Object Model(DOM) |
+| By default window object is available implicitly in the page                  | You can access it via window.document or document.                                            |
+| It has methods like alert(), confirm() and properties like document, location | It provides methods like getElementById, getElementsByTagName, createElement etc              |
 
 Q:: How do you access history in javascript  
 A:: The window.history object contains the browser's history. You can load previous and next URLs in the history using back() and next() methods.
 
 ```javascript
 function goBack() {
-window.history.back();
+  window.history.back();
 }
 function goForward() {
-window.history.forward();
+  window.history.forward();
 }
 ```
 
@@ -1057,15 +1056,14 @@ Let's take an input element to detect the CapsLock on/off behavior with an examp
 <input type="password" onmousedown="enterInput(event)" />
 <p id="feedback"></p>
 <script>
-function enterInput(e) {
-var flag = e.getModifierState("CapsLock");
-if (flag) {
-document.getElementById("feedback").innerHTML = "CapsLock activated";
-} else {
-document.getElementById("feedback").innerHTML =
-"CapsLock not activated";
-}
-}
+  function enterInput(e) {
+    var flag = e.getModifierState("CapsLock");
+    if (flag) {
+      document.getElementById("feedback").innerHTML = "CapsLock activated";
+    } else {
+      document.getElementById("feedback").innerHTML = "CapsLock not activated";
+    }
+  }
 </script>
 ```
 
@@ -1080,9 +1078,9 @@ isNaN("100"); //false
 Q:: What are the differences between undeclared and undefined variables  
 A:: Below are the major differences between undeclared(not defined) and undefined variables,
 
-| undeclared | undefined |  
-| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |  
-| These variables do not exist in a program and are not declared | These variables declared in the program but have not assigned any value |  
+| undeclared                                                                                  | undefined                                                                              |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| These variables do not exist in a program and are not declared                              | These variables declared in the program but have not assigned any value                |
 | If you try to read the value of an undeclared variable, then a runtime error is encountered | If you try to read the value of an undefined variable, an undefined value is returned. |
 
 Q:: What are global variables  
@@ -1131,7 +1129,7 @@ A:: You can submit a form using `document.forms[0].submit()`. All the form input
 
 ```javascript
 function submit() {
-document.forms[0].submit();
+  document.forms[0].submit();
 }
 ```
 
@@ -1200,7 +1198,7 @@ For example, the below link notify the message without reloading the page
 
 ```javascript
 <a href="JavaScript:void(0);" onclick="alert('Well done!')">
-Click Me!
+  Click Me!
 </a>
 ```
 
@@ -1244,10 +1242,8 @@ Q:: What is the use of preventDefault method
 A:: The preventDefault() method cancels the event if it is cancelable, meaning that the default action or behaviour that belongs to the event will not occur. For example, prevent form submission when clicking on submit button and prevent opening the page URL when clicking on hyperlink are some common use cases.
 
 ```javascript
-document
-.getElementById("link")
-.addEventListener("click", function (event) {
-event.preventDefault();
+document.getElementById("link").addEventListener("click", function (event) {
+  event.preventDefault();
 });
 ```
 
@@ -1288,7 +1284,7 @@ A:: The setTimeout() method is used to call a function or evaluate an expression
 
 ```javascript
 setTimeout(function () {
-console.log("Good morning");
+  console.log("Good morning");
 }, 2000);
 ```
 
@@ -1297,7 +1293,7 @@ A:: The setInterval() method is used to call a function or evaluate an expressio
 
 ```javascript
 setInterval(function () {
-console.log("Good morning");
+  console.log("Good morning");
 }, 2000);
 ```
 
@@ -1312,12 +1308,12 @@ For example, if you wanted to detect field changes in inside a specific form, yo
 var form = document.querySelector("#registration-form");
 // Listen for changes to fields inside the form
 form.addEventListener(
-"input",
-function (event) {
-// Log the field that was changed
-console.log(event.target);
-},
-false
+  "input",
+  function (event) {
+    // Log the field that was changed
+    console.log(event.target);
+  },
+  false,
 );
 ```
 
@@ -1402,7 +1398,7 @@ A:: In vanilla javascript, you can redirect to a new page using the `location` p
 
 ```javascript
 function redirect() {
-window.location.href = "newPage.html";
+  window.location.href = "newPage.html";
 }
 ```
 
@@ -1413,7 +1409,7 @@ A:: There are 3 possible ways to check whether a string contains a substring or 
 
 ```javascript
 var mainString = "hello",
-subString = "hell";
+  subString = "hell";
 mainString.includes(subString);
 ```
 
@@ -1421,7 +1417,7 @@ mainString.includes(subString);
 
 ```javascript
 var mainString = "hello",
-subString = "hell";
+  subString = "hell";
 mainString.indexOf(subString) !== -1;
 ```
 
@@ -1429,7 +1425,7 @@ mainString.indexOf(subString) !== -1;
 
 ```javascript
 var mainString = "hello",
-regex = /hell/;
+  regex = /hell/;
 regex.test(mainString);
 ```
 
@@ -1438,9 +1434,9 @@ A:: You can validate an email in javascript using regular expressions. It is rec
 
 ```javascript
 function validateEmail(email) {
-var re =
-/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-return re.test(String(email).toLowerCase());
+  var re =
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
 }
 ```
 
@@ -1497,7 +1493,7 @@ obj.hasOwnProperty("key"); // true
 
 ```javascript
 const user = {
-name: "John",
+  name: "John",
 };
 console.log(user.name !== undefined); // true
 console.log(user.nickName !== undefined); // false
@@ -1508,14 +1504,14 @@ A:: You can use the `for-in` loop to loop through javascript object. You can als
 
 ```javascript
 var object = {
-k1: "value1",
-k2: "value2",
-k3: "value3",
+  k1: "value1",
+  k2: "value2",
+  k3: "value3",
 };
 for (var key in object) {
-if (object.hasOwnProperty(key)) {
-console.log(key + " -> " + object[key]); // k1 -> value1 ...
-}
+  if (object.hasOwnProperty(key)) {
+    console.log(key + " -> " + object[key]); // k1 -> value1 ...
+  }
 }
 ```
 
@@ -1538,12 +1534,12 @@ Object.keys(obj).length === 0 && obj.constructor === Object; // Since date objec
 
 ```javascript
 function isEmpty(obj) {
-for (var prop in obj) {
-if (obj.hasOwnProperty(prop)) {
-return false;
-}
-}
-return JSON.stringify(obj) === JSON.stringify({});
+  for (var prop in obj) {
+    if (obj.hasOwnProperty(prop)) {
+      return false;
+    }
+  }
+  return JSON.stringify(obj) === JSON.stringify({});
 }
 ```
 
@@ -1552,11 +1548,11 @@ A:: The arguments object is an Array-like object accessible inside functions tha
 
 ```javascript
 function sum() {
-var total = 0;
-for (var i = 0, len = arguments.length; i < len; ++i) {
-total += arguments[i];
-}
-return total;
+  var total = 0;
+  for (var i = 0, len = arguments.length; i < len; ++i) {
+    total += arguments[i];
+  }
+  return total;
 }
 sum(1, 2, 3); // returns 6
 ```
@@ -1572,7 +1568,7 @@ A:: You can create a function which uses a chain of string methods such as charA
 
 ```javascript
 function capitalizeFirstLetter(string) {
-return string.charAt(0).toUpperCase() + string.slice(1);
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }
 ```
 
@@ -1631,13 +1627,13 @@ If your browser(<IE9) doesn't support this method then you can use below polyfil
 
 ```javascript
 if (!String.prototype.trim) {
-(function () {
-// Make sure we trim BOM and NBSP
-var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-String.prototype.trim = function () {
-return this.replace(rtrim, "");
-};
-})();
+  (function () {
+    // Make sure we trim BOM and NBSP
+    var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+    String.prototype.trim = function () {
+      return this.replace(rtrim, "");
+    };
+  })();
 }
 ```
 
@@ -1646,8 +1642,8 @@ A:: There are two possible solutions to add new properties to an object. Let's t
 
 ```javascript
 var object = {
-key1: value1,
-key2: value2,
+  key1: value1,
+  key2: value2,
 };
 ```
 
@@ -1684,7 +1680,7 @@ A:: You can define multiline string literals using the '\\' character followed b
 
 ```javascript
 var str =
-"This is a \
+  "This is a \
 very lengthy \
 sentence!";
 ```
@@ -1699,11 +1695,11 @@ A:: Yes, We can define properties for functions because functions are also objec
 
 ```javascript
 fn = function (x) {
-//Function code goes here
+  //Function code goes here
 };
 fn.name = "John";
 fn.profile = function (y) {
-//Profile code goes here
+  //Profile code goes here
 };
 ```
 
@@ -1712,7 +1708,7 @@ A:: You can use `function.length` syntax to find the number of parameters expect
 
 ```javascript
 function sum(num1, num2, num3, num4) {
-return num1 + num2 + num3 + num4;
+  return num1 + num2 + num3 + num4;
 }
 sum.length; // 4 is the number of parameters expected.
 ```
@@ -1725,10 +1721,10 @@ A:: The break statement is used to "jump out" of a loop. i.e, It breaks the loop
 
 ```javascript
 for (i = 0; i < 10; i++) {
-if (i === 5) {
-break;
-}
-text += "Number: " + i + "<br>";
+  if (i === 5) {
+    break;
+  }
+  text += "Number: " + i + "<br>";
 }
 ```
 
@@ -1736,10 +1732,10 @@ The continue statement is used to "jump over" one iteration in the loop. i.e, It
 
 ```javascript
 for (i = 0; i < 10; i++) {
-if (i === 5) {
-continue;
-}
-text += "Number: " + i + "<br>";
+  if (i === 5) {
+    continue;
+  }
+  text += "Number: " + i + "<br>";
 }
 ```
 
@@ -1749,12 +1745,12 @@ A:: The label statement allows us to name loops and blocks in JavaScript. We can
 ```javascript
 var i, j;
 loop1: for (i = 0; i < 3; i++) {
-loop2: for (j = 0; j < 3; j++) {
-if (i === j) {
-continue loop1;
-}
-console.log("i = " + i + ", j = " + j);
-}
+  loop2: for (j = 0; j < 3; j++) {
+    if (i === j) {
+      continue loop1;
+    }
+    console.log("i = " + i + ", j = " + j);
+  }
 }
 // Output is:
 //   "i = 1, j = 0"
@@ -1825,7 +1821,7 @@ A:: Yes, you can create a proper random function to return a random number betwe
 
 ```javascript
 function randomInteger(min, max) {
-return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 randomInteger(1, 100); // returns a random integer from 1 to 100
 randomInteger(1, 1000); // returns a random integer from 1 to 1000
@@ -1872,11 +1868,12 @@ var n = msg.replace(/John/i, "Buttler"); // Hello Buttler
 Q:: What are modifiers in regular expression  
 A:: Modifiers can be used to perform case-insensitive and global searches. Let's list down some of the modifiers,
 
-| Modifier | Description |  
-| -------- | ------------------------------------------------------- |  
-| i | Perform case-insensitive matching |  
-| g | Perform a global match rather than stops at first match |  
-| m | Perform multiline matching |  
+| Modifier | Description                                             |
+| -------- | ------------------------------------------------------- |
+| i        | Perform case-insensitive matching                       |
+| g        | Perform a global match rather than stops at first match |
+| m        | Perform multiline matching                              |
+
 Let's take an example of global modifier,
 
 ```javascript
@@ -1954,9 +1951,9 @@ execution is paused at the debugger statement just like a breakpoint in the scri
 
 ```javascript
 function getProfile() {
-// code goes here
-debugger;
-// code goes here
+  // code goes here
+  debugger;
+  // code goes here
 }
 ```
 
@@ -1975,19 +1972,19 @@ A:: You can use regex which returns a true or false value depending on whether o
 
 ```javascript
 window.mobilecheck = function () {
-var mobileCheck = false;
-(function (a) {
-if (
-/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(
-a
-) ||
-/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(
-a.substr(0, 4)
-)
-)
-mobileCheck = true;
-})(navigator.userAgent || navigator.vendor || window.opera);
-return mobileCheck;
+  var mobileCheck = false;
+  (function (a) {
+    if (
+      /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(
+        a,
+      ) ||
+      /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(
+        a.substr(0, 4),
+      )
+    )
+      mobileCheck = true;
+  })(navigator.userAgent || navigator.vendor || window.opera);
+  return mobileCheck;
 };
 ```
 
@@ -1996,19 +1993,19 @@ A:: You can detect mobile browsers by simply running through a list of devices a
 
 ```javascript
 function detectmob() {
-if (
-navigator.userAgent.match(/Android/i) ||
-navigator.userAgent.match(/webOS/i) ||
-navigator.userAgent.match(/iPhone/i) ||
-navigator.userAgent.match(/iPad/i) ||
-navigator.userAgent.match(/iPod/i) ||
-navigator.userAgent.match(/BlackBerry/i) ||
-navigator.userAgent.match(/Windows Phone/i)
-) {
-return true;
-} else {
-return false;
-}
+  if (
+    navigator.userAgent.match(/Android/i) ||
+    navigator.userAgent.match(/webOS/i) ||
+    navigator.userAgent.match(/iPhone/i) ||
+    navigator.userAgent.match(/iPad/i) ||
+    navigator.userAgent.match(/iPod/i) ||
+    navigator.userAgent.match(/BlackBerry/i) ||
+    navigator.userAgent.match(/Windows Phone/i)
+  ) {
+    return true;
+  } else {
+    return false;
+  }
 }
 ```
 
@@ -2018,7 +2015,7 @@ A:: You can programmatically get the image and check the dimensions(width and he
 ```javascript
 var img = new Image();
 img.onload = function () {
-console.log(this.width + "x" + this.height);
+  console.log(this.width + "x" + this.height);
 };
 img.src = "http://www.google.com/intl/en_ALL/images/logo.gif";
 ```
@@ -2028,10 +2025,10 @@ A:: Browsers provide an XMLHttpRequest object which can be used to make synchron
 
 ```javascript
 function httpGet(theUrl) {
-var xmlHttpReq = new XMLHttpRequest();
-xmlHttpReq.open("GET", theUrl, false); // false for synchronous request
-xmlHttpReq.send(null);
-return xmlHttpReq.responseText;
+  var xmlHttpReq = new XMLHttpRequest();
+  xmlHttpReq.open("GET", theUrl, false); // false for synchronous request
+  xmlHttpReq.send(null);
+  return xmlHttpReq.responseText;
 }
 ```
 
@@ -2040,13 +2037,13 @@ A:: Browsers provide an XMLHttpRequest object which can be used to make asynchro
 
 ```javascript
 function httpGetAsync(theUrl, callback) {
-var xmlHttpReq = new XMLHttpRequest();
-xmlHttpReq.onreadystatechange = function () {
-if (xmlHttpReq.readyState == 4 && xmlHttpReq.status == 200)
-callback(xmlHttpReq.responseText);
-};
-xmlHttp.open("GET", theUrl, true); // true for asynchronous
-xmlHttp.send(null);
+  var xmlHttpReq = new XMLHttpRequest();
+  xmlHttpReq.onreadystatechange = function () {
+    if (xmlHttpReq.readyState == 4 && xmlHttpReq.status == 200)
+      callback(xmlHttpReq.responseText);
+  };
+  xmlHttp.open("GET", theUrl, true); // true for asynchronous
+  xmlHttp.send(null);
 }
 ```
 
@@ -2062,13 +2059,13 @@ A:: You can use innerWidth, innerHeight, clientWidth, clientHeight properties of
 
 ```javascript
 var width =
-window.innerWidth ||
-document.documentElement.clientWidth ||
-document.body.clientWidth;
+  window.innerWidth ||
+  document.documentElement.clientWidth ||
+  document.body.clientWidth;
 var height =
-window.innerHeight ||
-document.documentElement.clientHeight ||
-document.body.clientHeight;
+  window.innerHeight ||
+  document.documentElement.clientHeight ||
+  document.body.clientHeight;
 ```
 
 Q:: What is a conditional operator in javascript  
@@ -2077,7 +2074,7 @@ A:: The conditional (ternary) operator is the only JavaScript operator that take
 ```javascript
 var isAuthenticated = false;
 console.log(
-isAuthenticated ? "Hello, welcome" : "Sorry, you are not authenticated"
+  isAuthenticated ? "Hello, welcome" : "Sorry, you are not authenticated",
 ); //Sorry, you are not authenticated
 ```
 
@@ -2086,25 +2083,25 @@ A:: Yes, you can apply chaining on conditional operators similar to if … else 
 
 ```javascript
 function traceValue(someParam) {
-return condition1
-? value1
-: condition2
-? value2
-: condition3
-? value3
-: value4;
+  return condition1
+    ? value1
+    : condition2
+    ? value2
+    : condition3
+    ? value3
+    : value4;
 }
 // The above conditional operator is equivalent to:
 function traceValue(someParam) {
-if (condition1) {
-return value1;
-} else if (condition2) {
-return value2;
-} else if (condition3) {
-return value3;
-} else {
-return value4;
-}
+  if (condition1) {
+    return value1;
+  } else if (condition2) {
+    return value2;
+  } else if (condition3) {
+    return value3;
+  } else {
+    return value4;
+  }
 }
 ```
 
@@ -2151,13 +2148,13 @@ A:: It is recommended to use semicolons after every statement in JavaScript. For
 ```javascript
 // define a function
 var fn = (function () {
-//...
+  //...
 })(
-// semicolon missing at this line
-// then execute some code inside a closure
-function () {
-//...
-}
+  // semicolon missing at this line
+  // then execute some code inside a closure
+  function () {
+    //...
+  },
 )();
 ```
 
@@ -2165,9 +2162,9 @@ and it will be interpreted as
 
 ```javascript
 var fn = (function () {
-//...
+  //...
 })(function () {
-//...
+  //...
 })();
 ```
 
@@ -2178,7 +2175,7 @@ A:: The **freeze()** method is used to freeze an object. Freezing an object does
 
 ```javascript
 const obj = {
-prop: 100,
+  prop: 100,
 };
 Object.freeze(obj);
 obj.prop = 200; // Throws an error in strict mode
@@ -2190,13 +2187,13 @@ For example, let's try to freeze user object which has employment details as nes
 
 ```javascript
 const user = {
-name: 'John',
-employment: {
-department: 'IT'
-}
+  name: "John",
+  employment: {
+    department: "IT",
+  },
 };
 Object.freeze(user);
-user.employment.department = 'HR';
+user.employment.department = "HR";
 ```
 
 **Note:** It causes a TypeError if the argument passed is not an object.
@@ -2215,9 +2212,9 @@ A:: You can use navigator object to detect a browser language preference as belo
 
 ```javascript
 var language =
-(navigator.languages && navigator.languages[0]) || // Chrome / Firefox
-navigator.language || // All browsers
-navigator.userLanguage; // IE <= 10
+  (navigator.languages && navigator.languages[0]) || // Chrome / Firefox
+  navigator.language || // All browsers
+  navigator.userLanguage; // IE <= 10
 console.log(language);
 ```
 
@@ -2226,9 +2223,9 @@ A:: Title case means that the first letter of each word is capitalized. You can 
 
 ```javascript
 function toTitleCase(str) {
-return str.replace(/\w\S*/g, function (txt) {
-return txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase();
-});
+  return str.replace(/\w\S*/g, function (txt) {
+    return txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase();
+  });
 }
 toTitleCase("good morning john"); // Good Morning John
 ```
@@ -2260,24 +2257,24 @@ A:: Rest parameter is an improved way to handle function parameters which allows
 
 ```javascript
 function f(a, b, ...theArgs) {
-// ...
+  // ...
 }
 ```
 
 For example, let's take a sum example to calculate on dynamic number of parameters,
 
 ```javascript
-function sum(...args){
-let total = 0;
-for(const i of args){
-total += i;
+function sum(...args) {
+  let total = 0;
+  for (const i of args) {
+    total += i;
+  }
+  return total;
 }
-return total;
-}
-console.log(sum(1,2)); //3
-console.log(sum(1,2,3)); //6
-console.log(sum(1,2,3,4)); //13
-console.log(sum(1,2,3,4,5)); //15
+console.log(sum(1, 2)); //3
+console.log(sum(1, 2, 3)); //6
+console.log(sum(1, 2, 3, 4)); //13
+console.log(sum(1, 2, 3, 4, 5)); //15
 ```
 
 **Note:** Rest parameter is added in ES2015 or ES6
@@ -2308,7 +2305,7 @@ A:: Spread operator allows iterables( arrays / objects / strings ) to be expande
 
 ```javascript
 function calculateSum(x, y, z) {
-return x + y + z;
+  return x + y + z;
 }
 const numbers = [1, 2, 3];
 console.log(calculateSum(...numbers)); // 6
@@ -2324,7 +2321,7 @@ A:: Object.isFrozen() method is used to determine if an object is frozen or not.
 
 ```javascript
 const object = {
-property: "Welcome JS world",
+  property: "Welcome JS world",
 };
 Object.freeze(object);
 console.log(Object.isFrozen(object));
@@ -2396,9 +2393,9 @@ Let's take an example of proxy object,
 
 ```javascript
 var handler = {
-get: function (obj, prop) {
-return prop in obj ? obj[prop] : 100;
-},
+  get: function (obj, prop) {
+    return prop in obj ? obj[prop] : 100;
+  },
 };
 var p = new Proxy({}, handler);
 p.a = 10;
@@ -2414,7 +2411,7 @@ A:: The **Object.seal()** method is used to seal an object, by preventing new pr
 
 ```javascript
 const object = {
-property: "Welcome JS world",
+  property: "Welcome JS world",
 };
 Object.seal(object);
 object.property = "Welcome to object world";
@@ -2442,7 +2439,7 @@ A:: The Object.isSealed() method is used to determine if an object is sealed or 
 
 ```javascript
 const object = {
-property: "Hello, Good morning",
+  property: "Hello, Good morning",
 };
 Object.seal(object); // Using seal() method to seal the object
 console.log(Object.isSealed(object)); // checking whether the object is sealed or not
@@ -2453,12 +2450,12 @@ A:: The Object.entries() method is used to return an array of a given object's o
 
 ```javascript
 const object = {
-a: "Good morning",
-b: 100,
+  a: "Good morning",
+  b: 100,
 };
 for (let [key, value] of Object.entries(object)) {
-console.log(`${key}: ${value}`); // a: 'Good morning'
-// b: 100
+  console.log(`${key}: ${value}`); // a: 'Good morning'
+  // b: 100
 }
 ```
 
@@ -2469,12 +2466,12 @@ A:: The Object.values() method's behavior is similar to Object.entries() method 
 
 ```javascript
 const object = {
-a: "Good morning",
-b: 100,
+  a: "Good morning",
+  b: 100,
 };
 for (let value of Object.values(object)) {
-console.log(`${value}`); // 'Good morning'
-100;
+  console.log(`${value}`); // 'Good morning'
+  100;
 }
 ```
 
@@ -2483,9 +2480,9 @@ A:: You can use the `Object.keys()` method which is used to return an array of a
 
 ```javascript
 const user = {
-name: "John",
-gender: "male",
-age: 40,
+  name: "John",
+  gender: "male",
+  age: 40,
 };
 console.log(Object.keys(user)); //['name', 'gender', 'age']
 ```
@@ -2495,10 +2492,10 @@ A:: The Object.create() method is used to create a new object with the specified
 
 ```javascript
 const user = {
-name: "John",
-printInfo: function () {
-console.log(`My name is ${this.name}.`);
-},
+  name: "John",
+  printInfo: function () {
+    console.log(`My name is ${this.name}.`);
+  },
 };
 const admin = Object.create(user);
 admin.name = "Nick"; // Remember that "name" is a property set on "admin" but not on "user" object
@@ -2625,10 +2622,10 @@ var uri = "https://mozilla.org/?x=шеллы";
 var encoded = encodeURI(uri);
 console.log(encoded); // https://mozilla.org/?x=%D1%88%D0%B5%D0%BB%D0%BB%D1%8B
 try {
-console.log(decodeURI(encoded)); // "https://mozilla.org/?x=шеллы"
+  console.log(decodeURI(encoded)); // "https://mozilla.org/?x=шеллы"
 } catch (e) {
-// catches a malformed URI
-console.error(e);
+  // catches a malformed URI
+  console.error(e);
 }
 ```
 
@@ -2646,7 +2643,7 @@ A:: The `uneval` function returns the source of a given object; whereas the `eva
 
 ```javascript
 var msg = uneval(function greeting() {
-return "Hello, Good morning";
+  return "Hello, Good morning";
 });
 var greeting = eval(msg);
 greeting(); // returns "Hello, Good morning"
@@ -2671,7 +2668,7 @@ Let's see the above anonymous function in an example,
 
 ```javascript
 var x = function (a, b) {
-return a * b;
+  return a * b;
 };
 var z = x(5, 10);
 console.log(z); // 50
@@ -2683,8 +2680,8 @@ A:: A local variable takes precedence over a global variable with the same name.
 ```javascript
 var msg = "Good morning";
 function greeting() {
-msg = "Good Evening";
-console.log(msg); // Good Evening
+  msg = "Good Evening";
+  console.log(msg); // Good Evening
 }
 greeting();
 ```
@@ -2694,18 +2691,18 @@ A:: ECMAScript 5 introduced javascript object accessors or computed properties t
 
 ```javascript
 var user = {
-firstName: "John",
-lastName : "Abraham",
-language : "en",
-get lang() {
-return this.language;
-},
-set lang(lang) {
-this.language = lang;
-}
+  firstName: "John",
+  lastName: "Abraham",
+  language: "en",
+  get lang() {
+    return this.language;
+  },
+  set lang(lang) {
+    this.language = lang;
+  },
 };
 console.log(user.lang); // getter access lang as en
-user.lang = 'fr';
+user.lang = "fr";
 console.log(user.lang); // setter used to set lang as fr
 ```
 
@@ -2715,8 +2712,8 @@ A:: The Object.defineProperty() static method is used to define a new property d
 ```javascript
 const newObject = {};
 Object.defineProperty(newObject, "newProperty", {
-value: 100,
-writable: false,
+  value: 100,
+  writable: false,
 });
 console.log(newObject.newProperty); // 100
 newObject.newProperty = 200; // It throws an error in strict mode due to writable setting
@@ -2741,25 +2738,25 @@ A:: Yes, You can use the `Object.defineProperty()` method to add Getters and Set
 var obj = { counter: 0 };
 // Define getters
 Object.defineProperty(obj, "increment", {
-get: function () {
-this.counter++;
-},
+  get: function () {
+    this.counter++;
+  },
 });
 Object.defineProperty(obj, "decrement", {
-get: function () {
-this.counter--;
-},
+  get: function () {
+    this.counter--;
+  },
 });
 // Define setters
 Object.defineProperty(obj, "add", {
-set: function (value) {
-this.counter += value;
-},
+  set: function (value) {
+    this.counter += value;
+  },
 });
 Object.defineProperty(obj, "subtract", {
-set: function (value) {
-this.counter -= value;
-},
+  set: function (value) {
+    this.counter -= value;
+  },
 });
 obj.add = 10;
 obj.subtract = 5;
@@ -2842,7 +2839,7 @@ A:: JavaScript functions follow below rules for parameters,
 
 ```javascript
 function functionName(parameter1, parameter2, parameter3) {
-console.log(parameter1); // 1
+  console.log(parameter1); // 1
 }
 functionName(1);
 ```
@@ -2852,9 +2849,9 @@ A:: An error object is a built in error object that provides error information w
 
 ```javascript
 try {
-greeting("Welcome");
+  greeting("Welcome");
 } catch (err) {
-console.log(err.name + "<br>" + err.message);
+  console.log(err.name + "<br>" + err.message);
 }
 ```
 
@@ -2863,23 +2860,23 @@ A:: A SyntaxError is thrown if you try to evaluate code with a syntax error. For
 
 ```javascript
 try {
-eval("greeting('welcome)"); // Missing ' will produce an error
+  eval("greeting('welcome)"); // Missing ' will produce an error
 } catch (err) {
-console.log(err.name);
+  console.log(err.name);
 }
 ```
 
 Q:: What are the different error names from error object  
 A:: There are 6 different types of error names returned from error object,
 
-| Error Name | Description |  
-|---- | ---------  
-| EvalError | An error has occurred in the eval() function |  
-| RangeError | An error has occurred with a number "out of range" |  
-| ReferenceError | An error due to an illegal reference|  
-| SyntaxError | An error due to a syntax error|  
-| TypeError | An error due to a type error |  
-| URIError | An error due to encodeURI() |
+| Error Name     | Description                                        |
+| -------------- | -------------------------------------------------- |
+| EvalError      | An error has occurred in the eval() function       |
+| RangeError     | An error has occurred with a number "out of range" |
+| ReferenceError | An error due to an illegal reference               |
+| SyntaxError    | An error due to a syntax error                     |
+| TypeError      | An error due to a type error                       |
+| URIError       | An error due to encodeURI()                        |
 
 Q:: What are the various statements in error handling  
 A:: Below are the list of statements used in an error handling,
@@ -2939,10 +2936,10 @@ A:: Call Stack is a data structure for javascript interpreters to keep track of 
 
 ```javascript
 function hungry() {
-eatFruits();
+  eatFruits();
 }
 function eatFruits() {
-return "I'm eating fruits";
+  return "I'm eating fruits";
 }
 // Invoke the `hungry` function
 hungry();
@@ -3036,10 +3033,10 @@ A:: You can use `Math.min` and `Math.max` methods on array variables to find the
 ```javascript
 var marks = [50, 20, 70, 60, 45, 30];
 function findMin(arr) {
-return Math.min.apply(null, arr);
+  return Math.min.apply(null, arr);
 }
 function findMax(arr) {
-return Math.max.apply(null, arr);
+  return Math.max.apply(null, arr);
 }
 console.log(findMin(marks));
 console.log(findMax(marks));
@@ -3051,24 +3048,24 @@ A:: You can write functions which loop through an array comparing each value wit
 ```javascript
 var marks = [50, 20, 70, 60, 45, 30];
 function findMin(arr) {
-var length = arr.length;
-var min = Infinity;
-while (length--) {
-if (arr[length] < min) {
-min = arr[length];
-}
-}
-return min;
+  var length = arr.length;
+  var min = Infinity;
+  while (length--) {
+    if (arr[length] < min) {
+      min = arr[length];
+    }
+  }
+  return min;
 }
 function findMax(arr) {
-var length = arr.length;
-var max = -Infinity;
-while (length--) {
-if (arr[length] > max) {
-max = arr[length];
-}
-}
-return max;
+  var length = arr.length;
+  var max = -Infinity;
+  while (length--) {
+    if (arr[length] > max) {
+      max = arr[length];
+    }
+  }
+  return max;
 }
 console.log(findMin(marks));
 console.log(findMax(marks));
@@ -3079,7 +3076,7 @@ A:: The empty statement is a semicolon (;) indicating that no statement will be 
 
 ```javascript
 // Initialize an array a
-for(let i=0; i < a.length; a[i++] = 0) ;
+for (let i = 0; i < a.length; a[i++] = 0);
 ```
 
 Q:: How do you get metadata of a module  
@@ -3110,8 +3107,8 @@ You can also use the comma operator in a return statement where it processes bef
 
 ```javascript
 function myFunction() {
-var a = 1;
-return (a += 10), a; // 11
+  var a = 1;
+  return (a += 10), a; // 11
 }
 ```
 
@@ -3126,7 +3123,7 @@ Let's see a simple example of TypeScript usage,
 
 ```typescript
 function greeting(name: string): string {
-return "Hello, " + name;
+  return "Hello, " + name;
 }
 let user = "Sudheer";
 console.log(greeting(user));
@@ -3137,12 +3134,12 @@ The greeting method allows only string type as argument.
 Q:: What are the differences between javascript and typescript  
 A:: Below are the list of differences between javascript and typescript,
 
-| feature | typescript | javascript |  
-| ------------------- | ------------------------------------- | ----------------------------------------------- |  
-| Language paradigm | Object oriented programming language | Scripting language |  
-| Typing support | Supports static typing | It has dynamic typing |  
-| Modules | Supported | Not supported |  
-| Interface | It has interfaces concept | Doesn't support interfaces |  
+| feature             | typescript                            | javascript                                      |
+| ------------------- | ------------------------------------- | ----------------------------------------------- |
+| Language paradigm   | Object oriented programming language  | Scripting language                              |
+| Typing support      | Supports static typing                | It has dynamic typing                           |
+| Modules             | Supported                             | Not supported                                   |
+| Interface           | It has interfaces concept             | Doesn't support interfaces                      |
 | Optional parameters | Functions support optional parameters | No support of optional parameters for functions |
 
 Q:: What are the advantages of typescript over javascript  
@@ -3165,9 +3162,9 @@ A:: The constructor method is a special method for creating and initializing an 
 
 ```javascript
 class Employee {
-constructor() {
-this.name = "John";
-}
+  constructor() {
+    this.name = "John";
+  }
 }
 var employeeObject = new Employee();
 console.log(employeeObject.name); // John
@@ -3194,16 +3191,16 @@ A:: You can use the `super` keyword to call the constructor of a parent class. R
 
 ```javascript
 class Square extends Rectangle {
-constructor(length) {
-super(length, length);
-this.name = "Square";
-}
-get area() {
-return this.width * this.height;
-}
-set area(value) {
-this.area = value;
-}
+  constructor(length) {
+    super(length, length);
+    this.name = "Square";
+  }
+  get area() {
+    return this.width * this.height;
+  }
+  set area(value) {
+    this.area = value;
+  }
 }
 ```
 
@@ -3251,12 +3248,12 @@ A:: The `Object.preventExtensions()` method is used to prevent new properties fr
 const newObject = {};
 Object.preventExtensions(newObject); // NOT extendable
 try {
-Object.defineProperty(newObject, "newProperty", {
-// Adding new property
-value: 100,
-});
+  Object.defineProperty(newObject, "newProperty", {
+    // Adding new property
+    value: 100,
+  });
 } catch (e) {
-console.log(e); // TypeError: Cannot define property newProperty, object is not extensible
+  console.log(e); // TypeError: Cannot define property newProperty, object is not extensible
 }
 ```
 
@@ -3283,11 +3280,11 @@ A:: The `Object.defineProperties()` method is used to define new or modify exist
 ```javascript
 const newObject = {};
 Object.defineProperties(newObject, {
-newProperty1: {
-value: "John",
-writable: true,
-},
-newProperty2: {},
+  newProperty1: {
+    value: "John",
+    writable: true,
+  },
+  newProperty2: {},
 });
 ```
 
@@ -3300,7 +3297,7 @@ Let's see the below function before Obfuscation,
 
 ```javascript
 function greeting() {
-console.log("Hello, welcome to JS world");
+  console.log("Hello, welcome to JS world");
 }
 ```
 
@@ -3308,38 +3305,38 @@ And after the code Obfuscation, it would be appeared as below,
 
 ```javascript
 eval(
-(function (p, a, c, k, e, d) {
-e = function (c) {
-return c;
-};
-if (!"".replace(/^/, String)) {
-while (c--) {
-d[c] = k[c] || c;
-}
-k = [
-function (e) {
-return d[e];
-},
-];
-e = function () {
-return "\\w+";
-};
-c = 1;
-}
-while (c--) {
-if (k[c]) {
-p = p.replace(new RegExp("\\b" + e(c) + "\\b", "g"), k[c]);
-}
-}
-return p;
-})(
-"2 1(){0.3('4, 7 6 5 8')}",
-9,
-9,
-"console|greeting|function|log|Hello|JS|to|welcome|world".split("|"),
-0,
-{}
-)
+  (function (p, a, c, k, e, d) {
+    e = function (c) {
+      return c;
+    };
+    if (!"".replace(/^/, String)) {
+      while (c--) {
+        d[c] = k[c] || c;
+      }
+      k = [
+        function (e) {
+          return d[e];
+        },
+      ];
+      e = function () {
+        return "\\w+";
+      };
+      c = 1;
+    }
+    while (c--) {
+      if (k[c]) {
+        p = p.replace(new RegExp("\\b" + e(c) + "\\b", "g"), k[c]);
+      }
+    }
+    return p;
+  })(
+    "2 1(){0.3('4, 7 6 5 8')}",
+    9,
+    9,
+    "console|greeting|function|log|Hello|JS|to|welcome|world".split("|"),
+    0,
+    {},
+  ),
 );
 ```
 
@@ -3363,11 +3360,11 @@ A:: Normally it is recommended to use minification for heavy traffic and intensi
 Q:: What are the differences between Obfuscation and Encryption  
 A:: Below are the main differences between Obfuscation and Encryption,
 
-| Feature | Obfuscation | Encryption |  
-| ------------------ | ----------------------------------------------- | ----------------------------------------------------------------------- |  
-| Definition | Changing the form of any data in any other form | Changing the form of information to an unreadable format by using a key |  
-| A key to decode | It can be decoded without any key | It is required |  
-| Target data format | It will be converted to a complex form | Converted into an unreadable format |
+| Feature            | Obfuscation                                     | Encryption                                                              |
+| ------------------ | ----------------------------------------------- | ----------------------------------------------------------------------- |
+| Definition         | Changing the form of any data in any other form | Changing the form of information to an unreadable format by using a key |
+| A key to decode    | It can be decoded without any key               | It is required                                                          |
+| Target data format | It will be converted to a complex form          | Converted into an unreadable format                                     |
 
 Q:: What are the common tools used for minification  
 A:: There are many online/offline tools to minify the javascript files,
@@ -3384,8 +3381,8 @@ Lets' perform user login in an html form,
 
 ```html
 <form name="myForm" onsubmit="return validateForm()" method="post">
-User name: <input type="text" name="uname" />
-<input type="submit" value="Submit" />
+  User name: <input type="text" name="uname" />
+  <input type="submit" value="Submit" />
 </form>
 ```
 
@@ -3393,11 +3390,11 @@ And the validation on user login is below,
 
 ```javascript
 function validateForm() {
-var x = document.forms["myForm"]["uname"].value;
-if (x == "") {
-alert("The username shouldn't be empty");
-return false;
-}
+  var x = document.forms["myForm"]["uname"].value;
+  if (x == "") {
+    alert("The username shouldn't be empty");
+    return false;
+  }
 }
 ```
 
@@ -3406,8 +3403,8 @@ A:: You can perform HTML form validation automatically without using javascript.
 
 ```html
 <form method="post">
-<input type="text" name="uname" required />
-<input type="submit" value="Submit" />
+  <input type="text" name="uname" required />
+  <input type="submit" value="Submit" />
 </form>
 ```
 
@@ -3422,14 +3419,12 @@ A:: The below DOM methods are available for constraint validation on an invalid 
 
 ```javascript
 function myFunction() {
-var userName = document.getElementById("uname");
-if (!userName.checkValidity()) {
-document.getElementById("message").innerHTML =
-userName.validationMessage;
-} else {
-document.getElementById("message").innerHTML =
-"Entered a valid username";
-}
+  var userName = document.getElementById("uname");
+  if (!userName.checkValidity()) {
+    document.getElementById("message").innerHTML = userName.validationMessage;
+  } else {
+    document.getElementById("message").innerHTML = "Entered a valid username";
+  }
 }
 ```
 
@@ -3463,9 +3458,9 @@ A:: If an element's value is greater than its max attribute then rangeOverflow p
 
 ```javascript
 function myOverflowFunction() {
-if (document.getElementById("age").validity.rangeOverflow) {
-alert("The mentioned age is not allowed");
-}
+  if (document.getElementById("age").validity.rangeOverflow) {
+    alert("The mentioned age is not allowed");
+  }
 }
 ```
 
@@ -3490,9 +3485,9 @@ A:: You can use the `Object.getOwnPropertyNames()` method which returns an array
 
 ```javascript
 const newObject = {
-a: 1,
-b: 2,
-c: 3,
+  a: 1,
+  b: 2,
+  c: 3,
 };
 console.log(Object.getOwnPropertyNames(newObject));
 ["a", "b", "c"];
@@ -3503,9 +3498,9 @@ A:: You can use the `Object.getOwnPropertyDescriptors()` method which returns al
 
 ```javascript
 const newObject = {
-a: 1,
-b: 2,
-c: 3,
+  a: 1,
+  b: 2,
+  c: 3,
 };
 const descriptorsObject = Object.getOwnPropertyDescriptors(newObject);
 console.log(descriptorsObject.a.writable); //true
@@ -3535,16 +3530,16 @@ Let's take an example of Square subclass from Polygon parent class,
 
 ```javascript
 class Square extends Rectangle {
-constructor(length) {
-super(length, length);
-this.name = "Square";
-}
-get area() {
-return this.width * this.height;
-}
-set area(value) {
-this.area = value;
-}
+  constructor(length) {
+    super(length, length);
+    this.name = "Square";
+  }
+  get area() {
+    return this.width * this.height;
+  }
+  set area(value) {
+    this.area = value;
+  }
 }
 ```
 
@@ -3572,8 +3567,8 @@ A:: You can use length and every method of arrays to compare two scalar(compared
 const arrayFirst = [1, 2, 3, 4, 5];
 const arraySecond = [1, 2, 3, 4, 5];
 console.log(
-arrayFirst.length === arraySecond.length &&
-arrayFirst.every((value, index) => value === arraySecond[index])
+  arrayFirst.length === arraySecond.length &&
+    arrayFirst.every((value, index) => value === arraySecond[index]),
 ); // true
 ```
 
@@ -3583,8 +3578,8 @@ If you would like to compare arrays irrespective of order then you should sort t
 const arrayFirst = [2, 3, 1, 4, 5];
 const arraySecond = [1, 2, 3, 4, 5];
 console.log(
-arrayFirst.length === arraySecond.length &&
-arrayFirst.sort().every((value, index) => value === arraySecond[index])
+  arrayFirst.length === arraySecond.length &&
+    arrayFirst.sort().every((value, index) => value === arraySecond[index]),
 ); //true
 ```
 
@@ -3603,7 +3598,7 @@ A:: You can use the `Number.prototype.toLocaleString()` method which returns a s
 
 ```javascript
 function convertToThousandFormat(x) {
-return x.toLocaleString(); // 12,345.679
+  return x.toLocaleString(); // 12,345.679
 }
 console.log(convertToThousandFormat(12345.6789));
 ```
@@ -3611,23 +3606,23 @@ console.log(convertToThousandFormat(12345.6789));
 Q:: What is the difference between java and javascript  
 A:: Both are totally unrelated programming languages and no relation between them. Java is statically typed, compiled, runs on its own VM. Whereas Javascript is dynamically typed, interpreted, and runs in a browser and nodejs environments. Let's see the major differences in a tabular format,
 
-| Feature | Java | JavaScript |  
-|---- | ---- | -----  
-| Typed | It's a strongly typed language | It's a dynamic typed language |  
-| Paradigm | Object oriented programming | Prototype based programming |  
-| Scoping | Block scoped | Function-scoped |  
-| Concurrency | Thread based | event based |  
-| Memory | Uses more memory | Uses less memory. Hence it will be used for web pages |
+| Feature     | Java                           | JavaScript                                            |
+| ----------- | ------------------------------ | ----------------------------------------------------- |
+| Typed       | It's a strongly typed language | It's a dynamic typed language                         |
+| Paradigm    | Object oriented programming    | Prototype based programming                           |
+| Scoping     | Block scoped                   | Function-scoped                                       |
+| Concurrency | Thread based                   | event based                                           |
+| Memory      | Uses more memory               | Uses less memory. Hence it will be used for web pages |
 
 Q:: Does JavaScript supports namespace  
 A:: JavaScript doesn’t support namespace by default. So if you create any element(function, method, object, variable) then it becomes global and pollutes the global namespace. Let's take an example of defining two functions without any namespace,
 
 ```javascript
 function func1() {
-console.log("This is a first definition");
+  console.log("This is a first definition");
 }
 function func1() {
-console.log("This is a second definition");
+  console.log("This is a second definition");
 }
 func1(); // This is a second definition
 ```
@@ -3658,16 +3653,16 @@ namespaceTwo.func1(); // This is a second definition
 
 ```javascript
 (function () {
-function fun1() {
-console.log("This is a first definition");
-}
-fun1();
+  function fun1() {
+    console.log("This is a first definition");
+  }
+  fun1();
 })();
 (function () {
-function fun1() {
-console.log("This is a second definition");
-}
-fun1();
+  function fun1() {
+    console.log("This is a second definition");
+  }
+  fun1();
 })();
 ```
 
@@ -3675,17 +3670,17 @@ fun1();
 
 ```javascript
 {
-let myFunction = function fun1() {
-console.log("This is a first definition");
-};
-myFunction();
+  let myFunction = function fun1() {
+    console.log("This is a first definition");
+  };
+  myFunction();
 }
 //myFunction(): ReferenceError: myFunction is not defined.
 {
-let myFunction = function fun1() {
-console.log("This is a second definition");
-};
-myFunction();
+  let myFunction = function fun1() {
+    console.log("This is a second definition");
+  };
+  myFunction();
 }
 //myFunction(): ReferenceError: myFunction is not defined.
 ```
@@ -3711,20 +3706,20 @@ A:: You can create both link and script elements in the DOM and append them as c
 
 ```javascript
 function loadAssets(filename, filetype) {
-if (filetype == "css") {
-// External CSS file
-var fileReference = document.createElement("link");
-fileReference.setAttribute("rel", "stylesheet");
-fileReference.setAttribute("type", "text/css");
-fileReference.setAttribute("href", filename);
-} else if (filetype == "js") {
-// External JavaScript file
-var fileReference = document.createElement("script");
-fileReference.setAttribute("type", "text/javascript");
-fileReference.setAttribute("src", filename);
-}
-if (typeof fileReference != "undefined")
-document.getElementsByTagName("head")[0].appendChild(fileReference);
+  if (filetype == "css") {
+    // External CSS file
+    var fileReference = document.createElement("link");
+    fileReference.setAttribute("rel", "stylesheet");
+    fileReference.setAttribute("type", "text/css");
+    fileReference.setAttribute("href", filename);
+  } else if (filetype == "js") {
+    // External JavaScript file
+    var fileReference = document.createElement("script");
+    fileReference.setAttribute("type", "text/javascript");
+    fileReference.setAttribute("src", filename);
+  }
+  if (typeof fileReference != "undefined")
+    document.getElementsByTagName("head")[0].appendChild(fileReference);
 }
 ```
 
@@ -3740,8 +3735,8 @@ A:: jQuery is a popular cross-browser JavaScript library that provides Document 
 
 ```javascript
 $(document).ready(function () {
-// It selects the document and apply the function on page load
-alert("Welcome to jQuery world");
+  // It selects the document and apply the function on page load
+  alert("Welcome to jQuery world");
 });
 ```
 
@@ -3772,7 +3767,7 @@ Let's display a message without any redirection or reload
 
 ```javascript
 <a href="javascript:void(alert('Welcome to JS world'))">
-Click here to see a message
+  Click here to see a message
 </a>
 ```
 
@@ -3783,7 +3778,7 @@ A:: The cursor can be set to wait in JavaScript by using the property "cursor". 
 
 ```javascript
 function myFunction() {
-window.document.body.style.cursor = "wait";
+  window.document.body.style.cursor = "wait";
 }
 ```
 
@@ -3813,8 +3808,8 @@ Using `with` it turns this into:
 
 ```javascript
 with (a.b.c) {
-greeting = "welcome";
-age = 32;
+  greeting = "welcome";
+  age = 32;
 }
 ```
 
@@ -3836,28 +3831,28 @@ The output of the above for loops is 4 4 4 4 and 0 1 2 3
 **Explanation:** Due to the event queue/loop of javascript, the `setTimeout` callback function is called after the loop has been executed. Since the variable i is declared with the `var` keyword it became a global variable and the value was equal to 4 using iteration when the time `setTimeout` function is invoked. Hence, the output of the first loop is `4 4 4 4`.
 Whereas in the second loop, the variable i is declared as the `let` keyword it becomes a block scoped variable and it holds a new value(0, 1 ,2 3) for each iteration. Hence, the output of the first loop is `0 1 2 3`.
 
-Q:: List down some of the features of ES6  
-A:: Below are the list of some new features of ES6,  
-1. Support for constants or immutable variables  
-2. Block-scope support for variables, constants and functions  
-3. Arrow functions  
-4. Default parameters  
-5. Rest and Spread Parameters  
-6. Template Literals  
-7. Multi-line Strings  
-8. Destructuring Assignment  
-9. Enhanced Object Literals  
-10. Promises  
-11. Classes  
+Q:: List down some of the features of ES6
+A:: Below are the list of some new features of ES6,
+1. Support for constants or immutable variables
+2. Block-scope support for variables, constants and functions
+3. Arrow functions
+4. Default parameters
+5. Rest and Spread Parameters
+6. Template Literals
+7. Multi-line Strings
+8. Destructuring Assignment
+9. Enhanced Object Literals
+10. Promises
+11. Classes
 12. Modules
 
-Q:: What is ES6  
+Q:: What is ES6
 A:: ES6 is the sixth edition of the javascript language and it was released in June 2015. It was initially known as ECMAScript 6 (ES6) and later renamed to ECMAScript 2015. Almost all the modern browsers support ES6 but for the old browsers there are many transpilers, like Babel.js etc.
 
-Q:: Can I redeclare let and const variables  
-A:: No, you cannot redeclare let and const variables. If you do, it throws below error  
-```bash  
-Uncaught SyntaxError: Identifier 'someVariable' has already been declared  
+Q:: Can I redeclare let and const variables
+A:: No, you cannot redeclare let and const variables. If you do, it throws below error
+```bash
+Uncaught SyntaxError: Identifier 'someVariable' has already been declared
 ````
 
 **Explanation:** The variable declaration with `var` keyword refers to a function scope and the variable is treated as if it were declared at the top of the enclosing scope due to hoisting feature. So all the multiple declarations contributing to the same hoisted variable without any error. Let's take an example of re-declaring variables in the same scope for both var and let/const variables.
@@ -3865,9 +3860,9 @@ Uncaught SyntaxError: Identifier 'someVariable' has already been declared
 ```javascript
 var name = "John";
 function myFunc() {
-var name = "Nick";
-var name = "Abraham"; // Re-assigned in the same function block
-alert(name); // Abraham
+  var name = "Nick";
+  var name = "Abraham"; // Re-assigned in the same function block
+  alert(name); // Abraham
 }
 myFunc();
 alert(name); // John
@@ -3878,9 +3873,9 @@ The block-scoped multi-declaration throws syntax error,
 ```javascript
 let name = "John";
 function myFunc() {
-let name = "Nick";
-let name = "Abraham"; // Uncaught SyntaxError: Identifier 'name' has already been declared
-alert(name);
+  let name = "Nick";
+  let name = "Abraham"; // Uncaught SyntaxError: Identifier 'name' has already been declared
+  alert(name);
 }
 myFunc();
 alert(name);
@@ -3901,9 +3896,9 @@ A:: In ES5, we need to depend on logical OR operators to handle default values o
 ```javascript
 //ES5
 var calculateArea = function (height, width) {
-height = height || 50;
-width = width || 60;
-return width * height;
+  height = height || 50;
+  width = width || 60;
+  return width * height;
 };
 console.log(calculateArea()); //300
 ```
@@ -3913,7 +3908,7 @@ The default parameters makes the initialization more simpler,
 ```javascript
 //ES6
 var calculateArea = function (height = 50, width = 60) {
-return width * height;
+  return width * height;
 };
 console.log(calculateArea()); //300
 ```
@@ -3953,9 +3948,7 @@ A:: The nesting template is a feature supported within template literals syntax 
 
 ```javascript
 const iconStyles = `icon ${
-isMobilePlatform()
-? ""
-: `icon-${user.isAuthorized ? "submit" : "disabled"}`
+  isMobilePlatform() ? "" : `icon-${user.isAuthorized ? "submit" : "disabled"}`
 }`;
 ```
 
@@ -3963,8 +3956,9 @@ You can write the above use case without nesting template features as well. Howe
 
 ```javascript
 //Without nesting templates
-const iconStyles = `icon ${ isMobilePlatform() ? '' :
-user.isAuthorized ? 'icon-submit' : 'icon-disabled'}`;
+const iconStyles = `icon ${
+  isMobilePlatform() ? "" : user.isAuthorized ? "icon-submit" : "icon-disabled"
+}`;
 ```
 
 Q:: What are tagged templates  
@@ -3978,18 +3972,18 @@ var user2 = "Kane";
 var skill2 = "JavaScript";
 var experience2 = 5;
 function myInfoTag(strings, userExp, experienceExp, skillExp) {
-var str0 = strings[0]; // "Mr/Ms. "
-var str1 = strings[1]; // " is a/an "
-var str2 = strings[2]; // "in"
-var expertiseStr;
-if (experienceExp > 10) {
-expertiseStr = "expert developer";
-} else if (skillExp > 5 && skillExp <= 10) {
-expertiseStr = "senior developer";
-} else {
-expertiseStr = "junior developer";
-}
-return `${str0}${userExp}${str1}${expertiseStr}${str2}${skillExp}`;
+  var str0 = strings[0]; // "Mr/Ms. "
+  var str1 = strings[1]; // " is a/an "
+  var str2 = strings[2]; // "in"
+  var expertiseStr;
+  if (experienceExp > 10) {
+    expertiseStr = "expert developer";
+  } else if (skillExp > 5 && skillExp <= 10) {
+    expertiseStr = "senior developer";
+  } else {
+    expertiseStr = "junior developer";
+  }
+  return `${str0}${userExp}${str1}${expertiseStr}${str2}${skillExp}`;
 }
 var output1 = myInfoTag`Mr/Ms. ${user1} is a/an ${experience1} in ${skill1}`;
 var output2 = myInfoTag`Mr/Ms. ${user2} is a/an ${experience2} in ${skill2}`;
@@ -4001,9 +3995,7 @@ Q:: What are raw strings
 A:: ES6 provides a raw strings feature using the `String.raw()` method which is used to get the raw string form of template strings. This feature allows you to access the raw strings as they were entered, without processing escape sequences. For example, the usage would be as below,
 
 ```javascript
-var calculationString = String.raw`The sum of numbers is \n${
-1 + 2 + 3 + 4
-}!`;
+var calculationString = String.raw`The sum of numbers is \n${1 + 2 + 3 + 4}!`;
 console.log(calculationString); // The sum of numbers is \n10!
 ```
 
@@ -4020,7 +4012,7 @@ Also, the raw property is available on the first argument to the tag function
 
 ```javascript
 function tag(strings) {
-console.log(strings.raw[0]);
+  console.log(strings.raw[0]);
 }
 ```
 
@@ -4069,7 +4061,7 @@ A:: If you don't use destructuring assignment, swapping two values requires a te
 
 ```javascript
 var x = 10,
-y = 20;
+  y = 20;
 [x, y] = [y, x];
 console.log(x); // 20
 console.log(y); // 10
@@ -4081,12 +4073,12 @@ A:: Object literals make it easy to quickly create objects with properties insid
 ```javascript
 //ES6
 var x = 10,
-y = 20;
+  y = 20;
 obj = { x, y };
 console.log(obj); // {x: 10, y:20}
 //ES5
 var x = 10,
-y = 20;
+  y = 20;
 obj = { x: x, y: y };
 console.log(obj); // {x: 10, y:20}
 ```
@@ -4177,8 +4169,8 @@ A:: The for...of statement creates a loop iterating over iterable objects or ele
 ```javascript
 let arrayIterable = [10, 20, 30, 40, 50];
 for (let value of arrayIterable) {
-value++;
-console.log(value); // 11 21 31 41 51
+  value++;
+  console.log(value); // 11 21 31 41 51
 }
 ```
 
@@ -4190,13 +4182,13 @@ A:: ```javascript
 The output of the array is ['J', 'o', 'h', 'n', '', 'R', 'e', 's', 'i', 'g']
 **Explanation:** The string is an iterable type and the spread operator within an array maps every character of an iterable to one element. Hence, each character of a string becomes an element within an Array.
 
-Q:: Is PostMessage secure  
+Q:: Is PostMessage secure
 A:: Yes, postMessages can be considered very secure as long as the programmer/developer is careful about checking the origin and source of an arriving message. But if you try to send/receive a message without verifying its source will create cross-site scripting attacks.
 
-Q:: What are the problems with postmessage target origin as wildcard  
-A:: The second argument of postMessage method specifies which origin is allowed to receive the message. If you use the wildcard “\*” as an argument then any origin is allowed to receive the message. In this case, there is no way for the sender window to know if the target window is at the target origin when sending the message. If the target window has been navigated to another origin, the other origin would receive the data. Hence, this may lead to XSS vulnerabilities.  
-```javascript  
-targetWindow.postMessage(message, "*");  
+Q:: What are the problems with postmessage target origin as wildcard
+A:: The second argument of postMessage method specifies which origin is allowed to receive the message. If you use the wildcard “\*” as an argument then any origin is allowed to receive the message. In this case, there is no way for the sender window to know if the target window is at the target origin when sending the message. If the target window has been navigated to another origin, the other origin would receive the data. Hence, this may lead to XSS vulnerabilities.
+```javascript
+targetWindow.postMessage(message, "*");
 ````
 
 Q:: How do you avoid receiving postMessages from attackers  
@@ -4278,20 +4270,20 @@ console.log("Welcome to JS world"[0]);
 The output of the above expression is "W".
 **Explanation:** The bracket notation with specific index on a string returns the character at a specific location. Hence, it returns the character "W" of the string. Since this is not supported in IE7 and below versions, you may need to use the .charAt() method to get the desired result.
 
-Q:: What is the purpose of Error object  
-A:: The Error constructor creates an error object and the instances of error objects are thrown when runtime errors occur. The Error object can also be used as a base object for user-defined exceptions. The syntax of error object would be as below,  
-```javascript  
-new Error([message[, fileName[, lineNumber]]])  
+Q:: What is the purpose of Error object
+A:: The Error constructor creates an error object and the instances of error objects are thrown when runtime errors occur. The Error object can also be used as a base object for user-defined exceptions. The syntax of error object would be as below,
+```javascript
+new Error([message[, fileName[, lineNumber]]])
 ````
 
 You can throw user defined exceptions or errors using Error object in try...catch block as below,
 
 ```javascript
 try {
-if (withdraw > balance)
-throw new Error("Oops! You don't have enough balance");
+  if (withdraw > balance)
+    throw new Error("Oops! You don't have enough balance");
 } catch (e) {
-console.log(e.name + ": " + e.message);
+  console.log(e.name + ": " + e.message);
 }
 ```
 
@@ -4328,7 +4320,7 @@ var n = 022;
 
 ```javascript
 if (someCondition) {
-function f() {}
+  function f() {}
 }
 ```
 
@@ -4342,9 +4334,9 @@ A:: Parameter is the variable name of a function definition whereas an argument 
 
 ```javascript
 function myFunction(parameter1, parameter2, parameter3) {
-console.log(arguments[0]); // "argument1"
-console.log(arguments[1]); // "argument2"
-console.log(arguments[2]); // "argument3"
+  console.log(arguments[0]); // "argument1"
+  console.log(arguments[1]); // "argument2"
+  console.log(arguments[2]); // "argument3"
 }
 myFunction("argument1", "argument2", "argument3");
 ```
@@ -4382,9 +4374,9 @@ Shallow copy is a bitwise copy of an object. A new object is created that has an
 
 ```javascript
 var empDetails = {
-name: "John",
-age: 25,
-expertise: "Software Developer",
+  name: "John",
+  age: 25,
+  expertise: "Software Developer",
 };
 ```
 
@@ -4407,9 +4399,9 @@ A deep copy copies all fields, and makes copies of dynamically allocated memory 
 
 ```javascript
 var empDetails = {
-name: "John",
-age: 25,
-expertise: "Software Developer",
+  name: "John",
+  age: 25,
+  expertise: "Software Developer",
 };
 ```
 
@@ -4417,9 +4409,9 @@ Create a deep copy by using the properties from the original object into new var
 
 ```javascript
 var empDetailsDeepCopy = {
-name: empDetails.name,
-age: empDetails.age,
-expertise: empDetails.expertise,
+  name: empDetails.name,
+  age: empDetails.age,
+  expertise: empDetails.expertise,
 };
 ```
 
@@ -4474,18 +4466,18 @@ Say for instance, we've two classes `User` and `CleanRoom`. Suppose we need to a
 ```javascript
 // mixin
 let cleanRoomMixin = {
-cleanRoom() {
-alert(`Hello ${this.name}, your room is clean now`);
-},
-sayBye() {
-alert(`Bye ${this.name}`);
-},
+  cleanRoom() {
+    alert(`Hello ${this.name}, your room is clean now`);
+  },
+  sayBye() {
+    alert(`Bye ${this.name}`);
+  },
 };
 // usage:
 class User {
-constructor(name) {
-this.name = name;
-}
+  constructor(name) {
+    this.name = name;
+  }
 }
 // copy the methods
 Object.assign(User.prototype, cleanRoomMixin);
@@ -4507,14 +4499,14 @@ A:: The asynchronous thunks are useful to make network requests. Let's see an ex
 
 ```javascript
 function fetchData(fn) {
-fetch("https://jsonplaceholder.typicode.com/todos/1")
-.then((response) => response.json())
-.then((json) => fn(json));
+  fetch("https://jsonplaceholder.typicode.com/todos/1")
+    .then((response) => response.json())
+    .then((json) => fn(json));
 }
 const asyncThunk = function () {
-return fetchData(function getData(data) {
-console.log(data);
-});
+  return fetchData(function getData(data) {
+    console.log(data);
+  });
 };
 asyncThunk();
 ```
@@ -4526,11 +4518,11 @@ A:: **Code snippet:**
 
 ```javascript
 const circle = {
-radius: 20,
-diameter() {
-return this.radius * 2;
-},
-perimeter: () => 2 * Math.PI * this.radius,
+  radius: 20,
+  diameter() {
+    return this.radius * 2;
+  },
+  perimeter: () => 2 * Math.PI * this.radius,
 };
 ```
 
@@ -4639,12 +4631,12 @@ A:: You can map the array values without using the `map` method by just using th
 
 ```javascript
 const countries = [
-{ name: "India", capital: "Delhi" },
-{ name: "US", capital: "Washington" },
-{ name: "Russia", capital: "Moscow" },
-{ name: "Singapore", capital: "Singapore" },
-{ name: "China", capital: "Beijing" },
-{ name: "France", capital: "Paris" },
+  { name: "India", capital: "Delhi" },
+  { name: "US", capital: "Washington" },
+  { name: "Russia", capital: "Moscow" },
+  { name: "Singapore", capital: "Singapore" },
+  { name: "China", capital: "Beijing" },
+  { name: "France", capital: "Paris" },
 ];
 const cityNames = Array.from(countries, ({ capital }) => capital);
 console.log(cityNames); // ['Delhi, 'Washington', 'Moscow', 'Singapore', 'Beijing', 'Paris']
@@ -4694,9 +4686,9 @@ A:: Below are the list of placeholders available from console object,
 ```javascript
 const user = { name: "John", id: 1, city: "Delhi" };
 console.log(
-"Hello %s, your details %o are available in the object form",
-"John",
-user
+  "Hello %s, your details %o are available in the object form",
+  "John",
+  user,
 ); // Hello John, your details {name: "John", id: 1, city: "Delhi"} are available in object
 ```
 
@@ -4705,8 +4697,8 @@ A:: Yes, you can apply CSS styles to console messages similar to html text on th
 
 ```javascript
 console.log(
-"%c The text has blue color, with large font and red background",
-"color: blue; font-size: x-large; background: red"
+  "%c The text has blue color, with large font and red background",
+  "color: blue; font-size: x-large; background: red",
 );
 ```
 
@@ -4741,9 +4733,9 @@ A:: The `console.table()` is used to display data in the console in a tabular fo
 
 ```js
 const users = [
-{ name: "John", id: 1, city: "Delhi" },
-{ name: "Max", id: 2, city: "London" },
-{ name: "Rod", id: 3, city: "Paris" },
+  { name: "John", id: 1, city: "Delhi" },
+  { name: "Max", id: 2, city: "London" },
+  { name: "Rod", id: 3, city: "Paris" },
 ];
 console.table(users);
 ```
@@ -4757,7 +4749,7 @@ A:: The combination of IsNaN and isFinite methods are used to confirm whether an
 
 ```javascript
 function isNumber(n) {
-return !isNaN(parseFloat(n)) && isFinite(n);
+  return !isNaN(parseFloat(n)) && isFinite(n);
 }
 ```
 
@@ -4766,10 +4758,10 @@ A:: You need to select the content(using .select() method) of the input element 
 
 ```javascript
 document.querySelector("#copy-button").onclick = function () {
-// Select the content
-document.querySelector("#copy-input").select();
-// Copy to the clipboard
-document.execCommand("copy");
+  // Select the content
+  document.querySelector("#copy-input").select();
+  // Copy to the clipboard
+  document.execCommand("copy");
 };
 ```
 
@@ -4793,10 +4785,10 @@ But you can make it work with multi-dimensional arrays by recursive calls,
 
 ```javascript
 function flattenMultiArray(arr) {
-const flattened = [].concat(...arr);
-return flattened.some((item) => Array.isArray(item))
-? flattenMultiArray(flattened)
-: flattened;
+  const flattened = [].concat(...arr);
+  return flattened.some((item) => Array.isArray(item))
+    ? flattenMultiArray(flattened)
+    : flattened;
 }
 const multiDimensionalArr = [11, [22, 33], [44, [55, 66, [77, [88]], 99]]];
 const flatArr = flattenMultiArray(multiDimensionalArr); // [11, 22, 33, 44, 55, 66, 77, 88, 99]
@@ -4805,7 +4797,7 @@ const flatArr = flattenMultiArray(multiDimensionalArr); // [11, 22, 33, 44, 55, 
 Also you can use the `flat` method of Array.
 
 ```javascript
-const arr = [1, [2,3], 4, 5, [6,7]];
+const arr = [1, [2, 3], 4, 5, [6, 7]];
 const fllattenArr = arr.flat(); // [1, 2, 3, 4, 5, 6, 7]
 // And for multiDemensional arrays
 const multiDimensionalArr = [11, [22, 33], [44, [55, 66, [77, [88]], 99]]];
@@ -4819,17 +4811,12 @@ A:: You can use `indexOf` to compare input with multiple values instead of check
 
 ```javascript
 // Verbose approach
-if (
-input === "first" ||
-input === 1 ||
-input === "second" ||
-input === 2
-) {
-someFunction();
+if (input === "first" || input === 1 || input === "second" || input === 2) {
+  someFunction();
 }
 // Shortcut
 if (["first", 1, "second", 2].indexOf(input) !== -1) {
-someFunction();
+  someFunction();
 }
 ```
 
@@ -4838,7 +4825,7 @@ A:: The `window.onbeforeunload` method is used to capture browser back button ev
 
 ```javascript
 window.onbeforeunload = function () {
-alert("You work will be lost");
+  alert("You work will be lost");
 };
 ```
 
@@ -4883,23 +4870,23 @@ The basic flow of cancelling a fetch request would be as below,
 const controller = new AbortController();
 const { signal } = controller;
 fetch("http://localhost:8000", { signal })
-.then((response) => {
-console.log(`Request 1 is complete!`);
-})
-.catch((e) => {
-if (e.name === "AbortError") {
-// We know it's been canceled!
-}
-});
+  .then((response) => {
+    console.log(`Request 1 is complete!`);
+  })
+  .catch((e) => {
+    if (e.name === "AbortError") {
+      // We know it's been canceled!
+    }
+  });
 fetch("http://localhost:8000", { signal })
-.then((response) => {
-console.log(`Request 2 is complete!`);
-})
-.catch((e) => {
-if (e.name === "AbortError") {
-// We know it's been canceled!
-}
-});
+  .then((response) => {
+    console.log(`Request 2 is complete!`);
+  })
+  .catch((e) => {
+    if (e.name === "AbortError") {
+      // We know it's been canceled!
+    }
+  });
 // Wait 2 seconds to abort both requests
 setTimeout(() => controller.abort(), 2000);
 ```
@@ -4912,12 +4899,12 @@ A:: Web speech API is used to enable modern browsers recognize and synthesize sp
 
 ```javascript
 window.SpeechRecognition =
-window.webkitSpeechRecognition || window.SpeechRecognition; // webkitSpeechRecognition for Chrome and SpeechRecognition for FF
+  window.webkitSpeechRecognition || window.SpeechRecognition; // webkitSpeechRecognition for Chrome and SpeechRecognition for FF
 const recognition = new window.SpeechRecognition();
 recognition.onresult = (event) => {
-// SpeechRecognitionEvent type
-const speechToText = event.results[0][0].transcript;
-console.log(speechToText);
+  // SpeechRecognitionEvent type
+  const speechToText = event.results[0][0].transcript;
+  console.log(speechToText);
 };
 recognition.start();
 ```
@@ -4929,9 +4916,9 @@ In this API, browser is going to ask you for permission to use your microphone
 
 ```javascript
 if ("speechSynthesis" in window) {
-var speech = new SpeechSynthesisUtterance("Hello World!");
-speech.lang = "en-US";
-window.speechSynthesis.speak(speech);
+  var speech = new SpeechSynthesisUtterance("Hello World!");
+  speech.lang = "en-US";
+  window.speechSynthesis.speak(speech);
 }
 ```
 
@@ -4947,7 +4934,7 @@ The best example to explain this timeout throttling behavior is the order of bel
 
 ```javascript
 function runMeFirst() {
-console.log("My script is initialized");
+  console.log("My script is initialized");
 }
 setTimeout(runMeFirst, 0);
 console.log("Script loaded");
@@ -4964,7 +4951,7 @@ If you don't use `setTimeout`, the order of logs will be sequential.
 
 ```javascript
 function runMeFirst() {
-console.log("My script is initialized");
+  console.log("My script is initialized");
 }
 runMeFirst();
 console.log("Script loaded");
@@ -5007,11 +4994,11 @@ A:: The `queueMicrotask` function is used to schedule a microtask, which is a fu
 Example:
 
 ```javascript
-console.log('Start'); //1
+console.log("Start"); //1
 queueMicrotask(() => {
-console.log('Inside microtask'); // 3
+  console.log("Inside microtask"); // 3
 });
-console.log('End'); //2
+console.log("End"); //2
 ```
 
 By using queueMicrotask, you can ensure that certain tasks or callbacks are executed at the earliest opportunity during the JavaScript event loop, making it useful for performing work that needs to be done asynchronously but with higher priority than regular `setTimeout` or `setInterval` callbacks.
@@ -5032,13 +5019,13 @@ var customLibrary: any;
 Q:: What are the differences between promises and observables  
 A:: Some of the major difference in a tabular form
 
-| Promises | Observables |  
-| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |  
-| Emits only a single value at a time | Emits multiple values over a period of time(stream of values ranging from 0 to multiple) |  
-| Eager in nature; they are going to be called immediately | Lazy in nature; they require subscription to be invoked |  
-| Promise is always asynchronous even though it resolved immediately | Observable can be either synchronous or asynchronous |  
-| Doesn't provide any operators | Provides operators such as map, forEach, filter, reduce, retry, and retryWhen etc |  
-| Cannot be canceled | Canceled by using unsubscribe() method |
+| Promises                                                           | Observables                                                                              |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| Emits only a single value at a time                                | Emits multiple values over a period of time(stream of values ranging from 0 to multiple) |
+| Eager in nature; they are going to be called immediately           | Lazy in nature; they require subscription to be invoked                                  |
+| Promise is always asynchronous even though it resolved immediately | Observable can be either synchronous or asynchronous                                     |
+| Doesn't provide any operators                                      | Provides operators such as map, forEach, filter, reduce, retry, and retryWhen etc        |
+| Cannot be canceled                                                 | Canceled by using unsubscribe() method                                                   |
 
 Q:: What is heap  
 A:: Heap(Or memory heap) is the memory location where objects are stored when we define variables. i.e, This is the place where all the memory allocations and de-allocation take place. Both heap and call-stack are two containers of JS runtime.  
@@ -5066,7 +5053,7 @@ A:: In JavaScript, primitive types include boolean, string, number, BigInt, null
 var myPrimitive = 30;
 var myNonPrimitive = {};
 function isPrimitive(val) {
-return Object(val) !== val;
+  return Object(val) !== val;
 }
 isPrimitive(myPrimitive);
 isPrimitive(myNonPrimitive);
@@ -5098,8 +5085,8 @@ Let's see this difference with an example,
 ```javascript
 var a = 100;
 function createFunction() {
-var a = 200;
-return new Function("return a;");
+  var a = 200;
+  return new Function("return a;");
 }
 console.log(createFunction()()); // 100
 ```
@@ -5109,10 +5096,10 @@ console.log(createFunction()()); // 100
 ```javascript
 var a = 100;
 function createFunction() {
-var a = 200;
-return function func() {
-return a;
-};
+  var a = 200;
+  return function func() {
+    return a;
+  };
 }
 console.log(createFunction()()); // 200
 ```
@@ -5122,7 +5109,7 @@ A:: Short circuit conditions are meant for condensed way of writing simple if st
 
 ```javascript
 if (authenticate) {
-loginToPorta();
+  loginToPorta();
 }
 ```
 
@@ -5159,9 +5146,9 @@ Let's look at a simple example of an Observable
 ```javascript
 import { Observable } from "rxjs";
 const observable = new Observable((observer) => {
-setTimeout(() => {
-observer.next("Message from a Observable!");
-}, 3000);
+  setTimeout(() => {
+    observer.next("Message from a Observable!");
+  }, 3000);
 });
 observable.subscribe((value) => console.log(value));
 ```
@@ -5191,8 +5178,8 @@ Let's take a below async function example,
 
 ```javascript
 async function logger() {
-let data = await fetch("http://someapi.com/users"); // pause until fetch returns
-console.log(data);
+  let data = await fetch("http://someapi.com/users"); // pause until fetch returns
+  console.log(data);
 }
 logger();
 ```
@@ -5205,13 +5192,13 @@ Let's say you expect to print an error to the console for all the below cases,
 
 ```javascript
 Promise.resolve("promised value").then(function () {
-throw new Error("error");
+  throw new Error("error");
 });
 Promise.reject("error value").catch(function () {
-throw new Error("error");
+  throw new Error("error");
 });
 new Promise(function (resolve, reject) {
-throw new Error("error");
+  throw new Error("error");
 });
 ```
 
@@ -5221,19 +5208,19 @@ But there are many modern JavaScript environments that won't print any errors. Y
 
 ```javascript
 Promise.resolve("promised value")
-.then(function () {
-throw new Error("error");
-})
-.catch(function (error) {
-console.error(error.stack);
-});
+  .then(function () {
+    throw new Error("error");
+  })
+  .catch(function (error) {
+    console.error(error.stack);
+  });
 ```
 
 But it is quite difficult to type for each promise chain and verbose too. 2. **Add done method:** You can replace first solution's then and catch blocks with done method
 
 ```javascript
 Promise.resolve("promised value").done(function () {
-throw new Error("error");
+  throw new Error("error");
 });
 ```
 
@@ -5241,19 +5228,19 @@ Let's say you want to fetch data using HTTP and later perform processing on the 
 
 ```javascript
 getDataFromHttp()
-.then(function (result) {
-return processDataAsync(result);
-})
-.done(function (processed) {
-displayData(processed);
-});
+  .then(function (result) {
+    return processDataAsync(result);
+  })
+  .done(function (processed) {
+    displayData(processed);
+  });
 ```
 
 In future, if the processing library API changed to synchronous then you can remove `done` block as below,
 
 ```javascript
 getDataFromHttp().then(function (result) {
-return displayData(processDataAsync(result));
+  return displayData(processDataAsync(result));
 });
 ```
 
@@ -5262,7 +5249,7 @@ Bluebird extends the ES6 Promises API to avoid the issue in the second solution.
 
 ```javascript
 Promise.onPossiblyUnhandledRejection(function (error) {
-throw error;
+  throw error;
 });
 ```
 
@@ -5281,21 +5268,21 @@ Let's demonstrate this with an example,
 
 ```javascript
 const collection = {
-one: 1,
-two: 2,
-three: 3,
-[Symbol.iterator]() {
-const values = Object.keys(this);
-let i = 0;
-return {
-next: () => {
-return {
-value: this[values[i++]],
-done: i > values.length,
-};
-},
-};
-},
+  one: 1,
+  two: 2,
+  three: 3,
+  [Symbol.iterator]() {
+    const values = Object.keys(this);
+    let i = 0;
+    return {
+      next: () => {
+        return {
+          value: this[values[i++]],
+          done: i > values.length,
+        };
+      },
+    };
+  },
 };
 const iterator = collection[Symbol.iterator]();
 console.log(iterator.next()); // → {value: 1, done: false}
@@ -5308,14 +5295,14 @@ The above process can be simplified using a generator function,
 
 ```javascript
 const collection = {
-one: 1,
-two: 2,
-three: 3,
-[Symbol.iterator]: function* () {
-for (let key in this) {
-yield this[key];
-}
-},
+  one: 1,
+  two: 2,
+  three: 3,
+  [Symbol.iterator]: function* () {
+    for (let key in this) {
+      yield this[key];
+    }
+  },
 };
 const iterator = collection[Symbol.iterator]();
 console.log(iterator.next()); // {value: 1, done: false}
@@ -5330,10 +5317,10 @@ For example, the below classic or head recursion of factorial function relies on
 
 ```javascript
 function factorial(n) {
-if (n === 0) {
-return 1;
-}
-return n * factorial(n - 1);
+  if (n === 0) {
+    return 1;
+  }
+  return n * factorial(n - 1);
 }
 console.log(factorial(5)); //120
 ```
@@ -5342,10 +5329,10 @@ But if you use Tail recursion functions, they keep passing all the necessary dat
 
 ```javascript
 function factorial(n, acc = 1) {
-if (n === 0) {
-return acc;
-}
-return factorial(n - 1, n * acc);
+  if (n === 0) {
+    return acc;
+  }
+  return factorial(n - 1, n * acc);
 }
 console.log(factorial(5)); //120
 ```
@@ -5357,15 +5344,15 @@ A:: If you don't know if a value is a promise or not, wrapping the value as `Pro
 
 ```javascript
 function isPromise(object) {
-if (Promise && Promise.resolve) {
-return Promise.resolve(object) == object;
-} else {
-throw "Promise not supported in your environment";
-}
+  if (Promise && Promise.resolve) {
+    return Promise.resolve(object) == object;
+  } else {
+    throw "Promise not supported in your environment";
+  }
 }
 var i = 1;
 var promise = new Promise(function (resolve, reject) {
-resolve();
+  resolve();
 });
 console.log(isPromise(i)); // false
 console.log(isPromise(promise)); // true
@@ -5375,11 +5362,11 @@ Another way is to check for `.then()` handler type
 
 ```javascript
 function isPromise(value) {
-return Boolean(value && typeof value.then === "function");
+  return Boolean(value && typeof value.then === "function");
 }
 var i = 1;
 var promise = new Promise(function (resolve, reject) {
-resolve();
+  resolve();
 });
 console.log(isPromise(i)); // false
 console.log(isPromise(promise)); // true
@@ -5393,11 +5380,11 @@ A:: You can use `new.target` pseudo-property to detect whether a function was ca
 
 ```javascript
 function Myfunc() {
-if (new.target) {
-console.log('called with new');
-} else {
-console.log('not called with new');
-}
+  if (new.target) {
+    console.log("called with new");
+  } else {
+    console.log("not called with new");
+  }
 }
 new Myfunc(); // called with new
 Myfunc(); // not called with new
@@ -5421,9 +5408,9 @@ A:: There are five kinds of generators,
 
 ```javascript
 function* myGenFunc() {
-yield 1;
-yield 2;
-yield 3;
+  yield 1;
+  yield 2;
+  yield 3;
 }
 const genObj = myGenFunc();
 ```
@@ -5432,9 +5419,9 @@ const genObj = myGenFunc();
 
 ```javascript
 const myGenFunc = function* () {
-yield 1;
-yield 2;
-yield 3;
+  yield 1;
+  yield 2;
+  yield 3;
 };
 const genObj = myGenFunc();
 ```
@@ -5443,11 +5430,11 @@ const genObj = myGenFunc();
 
 ```javascript
 const myObj = {
-*myGeneratorMethod() {
-yield 1;
-yield 2;
-yield 3;
-},
+  *myGeneratorMethod() {
+    yield 1;
+    yield 2;
+    yield 3;
+  },
 };
 const genObj = myObj.myGeneratorMethod();
 ```
@@ -5456,11 +5443,11 @@ const genObj = myObj.myGeneratorMethod();
 
 ```javascript
 class MyClass {
-*myGeneratorMethod() {
-yield 1;
-yield 2;
-yield 3;
-}
+  *myGeneratorMethod() {
+    yield 1;
+    yield 2;
+    yield 3;
+  }
 }
 const myObject = new MyClass();
 const genObj = myObject.myGeneratorMethod();
@@ -5470,11 +5457,11 @@ const genObj = myObject.myGeneratorMethod();
 
 ```javascript
 const SomeObj = {
-*[Symbol.iterator]() {
-yield 1;
-yield 2;
-yield 3;
-},
+  *[Symbol.iterator]() {
+    yield 1;
+    yield 2;
+    yield 3;
+  },
 };
 console.log(Array.from(SomeObj)); // [ 1, 2, 3 ]
 ```
@@ -5501,11 +5488,11 @@ let arr = ["a", "b", "c"];
 arr.newProp = "newVlue";
 // key are the property keys
 for (let key in arr) {
-console.log(key); // 0, 1, 2 & newValue
+  console.log(key); // 0, 1, 2 & newValue
 }
 // value are the property values
 for (let value of arr) {
-console.log(value); // a, b, c
+  console.log(value); // a, b, c
 }
 ```
 
@@ -5516,10 +5503,10 @@ A:: The Instance properties must be defined inside of class methods. For example
 
 ```javascript
 class Person {
-constructor(name, age) {
-this.name = name;
-this.age = age;
-}
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
 }
 ```
 
@@ -5544,16 +5531,16 @@ A:: Immediately Invoked Function Expressions(IIFE) requires a pair of parenthesi
 
 ```js
 (function (dt) {
-console.log(dt.toLocaleTimeString());
+  console.log(dt.toLocaleTimeString());
 })(new Date());
 ```
 
 Since both IIFE and void operator discard the result of an expression, you can avoid the extra brackets using `void operator` for IIFE as below,
 
 ```js
-void function (dt) {
-console.log(dt.toLocaleTimeString());
-}(new Date());
+void (function (dt) {
+  console.log(dt.toLocaleTimeString());
+})(new Date());
 ```
 
 Q:: Is that possible to use expressions in switch cases?  
@@ -5561,16 +5548,16 @@ A:: You might have seen expressions used in switch condition but it is also poss
 
 ```js
 const weather = (function getWeather(temp) {
-switch (true) {
-case temp < 0:
-return "freezing";
-case temp < 10:
-return "cold";
-case temp < 24:
-return "cool";
-default:
-return "unknown";
-}
+  switch (true) {
+    case temp < 0:
+      return "freezing";
+    case temp < 10:
+      return "cold";
+    case temp < 24:
+      return "cool";
+    default:
+      return "unknown";
+  }
 })(10);
 ```
 
@@ -5592,8 +5579,8 @@ It is also possible to add more styles for the content. For example, the font-si
 
 ```js
 console.log(
-"%cThis is a red text with bigger font",
-"color:red; font-size:20px"
+  "%cThis is a red text with bigger font",
+  "color:red; font-size:20px",
 );
 ```
 
@@ -5622,7 +5609,7 @@ console.log("State: California");
 // Close nested group
 console.groupEnd();
 // Close outer group
-console.groupEnd()
+console.groupEnd();
 ```
 
 You can also use `console.groupCollapsed()` instead of `console.group()` if you want the groups to be collapsed by default.
@@ -5673,7 +5660,7 @@ console.log(justiceLeague); // ['Superman', empty, ,'Batman']
 4. **Increase length property:** Increasing length property of an array
 
 ```js
-const justiceLeague = ['Superman', 'Aquaman', 'Batman'];
+const justiceLeague = ["Superman", "Aquaman", "Batman"];
 justiceLeague.length = 5;
 console.log(justiceLeague); // ['Superman', 'Aquaman', 'Batman', empty, empty]
 ```
@@ -5719,7 +5706,7 @@ console.log(newArray); // [ 5, 4, 3, 2, 1]
 ```javascript
 const originalArray = [1, 2, 3, 4, 5];
 const newArray = originalArray.reduce((accumulator, value) => {
-return [value, ...accumulator];
+  return [value, ...accumulator];
 }, []);
 console.log(originalArray); // [1, 2, 3, 4, 5]
 console.log(newArray); // [ 5, 4, 3, 2, 1]
@@ -5731,7 +5718,7 @@ console.log(newArray); // [ 5, 4, 3, 2, 1]
 ```javascript
 const originalArray = [1, 2, 3, 4, 5];
 const newArray = originalArray.reduceRight((accumulator, value) => {
-return [...accumulator, value];
+  return [...accumulator, value];
 }, []);
 console.log(originalArray); // [1, 2, 3, 4, 5]
 console.log(newArray); // [ 5, 4, 3, 2, 1]
@@ -5743,8 +5730,8 @@ console.log(newArray); // [ 5, 4, 3, 2, 1]
 ```javascript
 const originalArray = [1, 2, 3, 4, 5];
 const newArray = originalArray.reduceRight((accumulator, value) => {
-accumulator.push(value);
-return accumulator;
+  accumulator.push(value);
+  return accumulator;
 }, []);
 console.log(originalArray); // [1, 2, 3, 4, 5]
 console.log(newArray); // [ 5, 4, 3, 2, 1]
@@ -5759,9 +5746,9 @@ A:: The creation of custom HTML elements involves two main steps,
 
 ```javascript
 class CustomElement extends HTMLElement {
-connectedCallback() {
-this.innerHTML = "This is a custom element";
-}
+  connectedCallback() {
+    this.innerHTML = "This is a custom element";
+  }
 }
 customElements.define("custom-element", CustomElement);
 ```
@@ -5781,11 +5768,11 @@ For example, the below code other than code inside any function or object is exe
 ```javascript
 var x = 10;
 function A() {
-console.log("Start function A");
-function B() {
-console.log("In function B");
-}
-B();
+  console.log("Start function A");
+  function B() {
+    console.log("In function B");
+  }
+  B();
 }
 A();
 console.log("GlobalContext");
@@ -5800,16 +5787,16 @@ Let's say you want to show suggestions for a search query, but only after a visi
 
 ```js
 function debounce(func, timeout = 500) {
-let timer;
-return (...args) => {
-clearTimeout(timer);
-timer = setTimeout(() => {
-func.apply(this, args);
-}, timeout);
-};
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      func.apply(this, args);
+    }, timeout);
+  };
 }
 function fetchResults() {
-console.log("Fetching input suggestions");
+  console.log("Fetching input suggestions");
 }
 const processChange = debounce(() => fetchResults());
 ```
@@ -5839,17 +5826,17 @@ The below example creates a throttle function to reduce the number of events for
 
 ```js
 const throttle = (func, limit) => {
-let inThrottle;
-return (...args) => {
-if (!inThrottle) {
-func.apply(this, args);
-inThrottle = true;
-setTimeout(() => (inThrottle = false), limit);
-}
-};
+  let inThrottle;
+  return (...args) => {
+    if (!inThrottle) {
+      func.apply(this, args);
+      inThrottle = true;
+      setTimeout(() => (inThrottle = false), limit);
+    }
+  };
 };
 window.addEventListener("scroll", () => {
-throttle(handleScrollAnimation, 100);
+  throttle(handleScrollAnimation, 100);
 });
 ```
 
@@ -5859,10 +5846,10 @@ The ?. operator is like the . chaining operator, except that instead of causing 
 
 ```js
 const adventurer = {
-name: 'Alice',
-cat: {
-name: 'Dinah'
-}
+  name: "Alice",
+  cat: {
+    name: "Dinah",
+  },
 };
 const dogName = adventurer.dog?.name;
 console.log(dogName);
@@ -5886,8 +5873,8 @@ A:: It is possible to check if a variable is an array instance using 3 different
 
 ```javascript
 const numbers = [1, 2, 3];
-const user = { name: 'John' };
-Array.isArray(numbers);  // true
+const user = { name: "John" };
+Array.isArray(numbers); // true
 Array.isArray(user); //false
 ```
 
@@ -5896,9 +5883,9 @@ Array.isArray(user); //false
 
 ```javascript
 const numbers = [1, 2, 3];
-const user = { name: 'John' };
-console.log(numbers instanceof Array);  // true
-console.log(user instanceof Array);  // false
+const user = { name: "John" };
+console.log(numbers instanceof Array); // true
+console.log(user instanceof Array); // false
 ```
 
 3. Checking constructor type:
@@ -5906,9 +5893,9 @@ console.log(user instanceof Array);  // false
 
 ```javascript
 const numbers = [1, 2, 3];
-const user = { name: 'John' };
-console.log(numbers.constructor === Array);  // true
-console.log(user.constructor === Array);  // false
+const user = { name: "John" };
+console.log(numbers.constructor === Array); // true
+console.log(user.constructor === Array); // false
 ```
 
 Q:: What is pass by value and pass by reference?  
@@ -5926,8 +5913,8 @@ Pass by reference doesn't create a new space in memory but the new variable adop
 
 ```javascript
 let user1 = {
-name: 'John',
-age: 27
+  name: "John",
+  age: 27,
 };
 let user2 = user1;
 user2.age = 30;
@@ -5939,44 +5926,44 @@ In the above code snippet, updating the `age` property of one object will impact
 Q:: What are the differences between primitives and non-primitives?  
 A:: JavaScript language has both primitives and non-primitives but there are few differences between them as below,
 
-| Primitives | Non-primitives |  
-|---- | ---------  
-| These types are predefined | Created by developer |  
-| These are immutable | Mutable |  
-| Compare by value | Compare by reference |  
-| Stored in Stack | Stored in heap |  
-| Contain certain value | Can contain NULL too |
+| Primitives                 | Non-primitives       |
+| -------------------------- | -------------------- |
+| These types are predefined | Created by developer |
+| These are immutable        | Mutable              |
+| Compare by value           | Compare by reference |
+| Stored in Stack            | Stored in heap       |
+| Contain certain value      | Can contain NULL too |
 
 Q:: How do you create your own bind method using either call or apply method?  
 A:: The custom bind function needs to be created on Function prototype inorder to use it as other builtin functions. This custom function should return a function similar to original bind method and the implementation of inner function needs to use apply method call.  
 The function which is going to bind using custom `myOwnBind` method act as the attached function(`boundTargetFunction`) and argument as the object for `apply` method call.
 
 ```js
-Function.prototype.myOwnBind = function(whoIsCallingMe) {
-if (typeof this !== "function") {
-throw new Error(this + "cannot be bound as it's not callable");
-}
-const boundTargetFunction = this;
-return function() {
-boundTargetFunction.apply(whoIsCallingMe, arguments);
-}
-}
+Function.prototype.myOwnBind = function (whoIsCallingMe) {
+  if (typeof this !== "function") {
+    throw new Error(this + "cannot be bound as it's not callable");
+  }
+  const boundTargetFunction = this;
+  return function () {
+    boundTargetFunction.apply(whoIsCallingMe, arguments);
+  };
+};
 ```
 
 Q:: What are the differences between pure and impure functions?  
 A:: Some of the major differences between pure and impure function are as below,
 
-| Pure function | Impure function |  
-| -------- | ------------------------------------------------------- |  
-| It has no side effects | It causes side effects |  
-| It is always return the same result | It returns different result on each call |  
-| Easy to read and debug | Difficult to read and debug because they are affected by extenal code
+| Pure function                       | Impure function                                                       |
+| ----------------------------------- | --------------------------------------------------------------------- |
+| It has no side effects              | It causes side effects                                                |
+| It is always return the same result | It returns different result on each call                              |
+| Easy to read and debug              | Difficult to read and debug because they are affected by extenal code |
 
 Q:: What is referential transparency?  
 A:: An expression in javascript that can be replaced by its value without affecting the behaviour of the program is called referential transparency. Pure functions are referentially transparent.
 
 ```javascript
-const add = (x,y) => x + y;
+const add = (x, y) => x + y;
 const multiplyBy2 = (x) => x * 2;
 //Now add (2, 3) can be replaced by 5.
 multiplyBy2(add(2, 3));
@@ -6000,11 +5987,11 @@ A:: Module pattern is a designed pattern used to wrap a set of variables and fun
 The module pattern looks like below,
 
 ```javascript
-(function() {
-// Private variables or functions goes here.
-return {
-// Return public variables or functions here.
-}
+(function () {
+  // Private variables or functions goes here.
+  return {
+    // Return public variables or functions here.
+  };
 })();
 ```
 
@@ -6012,18 +5999,18 @@ Let's see an example of a module pattern for an employee with private and public
 
 ```javascript
 const createEmployee = (function () {
-// Private
-const name = "John";
-const department = "Sales";
-const getEmployeeName = () => name;
-const getDepartmentName = () => department;
-// Public
-return {
-name,
-department,
-getName: () => getEmployeeName(),
-getDepartment: () => getDepartmentName(),
-};
+  // Private
+  const name = "John";
+  const department = "Sales";
+  const getEmployeeName = () => name;
+  const getDepartmentName = () => department;
+  // Public
+  return {
+    name,
+    department,
+    getName: () => getEmployeeName(),
+    getDepartment: () => getDepartmentName(),
+  };
 })();
 console.log(createEmployee.name);
 console.log(createEmployee.department);
@@ -6038,8 +6025,8 @@ A:: It is an approach where the result of one function is passed on to the next 
 
 ```javascript
 //example
-const double = x => x * 2
-const square = x => x * x
+const double = (x) => x * 2;
+const square = (x) => x * x;
 var output1 = double(2);
 var output2 = square(output1);
 console.log(output2);
@@ -6051,21 +6038,21 @@ Q:: How to use await outside of async function prior to ES2022?
 A:: Prior to ES2022, if you attempted to use an await outside of an async function resulted in a SyntaxError.
 
 ```javascript
-await Promise.resolve(console.log('Hello await')); // SyntaxError: await is only valid in async function
+await Promise.resolve(console.log("Hello await")); // SyntaxError: await is only valid in async function
 ```
 
 But you can fix this issue with an alternative IIFE (Immediately Invoked Function Expression) to get access to the feature.
 
 ```javascript
-(async function() {
-await Promise.resolve(console.log('Hello await')); // Hello await
-}());
+(async function () {
+  await Promise.resolve(console.log("Hello await")); // Hello await
+})();
 ```
 
 In ES2022, you can write top-level await without writing any hacks.
 
 ```javascript
-await Promise.resolve(console.log('Hello await')); //Hello await
+await Promise.resolve(console.log("Hello await")); //Hello await
 ```
 
 #### Chapter 2 - Coding Exercises
