@@ -3816,7 +3816,9 @@ with (a.b.c) {
 But this `with` statement creates performance problems since one cannot predict whether an argument will refer to a real variable or to a property inside the with argument.
 
 Q:: What is the output of below for loops  
-A:: ```javascript  
+A:: -
+
+```javascript  
 for (var i = 0; i < 4; i++) {  
 // global scope  
 setTimeout(() => console.log(i));  
@@ -3825,35 +3827,36 @@ for (let i = 0; i < 4; i++) {
 // block scope  
 setTimeout(() => console.log(i));  
 }
+```
 
-````
 The output of the above for loops is 4 4 4 4 and 0 1 2 3
 **Explanation:** Due to the event queue/loop of javascript, the `setTimeout` callback function is called after the loop has been executed. Since the variable i is declared with the `var` keyword it became a global variable and the value was equal to 4 using iteration when the time `setTimeout` function is invoked. Hence, the output of the first loop is `4 4 4 4`.
 Whereas in the second loop, the variable i is declared as the `let` keyword it becomes a block scoped variable and it holds a new value(0, 1 ,2 3) for each iteration. Hence, the output of the first loop is `0 1 2 3`.
 
-Q:: List down some of the features of ES6
-A:: Below are the list of some new features of ES6,
-1. Support for constants or immutable variables
-2. Block-scope support for variables, constants and functions
-3. Arrow functions
-4. Default parameters
-5. Rest and Spread Parameters
-6. Template Literals
-7. Multi-line Strings
-8. Destructuring Assignment
-9. Enhanced Object Literals
-10. Promises
-11. Classes
+Q:: List down some of the features of ES6  
+A:: Below are the list of some new features of ES6,  
+1. Support for constants or immutable variables  
+2. Block-scope support for variables, constants and functions  
+3. Arrow functions  
+4. Default parameters  
+5. Rest and Spread Parameters  
+6. Template Literals  
+7. Multi-line Strings  
+8. Destructuring Assignment  
+9. Enhanced Object Literals  
+10. Promises  
+11. Classes  
 12. Modules
 
-Q:: What is ES6
+Q:: What is ES6  
 A:: ES6 is the sixth edition of the javascript language and it was released in June 2015. It was initially known as ECMAScript 6 (ES6) and later renamed to ECMAScript 2015. Almost all the modern browsers support ES6 but for the old browsers there are many transpilers, like Babel.js etc.
 
-Q:: Can I redeclare let and const variables
+Q:: Can I redeclare let and const variables  
 A:: No, you cannot redeclare let and const variables. If you do, it throws below error
+
 ```bash
 Uncaught SyntaxError: Identifier 'someVariable' has already been declared
-````
+```
 
 **Explanation:** The variable declaration with `var` keyword refers to a function scope and the variable is treated as if it were declared at the top of the enclosing scope due to hoisting feature. So all the multiple declarations contributing to the same hoisted variable without any error. Let's take an example of re-declaring variables in the same scope for both var and let/const variables.
 
@@ -4175,21 +4178,24 @@ for (let value of arrayIterable) {
 ```
 
 Q:: What is the output of below spread operator array  
-A:: ```javascript  
-[..."John Resig"];
+A:: -
 
-````
+```javascript  
+[..."John Resig"];
+```
+
 The output of the array is ['J', 'o', 'h', 'n', '', 'R', 'e', 's', 'i', 'g']
 **Explanation:** The string is an iterable type and the spread operator within an array maps every character of an iterable to one element. Hence, each character of a string becomes an element within an Array.
 
-Q:: Is PostMessage secure
+Q:: Is PostMessage secure  
 A:: Yes, postMessages can be considered very secure as long as the programmer/developer is careful about checking the origin and source of an arriving message. But if you try to send/receive a message without verifying its source will create cross-site scripting attacks.
 
-Q:: What are the problems with postmessage target origin as wildcard
+Q:: What are the problems with postmessage target origin as wildcard  
 A:: The second argument of postMessage method specifies which origin is allowed to receive the message. If you use the wildcard “\*” as an argument then any origin is allowed to receive the message. In this case, there is no way for the sender window to know if the target window is at the target origin when sending the message. If the target window has been navigated to another origin, the other origin would receive the data. Hence, this may lead to XSS vulnerabilities.
+
 ```javascript
 targetWindow.postMessage(message, "*");
-````
+```
 
 Q:: How do you avoid receiving postMessages from attackers  
 A:: Since the listener listens for any message, an attacker can trick the application by sending a message from the attacker’s origin, which gives an impression that the receiver received the message from the actual sender’s window. You can avoid this issue by validating the origin of the message on the receiver's end using the “message.origin” attribute. For examples, let's check the sender's origin [http://www.some-sender.com](http://www.some-sender.com) on receiver side [www.some-receiver.com](www.some-receiver.com),
@@ -4263,18 +4269,21 @@ let view = new DataView(buffer);
 ```
 
 Q:: What is the output of below string expression  
-A:: ```javascript  
-console.log("Welcome to JS world"[0]);
+A:: -
 
-````
+```javascript  
+console.log("Welcome to JS world"[0]);
+```
+
 The output of the above expression is "W".
 **Explanation:** The bracket notation with specific index on a string returns the character at a specific location. Hence, it returns the character "W" of the string. Since this is not supported in IE7 and below versions, you may need to use the .charAt() method to get the desired result.
 
-Q:: What is the purpose of Error object
+Q:: What is the purpose of Error object  
 A:: The Error constructor creates an error object and the instances of error objects are thrown when runtime errors occur. The Error object can also be used as a base object for user-defined exceptions. The syntax of error object would be as below,
+
 ```javascript
 new Error([message[, fileName[, lineNumber]]])
-````
+```
 
 You can throw user defined exceptions or errors using Error object in try...catch block as below,
 
