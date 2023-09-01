@@ -6072,9 +6072,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna
 
-FILE TAGS: Javascript Interview
-
-Tags:
+FILE TAGS: #Javascript #Interview
 
 Reference:
 
