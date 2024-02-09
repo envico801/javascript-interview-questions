@@ -1,12 +1,19 @@
-Q: What is the difference between let and var  
-A: You can list out the differences in a tabular format
+==================== Question ====================  
 
-| var                                                   | let                         |
-| ----------------------------------------------------- | --------------------------- |
-| It is been available from the beginning of JavaScript | Introduced as part of ES6   |
-| It has function scope                                 | It has block scope          |
-| Variables will be hoisted                             | Hoisted but not initialized |
+### What is the difference between let and var  
+
+==================== Answer ====================  
+
+You can list out the differences in a tabular format
+
+| var                                                    | let                         |
+| ------------------------------------------------------ | --------------------------- |
+| It has been available from the beginning of JavaScript | Introduced as part of ES6   |
+| It has function scope                                  | It has block scope          |
+| Variables will be hoisted                              | Hoisted but not initialized |
+
 Let's take an example to see the difference,
+
 ```javascript
 function userDetails(username) {
   if (username) {
@@ -18,17 +25,18 @@ function userDetails(username) {
   console.log(salary); //10000 (accessible due to function scope)
   console.log(age); //error: age is not defined(due to block scope)
 }
-userDetails("John");
+userDetails('John');
 ```
-<!--ID: 1693596722001-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#18-What-is-the-difference-between-let-and-var
 
 Reference:
 

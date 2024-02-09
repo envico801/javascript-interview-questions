@@ -1,14 +1,21 @@
-Q: Do all objects have prototypes  
-A: No. All objects have prototypes except for the base object which is created by the user, or an object that is created using the new keyword.
-<!--ID: 1693596691574-->
+==================== Question ====================  
+
+### Do all objects have prototypes  
+
+==================== Answer ====================  
+
+No. All objects have prototypes except for the base object which is created by
+the user, or an object that is created using the new keyword.
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#341-Do-all-objects-have-prototypes
 
 Reference:
 

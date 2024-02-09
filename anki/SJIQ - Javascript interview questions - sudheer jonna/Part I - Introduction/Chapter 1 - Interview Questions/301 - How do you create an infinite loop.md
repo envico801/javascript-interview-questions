@@ -1,18 +1,27 @@
-Q: How do you create an infinite loop  
-A: You can create infinite loops using for and while loops without using any expressions. The for loop construct or syntax is better approach in terms of ESLint and code optimizer tools,
+==================== Question ====================  
+
+### How do you create an infinite loop  
+
+==================== Answer ====================  
+
+You can create infinite loops using for and while loops without using any
+expressions. The for loop construct or syntax is better approach in terms of
+ESLint and code optimizer tools,
+
 ```javascript
 for (;;) {}
 while (true) {}
 ```
-<!--ID: 1693596695299-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#301-How-do-you-create-an-infinite-loop
 
 Reference:
 

@@ -1,21 +1,30 @@
-Q: What is an error object  
-A: An error object is a built in error object that provides error information when an error occurs. It has two properties: name and message. For example, the below function logs error details,
+==================== Question ====================  
+
+### What is an error object  
+
+==================== Answer ====================  
+
+An error object is a built in error object that provides error information when
+an error occurs. It has two properties: name and message. For example, the below
+function logs error details,
+
 ```javascript
 try {
-  greeting("Welcome");
+  greeting('Welcome');
 } catch (err) {
-  console.log(err.name + "<br>" + err.message);
+  console.log(err.name + '<br>' + err.message);
 }
 ```
-<!--ID: 1693596702574-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#226-What-is-an-error-object
 
 Reference:
 

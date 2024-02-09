@@ -1,5 +1,13 @@
-Q: What is Function Composition?  
-A: It is an approach where the result of one function is passed on to the next function, which is passed to another until the final function is executed for the final result.
+==================== Question ====================  
+
+### What is Function Composition  
+
+==================== Answer ====================  
+
+It is an approach where the result of one function is passed on to the next
+function, which is passed to another until the final function is executed for
+the final result.
+
 ```javascript
 //example
 const double = (x) => x * 2;
@@ -10,15 +18,16 @@ console.log(output2);
 var output_final = square(double(2));
 console.log(output_final);
 ```
-<!--ID: 1693596681243-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#447-What-is-function-composition
 
 Reference:
 

@@ -1,19 +1,28 @@
-Q: What is an enum  
-A: An enum is a type restricting variables to one value from a predefined set of constants. JavaScript has no enums but typescript provides built-in enum support.
+==================== Question ====================  
+
+### What is an enum  
+
+==================== Answer ====================  
+
+An enum is a type restricting variables to one value from a predefined set of
+constants. JavaScript has no enums but typescript provides built-in enum
+support.
+
 ```javascript
-enum Color {
-RED, GREEN, BLUE
-}
+     enum Color {
+      RED, GREEN, BLUE
+     }
 ```
-<!--ID: 1693596697658-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#279-What-is-an-enum
 
 Reference:
 

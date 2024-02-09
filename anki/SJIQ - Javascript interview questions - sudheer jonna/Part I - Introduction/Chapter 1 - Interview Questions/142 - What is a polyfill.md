@@ -1,14 +1,23 @@
-Q: What is a polyfill  
-A: A polyfill is a piece of JS code used to provide modern functionality on older browsers that do not natively support it. For example, Silverlight plugin polyfill can be used to mimic the functionality of an HTML Canvas element on Microsoft Internet Explorer 7.
-<!--ID: 1693596710798-->
+==================== Question ====================  
+
+### What is a polyfill  
+
+==================== Answer ====================  
+
+A polyfill is a piece of JS code used to provide modern functionality on older
+browsers that do not natively support it. For example, Silverlight plugin
+polyfill can be used to mimic the functionality of an HTML Canvas element on
+Microsoft Internet Explorer 7.
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#142-What-is-a-polyfill
 
 Reference:
 

@@ -1,5 +1,12 @@
-Q: How do you detect a mobile browser  
-A: You can use regex which returns a true or false value depending on whether or not the user is browsing with a mobile.
+==================== Question ====================  
+
+### How do you detect a mobile browser  
+
+==================== Answer ====================  
+
+You can use regex which returns a true or false value depending on whether or
+not the user is browsing with a mobile.
+
 ```javascript
 window.mobilecheck = function () {
   var mobileCheck = false;
@@ -17,15 +24,16 @@ window.mobilecheck = function () {
   return mobileCheck;
 };
 ```
-<!--ID: 1693596708464-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#166-How-do-you-detect-a-mobile-browser
 
 Reference:
 

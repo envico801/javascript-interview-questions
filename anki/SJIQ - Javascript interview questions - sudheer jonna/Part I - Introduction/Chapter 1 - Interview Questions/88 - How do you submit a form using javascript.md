@@ -1,19 +1,27 @@
-Q: How do you submit a form using JavaScript  
-A: You can submit a form using `document.forms[0].submit()`. All the form input's information is submitted using onsubmit event handler
+==================== Question ====================  
+
+### How do you submit a form using JavaScript  
+
+==================== Answer ====================  
+
+You can submit a form using `document.forms[0].submit()`. All the form input's
+information is submitted using onsubmit event handler
+
 ```javascript
 function submit() {
   document.forms[0].submit();
 }
 ```
-<!--ID: 1693596715091-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#88-How-do-you-submit-a-form-using-javascript
 
 Reference:
 

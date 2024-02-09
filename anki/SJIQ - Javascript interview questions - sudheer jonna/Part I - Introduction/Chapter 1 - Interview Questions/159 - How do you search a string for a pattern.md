@@ -1,18 +1,26 @@
-Q: How do you search a string for a pattern  
-A: You can use the test() method of regular expression in order to search a string for a pattern, and return true or false depending on the result.
+==================== Question ====================  
+
+### How do you search a string for a pattern  
+
+==================== Answer ====================  
+
+You can use the test() method of regular expression in order to search a string
+for a pattern, and return true or false depending on the result.
+
 ```javascript
 var pattern = /you/;
-console.log(pattern.test("How are you?")); //true
+console.log(pattern.test('How are you?')); //true
 ```
-<!--ID: 1693596709182-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#159-How-do-you-search-a-string-for-a-pattern
 
 Reference:
 

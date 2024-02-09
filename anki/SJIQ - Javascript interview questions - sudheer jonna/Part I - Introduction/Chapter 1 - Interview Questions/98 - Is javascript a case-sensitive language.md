@@ -1,14 +1,22 @@
-Q: Is JavaScript a case-sensitive language  
-A: Yes, JavaScript is a case sensitive language. The language keywords, variables, function & object names, and any other identifiers must always be typed with a consistent capitalization of letters.
-<!--ID: 1693596713918-->
+==================== Question ====================  
+
+### Is JavaScript a case-sensitive language  
+
+==================== Answer ====================  
+
+Yes, JavaScript is a case sensitive language. The language keywords, variables,
+function & object names, and any other identifiers must always be typed with a
+consistent capitalization of letters.
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#98-Is-javascript-a-case-sensitive-language
 
 Reference:
 

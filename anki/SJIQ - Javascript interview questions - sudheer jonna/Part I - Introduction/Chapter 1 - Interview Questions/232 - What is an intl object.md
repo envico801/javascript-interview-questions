@@ -1,14 +1,23 @@
-Q: What is an Intl object  
-A: The Intl object is the namespace for the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, and date and time formatting. It provides access to several constructors and language sensitive functions.
-<!--ID: 1693596702050-->
+==================== Question ====================  
+
+### What is an Intl object  
+
+==================== Answer ====================  
+
+The Intl object is the namespace for the ECMAScript Internationalization API,
+which provides language sensitive string comparison, number formatting, and date
+and time formatting. It provides access to several constructors and language
+sensitive functions.
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#232-What-is-an-intl-object
 
 Reference:
 

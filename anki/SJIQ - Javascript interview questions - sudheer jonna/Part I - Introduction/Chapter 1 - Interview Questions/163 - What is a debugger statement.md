@@ -1,7 +1,16 @@
-Q: What is a debugger statement  
-A: The debugger statement invokes any available debugging functionality, such as setting a breakpoint. If no debugging functionality is available, this statement has no effect.  
+==================== Question ====================  
+
+### What is a debugger statement  
+
+==================== Answer ====================  
+
+The debugger statement invokes any available debugging functionality, such as
+setting a breakpoint. If no debugging functionality is available, this statement
+has no effect.  
 For example, in the below function a debugger statement has been inserted. So  
-execution is paused at the debugger statement just like a breakpoint in the script source.
+execution is paused at the debugger statement just like a breakpoint in the
+script source.
+
 ```javascript
 function getProfile() {
   // code goes here
@@ -9,15 +18,16 @@ function getProfile() {
   // code goes here
 }
 ```
-<!--ID: 1693596708762-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#163-What-is-a-debugger-statement
 
 Reference:
 

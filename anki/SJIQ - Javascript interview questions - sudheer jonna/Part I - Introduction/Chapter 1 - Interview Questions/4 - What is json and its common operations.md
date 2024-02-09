@@ -1,22 +1,35 @@
-Q: What is JSON and its common operations  
-A: **JSON** is a text-based data format following JavaScript object syntax, which was popularized by `Douglas Crockford`. It is useful when you want to transmit data across a network and it is basically just a text file with an extension of .json, and a MIME type of application/json  
+==================== Question ====================  
+
+### What is JSON and its common operations  
+
+==================== Answer ====================  
+
+**JSON** is a text-based data format following JavaScript object syntax, which
+was popularized by `Douglas Crockford`. It is useful when you want to transmit
+data across a network. It is basically just a text file with an extension of
+.json, and a MIME type of application/json  
 **Parsing:** Converting a string to a native object
+
 ```javascript
 JSON.parse(text);
 ```
-**Stringification:** converting a native object to a string so it can be transmitted across the network
+
+**Stringification:** Converting a native object to a string so that it can be
+transmitted across the network
+
 ```javascript
 JSON.stringify(object);
 ```
-<!--ID: 1693596719783-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#4-What-is-json-and-its-common-operations
 
 Reference:
 

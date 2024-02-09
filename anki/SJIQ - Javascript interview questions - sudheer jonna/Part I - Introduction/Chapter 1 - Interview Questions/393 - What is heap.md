@@ -1,16 +1,26 @@
-Q: What is heap  
-A: Heap(Or memory heap) is the memory location where objects are stored when we define variables. i.e, This is the place where all the memory allocations and de-allocation take place. Both heap and call-stack are two containers of JS runtime.  
-Whenever runtime comes across variables and function declarations in the code it stores them in the Heap.  
+==================== Question ====================  
+
+### What is heap  
+
+==================== Answer ====================  
+
+Heap(Or memory heap) is the memory location where objects are stored when we
+define variables. i.e, This is the place where all the memory allocations and
+de-allocation take place. Both heap and call-stack are two containers of JS
+runtime.  
+Whenever runtime comes across variables and function declarations in the code it
+stores them in the Heap.  
 ![heap](../../../../images/heap.png)
-<!--ID: 1693596686497-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#393-What-is-heap
 
 Reference:
 

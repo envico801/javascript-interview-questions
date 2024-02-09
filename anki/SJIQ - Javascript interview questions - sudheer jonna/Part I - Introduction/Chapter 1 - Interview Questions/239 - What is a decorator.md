@@ -1,29 +1,39 @@
-Q: What is a decorator  
-A: A decorator is an expression that evaluates to a function and that takes the target, name, and decorator descriptor as arguments. Also, it optionally returns a decorator descriptor to install on the target object. Let's define admin decorator for user class at design time,
+==================== Question ====================  
+
+### What is a decorator  
+
+==================== Answer ====================  
+
+A decorator is an expression that evaluates to a function and that takes the
+target, name, and decorator descriptor as arguments. Also, it optionally returns
+a decorator descriptor to install on the target object. Let's define admin
+decorator for user class at design time,
+
 ```javascript
-function admin(isAdmin) {
-return function(target) {
-target.isAdmin = isAdmin;
-}
-}
-@admin(true)
-class User() {
-}
-console.log(User.isAdmin); //true
-@admin(false)
-class User() {
-}
-console.log(User.isAdmin); //false
+     function admin(isAdmin) {
+        return function(target) {
+            target.isAdmin = isAdmin;
+        }
+     }
+     @admin(true)
+     class User() {
+     }
+     console.log(User.isAdmin); //true
+      @admin(false)
+      class User() {
+      }
+      console.log(User.isAdmin); //false
 ```
-<!--ID: 1693596701436-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#239-What-is-a-decorator
 
 Reference:
 

@@ -1,6 +1,13 @@
-Q: What are the different kinds of generators  
-A: There are five kinds of generators,
+==================== Question ====================  
+
+### What are the different kinds of generators  
+
+==================== Answer ====================  
+
+There are five kinds of generators,
+
 1. **Generator function declaration:**
+
 ```javascript
 function* myGenFunc() {
   yield 1;
@@ -9,7 +16,9 @@ function* myGenFunc() {
 }
 const genObj = myGenFunc();
 ```
+
 2. **Generator function expressions:**
+
 ```javascript
 const myGenFunc = function* () {
   yield 1;
@@ -18,7 +27,9 @@ const myGenFunc = function* () {
 };
 const genObj = myGenFunc();
 ```
+
 3. **Generator method definitions in object literals:**
+
 ```javascript
 const myObj = {
   *myGeneratorMethod() {
@@ -29,7 +40,9 @@ const myObj = {
 };
 const genObj = myObj.myGeneratorMethod();
 ```
+
 4. **Generator method definitions in class:**
+
 ```javascript
 class MyClass {
   *myGeneratorMethod() {
@@ -41,7 +54,9 @@ class MyClass {
 const myObject = new MyClass();
 const genObj = myObject.myGeneratorMethod();
 ```
+
 5. **Generator as a computed property:**
+
 ```javascript
 const SomeObj = {
   *[Symbol.iterator]() {
@@ -52,15 +67,16 @@ const SomeObj = {
 };
 console.log(Array.from(SomeObj)); // [ 1, 2, 3 ]
 ```
-<!--ID: 1693596684337-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
+sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS:
+#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#416-What-are-the-different-kinds-of-generators
 
 Reference:
 
