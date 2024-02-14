@@ -2,3 +2,9 @@
 .DS_Store
 npm-debug.log
 .idea
+
+# Dependency directories
+node_modules/
+
+# Misc
+package-lock.json
