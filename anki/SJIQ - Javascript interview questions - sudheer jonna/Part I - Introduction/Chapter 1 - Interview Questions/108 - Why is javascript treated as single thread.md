@@ -9,15 +9,17 @@ does not allow the programmer to write code so that the interpreter can run
 parts of it in parallel in multiple threads or processes. Whereas languages like
 java, go, C++ can make multi-threaded and multi-process programs.
 
+==================== Id ====================  
+108
+<!--ID: 1707879880208-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#108-Why-is-javascript-treated-as-single-thread
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#108-Why-is-javascript-treated-as-single-thread
 
 Reference:
 
@@ -27,5 +29,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

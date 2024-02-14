@@ -24,22 +24,23 @@ console.log(message);
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 Each context(global or functional) has it's own variable environment and the
 callstack of variables in a LIFO order. So you can see the message variable
 value from second, first functions in an order followed by global context
 message variable value at the end.
 
+==================== Id ====================  
+518
+<!--ID: 1707879793772-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#518-What-is-the-output-of-below-code-in-an-ord
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#518-What-is-the-output-of-below-code-in-an-ord
 
 Reference:
 
@@ -49,5 +50,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -24,15 +24,17 @@ console.log(name); // John
 console.log(age); // 32
 ```
 
+==================== Id ====================  
+314
+<!--ID: 1707879809170-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#314-What-is-destructuring-assignment
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#314-What-is-destructuring-assignment
 
 Reference:
 
@@ -42,5 +44,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

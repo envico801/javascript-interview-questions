@@ -14,15 +14,17 @@ function capitalizeFirstLetter(string) {
 }
 ```
 
+==================== Id ====================  
+129
+<!--ID: 1707879839030-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#129-How-do-you-make-first-letter-of-the-string
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#129-How-do-you-make-first-letter-of-the-string
 
 Reference:
 
@@ -32,5 +34,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

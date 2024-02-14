@@ -30,15 +30,17 @@ function traceValue(someParam) {
 }
 ```
 
+==================== Id ====================  
+174
+<!--ID: 1707879834925-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#174-Can-you-apply-chaining-on-conditional-oper
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#174-Can-you-apply-chaining-on-conditional-oper
 
 Reference:
 
@@ -48,5 +50,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -15,15 +15,17 @@ console.log(element);
 It prints the HTML element in the console,  
 ![console-html](../../../../images/console-html.png)
 
+==================== Id ====================  
+371
+<!--ID: 1707879821611-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#371-Is-it-possible-to-debug-html-elements-in-c
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#371-Is-it-possible-to-debug-html-elements-in-c
 
 Reference:
 
@@ -33,5 +35,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

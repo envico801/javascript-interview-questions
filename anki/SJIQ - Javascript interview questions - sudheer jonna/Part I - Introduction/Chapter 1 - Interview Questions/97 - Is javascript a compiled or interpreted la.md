@@ -10,15 +10,17 @@ it. Nowadays modern browsers use a technology known as Just-In-Time (JIT)
 compilation, which compiles JavaScript to executable bytecode just as it is
 about to run.
 
+==================== Id ====================  
+97
+<!--ID: 1707879882931-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#97-Is-javascript-a-compiled-or-interpreted-la
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#97-Is-javascript-a-compiled-or-interpreted-la
 
 Reference:
 
@@ -28,5 +30,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

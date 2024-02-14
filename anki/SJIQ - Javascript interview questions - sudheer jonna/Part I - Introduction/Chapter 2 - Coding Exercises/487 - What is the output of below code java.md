@@ -19,8 +19,7 @@ checkType(null);
 
 ==================== Answer ====================  
 
-##### Answer: 3
-
+Answer: 3  
 If the function argument is set implicitly(not passing argument) or explicitly
 to undefined, the value of the argument is the default parameter. Whereas for
 other falsy values('' or null), the value of the argument is passed as a
@@ -31,15 +30,17 @@ Hence, the result of function calls categorized as below,
    is number
 2. The type of '' and null values are string and object type respectively.
 
+==================== Id ====================  
+487
+<!--ID: 1707879797566-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#487-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#487-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -49,5 +50,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

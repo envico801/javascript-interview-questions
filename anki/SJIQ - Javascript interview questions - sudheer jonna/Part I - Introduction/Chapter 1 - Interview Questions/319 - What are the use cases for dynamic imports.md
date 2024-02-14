@@ -25,15 +25,17 @@ Below are some of the use cases of using dynamic imports over static imports,
 
 1. Import a module from within a regular script instead a module.
 
+==================== Id ====================  
+319
+<!--ID: 1707879817493-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#319-What-are-the-use-cases-for-dynamic-imports
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#319-What-are-the-use-cases-for-dynamic-imports
 
 Reference:
 
@@ -43,5 +45,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

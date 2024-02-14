@@ -29,15 +29,17 @@ Since for..in loop iterates over the keys of the object, the first loop logs 0,
 iterates over the values of a arr data structure and logs a, b, c in the
 console.
 
+==================== Id ====================  
+418
+<!--ID: 1707879819377-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#418-What-are-the-differences-between-for-of
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#418-What-are-the-differences-between-for-of
 
 Reference:
 
@@ -47,5 +49,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

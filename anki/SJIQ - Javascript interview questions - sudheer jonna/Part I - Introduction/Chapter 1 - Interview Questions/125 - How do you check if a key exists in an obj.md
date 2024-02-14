@@ -38,15 +38,17 @@ console.log(user.name !== undefined); // true
 console.log(user.nickName !== undefined); // false
 ```
 
+==================== Id ====================  
+125
+<!--ID: 1707879803616-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#125-How-do-you-check-if-a-key-exists-in-an-obj
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#125-How-do-you-check-if-a-key-exists-in-an-obj
 
 Reference:
 
@@ -56,5 +58,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

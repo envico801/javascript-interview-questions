@@ -14,15 +14,17 @@ var odd = (element) => element % 2 !== 0;
 console.log(array.some(odd)); // true (the odd element exists)
 ```
 
+==================== Id ====================  
+343
+<!--ID: 1707879824413-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#343-What-is-the-purpose-of-some-method-in-arra
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#343-What-is-the-purpose-of-some-method-in-arra
 
 Reference:
 
@@ -32,5 +34,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

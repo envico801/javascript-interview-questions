@@ -12,15 +12,17 @@ operators one after the other,
    At first, the value decremented by one and then tested to see if it is equal
    to zero or not for determining the truthy/falsy value.
 
+==================== Id ====================  
+136
+<!--ID: 1707879877367-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#136-Is-the--notation-represents-a-special-o
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#136-Is-the--notation-represents-a-special-o
 
 Reference:
 
@@ -30,5 +32,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

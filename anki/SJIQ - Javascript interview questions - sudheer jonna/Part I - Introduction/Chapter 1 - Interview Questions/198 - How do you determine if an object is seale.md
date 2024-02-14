@@ -20,15 +20,17 @@ Object.seal(object); // Using seal() method to seal the object
 console.log(Object.isSealed(object)); // checking whether the object is sealed or not
 ```
 
+==================== Id ====================  
+198
+<!--ID: 1707879833497-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#198-How-do-you-determine-if-an-object-is-seale
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#198-How-do-you-determine-if-an-object-is-seale
 
 Reference:
 
@@ -38,5 +40,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

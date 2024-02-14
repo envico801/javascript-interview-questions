@@ -12,15 +12,17 @@ For example, you can use freeze or seal on object,
      var DaysEnum = Object.freeze({"monday":1, "tuesday":2, "wednesday":3, ...})
 ```
 
+==================== Id ====================  
+278
+<!--ID: 1707879849490-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#278-Is-enums-feature-available-in-javascript
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#278-Is-enums-feature-available-in-javascript
 
 Reference:
 
@@ -30,5 +32,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

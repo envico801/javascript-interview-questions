@@ -20,8 +20,7 @@ let count = 10;
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 11 and 10 is logged to the console.  
 The innerFunc is a closure which captures the count variable from the
 outerscope. i.e, 10. But the conditional has another local variable `count`
@@ -30,15 +29,17 @@ value 11.
 Whereas the second console.log logs 10 by capturing the count variable from
 outerscope.
 
+==================== Id ====================  
+505
+<!--ID: 1707879794535-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#505-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#505-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -48,5 +49,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

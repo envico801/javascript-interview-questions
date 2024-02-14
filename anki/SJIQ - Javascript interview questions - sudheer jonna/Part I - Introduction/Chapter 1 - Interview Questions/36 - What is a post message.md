@@ -10,15 +10,17 @@ an iframe embedded within it). Generally, scripts on different pages are allowed
 to access each other if and only if the pages follow same-origin policy(i.e,
 pages share the same protocol, port number, and host).
 
+==================== Id ====================  
+36
+<!--ID: 1707879889786-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#36-What-is-a-post-message
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#36-What-is-a-post-message
 
 Reference:
 
@@ -28,5 +30,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

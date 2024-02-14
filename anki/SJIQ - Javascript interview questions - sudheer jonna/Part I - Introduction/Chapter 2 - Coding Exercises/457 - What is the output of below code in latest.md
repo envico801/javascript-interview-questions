@@ -19,22 +19,23 @@ console.log(array3);
 
 ==================== Answer ====================  
 
-##### Answer: 2
-
+Answer: 2  
 The latest chrome versions display `sparse array`(they are filled with holes)
 using this empty x n notation. Whereas the older versions have undefined x n
 notation.  
 **Note:** The latest version of FF displays `n empty slots` notation.
 
+==================== Id ====================  
+457
+<!--ID: 1707879800789-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#457-What-is-the-output-of-below-code-in-latest
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#457-What-is-the-output-of-below-code-in-latest
 
 Reference:
 
@@ -44,5 +45,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -80,15 +80,17 @@ console.log(originalArray); // [1, 2, 3, 4, 5]
 console.log(newArray); // [ 5, 4, 3, 2, 1]
 ```
 
+==================== Id ====================  
+430
+<!--ID: 1707879802560-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#430-How-do-you-reverse-an-array-without-modify
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#430-How-do-you-reverse-an-array-without-modify
 
 Reference:
 
@@ -98,5 +100,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

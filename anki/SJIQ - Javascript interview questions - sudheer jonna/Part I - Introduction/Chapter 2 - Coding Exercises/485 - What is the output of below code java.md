@@ -16,8 +16,7 @@ area();
 
 ==================== Answer ====================  
 
-##### Answer: 2
-
+Answer: 2  
 If you leave out the right-hand side assignment for the destructuring object,
 the function will look for at least one argument to be supplied when invoked.
 Otherwise you will receive an error
@@ -42,15 +41,17 @@ function area({ length = 10, width = 20 } = {}) {
 area();
 ```
 
+==================== Id ====================  
+485
+<!--ID: 1707879784504-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#485-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#485-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -60,5 +61,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

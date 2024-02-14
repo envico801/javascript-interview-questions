@@ -20,15 +20,17 @@ document.cookie = 'username=John; expires=Sat, 8 Jun 2019 12:00:00 UTC';
 document.cookie = 'username=John; path=/services';
 ```
 
+==================== Id ====================  
+39
+<!--ID: 1707879814709-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#39-What-are-the-options-in-a-cookie
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#39-What-are-the-options-in-a-cookie
 
 Reference:
 
@@ -38,5 +40,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

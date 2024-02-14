@@ -14,15 +14,17 @@ various printing options. Let's see the usage of print method in an example,
 
 **Note:** In most browsers, it will block while the print dialog is open.
 
+==================== Id ====================  
+212
+<!--ID: 1707879854615-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#212-How-do-you-print-the-contents-of-web-page
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#212-How-do-you-print-the-contents-of-web-page
 
 Reference:
 
@@ -32,5 +34,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

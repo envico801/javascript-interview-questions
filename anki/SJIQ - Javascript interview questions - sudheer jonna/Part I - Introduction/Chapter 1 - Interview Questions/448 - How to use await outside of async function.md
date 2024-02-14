@@ -26,15 +26,17 @@ In ES2022, you can write top-level await without writing any hacks.
 await Promise.resolve(console.log('Hello await')); //Hello await
 ```
 
+==================== Id ====================  
+448
+<!--ID: 1707879803760-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#448-How-to-use-await-outside-of-async-function
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#448-How-to-use-await-outside-of-async-function
 
 Reference:
 
@@ -44,5 +46,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

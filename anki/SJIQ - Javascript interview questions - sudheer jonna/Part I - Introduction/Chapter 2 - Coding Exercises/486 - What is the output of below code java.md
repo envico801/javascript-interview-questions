@@ -19,21 +19,22 @@ console.log(name);
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 It is possible to combine Array and Object destructuring. In this case, the
 third element in the array props accessed first followed by name property in the
 object.
+
+==================== Id ====================  
+486
+<!--ID: 1707879797753-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#486-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#486-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -43,5 +44,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

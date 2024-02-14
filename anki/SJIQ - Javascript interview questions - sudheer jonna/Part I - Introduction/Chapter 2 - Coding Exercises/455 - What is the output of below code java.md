@@ -19,8 +19,7 @@ console.log(foo());
 
 ==================== Answer ====================  
 
-##### Answer: 3
-
+Answer: 3  
 This is a semicolon issue. Normally semicolons are optional in JavaScript. So if
 there are any statements(in this case, return) missing semicolon, it is
 automatically inserted immediately. Hence, the function returned as undefined.  
@@ -36,15 +35,17 @@ function foo() {
 console.log(foo()); // {message: "Hello World"}
 ```
 
+==================== Id ====================  
+455
+<!--ID: 1707879789520-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#455-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#455-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -54,5 +55,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -28,15 +28,17 @@ console.groupEnd();
 You can also use `console.groupCollapsed()` instead of `console.group()` if you
 want the groups to be collapsed by default.
 
+==================== Id ====================  
+426
+<!--ID: 1707879818938-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#426-How-do-you-group-and-nest-console-output
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#426-How-do-you-group-and-nest-console-output
 
 Reference:
 
@@ -46,5 +48,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

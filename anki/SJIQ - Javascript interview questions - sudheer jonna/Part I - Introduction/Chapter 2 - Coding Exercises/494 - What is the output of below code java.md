@@ -25,22 +25,23 @@ console.log(myGenObj.next());
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 A return statement in a generator function will make the generator finish. If a
 value is returned, it will be set as the value property of the object and done
 property to true. When a generator is finished, subsequent next() calls return
 an object of this form: `{value: undefined, done: true}`.
 
+==================== Id ====================  
+494
+<!--ID: 1707879796276-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#494-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#494-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -50,5 +51,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

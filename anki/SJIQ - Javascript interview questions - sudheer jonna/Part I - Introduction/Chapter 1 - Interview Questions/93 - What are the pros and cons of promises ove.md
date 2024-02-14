@@ -16,15 +16,17 @@ Below are the list of pros and cons of promises over callbacks,
 5. It makes little complex code
 6. You need to load a polyfill if ES6 is not supported
 
+==================== Id ====================  
+93
+<!--ID: 1707879864425-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#93-What-are-the-pros-and-cons-of-promises-ove
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#93-What-are-the-pros-and-cons-of-promises-ove
 
 Reference:
 
@@ -34,5 +36,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

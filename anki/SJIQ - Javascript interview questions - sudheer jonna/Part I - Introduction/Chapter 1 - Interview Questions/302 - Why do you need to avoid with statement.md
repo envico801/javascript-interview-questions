@@ -28,15 +28,17 @@ But this `with` statement creates performance problems since one cannot predict
 whether an argument will refer to a real variable or to a property inside the
 with argument.
 
+==================== Id ====================  
+302
+<!--ID: 1707879810553-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#302-Why-do-you-need-to-avoid-with-statement
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#302-Why-do-you-need-to-avoid-with-statement
 
 Reference:
 
@@ -46,5 +48,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -59,15 +59,17 @@ or a comma separated list of arguments. You can remember by treating Call is for
 Bind creates a new function that will have `this` set to the first parameter
 passed to bind().
 
+==================== Id ====================  
+3
+<!--ID: 1707879805056-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#3-What-is-the-difference-between-call-apply
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#3-What-is-the-difference-between-call-apply
 
 Reference:
 
@@ -77,5 +79,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

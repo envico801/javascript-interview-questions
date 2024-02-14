@@ -23,23 +23,24 @@ class Square {
 
 ==================== Answer ====================  
 
-##### Answer: 2
-
+Answer: 2  
 Unlike function declarations, class declarations are not hoisted. i.e, First You
 need to declare your class and then access it, otherwise it will throw a
 ReferenceError "Uncaught ReferenceError: Square is not defined".  
 **Note:** Class expressions also applies to the same hoisting restrictions of
 class declarations.
 
+==================== Id ====================  
+497
+<!--ID: 1707879795936-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#497-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#497-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -49,5 +50,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

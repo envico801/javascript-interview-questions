@@ -36,15 +36,17 @@ function and then trying to call the result of the first function call as a
 function. Hence, the second function will fail with a "... is not a function"
 error at runtime.
 
+==================== Id ====================  
+177
+<!--ID: 1707879812778-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#177-Give-an-example-where-do-you-really-need-s
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#177-Give-an-example-where-do-you-really-need-s
 
 Reference:
 
@@ -54,5 +56,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

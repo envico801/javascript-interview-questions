@@ -17,15 +17,17 @@ const user = {
 console.log(Object.keys(user)); //['name', 'gender', 'age']
 ```
 
+==================== Id ====================  
+201
+<!--ID: 1707879832989-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#201-How-can-you-get-the-list-of-keys-of-any-ob
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#201-How-can-you-get-the-list-of-keys-of-any-ob
 
 Reference:
 
@@ -35,5 +37,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

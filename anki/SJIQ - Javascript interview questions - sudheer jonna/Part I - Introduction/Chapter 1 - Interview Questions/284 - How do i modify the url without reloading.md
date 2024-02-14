@@ -13,15 +13,17 @@ entries, respectively. For example, you can use pushState as below,
 window.history.pushState('page2', 'Title', '/page2.html');
 ```
 
+==================== Id ====================  
+284
+<!--ID: 1707879828180-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#284-How-do-i-modify-the-url-without-reloading
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#284-How-do-i-modify-the-url-without-reloading
 
 Reference:
 
@@ -31,5 +33,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

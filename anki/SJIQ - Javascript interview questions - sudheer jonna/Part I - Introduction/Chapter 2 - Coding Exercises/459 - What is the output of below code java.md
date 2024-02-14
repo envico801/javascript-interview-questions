@@ -14,8 +14,7 @@ console.log(3 > 2 > 1);
 
 ==================== Answer ====================  
 
-##### Answer: 2
-
+Answer: 2  
 The important point is that if the statement contains the same operators(e.g, <
 or >) then it can be evaluated from left to right.  
 The first statement follows the below order,
@@ -30,15 +29,17 @@ The first statement follows the below order,
 7. console.log(1 > 1); // False converted as `0` during comparison
 8. False
 
+==================== Id ====================  
+459
+<!--ID: 1707879800438-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#459-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#459-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -48,5 +49,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

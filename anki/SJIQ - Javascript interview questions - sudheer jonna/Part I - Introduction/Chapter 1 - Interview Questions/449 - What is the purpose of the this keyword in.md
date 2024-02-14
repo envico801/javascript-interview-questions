@@ -54,15 +54,17 @@ document.getElementById('myButton').addEventListener('click', function () {
 - In an event handler, this refers to the element that triggered the event (the
   button in this case).
 
+==================== Id ====================  
+449
+<!--ID: 1707879803351-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#449-What-is-the-purpose-of-the-this-keyword-in
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#449-What-is-the-purpose-of-the-this-keyword-in
 
 Reference:
 
@@ -72,5 +74,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

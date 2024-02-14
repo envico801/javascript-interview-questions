@@ -14,8 +14,7 @@ console.log(a, b);
 
 ==================== Answer ====================  
 
-##### Answer: 3
-
+Answer: 3  
 When using rest parameters, trailing commas are not allowed and will throw a
 SyntaxError.  
 If you remove the trailing comma then it displays 1st answer
@@ -25,15 +24,17 @@ let [a, ...b] = [1, 2, 3, 4, 5];
 console.log(a, b); // 1, [2, 3, 4, 5]
 ```
 
+==================== Id ====================  
+472
+<!--ID: 1707879788357-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#472-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#472-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -43,5 +44,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

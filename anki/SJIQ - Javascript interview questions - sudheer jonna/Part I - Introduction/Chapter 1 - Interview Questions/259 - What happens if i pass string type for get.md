@@ -14,15 +14,17 @@ Object.getPrototypeOf('James'); // TypeError: "James" is not an object
 Object.getPrototypeOf('James'); // String.prototype
 ```
 
+==================== Id ====================  
+259
+<!--ID: 1707879829231-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#259-What-happens-if-i-pass-string-type-for-get
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#259-What-happens-if-i-pass-string-type-for-get
 
 Reference:
 
@@ -32,5 +34,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

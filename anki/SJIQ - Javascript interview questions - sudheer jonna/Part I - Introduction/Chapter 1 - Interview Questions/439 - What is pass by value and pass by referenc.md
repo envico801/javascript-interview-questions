@@ -37,15 +37,17 @@ console.log(user1.age, user2.age); // 30, 30
 In the above code snippet, updating the `age` property of one object will impact
 the other property due to the same reference.
 
+==================== Id ====================  
+439
+<!--ID: 1707879805732-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#439-What-is-pass-by-value-and-pass-by-referenc
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#439-What-is-pass-by-value-and-pass-by-referenc
 
 Reference:
 
@@ -55,5 +57,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

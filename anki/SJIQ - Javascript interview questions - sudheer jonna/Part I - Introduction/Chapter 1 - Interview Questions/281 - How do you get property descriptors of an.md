@@ -21,15 +21,17 @@ console.log(descriptorsObject.a.enumerable); //true
 console.log(descriptorsObject.a.value); // 1
 ```
 
+==================== Id ====================  
+281
+<!--ID: 1707879828000-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#281-How-do-you-get-property-descriptors-of-an
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#281-How-do-you-get-property-descriptors-of-an
 
 Reference:
 
@@ -39,5 +41,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

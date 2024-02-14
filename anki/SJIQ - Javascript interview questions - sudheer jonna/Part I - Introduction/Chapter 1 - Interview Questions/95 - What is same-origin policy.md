@@ -10,15 +10,17 @@ hostname, and port number. If you enable this policy then it prevents a
 malicious script on one page from obtaining access to sensitive data on another
 web page using Document Object Model(DOM).
 
+==================== Id ====================  
+95
+<!--ID: 1707879882197-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#95-What-is-same-origin-policy
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#95-What-is-same-origin-policy
 
 Reference:
 
@@ -28,5 +30,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

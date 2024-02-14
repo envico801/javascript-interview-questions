@@ -26,20 +26,21 @@ console.log(obj.prop3());
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 ES6 provides method definitions and property shorthands for objects. So both
 prop2 and prop3 are treated as regular function values.
+
+==================== Id ====================  
+458
+<!--ID: 1707879800613-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#458-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#458-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -49,5 +50,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

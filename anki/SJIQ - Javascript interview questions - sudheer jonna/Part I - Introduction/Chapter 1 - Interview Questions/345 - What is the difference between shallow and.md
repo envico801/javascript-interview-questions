@@ -62,15 +62,17 @@ var empDetailsDeepCopy = {
 Now if you change `empDetailsDeepCopy.name`, it will only affect
 `empDetailsDeepCopy` & not `empDetails`
 
+==================== Id ====================  
+345
+<!--ID: 1707879802970-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#345-What-is-the-difference-between-shallow-and
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#345-What-is-the-difference-between-shallow-and
 
 Reference:
 
@@ -80,5 +82,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

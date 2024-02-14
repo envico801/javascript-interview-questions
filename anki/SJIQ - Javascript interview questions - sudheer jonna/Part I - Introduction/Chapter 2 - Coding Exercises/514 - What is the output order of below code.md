@@ -17,8 +17,7 @@ console.log('3');
 
 ==================== Answer ====================  
 
-##### Answer: 4
-
+Answer: 4  
 When the JavaScript engine parses the above code, the first two statements are
 asynchronous which will be executed later and third statement is synchronous
 statement which will be moved to callstack, executed and prints the number 3 in
@@ -27,15 +26,17 @@ which has high priority than callback queue in the execution order. At last,
 since setTimeout is part of WebAPI the callback function moved to callback queue
 and executed. Hence, you will see number 2 printed first followed by 1.
 
+==================== Id ====================  
+514
+<!--ID: 1707879794085-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#514-What-is-the-output-order-of-below-code
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#514-What-is-the-output-order-of-below-code
 
 Reference:
 
@@ -45,5 +46,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -13,23 +13,24 @@ console.log(a === b);
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 Eventhough both variables `a` and `b` refer a number value, the first
 declaration is based on constructor function and the type of the variable is
 going to be `object` type. Whereas the second declaration is primitive
 assignment with a number and the type is `number` type. Hence, the equality
 operator `===` will output `false` value.
 
+==================== Id ====================  
+524
+<!--ID: 1707879792980-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#524-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#524-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -39,5 +40,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

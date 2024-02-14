@@ -14,15 +14,17 @@ Below are the main differences between null and undefined,
 | Indicates the absence of a value for a variable                                                 | Indicates absence of variable itself                                                                    |
 | Converted to zero (0) while performing primitive operations                                     | Converted to NaN while performing primitive operations                                                  |
 
+==================== Id ====================  
+74
+<!--ID: 1707879886303-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#74-What-is-the-difference-between-null-and-un
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#74-What-is-the-difference-between-null-and-un
 
 Reference:
 
@@ -32,5 +34,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

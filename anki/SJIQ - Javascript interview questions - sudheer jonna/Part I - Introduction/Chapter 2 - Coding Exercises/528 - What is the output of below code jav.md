@@ -18,20 +18,21 @@ console.log(a, 'outside');
 
 ==================== Answer ====================  
 
-##### Answer: 2
-
+Answer: 2  
 The variable "a" declared inside "if" has block scope and does not affect the
 value of the outer "a" variable.
+
+==================== Id ====================  
+528
+<!--ID: 1707879792334-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#528-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#528-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -41,5 +42,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

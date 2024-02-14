@@ -13,20 +13,21 @@ console.log(typeof typeof typeof true);
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 The typeof operator on any primitive returns a string value. So even if you
 apply the chain of typeof operators on the return value, it is always string.
+
+==================== Id ====================  
+502
+<!--ID: 1707879795122-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#502-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#502-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -36,5 +37,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -16,8 +16,7 @@ console.log(func());
 
 ==================== Answer ====================  
 
-##### Answer: 4
-
+Answer: 4  
 The await expression returns value 10 with promise resolution and the code after
 each await expression can be treated as existing in a `.then` callback. In this
 case, there is no return expression at the end of the function. Hence, the
@@ -30,15 +29,17 @@ function func() {
 }
 ```
 
+==================== Id ====================  
+474
+<!--ID: 1707879787499-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#474-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#474-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -48,5 +49,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

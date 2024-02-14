@@ -17,8 +17,7 @@ console.log(sym1 === sym2, sym3 === sym4);
 
 ==================== Answer ====================  
 
-##### Answer: 3
-
+Answer: 3  
 Symbol follows below conventions,
 
 1. Every symbol value returned from Symbol() is unique irrespective of the
@@ -29,15 +28,17 @@ Symbol follows below conventions,
    the symbol if it is found. Otherwise a new symbol created in the registry.  
    **Note:** The symbol description is just useful for debugging purposes.
 
+==================== Id ====================  
+478
+<!--ID: 1707879798833-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#478-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#478-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -47,5 +48,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

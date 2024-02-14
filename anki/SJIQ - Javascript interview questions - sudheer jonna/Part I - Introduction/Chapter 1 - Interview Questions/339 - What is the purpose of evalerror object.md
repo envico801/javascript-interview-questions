@@ -22,15 +22,17 @@ You can throw EvalError with in try...catch block as below,
        console.log(e.message, e.name, e.fileName);              // "Eval function error", "EvalError", "someFile.js"
 ```
 
+==================== Id ====================  
+339
+<!--ID: 1707879817398-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#339-What-is-the-purpose-of-evalerror-object
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#339-What-is-the-purpose-of-evalerror-object
 
 Reference:
 
@@ -40,5 +42,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

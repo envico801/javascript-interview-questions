@@ -19,20 +19,21 @@ console.log(myGenObj.next().value);
 
 ==================== Answer ====================  
 
-##### Answer: 4
-
+Answer: 4  
 Generators are not constructible type. But if you still proceed to do, there
 will be an error saying "TypeError: myGenFunc is not a constructor"
+
+==================== Id ====================  
+493
+<!--ID: 1707879796450-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#493-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#493-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -42,5 +43,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

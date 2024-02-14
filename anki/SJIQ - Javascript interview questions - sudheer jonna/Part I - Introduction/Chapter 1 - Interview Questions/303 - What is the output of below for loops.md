@@ -25,15 +25,17 @@ Whereas in the second loop, the variable i is declared as the `let` keyword it
 becomes a block scoped variable and it holds a new value(0, 1 ,2 3) for each
 iteration. Hence, the output of the first loop is `0 1 2 3`.
 
+==================== Id ====================  
+303
+<!--ID: 1707879826301-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#303-What-is-the-output-of-below-for-loops
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#303-What-is-the-output-of-below-for-loops
 
 Reference:
 
@@ -43,5 +45,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

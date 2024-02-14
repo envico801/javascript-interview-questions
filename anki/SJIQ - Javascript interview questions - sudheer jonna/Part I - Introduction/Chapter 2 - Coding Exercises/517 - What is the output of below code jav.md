@@ -19,8 +19,7 @@ changeCurrentCity();
 
 ==================== Answer ====================  
 
-##### Answer: 3
-
+Answer: 3  
 Due to hositing feature, the variables declared with `var` will have `undefined`
 value in the creation phase so the outer variable `currentCity` will get same
 `undefined` value. But after few lines of code JavaScript engine found a new
@@ -30,15 +29,17 @@ the same variable will have `undefined` value before the declaration and new
 value(`Singapore`) after the declarion. Hence, the value `undefined` print first
 followed by new value `Singapore` in the execution phase.
 
+==================== Id ====================  
+517
+<!--ID: 1707879793886-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#517-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#517-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -48,5 +49,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

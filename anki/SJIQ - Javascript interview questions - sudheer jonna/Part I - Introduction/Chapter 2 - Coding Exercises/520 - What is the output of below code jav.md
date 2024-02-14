@@ -23,8 +23,7 @@ user.eat();
 
 ==================== Answer ====================  
 
-##### Answer: 4
-
+Answer: 4  
 `this` keyword is dynamic scoped but not lexically scoped . In other words, it
 doesn't matter where `this` has been written but how it has been invoked really
 matter. In the above code snippet, the `user` object invokes `eat` function so
@@ -87,15 +86,17 @@ const user = {
 user.eat()();
 ```
 
+==================== Id ====================  
+520
+<!--ID: 1707879783810-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#520-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#520-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -105,5 +106,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

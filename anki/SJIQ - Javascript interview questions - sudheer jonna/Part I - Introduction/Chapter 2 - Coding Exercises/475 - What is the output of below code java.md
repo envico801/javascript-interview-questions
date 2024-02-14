@@ -25,21 +25,22 @@ processArray([1, 2, 3, 4]);
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 Even though “processArray” is an async function, the anonymous function that we
 use for `forEach` is synchronous. If you use await inside a synchronous function
 then it throws a syntax error.
+
+==================== Id ====================  
+475
+<!--ID: 1707879802045-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#475-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#475-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -49,5 +50,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

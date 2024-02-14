@@ -12,15 +12,17 @@ Below are the main differences between Obfuscation and Encryption,
 | A key to decode    | It can be decoded without any key               | It is required                                                          |
 | Target data format | It will be converted to a complex form          | Converted into an unreadable format                                     |
 
+==================== Id ====================  
+270
+<!--ID: 1707879866607-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#270-What-are-the-differences-between-obfuscati
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#270-What-are-the-differences-between-obfuscati
 
 Reference:
 
@@ -30,5 +32,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -17,8 +17,7 @@ console.log(y);
 
 ==================== Answer ====================  
 
-##### Answer: 4
-
+Answer: 4  
 The main points in the above code snippets are,
 
 1. You can see function expression instead function declaration inside if
@@ -37,15 +36,17 @@ console.log(y);
 
 **Note:** It returns 1object for MS Edge browser
 
+==================== Id ====================  
+454
+<!--ID: 1707879789776-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#454-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#454-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -55,5 +56,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

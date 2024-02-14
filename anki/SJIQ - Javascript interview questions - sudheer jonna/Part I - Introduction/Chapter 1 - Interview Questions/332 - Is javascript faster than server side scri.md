@@ -9,15 +9,17 @@ client-side script it does not require any web server’s help for its computati
 or calculation. So JavaScript is always faster than any server-side script like
 ASP, PHP, etc.
 
+==================== Id ====================  
+332
+<!--ID: 1707879862451-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#332-Is-javascript-faster-than-server-side-scri
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#332-Is-javascript-faster-than-server-side-scri
 
 Reference:
 
@@ -27,5 +29,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

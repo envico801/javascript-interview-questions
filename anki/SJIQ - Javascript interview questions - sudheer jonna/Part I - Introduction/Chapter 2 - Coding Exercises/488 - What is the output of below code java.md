@@ -16,21 +16,22 @@ console.log(add('Apple'));
 
 ==================== Answer ====================  
 
-##### Answer: 2
-
+Answer: 2  
 Since the default argument is evaluated at call time, a new object is created
 each time the function is called. So in this case, the new array is created and
 an element pushed to the default empty array.
+
+==================== Id ====================  
+488
+<!--ID: 1707879797344-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#488-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#488-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -40,5 +41,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

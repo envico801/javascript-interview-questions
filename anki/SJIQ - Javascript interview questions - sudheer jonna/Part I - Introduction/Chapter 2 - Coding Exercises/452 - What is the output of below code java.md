@@ -20,8 +20,7 @@ main();
 
 ==================== Answer ====================  
 
-##### Answer: 4
-
+Answer: 4  
 The statements order is based on the event loop mechanism. The order of
 statements follows the below order,
 
@@ -37,15 +36,17 @@ statements follows the below order,
 7. The callback moved from message queue to the stack since the stack is empty.
 8. The console.log for B is added to the stack and display on the console.
 
+==================== Id ====================  
+452
+<!--ID: 1707879801535-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#452-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#452-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -55,5 +56,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

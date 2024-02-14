@@ -14,8 +14,7 @@ console.log(10 == [[[[[[[10]]]]]]]);
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 As per the comparison algorithm in the ECMAScript specification(ECMA-262), the
 above expression converted into JS as below
 
@@ -26,15 +25,17 @@ above expression converted into JS as below
 So it doesn't matter about number brackets([]) around the number, it is always
 converted to a number in the expression.
 
+==================== Id ====================  
+465
+<!--ID: 1707879789237-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#465-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#465-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -44,5 +45,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -16,8 +16,7 @@ console.log(func());
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 Async functions always return a promise. But even if the return value of an
 async function is not explicitly a promise, it will be implicitly wrapped in a
 promise. The above async function is equivalent to below expression,
@@ -28,15 +27,17 @@ function func() {
 }
 ```
 
+==================== Id ====================  
+473
+<!--ID: 1707879787971-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#473-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#473-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -46,5 +47,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

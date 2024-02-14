@@ -17,8 +17,7 @@ console.log(myChars.length);
 
 ==================== Answer ====================  
 
-##### Answer: 3
-
+Answer: 3  
 The `delete` operator will delete the object property but it will not reindex
 the array or change its length. So the number or elements or length of the array
 won't be changed.  
@@ -27,15 +26,17 @@ undefined value, rather the property is removed from the array. The newer
 versions of Chrome use `empty` instead of `undefined` to make the difference a
 bit clearer.
 
+==================== Id ====================  
+456
+<!--ID: 1707879801095-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#456-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#456-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -45,5 +46,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

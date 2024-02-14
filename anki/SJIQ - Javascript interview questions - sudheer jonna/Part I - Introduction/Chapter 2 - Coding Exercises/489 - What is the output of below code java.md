@@ -15,20 +15,21 @@ greet('Hello', 'John', 'Good morning!');
 
 ==================== Answer ====================  
 
-##### Answer: 2
-
+Answer: 2  
 Since parameters defined earlier are available to later default parameters, this
 code snippet doesn't throw any error.
+
+==================== Id ====================  
+489
+<!--ID: 1707879797159-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#489-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#489-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -38,5 +39,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

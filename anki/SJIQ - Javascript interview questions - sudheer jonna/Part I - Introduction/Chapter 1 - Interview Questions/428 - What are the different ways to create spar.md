@@ -36,15 +36,17 @@ justiceLeague.length = 5;
 console.log(justiceLeague); // ['Superman', 'Aquaman', 'Batman', empty, empty]
 ```
 
+==================== Id ====================  
+428
+<!--ID: 1707879803482-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#428-What-are-the-different-ways-to-create-spar
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#428-What-are-the-different-ways-to-create-spar
 
 Reference:
 
@@ -54,5 +56,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

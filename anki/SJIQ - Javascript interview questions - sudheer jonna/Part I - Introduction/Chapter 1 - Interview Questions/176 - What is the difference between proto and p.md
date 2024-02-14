@@ -22,15 +22,17 @@ There are few more differences,
 | ECMAScript | Introduced in ES6                                            | Introduced in ES5                                          |
 | Usage      | Frequently used                                              | Rarely used                                                |
 
+==================== Id ====================  
+176
+<!--ID: 1707879834747-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#176-What-is-the-difference-between-proto-and-p
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#176-What-is-the-difference-between-proto-and-p
 
 Reference:
 
@@ -40,5 +42,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

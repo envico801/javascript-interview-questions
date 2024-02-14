@@ -28,15 +28,17 @@ console.log(list.sort(l10nDE.compare)); // [ "a", "ä", "z" ]
 console.log(list.sort(l10nSV.compare)); // [ "a", "z", "ä" ]
 ```
 
+==================== Id ====================  
+322
+<!--ID: 1707879808814-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#322-What-is-collation
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#322-What-is-collation
 
 Reference:
 
@@ -46,5 +48,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

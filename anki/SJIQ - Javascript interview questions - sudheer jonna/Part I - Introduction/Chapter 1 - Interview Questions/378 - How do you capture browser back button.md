@@ -34,15 +34,17 @@ appears in blue color and changed to while color upon clicking the browser back
 button using `popstate` event handler. The `state` property of `popstate`
 contains the copy of history entry's state object.
 
+==================== Id ====================  
+378
+<!--ID: 1707879807848-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#378-How-do-you-capture-browser-back-button
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#378-How-do-you-capture-browser-back-button
 
 Reference:
 
@@ -52,5 +54,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

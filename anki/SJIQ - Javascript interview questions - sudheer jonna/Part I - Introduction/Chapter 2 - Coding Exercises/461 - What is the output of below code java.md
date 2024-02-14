@@ -16,21 +16,22 @@ printNumbersArrow(1, 2, 3);
 
 ==================== Answer ====================  
 
-##### Answer: 3
-
+Answer: 3  
 Unlike regular functions, the arrow functions doesn't not allow duplicate
 parameters in either strict or non-strict mode. So you can see `SyntaxError` in
 the console.
+
+==================== Id ====================  
+461
+<!--ID: 1707879800072-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#461-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#461-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -40,5 +41,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

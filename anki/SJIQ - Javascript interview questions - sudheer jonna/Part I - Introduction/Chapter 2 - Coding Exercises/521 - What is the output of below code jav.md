@@ -18,8 +18,7 @@ console.log(name);
 
 ==================== Answer ====================  
 
-##### Answer: 3
-
+Answer: 3  
 In JavaScript, primitives are immutable i.e. there is no way to change a
 primitive value once it gets created. So when you try to update the string's
 first character, there is no change in the string value and prints the same
@@ -28,15 +27,17 @@ value is re-assigned to the same variable which will result into creation of new
 memory block with the reference pointing to `John Smith` value and the old
 memory block value(`John`) will be garbage collected.
 
+==================== Id ====================  
+521
+<!--ID: 1707879793557-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#521-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#521-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -46,5 +47,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

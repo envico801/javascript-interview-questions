@@ -18,22 +18,24 @@ if (zero) {
 
 ==================== Answer ====================  
 
-##### Answer: 1
+Answer: 1
 
 1. The type of operator on new Number always returns object. i.e, typeof new
    Number(0) --> object.
 2. Objects are always truthy in if block  
    Hence the above code block always goes to if section.
 
+==================== Id ====================  
+503
+<!--ID: 1707879794963-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#503-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#503-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -43,5 +45,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

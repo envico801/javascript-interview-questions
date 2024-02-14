@@ -19,8 +19,7 @@ var name = 'John';
 
 ==================== Answer ====================  
 
-##### Answer: 4
-
+Answer: 4  
 IIFE(Immediately Invoked Function Expression) is just like any other function
 expression which won't be hoisted. Hence, there will be a reference error for
 message call.  
@@ -35,15 +34,17 @@ var message = function () {
 });
 ```
 
+==================== Id ====================  
+515
+<!--ID: 1707879790334-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#515-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#515-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -53,5 +54,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

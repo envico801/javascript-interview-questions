@@ -24,8 +24,7 @@ if (!typeof myString === 'number') {
 
 ==================== Answer ====================  
 
-##### Answer: 4
-
+Answer: 4  
 The return value of `typeof myNumber` or `typeof myString` is always a truthy
 value (either "number" or "string"). The ! operator operates on either
 `typeof myNumber` or `typeof myString`, converting them to boolean values. Since
@@ -44,15 +43,17 @@ Or simply use the inequality operator:
 if (typeof myNumber !== "string")
 ```
 
+==================== Id ====================  
+480
+<!--ID: 1707879798508-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#480-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#480-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -62,5 +63,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

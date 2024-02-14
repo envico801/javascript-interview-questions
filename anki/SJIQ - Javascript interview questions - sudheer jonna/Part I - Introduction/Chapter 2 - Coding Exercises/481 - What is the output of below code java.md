@@ -19,8 +19,7 @@ console.log(
 
 ==================== Answer ====================  
 
-##### Answer: 2
-
+Answer: 2  
 The symbols has below constraints,
 
 1. The undefined, Functions, and Symbols are not valid JSON values. So those
@@ -29,15 +28,17 @@ The symbols has below constraints,
 2. All Symbol-keyed properties will be completely ignored. Hence it returns an
    empty object({}).
 
+==================== Id ====================  
+481
+<!--ID: 1707879798325-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#481-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#481-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -47,5 +48,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

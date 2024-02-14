@@ -11,20 +11,21 @@ console.log(NaN === NaN);
 
 ==================== Answer ====================  
 
-##### Answer: 2
-
+Answer: 2  
 JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never
 equal for floating-point numbers.
+
+==================== Id ====================  
+470
+<!--ID: 1707879791485-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#470-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#470-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -34,5 +35,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

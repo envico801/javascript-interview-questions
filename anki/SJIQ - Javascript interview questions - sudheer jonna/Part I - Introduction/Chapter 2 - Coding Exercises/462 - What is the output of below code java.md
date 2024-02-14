@@ -14,8 +14,7 @@ console.log(arrowFunc(1, 2, 3));
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 Arrow functions do not have an `arguments, super, this, or new.target` bindings.
 So any reference to `arguments` variable tries to resolve to a binding in a
 lexically enclosing environment. In this case, the arguments variable is not
@@ -39,15 +38,17 @@ const arrowFunc = (...args) => args.length;
 console.log(arrowFunc(1, 2, 3));
 ```
 
+==================== Id ====================  
+462
+<!--ID: 1707879784938-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#462-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#462-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -57,5 +58,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

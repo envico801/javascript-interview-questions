@@ -13,21 +13,22 @@ console.log(Math.max());
 
 ==================== Answer ====================  
 
-##### Answer: 4
-
+Answer: 4  
 -Infinity is the initial comparant because almost every other value is bigger.
 So when no arguments are provided, -Infinity is going to be returned.  
 **Note:** Zero number of arguments is a valid case.
+
+==================== Id ====================  
+464
+<!--ID: 1707879799541-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#464-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#464-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -37,5 +38,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

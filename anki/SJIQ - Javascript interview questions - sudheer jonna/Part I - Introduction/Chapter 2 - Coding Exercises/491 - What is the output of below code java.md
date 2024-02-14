@@ -17,20 +17,21 @@ myFun(1, 2);
 
 ==================== Answer ====================  
 
-##### Answer: 3
-
+Answer: 3  
 The rest parameter is used to hold the remaining parameters of a function and it
 becomes an empty array if the argument is not provided.
+
+==================== Id ====================  
+491
+<!--ID: 1707879796810-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#491-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#491-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -40,5 +41,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

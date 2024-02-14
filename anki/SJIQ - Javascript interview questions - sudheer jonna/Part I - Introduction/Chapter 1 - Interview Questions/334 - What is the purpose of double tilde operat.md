@@ -7,15 +7,17 @@
 The double tilde operator(~~) is known as double NOT bitwise operator. This
 operator is a slightly quicker substitute for Math.floor().
 
+==================== Id ====================  
+334
+<!--ID: 1707879862193-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#334-What-is-the-purpose-of-double-tilde-operat
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#334-What-is-the-purpose-of-double-tilde-operat
 
 Reference:
 
@@ -25,5 +27,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

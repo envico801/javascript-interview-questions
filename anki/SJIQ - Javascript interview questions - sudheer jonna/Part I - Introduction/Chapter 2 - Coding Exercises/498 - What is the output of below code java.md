@@ -24,22 +24,23 @@ console.log(run());
 
 ==================== Answer ====================  
 
-##### Answer: 4
-
+Answer: 4  
 When a regular or prototype method is called without a value for **this**, the
 methods return an initial this value if the value is not undefined. Otherwise
 global window object will be returned. In our case, the initial `this` value is
 undefined so both methods return window objects.
 
+==================== Id ====================  
+498
+<!--ID: 1707879795768-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#498-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#498-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -49,5 +50,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

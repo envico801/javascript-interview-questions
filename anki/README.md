@@ -2,541 +2,541 @@
 
 ## Questions
 
-| ID            | File name / path                                                                                                                                                                                                                                                    | Part  | Chapter |
-|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|---------|
-| **-**         | **Introduction**                                                                                                                                                                                                                                                    | **1** | **-**   |
-| **-**         | **Introduction > Interview Questions**                                                                                                                                                                                                                              | **1** | **1**   |
-| [1](#id1)     | [What are the possible ways to create objec](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/1%20-%20What%20are%20the%20possible%20ways%20to%20create%20objec.md)         | 1     | 1       |
-| [2](#id2)     | [What is a prototype chain](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/2%20-%20What%20is%20a%20prototype%20chain.md)                                                 | 1     | 1       |
-| [3](#id3)     | [What is the difference between call apply](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/3%20-%20What%20is%20the%20difference%20between%20call%20apply.md)             | 1     | 1       |
-| [4](#id4)     | [What is json and its common operations](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/4%20-%20What%20is%20json%20and%20its%20common%20operations.md)                   | 1     | 1       |
-| [5](#id5)     | [What is the purpose of the array slice met](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/5%20-%20What%20is%20the%20purpose%20of%20the%20array%20slice%20met.md)       | 1     | 1       |
-| [6](#id6)     | [What is the purpose of the array splice me](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/6%20-%20What%20is%20the%20purpose%20of%20the%20array%20splice%20me.md)       | 1     | 1       |
-| [7](#id7)     | [What is the difference between slice and s](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/7%20-%20What%20is%20the%20difference%20between%20slice%20and%20s.md)         | 1     | 1       |
-| [8](#id8)     | [How do you compare object and map](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/8%20-%20How%20do%20you%20compare%20object%20and%20map.md)                             | 1     | 1       |
-| [9](#id9)     | [What is the difference between and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/9%20-%20What%20is%20the%20difference%20between%20and.md)                             | 1     | 1       |
-| [10](#id10)   | [What are lambda or arrow functions](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/10%20-%20What%20are%20lambda%20or%20arrow%20functions.md)                            | 1     | 1       |
-| [11](#id11)   | [What is a first class function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/11%20-%20What%20is%20a%20first%20class%20function.md)                                    | 1     | 1       |
-| [12](#id12)   | [What is a first order function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/12%20-%20What%20is%20a%20first%20order%20function.md)                                    | 1     | 1       |
-| [13](#id13)   | [What is a higher order function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/13%20-%20What%20is%20a%20higher%20order%20function.md)                                  | 1     | 1       |
-| [14](#id14)   | [What is a unary function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/14%20-%20What%20is%20a%20unary%20function.md)                                                  | 1     | 1       |
-| [15](#id15)   | [What is the currying function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/15%20-%20What%20is%20the%20currying%20function.md)                                        | 1     | 1       |
-| [16](#id16)   | [What is a pure function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/16%20-%20What%20is%20a%20pure%20function.md)                                                    | 1     | 1       |
-| [17](#id17)   | [What is the purpose of the let keyword](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/17%20-%20What%20is%20the%20purpose%20of%20the%20let%20keyword.md)                | 1     | 1       |
-| [18](#id18)   | [What is the difference between let and var](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/18%20-%20What%20is%20the%20difference%20between%20let%20and%20var.md)        | 1     | 1       |
-| [19](#id19)   | [What is the reason to choose the name let](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/19%20-%20What%20is%20the%20reason%20to%20choose%20the%20name%20let.md)        | 1     | 1       |
-| [20](#id20)   | [How do you redeclare variables in a switch](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/20%20-%20How%20do%20you%20redeclare%20variables%20in%20a%20switch.md)        | 1     | 1       |
-| [21](#id21)   | [What is the temporal dead zone](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/21%20-%20What%20is%20the%20temporal%20dead%20zone.md)                                    | 1     | 1       |
-| [22](#id22)   | [What is an iife immediately invoked funct](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/22%20-%20What%20is%20an%20iife%20immediately%20invoked%20funct.md)            | 1     | 1       |
-| [23](#id23)   | [How do you decode or encode a url in javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/23%20-%20How%20do%20you%20decode%20or%20encode%20a%20url%20in%20javas.md)    | 1     | 1       |
-| [24](#id24)   | [What is memoization](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/24%20-%20What%20is%20memoization.md)                                                                | 1     | 1       |
-| [25](#id25)   | [What is hoisting](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/25%20-%20What%20is%20hoisting.md)                                                                      | 1     | 1       |
-| [26](#id26)   | [What are classes in es6](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/26%20-%20What%20are%20classes%20in%20es6.md)                                                    | 1     | 1       |
-| [27](#id27)   | [What are closures](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/27%20-%20What%20are%20closures.md)                                                                    | 1     | 1       |
-| [28](#id28)   | [What are modules](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/28%20-%20What%20are%20modules.md)                                                                      | 1     | 1       |
-| [29](#id29)   | [Why do you need modules](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/29%20-%20Why%20do%20you%20need%20modules.md)                                                    | 1     | 1       |
-| [30](#id30)   | [What is scope in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/30%20-%20What%20is%20scope%20in%20javascript.md)                                            | 1     | 1       |
-| [31](#id31)   | [What is a service worker](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/31%20-%20What%20is%20a%20service%20worker.md)                                                  | 1     | 1       |
-| [32](#id32)   | [How do you manipulate dom using a service](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/32%20-%20How%20do%20you%20manipulate%20dom%20using%20a%20service.md)          | 1     | 1       |
-| [33](#id33)   | [How do you reuse information across servic](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/33%20-%20How%20do%20you%20reuse%20information%20across%20servic.md)          | 1     | 1       |
-| [34](#id34)   | [What is indexeddb](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/34%20-%20What%20is%20indexeddb.md)                                                                    | 1     | 1       |
-| [35](#id35)   | [What is web storage](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/35%20-%20What%20is%20web%20storage.md)                                                              | 1     | 1       |
-| [36](#id36)   | [What is a post message](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/36%20-%20What%20is%20a%20post%20message.md)                                                      | 1     | 1       |
-| [37](#id37)   | [What is a cookie](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/37%20-%20What%20is%20a%20cookie.md)                                                                    | 1     | 1       |
-| [38](#id38)   | [Why do you need a cookie](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/38%20-%20Why%20do%20you%20need%20a%20cookie.md)                                                | 1     | 1       |
-| [39](#id39)   | [What are the options in a cookie](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/39%20-%20What%20are%20the%20options%20in%20a%20cookie.md)                              | 1     | 1       |
-| [40](#id40)   | [How do you delete a cookie](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/40%20-%20How%20do%20you%20delete%20a%20cookie.md)                                            | 1     | 1       |
-| [41](#id41)   | [What are the differences between cookie l](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/41%20-%20What%20are%20the%20differences%20between%20cookie%20l.md)            | 1     | 1       |
-| [42](#id42)   | [What is the main difference between locals](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/42%20-%20What%20is%20the%20main%20difference%20between%20locals.md)          | 1     | 1       |
-| [43](#id43)   | [How do you access web storage](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/43%20-%20How%20do%20you%20access%20web%20storage.md)                                      | 1     | 1       |
-| [44](#id44)   | [What are the methods available on session](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/44%20-%20What%20are%20the%20methods%20available%20on%20session.md)            | 1     | 1       |
-| [45](#id45)   | [What is a storage event and its event hand](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/45%20-%20What%20is%20a%20storage%20event%20and%20its%20event%20hand.md)      | 1     | 1       |
-| [46](#id46)   | [Why do you need web storage](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/46%20-%20Why%20do%20you%20need%20web%20storage.md)                                          | 1     | 1       |
-| [47](#id47)   | [How do you check web storage browser suppo](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/47%20-%20How%20do%20you%20check%20web%20storage%20browser%20suppo.md)        | 1     | 1       |
-| [48](#id48)   | [How do you check web workers browser suppo](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/48%20-%20How%20do%20you%20check%20web%20workers%20browser%20suppo.md)        | 1     | 1       |
-| [49](#id49)   | [Give an example of a web worker](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/49%20-%20Give%20an%20example%20of%20a%20web%20worker.md)                                | 1     | 1       |
-| [50](#id50)   | [What are the restrictions of web workers o](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/50%20-%20What%20are%20the%20restrictions%20of%20web%20workers%20o.md)        | 1     | 1       |
-| [51](#id51)   | [What is a promise](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/51%20-%20What%20is%20a%20promise.md)                                                                  | 1     | 1       |
-| [52](#id52)   | [Why do you need a promise](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/52%20-%20Why%20do%20you%20need%20a%20promise.md)                                              | 1     | 1       |
-| [53](#id53)   | [What are the three states of promise](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/53%20-%20What%20are%20the%20three%20states%20of%20promise.md)                      | 1     | 1       |
-| [54](#id54)   | [What is a callback function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/54%20-%20What%20is%20a%20callback%20function.md)                                            | 1     | 1       |
-| [55](#id55)   | [Why do we need callbacks](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/55%20-%20Why%20do%20we%20need%20callbacks.md)                                                  | 1     | 1       |
-| [56](#id56)   | [What is a callback hell](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/56%20-%20What%20is%20a%20callback%20hell.md)                                                    | 1     | 1       |
-| [57](#id57)   | [What are server-sent events](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/57%20-%20What%20are%20server-sent%20events.md)                                              | 1     | 1       |
-| [58](#id58)   | [How do you receive server-sent event notif](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/58%20-%20How%20do%20you%20receive%20server-sent%20event%20notif.md)          | 1     | 1       |
-| [59](#id59)   | [How do you check browser support for serve](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/59%20-%20How%20do%20you%20check%20browser%20support%20for%20serve.md)        | 1     | 1       |
-| [60](#id60)   | [What are the events available for server s](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/60%20-%20What%20are%20the%20events%20available%20for%20server%20s.md)        | 1     | 1       |
-| [61](#id61)   | [What are the main rules of promise](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/61%20-%20What%20are%20the%20main%20rules%20of%20promise.md)                          | 1     | 1       |
-| [62](#id62)   | [What is callback in callback](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/62%20-%20What%20is%20callback%20in%20callback.md)                                          | 1     | 1       |
-| [63](#id63)   | [What is promise chaining](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/63%20-%20What%20is%20promise%20chaining.md)                                                    | 1     | 1       |
-| [64](#id64)   | [What is promise all](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/64%20-%20What%20is%20promise%20all.md)                                                              | 1     | 1       |
-| [65](#id65)   | [What is the purpose of the race method in](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/65%20-%20What%20is%20the%20purpose%20of%20the%20race%20method%20in.md)        | 1     | 1       |
-| [66](#id66)   | [What is a strict mode in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/66%20-%20What%20is%20a%20strict%20mode%20in%20javascript.md)                        | 1     | 1       |
-| [67](#id67)   | [Why do you need strict mode](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/67%20-%20Why%20do%20you%20need%20strict%20mode.md)                                          | 1     | 1       |
-| [68](#id68)   | [How do you declare strict mode](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/68%20-%20How%20do%20you%20declare%20strict%20mode.md)                                    | 1     | 1       |
-| [69](#id69)   | [What is the purpose of double exclamation](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/69%20-%20What%20is%20the%20purpose%20of%20double%20exclamation.md)            | 1     | 1       |
-| [70](#id70)   | [What is the purpose of the delete operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/70%20-%20What%20is%20the%20purpose%20of%20the%20delete%20operator.md)        | 1     | 1       |
-| [71](#id71)   | [What is typeof operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/71%20-%20What%20is%20typeof%20operator.md)                                                      | 1     | 1       |
-| [72](#id72)   | [What is undefined property](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/72%20-%20What%20is%20undefined%20property.md)                                                | 1     | 1       |
-| [73](#id73)   | [What is null value](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/73%20-%20What%20is%20null%20value.md)                                                                | 1     | 1       |
-| [74](#id74)   | [What is the difference between null and un](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/74%20-%20What%20is%20the%20difference%20between%20null%20and%20un.md)        | 1     | 1       |
-| [75](#id75)   | [What is eval](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/75%20-%20What%20is%20eval.md)                                                                              | 1     | 1       |
-| [76](#id76)   | [What is the difference between window and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/76%20-%20What%20is%20the%20difference%20between%20window%20and.md)            | 1     | 1       |
-| [77](#id77)   | [How do you access history in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/77%20-%20How%20do%20you%20access%20history%20in%20javascript.md)                | 1     | 1       |
-| [78](#id78)   | [How do you detect caps lock key turned on](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/78%20-%20How%20do%20you%20detect%20caps%20lock%20key%20turned%20on.md)        | 1     | 1       |
-| [79](#id79)   | [What is isnan](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/79%20-%20What%20is%20isnan.md)                                                                            | 1     | 1       |
-| [80](#id80)   | [What are the differences between undeclare](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/80%20-%20What%20are%20the%20differences%20between%20undeclare.md)            | 1     | 1       |
-| [81](#id81)   | [What are global variables](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/81%20-%20What%20are%20global%20variables.md)                                                  | 1     | 1       |
-| [82](#id82)   | [What are the problems with global variable](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/82%20-%20What%20are%20the%20problems%20with%20global%20variable.md)          | 1     | 1       |
-| [83](#id83)   | [What is nan property](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/83%20-%20What%20is%20nan%20property.md)                                                            | 1     | 1       |
-| [84](#id84)   | [What is the purpose of isfinite function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/84%20-%20What%20is%20the%20purpose%20of%20isfinite%20function.md)              | 1     | 1       |
-| [85](#id85)   | [What is an event flow](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/85%20-%20What%20is%20an%20event%20flow.md)                                                        | 1     | 1       |
-| [86](#id86)   | [What is event bubbling](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/86%20-%20What%20is%20event%20bubbling.md)                                                        | 1     | 1       |
-| [87](#id87)   | [What is event capturing](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/87%20-%20What%20is%20event%20capturing.md)                                                      | 1     | 1       |
-| [88](#id88)   | [How do you submit a form using javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/88%20-%20How%20do%20you%20submit%20a%20form%20using%20javascript.md)          | 1     | 1       |
-| [89](#id89)   | [How do you find operating system details](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/89%20-%20How%20do%20you%20find%20operating%20system%20details.md)              | 1     | 1       |
-| [90](#id90)   | [What is the difference between document lo](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/90%20-%20What%20is%20the%20difference%20between%20document%20lo.md)          | 1     | 1       |
-| [91](#id91)   | [What is the difference between native hos](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/91%20-%20What%20is%20the%20difference%20between%20native%20hos.md)            | 1     | 1       |
-| [92](#id92)   | [What are the tools or techniques used for](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/92%20-%20What%20are%20the%20tools%20or%20techniques%20used%20for.md)          | 1     | 1       |
-| [93](#id93)   | [What are the pros and cons of promises ove](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/93%20-%20What%20are%20the%20pros%20and%20cons%20of%20promises%20ove.md)      | 1     | 1       |
-| [94](#id94)   | [What is the difference between an attribut](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/94%20-%20What%20is%20the%20difference%20between%20an%20attribut.md)          | 1     | 1       |
-| [95](#id95)   | [What is same-origin policy](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/95%20-%20What%20is%20same-origin%20policy.md)                                                | 1     | 1       |
-| [96](#id96)   | [What is the purpose of void 0](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/96%20-%20What%20is%20the%20purpose%20of%20void%200.md)                                    | 1     | 1       |
-| [97](#id97)   | [Is javascript a compiled or interpreted la](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/97%20-%20Is%20javascript%20a%20compiled%20or%20interpreted%20la.md)          | 1     | 1       |
-| [98](#id98)   | [Is javascript a case-sensitive language](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/98%20-%20Is%20javascript%20a%20case-sensitive%20language.md)                    | 1     | 1       |
-| [99](#id99)   | [Is there any relation between java and jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/99%20-%20Is%20there%20any%20relation%20between%20java%20and%20jav.md)        | 1     | 1       |
-| [100](#id100) | [What are events](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/100%20-%20What%20are%20events.md)                                                                       | 1     | 1       |
-| [101](#id101) | [Who created javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/101%20-%20Who%20created%20javascript.md)                                                         | 1     | 1       |
-| [102](#id102) | [What is the use of preventdefault method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/102%20-%20What%20is%20the%20use%20of%20preventdefault%20method.md)             | 1     | 1       |
-| [103](#id103) | [What is the use of stoppropagation method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/103%20-%20What%20is%20the%20use%20of%20stoppropagation%20method.md)           | 1     | 1       |
-| [104](#id104) | [What are the steps involved in return fals](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/104%20-%20What%20are%20the%20steps%20involved%20in%20return%20fals.md)       | 1     | 1       |
-| [105](#id105) | [What is bom](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/105%20-%20What%20is%20bom.md)                                                                               | 1     | 1       |
-| [106](#id106) | [What is the use of settimeout](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/106%20-%20What%20is%20the%20use%20of%20settimeout.md)                                     | 1     | 1       |
-| [107](#id107) | [What is the use of setinterval](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/107%20-%20What%20is%20the%20use%20of%20setinterval.md)                                   | 1     | 1       |
-| [108](#id108) | [Why is javascript treated as single thread](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/108%20-%20Why%20is%20javascript%20treated%20as%20single%20thread.md)         | 1     | 1       |
-| [109](#id109) | [What is an event delegation](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/109%20-%20What%20is%20an%20event%20delegation.md)                                           | 1     | 1       |
-| [110](#id110) | [What is ecmascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/110%20-%20What%20is%20ecmascript.md)                                                                 | 1     | 1       |
-| [111](#id111) | [What is json](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/111%20-%20What%20is%20json.md)                                                                             | 1     | 1       |
-| [112](#id112) | [What are the syntax rules of json](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/112%20-%20What%20are%20the%20syntax%20rules%20of%20json.md)                           | 1     | 1       |
-| [113](#id113) | [What is the purpose json stringify](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/113%20-%20What%20is%20the%20purpose%20json%20stringify.md)                           | 1     | 1       |
-| [114](#id114) | [How do you parse json string](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/114%20-%20How%20do%20you%20parse%20json%20string.md)                                       | 1     | 1       |
-| [115](#id115) | [Why do you need json](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/115%20-%20Why%20do%20you%20need%20json.md)                                                         | 1     | 1       |
-| [116](#id116) | [What are pwas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/116%20-%20What%20are%20pwas.md)                                                                           | 1     | 1       |
-| [117](#id117) | [What is the purpose of cleartimeout method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/117%20-%20What%20is%20the%20purpose%20of%20cleartimeout%20method.md)         | 1     | 1       |
-| [118](#id118) | [What is the purpose of clearinterval metho](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/118%20-%20What%20is%20the%20purpose%20of%20clearinterval%20metho.md)         | 1     | 1       |
-| [119](#id119) | [How do you redirect new page in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/119%20-%20How%20do%20you%20redirect%20new%20page%20in%20javascript.md)       | 1     | 1       |
-| [120](#id120) | [How do you check whether a string contains](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/120%20-%20How%20do%20you%20check%20whether%20a%20string%20contains.md)       | 1     | 1       |
-| [121](#id121) | [How do you validate an email in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/121%20-%20How%20do%20you%20validate%20an%20email%20in%20javascript.md)       | 1     | 1       |
-| [122](#id122) | [How do you get the current url with javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/122%20-%20How%20do%20you%20get%20the%20current%20url%20with%20javasc.md)     | 1     | 1       |
-| [123](#id123) | [What are the various url properties of loc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/123%20-%20What%20are%20the%20various%20url%20properties%20of%20loc.md)       | 1     | 1       |
-| [124](#id124) | [How do get query string values in javascri](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/124%20-%20How%20do%20get%20query%20string%20values%20in%20javascri.md)       | 1     | 1       |
-| [125](#id125) | [How do you check if a key exists in an obj](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/125%20-%20How%20do%20you%20check%20if%20a%20key%20exists%20in%20an%20obj.md) | 1     | 1       |
-| [126](#id126) | [How do you loop through or enumerate javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/126%20-%20How%20do%20you%20loop%20through%20or%20enumerate%20javas.md)       | 1     | 1       |
-| [127](#id127) | [How do you test for an empty object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/127%20-%20How%20do%20you%20test%20for%20an%20empty%20object.md)                     | 1     | 1       |
-| [128](#id128) | [What is an arguments object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/128%20-%20What%20is%20an%20arguments%20object.md)                                           | 1     | 1       |
-| [129](#id129) | [How do you make first letter of the string](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/129%20-%20How%20do%20you%20make%20first%20letter%20of%20the%20string.md)     | 1     | 1       |
-| [130](#id130) | [What are the pros and cons of for loop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/130%20-%20What%20are%20the%20pros%20and%20cons%20of%20for%20loop.md)             | 1     | 1       |
-| [131](#id131) | [How do you display the current date in jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/131%20-%20How%20do%20you%20display%20the%20current%20date%20in%20jav.md)     | 1     | 1       |
-| [132](#id132) | [How do you compare two date objects](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/132%20-%20How%20do%20you%20compare%20two%20date%20objects.md)                       | 1     | 1       |
-| [133](#id133) | [How do you check if a string starts with a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/133%20-%20How%20do%20you%20check%20if%20a%20string%20starts%20with%20a.md)   | 1     | 1       |
-| [134](#id134) | [How do you trim a string in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/134%20-%20How%20do%20you%20trim%20a%20string%20in%20javascript.md)               | 1     | 1       |
-| [135](#id135) | [How do you add a key value pair in javascr](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/135%20-%20How%20do%20you%20add%20a%20key%20value%20pair%20in%20javascr.md)   | 1     | 1       |
-| [136](#id136) | [Is the -- notation represents a special o](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/136%20-%20Is%20the%20--%20notation%20represents%20a%20special%20o.md)         | 1     | 1       |
-| [137](#id137) | [How do you assign default values to variab](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/137%20-%20How%20do%20you%20assign%20default%20values%20to%20variab.md)       | 1     | 1       |
-| [138](#id138) | [How do you define multiline strings](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/138%20-%20How%20do%20you%20define%20multiline%20strings.md)                         | 1     | 1       |
-| [139](#id139) | [What is an app shell model](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/139%20-%20What%20is%20an%20app%20shell%20model.md)                                           | 1     | 1       |
-| [140](#id140) | [Can we define properties for functions](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/140%20-%20Can%20we%20define%20properties%20for%20functions.md)                   | 1     | 1       |
-| [141](#id141) | [What is the way to find the number of para](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/141%20-%20What%20is%20the%20way%20to%20find%20the%20number%20of%20para.md)   | 1     | 1       |
-| [142](#id142) | [What is a polyfill](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/142%20-%20What%20is%20a%20polyfill.md)                                                               | 1     | 1       |
-| [143](#id143) | [What are break and continue statements](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/143%20-%20What%20are%20break%20and%20continue%20statements.md)                   | 1     | 1       |
-| [144](#id144) | [What are js labels](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/144%20-%20What%20are%20js%20labels.md)                                                               | 1     | 1       |
-| [145](#id145) | [What are the benefits of keeping declarati](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/145%20-%20What%20are%20the%20benefits%20of%20keeping%20declarati.md)         | 1     | 1       |
-| [146](#id146) | [What are the benefits of initializing vari](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/146%20-%20What%20are%20the%20benefits%20of%20initializing%20vari.md)         | 1     | 1       |
-| [147](#id147) | [What are the recommendations to create new](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/147%20-%20What%20are%20the%20recommendations%20to%20create%20new.md)         | 1     | 1       |
-| [148](#id148) | [How do you define json arrays](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/148%20-%20How%20do%20you%20define%20json%20arrays.md)                                     | 1     | 1       |
-| [149](#id149) | [How do you generate random integers](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/149%20-%20How%20do%20you%20generate%20random%20integers.md)                         | 1     | 1       |
-| [150](#id150) | [Can you write a random integers function t](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/150%20-%20Can%20you%20write%20a%20random%20integers%20function%20t.md)       | 1     | 1       |
-| [151](#id151) | [What is tree shaking](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/151%20-%20What%20is%20tree%20shaking.md)                                                           | 1     | 1       |
-| [152](#id152) | [What is the need of tree shaking](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/152%20-%20What%20is%20the%20need%20of%20tree%20shaking.md)                             | 1     | 1       |
-| [153](#id153) | [Is it recommended to use eval](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/153%20-%20Is%20it%20recommended%20to%20use%20eval.md)                                     | 1     | 1       |
-| [154](#id154) | [What is a regular expression](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/154%20-%20What%20is%20a%20regular%20expression.md)                                         | 1     | 1       |
-| [155](#id155) | [What are the string methods available in r](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/155%20-%20What%20are%20the%20string%20methods%20available%20in%20r.md)       | 1     | 1       |
-| [156](#id156) | [What are modifiers in regular expression](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/156%20-%20What%20are%20modifiers%20in%20regular%20expression.md)               | 1     | 1       |
-| [157](#id157) | [What are regular expression patterns](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/157%20-%20What%20are%20regular%20expression%20patterns.md)                         | 1     | 1       |
-| [158](#id158) | [What is a regexp object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/158%20-%20What%20is%20a%20regexp%20object.md)                                                   | 1     | 1       |
-| [159](#id159) | [How do you search a string for a pattern](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/159%20-%20How%20do%20you%20search%20a%20string%20for%20a%20pattern.md)         | 1     | 1       |
-| [160](#id160) | [What is the purpose of exec method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/160%20-%20What%20is%20the%20purpose%20of%20exec%20method.md)                         | 1     | 1       |
-| [161](#id161) | [How do you change the style of a html elem](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/161%20-%20How%20do%20you%20change%20the%20style%20of%20a%20html%20elem.md)   | 1     | 1       |
-| [162](#id162) | [What would be the result of 1 2 3](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/162%20-%20What%20would%20be%20the%20result%20of%201%202%203.md)                       | 1     | 1       |
-| [163](#id163) | [What is a debugger statement](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/163%20-%20What%20is%20a%20debugger%20statement.md)                                         | 1     | 1       |
-| [164](#id164) | [What is the purpose of breakpoints in debu](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/164%20-%20What%20is%20the%20purpose%20of%20breakpoints%20in%20debu.md)       | 1     | 1       |
-| [165](#id165) | [Can i use reserved words as identifiers](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/165%20-%20Can%20i%20use%20reserved%20words%20as%20identifiers.md)               | 1     | 1       |
-| [166](#id166) | [How do you detect a mobile browser](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/166%20-%20How%20do%20you%20detect%20a%20mobile%20browser.md)                         | 1     | 1       |
-| [167](#id167) | [How do you detect a mobile browser without](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/167%20-%20How%20do%20you%20detect%20a%20mobile%20browser%20without.md)       | 1     | 1       |
-| [168](#id168) | [How do you get the image width and height](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/168%20-%20How%20do%20you%20get%20the%20image%20width%20and%20height.md)       | 1     | 1       |
-| [169](#id169) | [How do you make synchronous http request](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/169%20-%20How%20do%20you%20make%20synchronous%20http%20request.md)             | 1     | 1       |
-| [170](#id170) | [How do you make asynchronous http request](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/170%20-%20How%20do%20you%20make%20asynchronous%20http%20request.md)           | 1     | 1       |
-| [171](#id171) | [How do you convert date to another timezon](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/171%20-%20How%20do%20you%20convert%20date%20to%20another%20timezon.md)       | 1     | 1       |
-| [172](#id172) | [What are the properties used to get size o](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/172%20-%20What%20are%20the%20properties%20used%20to%20get%20size%20o.md)     | 1     | 1       |
-| [173](#id173) | [What is a conditional operator in javascri](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/173%20-%20What%20is%20a%20conditional%20operator%20in%20javascri.md)         | 1     | 1       |
-| [174](#id174) | [Can you apply chaining on conditional oper](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/174%20-%20Can%20you%20apply%20chaining%20on%20conditional%20oper.md)         | 1     | 1       |
-| [175](#id175) | [What are the ways to execute javascript af](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/175%20-%20What%20are%20the%20ways%20to%20execute%20javascript%20af.md)       | 1     | 1       |
-| [176](#id176) | [What is the difference between proto and p](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/176%20-%20What%20is%20the%20difference%20between%20proto%20and%20p.md)       | 1     | 1       |
-| [177](#id177) | [Give an example where do you really need s](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/177%20-%20Give%20an%20example%20where%20do%20you%20really%20need%20s.md)     | 1     | 1       |
-| [178](#id178) | [What is a freeze method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/178%20-%20What%20is%20a%20freeze%20method.md)                                                   | 1     | 1       |
-| [179](#id179) | [What is the purpose of freeze method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/179%20-%20What%20is%20the%20purpose%20of%20freeze%20method.md)                     | 1     | 1       |
-| [180](#id180) | [Why do i need to use freeze method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/180%20-%20Why%20do%20i%20need%20to%20use%20freeze%20method.md)                       | 1     | 1       |
-| [181](#id181) | [How do you detect a browser language prefe](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/181%20-%20How%20do%20you%20detect%20a%20browser%20language%20prefe.md)       | 1     | 1       |
-| [182](#id182) | [How to convert string to title case with j](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/182%20-%20How%20to%20convert%20string%20to%20title%20case%20with%20j.md)     | 1     | 1       |
-| [183](#id183) | [How do you detect javascript disabled in t](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/183%20-%20How%20do%20you%20detect%20javascript%20disabled%20in%20t.md)       | 1     | 1       |
-| [184](#id184) | [What are various operators supported by ja](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/184%20-%20What%20are%20various%20operators%20supported%20by%20ja.md)         | 1     | 1       |
-| [185](#id185) | [What is a rest parameter](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/185%20-%20What%20is%20a%20rest%20parameter.md)                                                 | 1     | 1       |
-| [186](#id186) | [What happens if you do not use rest parame](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/186%20-%20What%20happens%20if%20you%20do%20not%20use%20rest%20parame.md)     | 1     | 1       |
-| [187](#id187) | [What are the bitwise operators available i](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/187%20-%20What%20are%20the%20bitwise%20operators%20available%20i.md)         | 1     | 1       |
-| [188](#id188) | [What is a spread operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/188%20-%20What%20is%20a%20spread%20operator.md)                                               | 1     | 1       |
-| [189](#id189) | [How do you determine whether object is fro](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/189%20-%20How%20do%20you%20determine%20whether%20object%20is%20fro.md)       | 1     | 1       |
-| [190](#id190) | [How do you determine two values same or no](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/190%20-%20How%20do%20you%20determine%20two%20values%20same%20or%20no.md)     | 1     | 1       |
-| [191](#id191) | [What is the purpose of using object is met](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/191%20-%20What%20is%20the%20purpose%20of%20using%20object%20is%20met.md)     | 1     | 1       |
-| [192](#id192) | [How do you copy properties from one object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/192%20-%20How%20do%20you%20copy%20properties%20from%20one%20object.md)       | 1     | 1       |
-| [193](#id193) | [What are the applications of assign method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/193%20-%20What%20are%20the%20applications%20of%20assign%20method.md)         | 1     | 1       |
-| [194](#id194) | [What is a proxy object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/194%20-%20What%20is%20a%20proxy%20object.md)                                                     | 1     | 1       |
-| [195](#id195) | [What is the purpose of seal method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/195%20-%20What%20is%20the%20purpose%20of%20seal%20method.md)                         | 1     | 1       |
-| [196](#id196) | [What are the applications of seal method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/196%20-%20What%20are%20the%20applications%20of%20seal%20method.md)             | 1     | 1       |
-| [197](#id197) | [What are the differences between freeze an](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/197%20-%20What%20are%20the%20differences%20between%20freeze%20an.md)         | 1     | 1       |
-| [198](#id198) | [How do you determine if an object is seale](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/198%20-%20How%20do%20you%20determine%20if%20an%20object%20is%20seale.md)     | 1     | 1       |
-| [199](#id199) | [How do you get enumerable key and value pa](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/199%20-%20How%20do%20you%20get%20enumerable%20key%20and%20value%20pa.md)     | 1     | 1       |
-| [200](#id200) | [What is the main difference between object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/200%20-%20What%20is%20the%20main%20difference%20between%20object.md)         | 1     | 1       |
-| [201](#id201) | [How can you get the list of keys of any ob](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/201%20-%20How%20can%20you%20get%20the%20list%20of%20keys%20of%20any%20ob.md) | 1     | 1       |
-| [202](#id202) | [How do you create an object with prototype](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/202%20-%20How%20do%20you%20create%20an%20object%20with%20prototype.md)       | 1     | 1       |
-| [203](#id203) | [What is a weakset](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/203%20-%20What%20is%20a%20weakset.md)                                                                 | 1     | 1       |
-| [204](#id204) | [What are the differences between weakset a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/204%20-%20What%20are%20the%20differences%20between%20weakset%20a.md)         | 1     | 1       |
-| [205](#id205) | [List down the collection of methods availa](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/205%20-%20List%20down%20the%20collection%20of%20methods%20availa.md)         | 1     | 1       |
-| [206](#id206) | [What is a weakmap](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/206%20-%20What%20is%20a%20weakmap.md)                                                                 | 1     | 1       |
-| [207](#id207) | [What are the differences between weakmap a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/207%20-%20What%20are%20the%20differences%20between%20weakmap%20a.md)         | 1     | 1       |
-| [208](#id208) | [List down the collection of methods availa](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/208%20-%20List%20down%20the%20collection%20of%20methods%20availa.md)         | 1     | 1       |
-| [209](#id209) | [What is the purpose of uneval](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/209%20-%20What%20is%20the%20purpose%20of%20uneval.md)                                     | 1     | 1       |
-| [210](#id210) | [How do you encode an url](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/210%20-%20How%20do%20you%20encode%20an%20url.md)                                               | 1     | 1       |
-| [211](#id211) | [How do you decode an url](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/211%20-%20How%20do%20you%20decode%20an%20url.md)                                               | 1     | 1       |
-| [212](#id212) | [How do you print the contents of web page](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/212%20-%20How%20do%20you%20print%20the%20contents%20of%20web%20page.md)       | 1     | 1       |
-| [213](#id213) | [What is the difference between uneval and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/213%20-%20What%20is%20the%20difference%20between%20uneval%20and.md)           | 1     | 1       |
-| [214](#id214) | [What is an anonymous function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/214%20-%20What%20is%20an%20anonymous%20function.md)                                       | 1     | 1       |
-| [215](#id215) | [What is the precedence order between local](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/215%20-%20What%20is%20the%20precedence%20order%20between%20local.md)         | 1     | 1       |
-| [216](#id216) | [What are javascript accessors](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/216%20-%20What%20are%20javascript%20accessors.md)                                         | 1     | 1       |
-| [217](#id217) | [How do you define property on object const](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/217%20-%20How%20do%20you%20define%20property%20on%20object%20const.md)       | 1     | 1       |
-| [218](#id218) | [What is the difference between get and def](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/218%20-%20What%20is%20the%20difference%20between%20get%20and%20def.md)       | 1     | 1       |
-| [219](#id219) | [What are the advantages of getters and set](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/219%20-%20What%20are%20the%20advantages%20of%20getters%20and%20set.md)       | 1     | 1       |
-| [220](#id220) | [Can i add getters and setters using define](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/220%20-%20Can%20i%20add%20getters%20and%20setters%20using%20define.md)       | 1     | 1       |
-| [221](#id221) | [What is the purpose of switch-case](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/221%20-%20What%20is%20the%20purpose%20of%20switch-case.md)                           | 1     | 1       |
-| [222](#id222) | [What are the conventions to be followed fo](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/222%20-%20What%20are%20the%20conventions%20to%20be%20followed%20fo.md)       | 1     | 1       |
-| [223](#id223) | [What are primitive data types](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/223%20-%20What%20are%20primitive%20data%20types.md)                                       | 1     | 1       |
-| [224](#id224) | [What are the different ways to access obje](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/224%20-%20What%20are%20the%20different%20ways%20to%20access%20obje.md)       | 1     | 1       |
-| [225](#id225) | [What are the function parameter rules](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/225%20-%20What%20are%20the%20function%20parameter%20rules.md)                     | 1     | 1       |
-| [226](#id226) | [What is an error object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/226%20-%20What%20is%20an%20error%20object.md)                                                   | 1     | 1       |
-| [227](#id227) | [When you get a syntax error](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/227%20-%20When%20you%20get%20a%20syntax%20error.md)                                         | 1     | 1       |
-| [228](#id228) | [What are the different error names from er](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/228%20-%20What%20are%20the%20different%20error%20names%20from%20er.md)       | 1     | 1       |
-| [229](#id229) | [What are the various statements in error h](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/229%20-%20What%20are%20the%20various%20statements%20in%20error%20h.md)       | 1     | 1       |
-| [230](#id230) | [What are the two types of loops in javascr](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/230%20-%20What%20are%20the%20two%20types%20of%20loops%20in%20javascr.md)     | 1     | 1       |
-| [231](#id231) | [What is nodejs](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/231%20-%20What%20is%20nodejs.md)                                                                         | 1     | 1       |
-| [232](#id232) | [What is an intl object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/232%20-%20What%20is%20an%20intl%20object.md)                                                     | 1     | 1       |
-| [233](#id233) | [How do you perform language specific date](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/233%20-%20How%20do%20you%20perform%20language%20specific%20date.md)           | 1     | 1       |
-| [234](#id234) | [What is an iterator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/234%20-%20What%20is%20an%20iterator.md)                                                             | 1     | 1       |
-| [235](#id235) | [How does synchronous iteration works](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/235%20-%20How%20does%20synchronous%20iteration%20works.md)                         | 1     | 1       |
-| [236](#id236) | [What is an event loop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/236%20-%20What%20is%20an%20event%20loop.md)                                                       | 1     | 1       |
-| [237](#id237) | [What is call stack](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/237%20-%20What%20is%20call%20stack.md)                                                               | 1     | 1       |
-| [238](#id238) | [What is an event queue](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/238%20-%20What%20is%20an%20event%20queue.md)                                                     | 1     | 1       |
-| [239](#id239) | [What is a decorator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/239%20-%20What%20is%20a%20decorator.md)                                                             | 1     | 1       |
-| [240](#id240) | [What are the properties of intl object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/240%20-%20What%20are%20the%20properties%20of%20intl%20object.md)                 | 1     | 1       |
-| [241](#id241) | [What is an unary operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/241%20-%20What%20is%20an%20unary%20operator.md)                                               | 1     | 1       |
-| [242](#id242) | [How do you sort elements in an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/242%20-%20How%20do%20you%20sort%20elements%20in%20an%20array.md)                   | 1     | 1       |
-| [243](#id243) | [What is the purpose of comparefunction whi](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/243%20-%20What%20is%20the%20purpose%20of%20comparefunction%20whi.md)         | 1     | 1       |
-| [244](#id244) | [How do you reversing an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/244%20-%20How%20do%20you%20reversing%20an%20array.md)                                     | 1     | 1       |
-| [245](#id245) | [How do you find min and max value in an ar](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/245%20-%20How%20do%20you%20find%20min%20and%20max%20value%20in%20an%20ar.md) | 1     | 1       |
-| [246](#id246) | [How do you find min and max values without](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/246%20-%20How%20do%20you%20find%20min%20and%20max%20values%20without.md)     | 1     | 1       |
-| [247](#id247) | [What is an empty statement and purpose of](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/247%20-%20What%20is%20an%20empty%20statement%20and%20purpose%20of.md)         | 1     | 1       |
-| [248](#id248) | [How do you get metadata of a module](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/248%20-%20How%20do%20you%20get%20metadata%20of%20a%20module.md)                     | 1     | 1       |
-| [249](#id249) | [What is a comma operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/249%20-%20What%20is%20a%20comma%20operator.md)                                                 | 1     | 1       |
-| [250](#id250) | [What is the advantage of a comma operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/250%20-%20What%20is%20the%20advantage%20of%20a%20comma%20operator.md)         | 1     | 1       |
-| [251](#id251) | [What is typescript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/251%20-%20What%20is%20typescript.md)                                                                 | 1     | 1       |
-| [252](#id252) | [What are the differences between javascrip](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/252%20-%20What%20are%20the%20differences%20between%20javascrip.md)           | 1     | 1       |
-| [253](#id253) | [What are the advantages of typescript over](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/253%20-%20What%20are%20the%20advantages%20of%20typescript%20over.md)         | 1     | 1       |
-| [254](#id254) | [What is an object initializer](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/254%20-%20What%20is%20an%20object%20initializer.md)                                       | 1     | 1       |
-| [255](#id255) | [What is a constructor method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/255%20-%20What%20is%20a%20constructor%20method.md)                                         | 1     | 1       |
-| [256](#id256) | [What happens if you write constructor more](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/256%20-%20What%20happens%20if%20you%20write%20constructor%20more.md)         | 1     | 1       |
-| [257](#id257) | [How do you call the constructor of a paren](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/257%20-%20How%20do%20you%20call%20the%20constructor%20of%20a%20paren.md)     | 1     | 1       |
-| [258](#id258) | [How do you get the prototype of an object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/258%20-%20How%20do%20you%20get%20the%20prototype%20of%20an%20object.md)       | 1     | 1       |
-| [259](#id259) | [What happens if i pass string type for get](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/259%20-%20What%20happens%20if%20i%20pass%20string%20type%20for%20get.md)     | 1     | 1       |
-| [260](#id260) | [How do you set prototype of one object to](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/260%20-%20How%20do%20you%20set%20prototype%20of%20one%20object%20to.md)       | 1     | 1       |
-| [261](#id261) | [How do you check whether an object can be](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/261%20-%20How%20do%20you%20check%20whether%20an%20object%20can%20be.md)       | 1     | 1       |
-| [262](#id262) | [How do you prevent an object to extend](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/262%20-%20How%20do%20you%20prevent%20an%20object%20to%20extend.md)               | 1     | 1       |
-| [263](#id263) | [What are the different ways to make an obj](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/263%20-%20What%20are%20the%20different%20ways%20to%20make%20an%20obj.md)     | 1     | 1       |
-| [264](#id264) | [How do you define multiple properties on a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/264%20-%20How%20do%20you%20define%20multiple%20properties%20on%20a.md)       | 1     | 1       |
-| [265](#id265) | [What is mean in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/265%20-%20What%20is%20mean%20in%20javascript.md)                                             | 1     | 1       |
-| [266](#id266) | [What is obfuscation in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/266%20-%20What%20is%20obfuscation%20in%20javascript.md)                               | 1     | 1       |
-| [267](#id267) | [Why do you need obfuscation](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/267%20-%20Why%20do%20you%20need%20obfuscation.md)                                           | 1     | 1       |
-| [268](#id268) | [What is minification](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/268%20-%20What%20is%20minification.md)                                                             | 1     | 1       |
-| [269](#id269) | [What are the advantages of minification](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/269%20-%20What%20are%20the%20advantages%20of%20minification.md)                 | 1     | 1       |
-| [270](#id270) | [What are the differences between obfuscati](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/270%20-%20What%20are%20the%20differences%20between%20obfuscati.md)           | 1     | 1       |
-| [271](#id271) | [What are the common tools used for minific](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/271%20-%20What%20are%20the%20common%20tools%20used%20for%20minific.md)       | 1     | 1       |
-| [272](#id272) | [How do you perform form validation using j](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/272%20-%20How%20do%20you%20perform%20form%20validation%20using%20j.md)       | 1     | 1       |
-| [273](#id273) | [How do you perform form validation without](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/273%20-%20How%20do%20you%20perform%20form%20validation%20without.md)         | 1     | 1       |
-| [274](#id274) | [What are the dom methods available for con](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/274%20-%20What%20are%20the%20dom%20methods%20available%20for%20con.md)       | 1     | 1       |
-| [275](#id275) | [What are the available constraint validati](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/275%20-%20What%20are%20the%20available%20constraint%20validati.md)           | 1     | 1       |
-| [276](#id276) | [What are the list of validity properties](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/276%20-%20What%20are%20the%20list%20of%20validity%20properties.md)             | 1     | 1       |
-| [277](#id277) | [Give an example usage of rangeoverflow pro](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/277%20-%20Give%20an%20example%20usage%20of%20rangeoverflow%20pro.md)         | 1     | 1       |
-| [278](#id278) | [Is enums feature available in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/278%20-%20Is%20enums%20feature%20available%20in%20javascript.md)               | 1     | 1       |
-| [279](#id279) | [What is an enum](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/279%20-%20What%20is%20an%20enum.md)                                                                     | 1     | 1       |
-| [280](#id280) | [How do you list all properties of an objec](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/280%20-%20How%20do%20you%20list%20all%20properties%20of%20an%20objec.md)     | 1     | 1       |
-| [281](#id281) | [How do you get property descriptors of an](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/281%20-%20How%20do%20you%20get%20property%20descriptors%20of%20an.md)         | 1     | 1       |
-| [282](#id282) | [What are the attributes provided by a prop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/282%20-%20What%20are%20the%20attributes%20provided%20by%20a%20prop.md)       | 1     | 1       |
-| [283](#id283) | [How do you extend classes](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/283%20-%20How%20do%20you%20extend%20classes.md)                                               | 1     | 1       |
-| [284](#id284) | [How do i modify the url without reloading](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/284%20-%20How%20do%20i%20modify%20the%20url%20without%20reloading.md)         | 1     | 1       |
-| [285](#id285) | [How do you check whether an array includes](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/285%20-%20How%20do%20you%20check%20whether%20an%20array%20includes.md)       | 1     | 1       |
-| [286](#id286) | [How do you compare scalar arrays](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/286%20-%20How%20do%20you%20compare%20scalar%20arrays.md)                               | 1     | 1       |
-| [287](#id287) | [How to get the value from get parameters](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/287%20-%20How%20to%20get%20the%20value%20from%20get%20parameters.md)           | 1     | 1       |
-| [288](#id288) | [How do you print numbers with commas as th](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/288%20-%20How%20do%20you%20print%20numbers%20with%20commas%20as%20th.md)     | 1     | 1       |
-| [289](#id289) | [What is the difference between java and ja](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/289%20-%20What%20is%20the%20difference%20between%20java%20and%20ja.md)       | 1     | 1       |
-| [290](#id290) | [Does javascript supports namespace](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/290%20-%20Does%20javascript%20supports%20namespace.md)                               | 1     | 1       |
-| [291](#id291) | [How do you declare namespace](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/291%20-%20How%20do%20you%20declare%20namespace.md)                                         | 1     | 1       |
-| [292](#id292) | [How do you invoke javascript code in an if](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/292%20-%20How%20do%20you%20invoke%20javascript%20code%20in%20an%20if.md)     | 1     | 1       |
-| [293](#id293) | [How do get the timezone offset from date](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/293%20-%20How%20do%20get%20the%20timezone%20offset%20from%20date.md)           | 1     | 1       |
-| [294](#id294) | [How do you load css and js files dynamical](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/294%20-%20How%20do%20you%20load%20css%20and%20js%20files%20dynamical.md)     | 1     | 1       |
-| [295](#id295) | [What are the different methods to find htm](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/295%20-%20What%20are%20the%20different%20methods%20to%20find%20htm.md)       | 1     | 1       |
-| [296](#id296) | [What is jquery](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/296%20-%20What%20is%20jquery.md)                                                                         | 1     | 1       |
-| [297](#id297) | [What is v8 javascript engine](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/297%20-%20What%20is%20v8%20javascript%20engine.md)                                         | 1     | 1       |
-| [298](#id298) | [Why do we call javascript as dynamic langu](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/298%20-%20Why%20do%20we%20call%20javascript%20as%20dynamic%20langu.md)       | 1     | 1       |
-| [299](#id299) | [What is a void operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/299%20-%20What%20is%20a%20void%20operator.md)                                                   | 1     | 1       |
-| [300](#id300) | [How to set the cursor to wait](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/300%20-%20How%20to%20set%20the%20cursor%20to%20wait.md)                                   | 1     | 1       |
-| [301](#id301) | [How do you create an infinite loop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/301%20-%20How%20do%20you%20create%20an%20infinite%20loop.md)                         | 1     | 1       |
-| [302](#id302) | [Why do you need to avoid with statement](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/302%20-%20Why%20do%20you%20need%20to%20avoid%20with%20statement.md)             | 1     | 1       |
-| [303](#id303) | [What is the output of below for loops](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/303%20-%20What%20is%20the%20output%20of%20below%20for%20loops.md)                 | 1     | 1       |
-| [304](#id304) | [List down some of the features of es6](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/304%20-%20List%20down%20some%20of%20the%20features%20of%20es6.md)                 | 1     | 1       |
-| [305](#id305) | [What is es6](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/305%20-%20What%20is%20es6.md)                                                                               | 1     | 1       |
-| [306](#id306) | [Can i redeclare let and const variables](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/306%20-%20Can%20i%20redeclare%20let%20and%20const%20variables.md)               | 1     | 1       |
-| [307](#id307) | [Is const variable makes the value immutabl](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/307%20-%20Is%20const%20variable%20makes%20the%20value%20immutabl.md)         | 1     | 1       |
-| [308](#id308) | [What are default parameters](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/308%20-%20What%20are%20default%20parameters.md)                                             | 1     | 1       |
-| [309](#id309) | [What are template literals](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/309%20-%20What%20are%20template%20literals.md)                                               | 1     | 1       |
-| [310](#id310) | [How do you write multi-line strings in tem](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/310%20-%20How%20do%20you%20write%20multi-line%20strings%20in%20tem.md)       | 1     | 1       |
-| [311](#id311) | [What are nesting templates](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/311%20-%20What%20are%20nesting%20templates.md)                                               | 1     | 1       |
-| [312](#id312) | [What are tagged templates](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/312%20-%20What%20are%20tagged%20templates.md)                                                 | 1     | 1       |
-| [313](#id313) | [What are raw strings](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/313%20-%20What%20are%20raw%20strings.md)                                                           | 1     | 1       |
-| [314](#id314) | [What is destructuring assignment](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/314%20-%20What%20is%20destructuring%20assignment.md)                                   | 1     | 1       |
-| [315](#id315) | [What are default values in destructuring a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/315%20-%20What%20are%20default%20values%20in%20destructuring%20a.md)         | 1     | 1       |
-| [316](#id316) | [How do you swap variables in destructuring](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/316%20-%20How%20do%20you%20swap%20variables%20in%20destructuring.md)         | 1     | 1       |
-| [317](#id317) | [What are enhanced object literals](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/317%20-%20What%20are%20enhanced%20object%20literals.md)                               | 1     | 1       |
-| [318](#id318) | [What are dynamic imports](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/318%20-%20What%20are%20dynamic%20imports.md)                                                   | 1     | 1       |
-| [319](#id319) | [What are the use cases for dynamic imports](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/319%20-%20What%20are%20the%20use%20cases%20for%20dynamic%20imports.md)       | 1     | 1       |
-| [320](#id320) | [What are typed arrays](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/320%20-%20What%20are%20typed%20arrays.md)                                                         | 1     | 1       |
-| [321](#id321) | [What are the advantages of module loaders](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/321%20-%20What%20are%20the%20advantages%20of%20module%20loaders.md)           | 1     | 1       |
-| [322](#id322) | [What is collation](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/322%20-%20What%20is%20collation.md)                                                                   | 1     | 1       |
-| [323](#id323) | [What is for of statement](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/323%20-%20What%20is%20for%20of%20statement.md)                                                 | 1     | 1       |
-| [324](#id324) | [What is the output of below spread operato](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/324%20-%20What%20is%20the%20output%20of%20below%20spread%20operato.md)       | 1     | 1       |
-| [325](#id325) | [Is postmessage secure](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/325%20-%20Is%20postmessage%20secure.md)                                                           | 1     | 1       |
-| [326](#id326) | [What are the problems with postmessage tar](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/326%20-%20What%20are%20the%20problems%20with%20postmessage%20tar.md)         | 1     | 1       |
-| [327](#id327) | [How do you avoid receiving postmessages fr](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/327%20-%20How%20do%20you%20avoid%20receiving%20postmessages%20fr.md)         | 1     | 1       |
-| [328](#id328) | [Can i avoid using postmessages completely](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/328%20-%20Can%20i%20avoid%20using%20postmessages%20completely.md)             | 1     | 1       |
-| [329](#id329) | [Is postmessages synchronous](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/329%20-%20Is%20postmessages%20synchronous.md)                                               | 1     | 1       |
-| [330](#id330) | [What paradigm is javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/330%20-%20What%20paradigm%20is%20javascript.md)                                             | 1     | 1       |
-| [331](#id331) | [What is the difference between internal an](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/331%20-%20What%20is%20the%20difference%20between%20internal%20an.md)         | 1     | 1       |
-| [332](#id332) | [Is javascript faster than server side scri](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/332%20-%20Is%20javascript%20faster%20than%20server%20side%20scri.md)         | 1     | 1       |
-| [333](#id333) | [How do you get the status of a checkbox](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/333%20-%20How%20do%20you%20get%20the%20status%20of%20a%20checkbox.md)           | 1     | 1       |
-| [334](#id334) | [What is the purpose of double tilde operat](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/334%20-%20What%20is%20the%20purpose%20of%20double%20tilde%20operat.md)       | 1     | 1       |
-| [335](#id335) | [How do you convert character to ascii code](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/335%20-%20How%20do%20you%20convert%20character%20to%20ascii%20code.md)       | 1     | 1       |
-| [336](#id336) | [What is arraybuffer](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/336%20-%20What%20is%20arraybuffer.md)                                                               | 1     | 1       |
-| [337](#id337) | [What is the output of below string express](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/337%20-%20What%20is%20the%20output%20of%20below%20string%20express.md)       | 1     | 1       |
-| [338](#id338) | [What is the purpose of error object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/338%20-%20What%20is%20the%20purpose%20of%20error%20object.md)                       | 1     | 1       |
-| [339](#id339) | [What is the purpose of evalerror object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/339%20-%20What%20is%20the%20purpose%20of%20evalerror%20object.md)               | 1     | 1       |
-| [340](#id340) | [What are the list of cases error thrown fr](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/340%20-%20What%20are%20the%20list%20of%20cases%20error%20thrown%20fr.md)     | 1     | 1       |
-| [341](#id341) | [Do all objects have prototypes](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/341%20-%20Do%20all%20objects%20have%20prototypes.md)                                     | 1     | 1       |
-| [342](#id342) | [What is the difference between a parameter](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/342%20-%20What%20is%20the%20difference%20between%20a%20parameter.md)         | 1     | 1       |
-| [343](#id343) | [What is the purpose of some method in arra](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/343%20-%20What%20is%20the%20purpose%20of%20some%20method%20in%20arra.md)     | 1     | 1       |
-| [344](#id344) | [How do you combine two or more arrays](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/344%20-%20How%20do%20you%20combine%20two%20or%20more%20arrays.md)                 | 1     | 1       |
-| [345](#id345) | [What is the difference between shallow and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/345%20-%20What%20is%20the%20difference%20between%20shallow%20and.md)         | 1     | 1       |
-| [346](#id346) | [How do you create specific number of copie](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/346%20-%20How%20do%20you%20create%20specific%20number%20of%20copie.md)       | 1     | 1       |
-| [347](#id347) | [How do you return all matching strings aga](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/347%20-%20How%20do%20you%20return%20all%20matching%20strings%20aga.md)       | 1     | 1       |
-| [348](#id348) | [How do you trim a string at the beginning](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/348%20-%20How%20do%20you%20trim%20a%20string%20at%20the%20beginning.md)       | 1     | 1       |
-| [349](#id349) | [What is the output of below console statem](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/349%20-%20What%20is%20the%20output%20of%20below%20console%20statem.md)       | 1     | 1       |
-| [350](#id350) | [Does javascript uses mixins](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/350%20-%20Does%20javascript%20uses%20mixins.md)                                             | 1     | 1       |
-| [351](#id351) | [What is a thunk function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/351%20-%20What%20is%20a%20thunk%20function.md)                                                 | 1     | 1       |
-| [352](#id352) | [What are asynchronous thunks](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/352%20-%20What%20are%20asynchronous%20thunks.md)                                           | 1     | 1       |
-| [353](#id353) | [What is the output of below function calls](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/353%20-%20What%20is%20the%20output%20of%20below%20function%20calls.md)       | 1     | 1       |
-| [354](#id354) | [How to remove all line breaks from a strin](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/354%20-%20How%20to%20remove%20all%20line%20breaks%20from%20a%20strin.md)     | 1     | 1       |
-| [355](#id355) | [What is the difference between reflow and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/355%20-%20What%20is%20the%20difference%20between%20reflow%20and.md)           | 1     | 1       |
-| [356](#id356) | [What happens with negating an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/356%20-%20What%20happens%20with%20negating%20an%20array.md)                         | 1     | 1       |
-| [357](#id357) | [What happens if we add two arrays](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/357%20-%20What%20happens%20if%20we%20add%20two%20arrays.md)                           | 1     | 1       |
-| [358](#id358) | [What is the output of prepend additive ope](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/358%20-%20What%20is%20the%20output%20of%20prepend%20additive%20ope.md)       | 1     | 1       |
-| [359](#id359) | [How do you create self string using specia](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/359%20-%20How%20do%20you%20create%20self%20string%20using%20specia.md)       | 1     | 1       |
-| [360](#id360) | [How do you remove falsy values from an arr](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/360%20-%20How%20do%20you%20remove%20falsy%20values%20from%20an%20arr.md)     | 1     | 1       |
-| [361](#id361) | [How do you get unique values of an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/361%20-%20How%20do%20you%20get%20unique%20values%20of%20an%20array.md)         | 1     | 1       |
-| [362](#id362) | [What is destructuring aliases](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/362%20-%20What%20is%20destructuring%20aliases.md)                                         | 1     | 1       |
-| [363](#id363) | [How do you map the array values without us](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/363%20-%20How%20do%20you%20map%20the%20array%20values%20without%20us.md)     | 1     | 1       |
-| [364](#id364) | [How do you empty an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/364%20-%20How%20do%20you%20empty%20an%20array.md)                                             | 1     | 1       |
-| [365](#id365) | [How do you rounding numbers to certain dec](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/365%20-%20How%20do%20you%20rounding%20numbers%20to%20certain%20dec.md)       | 1     | 1       |
-| [366](#id366) | [What is the easiest way to convert an arra](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/366%20-%20What%20is%20the%20easiest%20way%20to%20convert%20an%20arra.md)     | 1     | 1       |
-| [367](#id367) | [How do you create an array with some data](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/367%20-%20How%20do%20you%20create%20an%20array%20with%20some%20data.md)       | 1     | 1       |
-| [368](#id368) | [What are the placeholders from console obj](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/368%20-%20What%20are%20the%20placeholders%20from%20console%20obj.md)         | 1     | 1       |
-| [369](#id369) | [Is it possible to add css to console messa](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/369%20-%20Is%20it%20possible%20to%20add%20css%20to%20console%20messa.md)     | 1     | 1       |
-| [370](#id370) | [What is the purpose of dir method of conso](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/370%20-%20What%20is%20the%20purpose%20of%20dir%20method%20of%20conso.md)     | 1     | 1       |
-| [371](#id371) | [Is it possible to debug html elements in c](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/371%20-%20Is%20it%20possible%20to%20debug%20html%20elements%20in%20c.md)     | 1     | 1       |
-| [372](#id372) | [How do you display data in a tabular forma](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/372%20-%20How%20do%20you%20display%20data%20in%20a%20tabular%20forma.md)     | 1     | 1       |
-| [373](#id373) | [How do you verify that an argument is a nu](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/373%20-%20How%20do%20you%20verify%20that%20an%20argument%20is%20a%20nu.md)   | 1     | 1       |
-| [374](#id374) | [How do you create copy to clipboard button](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/374%20-%20How%20do%20you%20create%20copy%20to%20clipboard%20button.md)       | 1     | 1       |
-| [375](#id375) | [What is the shortcut to get timestamp](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/375%20-%20What%20is%20the%20shortcut%20to%20get%20timestamp.md)                   | 1     | 1       |
-| [376](#id376) | [How do you flattening multi dimensional ar](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/376%20-%20How%20do%20you%20flattening%20multi%20dimensional%20ar.md)         | 1     | 1       |
-| [377](#id377) | [What is the easiest multi condition checki](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/377%20-%20What%20is%20the%20easiest%20multi%20condition%20checki.md)         | 1     | 1       |
-| [378](#id378) | [How do you capture browser back button](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/378%20-%20How%20do%20you%20capture%20browser%20back%20button.md)                 | 1     | 1       |
-| [379](#id379) | [How do you disable right click in the web](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/379%20-%20How%20do%20you%20disable%20right%20click%20in%20the%20web.md)       | 1     | 1       |
-| [380](#id380) | [What are wrapper objects](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/380%20-%20What%20are%20wrapper%20objects.md)                                                   | 1     | 1       |
-| [381](#id381) | [What is ajax](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/381%20-%20What%20is%20ajax.md)                                                                             | 1     | 1       |
-| [382](#id382) | [What are the different ways to deal with a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/382%20-%20What%20are%20the%20different%20ways%20to%20deal%20with%20a.md)     | 1     | 1       |
-| [383](#id383) | [How to cancel a fetch request](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/383%20-%20How%20to%20cancel%20a%20fetch%20request.md)                                     | 1     | 1       |
-| [384](#id384) | [What is web speech api](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/384%20-%20What%20is%20web%20speech%20api.md)                                                     | 1     | 1       |
-| [385](#id385) | [What is minimum timeout throttling](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/385%20-%20What%20is%20minimum%20timeout%20throttling.md)                             | 1     | 1       |
-| [386](#id386) | [How do you implement zero timeout in moder](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/386%20-%20How%20do%20you%20implement%20zero%20timeout%20in%20moder.md)       | 1     | 1       |
-| [387](#id387) | [What are tasks in event loop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/387%20-%20What%20are%20tasks%20in%20event%20loop.md)                                       | 1     | 1       |
-| [388](#id388) | [What is microtask](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/388%20-%20What%20is%20microtask.md)                                                                   | 1     | 1       |
-| [389](#id389) | [What are different event loops](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/389%20-%20What%20are%20different%20event%20loops.md)                                     | 1     | 1       |
-| [390](#id390) | [What is the purpose of queuemicrotask](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/390%20-%20What%20is%20the%20purpose%20of%20queuemicrotask.md)                     | 1     | 1       |
-| [391](#id391) | [How do you use javascript libraries in typ](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/391%20-%20How%20do%20you%20use%20javascript%20libraries%20in%20typ.md)       | 1     | 1       |
-| [392](#id392) | [What are the differences between promises](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/392%20-%20What%20are%20the%20differences%20between%20promises.md)             | 1     | 1       |
-| [393](#id393) | [What is heap](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/393%20-%20What%20is%20heap.md)                                                                             | 1     | 1       |
-| [394](#id394) | [What is an event table](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/394%20-%20What%20is%20an%20event%20table.md)                                                     | 1     | 1       |
-| [395](#id395) | [What is a microtask queue](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/395%20-%20What%20is%20a%20microtask%20queue.md)                                               | 1     | 1       |
-| [396](#id396) | [What is the difference between shim and po](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/396%20-%20What%20is%20the%20difference%20between%20shim%20and%20po.md)       | 1     | 1       |
-| [397](#id397) | [How do you detect primitive or non primiti](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/397%20-%20How%20do%20you%20detect%20primitive%20or%20non%20primiti.md)       | 1     | 1       |
-| [398](#id398) | [What is babel](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/398%20-%20What%20is%20babel.md)                                                                           | 1     | 1       |
-| [399](#id399) | [Is node js completely single threaded](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/399%20-%20Is%20node%20js%20completely%20single%20threaded.md)                     | 1     | 1       |
-| [400](#id400) | [What are the common use cases of observabl](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/400%20-%20What%20are%20the%20common%20use%20cases%20of%20observabl.md)       | 1     | 1       |
-| [401](#id401) | [What is rxjs](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/401%20-%20What%20is%20rxjs.md)                                                                             | 1     | 1       |
-| [402](#id402) | [What is the difference between function co](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/402%20-%20What%20is%20the%20difference%20between%20function%20co.md)         | 1     | 1       |
-| [403](#id403) | [What is a short circuit condition](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/403%20-%20What%20is%20a%20short%20circuit%20condition.md)                             | 1     | 1       |
-| [404](#id404) | [What is the easiest way to resize an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/404%20-%20What%20is%20the%20easiest%20way%20to%20resize%20an%20array.md)     | 1     | 1       |
-| [405](#id405) | [What is an observable](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/405%20-%20What%20is%20an%20observable.md)                                                         | 1     | 1       |
-| [406](#id406) | [What is the difference between function an](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/406%20-%20What%20is%20the%20difference%20between%20function%20an.md)         | 1     | 1       |
-| [407](#id407) | [What is an async function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/407%20-%20What%20is%20an%20async%20function.md)                                               | 1     | 1       |
-| [408](#id408) | [How do you prevent promises swallowing err](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/408%20-%20How%20do%20you%20prevent%20promises%20swallowing%20err.md)         | 1     | 1       |
-| [409](#id409) | [What is deno](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/409%20-%20What%20is%20deno.md)                                                                             | 1     | 1       |
-| [410](#id410) | [How do you make an object iterable in java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/410%20-%20How%20do%20you%20make%20an%20object%20iterable%20in%20java.md)     | 1     | 1       |
-| [411](#id411) | [What is a proper tail call](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/411%20-%20What%20is%20a%20proper%20tail%20call.md)                                           | 1     | 1       |
-| [412](#id412) | [How do you check an object is a promise or](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/412%20-%20How%20do%20you%20check%20an%20object%20is%20a%20promise%20or.md)   | 1     | 1       |
-| [413](#id413) | [How to detect if a function is called as c](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/413%20-%20How%20to%20detect%20if%20a%20function%20is%20called%20as%20c.md)   | 1     | 1       |
-| [414](#id414) | [What are the differences between arguments](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/414%20-%20What%20are%20the%20differences%20between%20arguments.md)           | 1     | 1       |
-| [415](#id415) | [What are the differences between spread op](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/415%20-%20What%20are%20the%20differences%20between%20spread%20op.md)         | 1     | 1       |
-| [416](#id416) | [What are the different kinds of generators](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/416%20-%20What%20are%20the%20different%20kinds%20of%20generators.md)         | 1     | 1       |
-| [417](#id417) | [What are the built-in iterables](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/417%20-%20What%20are%20the%20built-in%20iterables.md)                                   | 1     | 1       |
-| [418](#id418) | [What are the differences between for of](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/418%20-%20What%20are%20the%20differences%20between%20for%20of.md)               | 1     | 1       |
-| [419](#id419) | [How do you define instance and non-instanc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/419%20-%20How%20do%20you%20define%20instance%20and%20non-instanc.md)         | 1     | 1       |
-| [420](#id420) | [What is the difference between isnan and n](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/420%20-%20What%20is%20the%20difference%20between%20isnan%20and%20n.md)       | 1     | 1       |
-| [421](#id421) | [How to invoke an iife without any extra br](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/421%20-%20How%20to%20invoke%20an%20iife%20without%20any%20extra%20br.md)     | 1     | 1       |
-| [422](#id422) | [Is that possible to use expressions in swi](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/422%20-%20Is%20that%20possible%20to%20use%20expressions%20in%20swi.md)       | 1     | 1       |
-| [423](#id423) | [What is the easiest way to ignore promise](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/423%20-%20What%20is%20the%20easiest%20way%20to%20ignore%20promise.md)         | 1     | 1       |
-| [424](#id424) | [How do style the console output using css](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/424%20-%20How%20do%20style%20the%20console%20output%20using%20css.md)         | 1     | 1       |
-| [425](#id425) | [What is nullish coalescing operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/425%20-%20What%20is%20nullish%20coalescing%20operator.md)                           | 1     | 1       |
-| [426](#id426) | [How do you group and nest console output](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/426%20-%20How%20do%20you%20group%20and%20nest%20console%20output.md)           | 1     | 1       |
-| [427](#id427) | [What is the difference between dense and s](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/427%20-%20What%20is%20the%20difference%20between%20dense%20and%20s.md)       | 1     | 1       |
-| [428](#id428) | [What are the different ways to create spar](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/428%20-%20What%20are%20the%20different%20ways%20to%20create%20spar.md)       | 1     | 1       |
-| [429](#id429) | [What is the difference between settimeout](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/429%20-%20What%20is%20the%20difference%20between%20settimeout.md)             | 1     | 1       |
-| [430](#id430) | [How do you reverse an array without modify](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/430%20-%20How%20do%20you%20reverse%20an%20array%20without%20modify.md)       | 1     | 1       |
-| [431](#id431) | [How do you create custom html element](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/431%20-%20How%20do%20you%20create%20custom%20html%20element.md)                   | 1     | 1       |
-| [432](#id432) | [What is global execution context](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/432%20-%20What%20is%20global%20execution%20context.md)                                 | 1     | 1       |
-| [433](#id433) | [What is function execution context](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/433%20-%20What%20is%20function%20execution%20context.md)                             | 1     | 1       |
-| [434](#id434) | [What is debouncing](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/434%20-%20What%20is%20debouncing.md)                                                                 | 1     | 1       |
-| [435](#id435) | [What is throttling](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/435%20-%20What%20is%20throttling.md)                                                                 | 1     | 1       |
-| [436](#id436) | [What is optional chaining](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/436%20-%20What%20is%20optional%20chaining.md)                                                 | 1     | 1       |
-| [437](#id437) | [What is an environment record](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/437%20-%20What%20is%20an%20environment%20record.md)                                       | 1     | 1       |
-| [438](#id438) | [How to verify if a variable is an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/438%20-%20How%20to%20verify%20if%20a%20variable%20is%20an%20array.md)           | 1     | 1       |
-| [439](#id439) | [What is pass by value and pass by referenc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/439%20-%20What%20is%20pass%20by%20value%20and%20pass%20by%20referenc.md)     | 1     | 1       |
-| [440](#id440) | [What are the differences between primitive](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/440%20-%20What%20are%20the%20differences%20between%20primitive.md)           | 1     | 1       |
-| [441](#id441) | [How do you create your own bind method usi](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/441%20-%20How%20do%20you%20create%20your%20own%20bind%20method%20usi.md)     | 1     | 1       |
-| [442](#id442) | [What are the differences between pure and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/442%20-%20What%20are%20the%20differences%20between%20pure%20and.md)           | 1     | 1       |
-| [443](#id443) | [What is referential transparency](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/443%20-%20What%20is%20referential%20transparency.md)                                   | 1     | 1       |
-| [444](#id444) | [What are the possible side-effects in java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/444%20-%20What%20are%20the%20possible%20side-effects%20in%20java.md)         | 1     | 1       |
-| [445](#id445) | [What are compose and pipe functions](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/445%20-%20What%20are%20compose%20and%20pipe%20functions.md)                         | 1     | 1       |
-| [446](#id446) | [What is module pattern](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/446%20-%20What%20is%20module%20pattern.md)                                                       | 1     | 1       |
-| [447](#id447) | [What is function composition](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/447%20-%20What%20is%20function%20composition.md)                                           | 1     | 1       |
-| [448](#id448) | [How to use await outside of async function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/448%20-%20How%20to%20use%20await%20outside%20of%20async%20function.md)       | 1     | 1       |
-| [449](#id449) | [What is the purpose of the this keyword in](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/449%20-%20What%20is%20the%20purpose%20of%20the%20this%20keyword%20in.md)     | 1     | 1       |
-| **-**         | **Introduction > Coding Exercises**                                                                                                                                                                                                                                 | **1** | **2**   |
-| [450](#id450) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/450%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [451](#id451) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/451%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [452](#id452) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/452%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [453](#id453) | [What is the output of below equality check](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/453%20-%20What%20is%20the%20output%20of%20below%20equality%20check.md)          | 1     | 2       |
-| [454](#id454) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/454%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [455](#id455) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/455%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [456](#id456) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/456%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [457](#id457) | [What is the output of below code in latest](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/457%20-%20What%20is%20the%20output%20of%20below%20code%20in%20latest.md)        | 1     | 2       |
-| [458](#id458) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/458%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [459](#id459) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/459%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [460](#id460) | [What is the output of below code in non-st](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/460%20-%20What%20is%20the%20output%20of%20below%20code%20in%20non-st.md)        | 1     | 2       |
-| [461](#id461) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/461%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [462](#id462) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/462%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [463](#id463) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/463%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [464](#id464) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/464%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [465](#id465) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/465%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [466](#id466) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/466%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [467](#id467) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/467%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [468](#id468) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/468%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [469](#id469) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/469%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [470](#id470) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/470%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [471](#id471) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/471%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [472](#id472) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/472%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [473](#id473) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/473%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [474](#id474) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/474%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [475](#id475) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/475%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [476](#id476) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/476%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [477](#id477) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/477%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [478](#id478) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/478%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [479](#id479) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/479%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [480](#id480) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/480%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [481](#id481) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/481%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [482](#id482) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/482%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [483](#id483) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/483%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [484](#id484) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/484%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [485](#id485) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/485%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [486](#id486) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/486%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [487](#id487) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/487%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [488](#id488) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/488%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [489](#id489) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/489%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [490](#id490) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/490%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [491](#id491) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/491%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [492](#id492) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/492%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [493](#id493) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/493%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [494](#id494) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/494%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [495](#id495) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/495%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [496](#id496) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/496%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [497](#id497) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/497%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [498](#id498) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/498%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [499](#id499) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/499%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [500](#id500) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/500%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [501](#id501) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/501%20-%20What%20is%20the%20output%20of%20below%20code%20java.md)                    | 1     | 2       |
-| [502](#id502) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/502%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [503](#id503) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/503%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [504](#id504) | [What is the output of below code in non st](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/504%20-%20What%20is%20the%20output%20of%20below%20code%20in%20non%20st.md)      | 1     | 2       |
-| [505](#id505) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/505%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [506](#id506) | [What is the output of below code - 1](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/506%20-%20What%20is%20the%20output%20of%20below%20code%20-%201.md)                    | 1     | 2       |
-| [507](#id507) | [What is the output of below code ja](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/507%20-%20What%20is%20the%20output%20of%20below%20code%20ja.md)                        | 1     | 2       |
-| [508](#id508) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/508%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [509](#id509) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/509%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [510](#id510) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/510%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [511](#id511) | [Write a function that returns a random hex](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/511%20-%20Write%20a%20function%20that%20returns%20a%20random%20hex.md)          | 1     | 2       |
-| [512](#id512) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/512%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [513](#id513) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/513%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [514](#id514) | [What is the output order of below code](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/514%20-%20What%20is%20the%20output%20order%20of%20below%20code.md)                  | 1     | 2       |
-| [515](#id515) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/515%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [516](#id516) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/516%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [517](#id517) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/517%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [518](#id518) | [What is the output of below code in an ord](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/518%20-%20What%20is%20the%20output%20of%20below%20code%20in%20an%20ord.md)      | 1     | 2       |
-| [519](#id519) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/519%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [520](#id520) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/520%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [521](#id521) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/521%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [522](#id522) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/522%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [523](#id523) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/523%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [524](#id524) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/524%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [525](#id525) | [What is the type of below function j](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/525%20-%20What%20is%20the%20type%20of%20below%20function%20j.md)                      | 1     | 2       |
-| [526](#id526) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/526%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [527](#id527) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/527%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [528](#id528) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/528%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [529](#id529) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/529%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md)                      | 1     | 2       |
-| [530](#id530) | [How do you verify two strings are anagrams](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/530%20-%20How%20do%20you%20verify%20two%20strings%20are%20anagrams.md)          | 1     | 2       |
+| ID | File name / path | Part | Chapter |
+| --- | --- | --- | --- |
+| **-** | **Introduction** | **1** | **-** |
+| **-** | **Introduction > Interview Questions** | **1** | **1** |
+| [1](#id1) | [What are the possible ways to create objec](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/1%20-%20What%20are%20the%20possible%20ways%20to%20create%20objec.md) | 1 | 1 |
+| [2](#id2) | [What is a prototype chain](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/2%20-%20What%20is%20a%20prototype%20chain.md) | 1 | 1 |
+| [3](#id3) | [What is the difference between call apply](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/3%20-%20What%20is%20the%20difference%20between%20call%20apply.md) | 1 | 1 |
+| [4](#id4) | [What is json and its common operations](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/4%20-%20What%20is%20json%20and%20its%20common%20operations.md) | 1 | 1 |
+| [5](#id5) | [What is the purpose of the array slice met](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/5%20-%20What%20is%20the%20purpose%20of%20the%20array%20slice%20met.md) | 1 | 1 |
+| [6](#id6) | [What is the purpose of the array splice me](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/6%20-%20What%20is%20the%20purpose%20of%20the%20array%20splice%20me.md) | 1 | 1 |
+| [7](#id7) | [What is the difference between slice and s](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/7%20-%20What%20is%20the%20difference%20between%20slice%20and%20s.md) | 1 | 1 |
+| [8](#id8) | [How do you compare object and map](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/8%20-%20How%20do%20you%20compare%20object%20and%20map.md) | 1 | 1 |
+| [9](#id9) | [What is the difference between and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/9%20-%20What%20is%20the%20difference%20between%20and.md) | 1 | 1 |
+| [10](#id10) | [What are lambda or arrow functions](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/10%20-%20What%20are%20lambda%20or%20arrow%20functions.md) | 1 | 1 |
+| [11](#id11) | [What is a first class function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/11%20-%20What%20is%20a%20first%20class%20function.md) | 1 | 1 |
+| [12](#id12) | [What is a first order function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/12%20-%20What%20is%20a%20first%20order%20function.md) | 1 | 1 |
+| [13](#id13) | [What is a higher order function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/13%20-%20What%20is%20a%20higher%20order%20function.md) | 1 | 1 |
+| [14](#id14) | [What is a unary function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/14%20-%20What%20is%20a%20unary%20function.md) | 1 | 1 |
+| [15](#id15) | [What is the currying function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/15%20-%20What%20is%20the%20currying%20function.md) | 1 | 1 |
+| [16](#id16) | [What is a pure function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/16%20-%20What%20is%20a%20pure%20function.md) | 1 | 1 |
+| [17](#id17) | [What is the purpose of the let keyword](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/17%20-%20What%20is%20the%20purpose%20of%20the%20let%20keyword.md) | 1 | 1 |
+| [18](#id18) | [What is the difference between let and var](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/18%20-%20What%20is%20the%20difference%20between%20let%20and%20var.md) | 1 | 1 |
+| [19](#id19) | [What is the reason to choose the name let](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/19%20-%20What%20is%20the%20reason%20to%20choose%20the%20name%20let.md) | 1 | 1 |
+| [20](#id20) | [How do you redeclare variables in a switch](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/20%20-%20How%20do%20you%20redeclare%20variables%20in%20a%20switch.md) | 1 | 1 |
+| [21](#id21) | [What is the temporal dead zone](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/21%20-%20What%20is%20the%20temporal%20dead%20zone.md) | 1 | 1 |
+| [22](#id22) | [What is an iife immediately invoked funct](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/22%20-%20What%20is%20an%20iife%20immediately%20invoked%20funct.md) | 1 | 1 |
+| [23](#id23) | [How do you decode or encode a url in javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/23%20-%20How%20do%20you%20decode%20or%20encode%20a%20url%20in%20javas.md) | 1 | 1 |
+| [24](#id24) | [What is memoization](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/24%20-%20What%20is%20memoization.md) | 1 | 1 |
+| [25](#id25) | [What is hoisting](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/25%20-%20What%20is%20hoisting.md) | 1 | 1 |
+| [26](#id26) | [What are classes in es6](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/26%20-%20What%20are%20classes%20in%20es6.md) | 1 | 1 |
+| [27](#id27) | [What are closures](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/27%20-%20What%20are%20closures.md) | 1 | 1 |
+| [28](#id28) | [What are modules](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/28%20-%20What%20are%20modules.md) | 1 | 1 |
+| [29](#id29) | [Why do you need modules](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/29%20-%20Why%20do%20you%20need%20modules.md) | 1 | 1 |
+| [30](#id30) | [What is scope in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/30%20-%20What%20is%20scope%20in%20javascript.md) | 1 | 1 |
+| [31](#id31) | [What is a service worker](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/31%20-%20What%20is%20a%20service%20worker.md) | 1 | 1 |
+| [32](#id32) | [How do you manipulate dom using a service](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/32%20-%20How%20do%20you%20manipulate%20dom%20using%20a%20service.md) | 1 | 1 |
+| [33](#id33) | [How do you reuse information across servic](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/33%20-%20How%20do%20you%20reuse%20information%20across%20servic.md) | 1 | 1 |
+| [34](#id34) | [What is indexeddb](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/34%20-%20What%20is%20indexeddb.md) | 1 | 1 |
+| [35](#id35) | [What is web storage](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/35%20-%20What%20is%20web%20storage.md) | 1 | 1 |
+| [36](#id36) | [What is a post message](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/36%20-%20What%20is%20a%20post%20message.md) | 1 | 1 |
+| [37](#id37) | [What is a cookie](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/37%20-%20What%20is%20a%20cookie.md) | 1 | 1 |
+| [38](#id38) | [Why do you need a cookie](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/38%20-%20Why%20do%20you%20need%20a%20cookie.md) | 1 | 1 |
+| [39](#id39) | [What are the options in a cookie](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/39%20-%20What%20are%20the%20options%20in%20a%20cookie.md) | 1 | 1 |
+| [40](#id40) | [How do you delete a cookie](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/40%20-%20How%20do%20you%20delete%20a%20cookie.md) | 1 | 1 |
+| [41](#id41) | [What are the differences between cookie l](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/41%20-%20What%20are%20the%20differences%20between%20cookie%20l.md) | 1 | 1 |
+| [42](#id42) | [What is the main difference between locals](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/42%20-%20What%20is%20the%20main%20difference%20between%20locals.md) | 1 | 1 |
+| [43](#id43) | [How do you access web storage](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/43%20-%20How%20do%20you%20access%20web%20storage.md) | 1 | 1 |
+| [44](#id44) | [What are the methods available on session](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/44%20-%20What%20are%20the%20methods%20available%20on%20session.md) | 1 | 1 |
+| [45](#id45) | [What is a storage event and its event hand](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/45%20-%20What%20is%20a%20storage%20event%20and%20its%20event%20hand.md) | 1 | 1 |
+| [46](#id46) | [Why do you need web storage](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/46%20-%20Why%20do%20you%20need%20web%20storage.md) | 1 | 1 |
+| [47](#id47) | [How do you check web storage browser suppo](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/47%20-%20How%20do%20you%20check%20web%20storage%20browser%20suppo.md) | 1 | 1 |
+| [48](#id48) | [How do you check web workers browser suppo](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/48%20-%20How%20do%20you%20check%20web%20workers%20browser%20suppo.md) | 1 | 1 |
+| [49](#id49) | [Give an example of a web worker](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/49%20-%20Give%20an%20example%20of%20a%20web%20worker.md) | 1 | 1 |
+| [50](#id50) | [What are the restrictions of web workers o](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/50%20-%20What%20are%20the%20restrictions%20of%20web%20workers%20o.md) | 1 | 1 |
+| [51](#id51) | [What is a promise](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/51%20-%20What%20is%20a%20promise.md) | 1 | 1 |
+| [52](#id52) | [Why do you need a promise](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/52%20-%20Why%20do%20you%20need%20a%20promise.md) | 1 | 1 |
+| [53](#id53) | [What are the three states of promise](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/53%20-%20What%20are%20the%20three%20states%20of%20promise.md) | 1 | 1 |
+| [54](#id54) | [What is a callback function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/54%20-%20What%20is%20a%20callback%20function.md) | 1 | 1 |
+| [55](#id55) | [Why do we need callbacks](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/55%20-%20Why%20do%20we%20need%20callbacks.md) | 1 | 1 |
+| [56](#id56) | [What is a callback hell](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/56%20-%20What%20is%20a%20callback%20hell.md) | 1 | 1 |
+| [57](#id57) | [What are server-sent events](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/57%20-%20What%20are%20server-sent%20events.md) | 1 | 1 |
+| [58](#id58) | [How do you receive server-sent event notif](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/58%20-%20How%20do%20you%20receive%20server-sent%20event%20notif.md) | 1 | 1 |
+| [59](#id59) | [How do you check browser support for serve](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/59%20-%20How%20do%20you%20check%20browser%20support%20for%20serve.md) | 1 | 1 |
+| [60](#id60) | [What are the events available for server s](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/60%20-%20What%20are%20the%20events%20available%20for%20server%20s.md) | 1 | 1 |
+| [61](#id61) | [What are the main rules of promise](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/61%20-%20What%20are%20the%20main%20rules%20of%20promise.md) | 1 | 1 |
+| [62](#id62) | [What is callback in callback](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/62%20-%20What%20is%20callback%20in%20callback.md) | 1 | 1 |
+| [63](#id63) | [What is promise chaining](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/63%20-%20What%20is%20promise%20chaining.md) | 1 | 1 |
+| [64](#id64) | [What is promise all](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/64%20-%20What%20is%20promise%20all.md) | 1 | 1 |
+| [65](#id65) | [What is the purpose of the race method in](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/65%20-%20What%20is%20the%20purpose%20of%20the%20race%20method%20in.md) | 1 | 1 |
+| [66](#id66) | [What is a strict mode in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/66%20-%20What%20is%20a%20strict%20mode%20in%20javascript.md) | 1 | 1 |
+| [67](#id67) | [Why do you need strict mode](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/67%20-%20Why%20do%20you%20need%20strict%20mode.md) | 1 | 1 |
+| [68](#id68) | [How do you declare strict mode](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/68%20-%20How%20do%20you%20declare%20strict%20mode.md) | 1 | 1 |
+| [69](#id69) | [What is the purpose of double exclamation](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/69%20-%20What%20is%20the%20purpose%20of%20double%20exclamation.md) | 1 | 1 |
+| [70](#id70) | [What is the purpose of the delete operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/70%20-%20What%20is%20the%20purpose%20of%20the%20delete%20operator.md) | 1 | 1 |
+| [71](#id71) | [What is typeof operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/71%20-%20What%20is%20typeof%20operator.md) | 1 | 1 |
+| [72](#id72) | [What is undefined property](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/72%20-%20What%20is%20undefined%20property.md) | 1 | 1 |
+| [73](#id73) | [What is null value](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/73%20-%20What%20is%20null%20value.md) | 1 | 1 |
+| [74](#id74) | [What is the difference between null and un](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/74%20-%20What%20is%20the%20difference%20between%20null%20and%20un.md) | 1 | 1 |
+| [75](#id75) | [What is eval](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/75%20-%20What%20is%20eval.md) | 1 | 1 |
+| [76](#id76) | [What is the difference between window and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/76%20-%20What%20is%20the%20difference%20between%20window%20and.md) | 1 | 1 |
+| [77](#id77) | [How do you access history in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/77%20-%20How%20do%20you%20access%20history%20in%20javascript.md) | 1 | 1 |
+| [78](#id78) | [How do you detect caps lock key turned on](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/78%20-%20How%20do%20you%20detect%20caps%20lock%20key%20turned%20on.md) | 1 | 1 |
+| [79](#id79) | [What is isnan](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/79%20-%20What%20is%20isnan.md) | 1 | 1 |
+| [80](#id80) | [What are the differences between undeclare](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/80%20-%20What%20are%20the%20differences%20between%20undeclare.md) | 1 | 1 |
+| [81](#id81) | [What are global variables](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/81%20-%20What%20are%20global%20variables.md) | 1 | 1 |
+| [82](#id82) | [What are the problems with global variable](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/82%20-%20What%20are%20the%20problems%20with%20global%20variable.md) | 1 | 1 |
+| [83](#id83) | [What is nan property](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/83%20-%20What%20is%20nan%20property.md) | 1 | 1 |
+| [84](#id84) | [What is the purpose of isfinite function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/84%20-%20What%20is%20the%20purpose%20of%20isfinite%20function.md) | 1 | 1 |
+| [85](#id85) | [What is an event flow](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/85%20-%20What%20is%20an%20event%20flow.md) | 1 | 1 |
+| [86](#id86) | [What is event bubbling](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/86%20-%20What%20is%20event%20bubbling.md) | 1 | 1 |
+| [87](#id87) | [What is event capturing](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/87%20-%20What%20is%20event%20capturing.md) | 1 | 1 |
+| [88](#id88) | [How do you submit a form using javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/88%20-%20How%20do%20you%20submit%20a%20form%20using%20javascript.md) | 1 | 1 |
+| [89](#id89) | [How do you find operating system details](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/89%20-%20How%20do%20you%20find%20operating%20system%20details.md) | 1 | 1 |
+| [90](#id90) | [What is the difference between document lo](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/90%20-%20What%20is%20the%20difference%20between%20document%20lo.md) | 1 | 1 |
+| [91](#id91) | [What is the difference between native hos](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/91%20-%20What%20is%20the%20difference%20between%20native%20hos.md) | 1 | 1 |
+| [92](#id92) | [What are the tools or techniques used for](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/92%20-%20What%20are%20the%20tools%20or%20techniques%20used%20for.md) | 1 | 1 |
+| [93](#id93) | [What are the pros and cons of promises ove](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/93%20-%20What%20are%20the%20pros%20and%20cons%20of%20promises%20ove.md) | 1 | 1 |
+| [94](#id94) | [What is the difference between an attribut](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/94%20-%20What%20is%20the%20difference%20between%20an%20attribut.md) | 1 | 1 |
+| [95](#id95) | [What is same-origin policy](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/95%20-%20What%20is%20same-origin%20policy.md) | 1 | 1 |
+| [96](#id96) | [What is the purpose of void 0](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/96%20-%20What%20is%20the%20purpose%20of%20void%200.md) | 1 | 1 |
+| [97](#id97) | [Is javascript a compiled or interpreted la](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/97%20-%20Is%20javascript%20a%20compiled%20or%20interpreted%20la.md) | 1 | 1 |
+| [98](#id98) | [Is javascript a case-sensitive language](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/98%20-%20Is%20javascript%20a%20case-sensitive%20language.md) | 1 | 1 |
+| [99](#id99) | [Is there any relation between java and jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/99%20-%20Is%20there%20any%20relation%20between%20java%20and%20jav.md) | 1 | 1 |
+| [100](#id100) | [What are events](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/100%20-%20What%20are%20events.md) | 1 | 1 |
+| [101](#id101) | [Who created javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/101%20-%20Who%20created%20javascript.md) | 1 | 1 |
+| [102](#id102) | [What is the use of preventdefault method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/102%20-%20What%20is%20the%20use%20of%20preventdefault%20method.md) | 1 | 1 |
+| [103](#id103) | [What is the use of stoppropagation method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/103%20-%20What%20is%20the%20use%20of%20stoppropagation%20method.md) | 1 | 1 |
+| [104](#id104) | [What are the steps involved in return fals](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/104%20-%20What%20are%20the%20steps%20involved%20in%20return%20fals.md) | 1 | 1 |
+| [105](#id105) | [What is bom](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/105%20-%20What%20is%20bom.md) | 1 | 1 |
+| [106](#id106) | [What is the use of settimeout](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/106%20-%20What%20is%20the%20use%20of%20settimeout.md) | 1 | 1 |
+| [107](#id107) | [What is the use of setinterval](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/107%20-%20What%20is%20the%20use%20of%20setinterval.md) | 1 | 1 |
+| [108](#id108) | [Why is javascript treated as single thread](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/108%20-%20Why%20is%20javascript%20treated%20as%20single%20thread.md) | 1 | 1 |
+| [109](#id109) | [What is an event delegation](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/109%20-%20What%20is%20an%20event%20delegation.md) | 1 | 1 |
+| [110](#id110) | [What is ecmascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/110%20-%20What%20is%20ecmascript.md) | 1 | 1 |
+| [111](#id111) | [What is json](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/111%20-%20What%20is%20json.md) | 1 | 1 |
+| [112](#id112) | [What are the syntax rules of json](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/112%20-%20What%20are%20the%20syntax%20rules%20of%20json.md) | 1 | 1 |
+| [113](#id113) | [What is the purpose json stringify](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/113%20-%20What%20is%20the%20purpose%20json%20stringify.md) | 1 | 1 |
+| [114](#id114) | [How do you parse json string](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/114%20-%20How%20do%20you%20parse%20json%20string.md) | 1 | 1 |
+| [115](#id115) | [Why do you need json](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/115%20-%20Why%20do%20you%20need%20json.md) | 1 | 1 |
+| [116](#id116) | [What are pwas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/116%20-%20What%20are%20pwas.md) | 1 | 1 |
+| [117](#id117) | [What is the purpose of cleartimeout method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/117%20-%20What%20is%20the%20purpose%20of%20cleartimeout%20method.md) | 1 | 1 |
+| [118](#id118) | [What is the purpose of clearinterval metho](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/118%20-%20What%20is%20the%20purpose%20of%20clearinterval%20metho.md) | 1 | 1 |
+| [119](#id119) | [How do you redirect new page in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/119%20-%20How%20do%20you%20redirect%20new%20page%20in%20javascript.md) | 1 | 1 |
+| [120](#id120) | [How do you check whether a string contains](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/120%20-%20How%20do%20you%20check%20whether%20a%20string%20contains.md) | 1 | 1 |
+| [121](#id121) | [How do you validate an email in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/121%20-%20How%20do%20you%20validate%20an%20email%20in%20javascript.md) | 1 | 1 |
+| [122](#id122) | [How do you get the current url with javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/122%20-%20How%20do%20you%20get%20the%20current%20url%20with%20javasc.md) | 1 | 1 |
+| [123](#id123) | [What are the various url properties of loc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/123%20-%20What%20are%20the%20various%20url%20properties%20of%20loc.md) | 1 | 1 |
+| [124](#id124) | [How do get query string values in javascri](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/124%20-%20How%20do%20get%20query%20string%20values%20in%20javascri.md) | 1 | 1 |
+| [125](#id125) | [How do you check if a key exists in an obj](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/125%20-%20How%20do%20you%20check%20if%20a%20key%20exists%20in%20an%20obj.md) | 1 | 1 |
+| [126](#id126) | [How do you loop through or enumerate javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/126%20-%20How%20do%20you%20loop%20through%20or%20enumerate%20javas.md) | 1 | 1 |
+| [127](#id127) | [How do you test for an empty object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/127%20-%20How%20do%20you%20test%20for%20an%20empty%20object.md) | 1 | 1 |
+| [128](#id128) | [What is an arguments object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/128%20-%20What%20is%20an%20arguments%20object.md) | 1 | 1 |
+| [129](#id129) | [How do you make first letter of the string](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/129%20-%20How%20do%20you%20make%20first%20letter%20of%20the%20string.md) | 1 | 1 |
+| [130](#id130) | [What are the pros and cons of for loop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/130%20-%20What%20are%20the%20pros%20and%20cons%20of%20for%20loop.md) | 1 | 1 |
+| [131](#id131) | [How do you display the current date in jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/131%20-%20How%20do%20you%20display%20the%20current%20date%20in%20jav.md) | 1 | 1 |
+| [132](#id132) | [How do you compare two date objects](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/132%20-%20How%20do%20you%20compare%20two%20date%20objects.md) | 1 | 1 |
+| [133](#id133) | [How do you check if a string starts with a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/133%20-%20How%20do%20you%20check%20if%20a%20string%20starts%20with%20a.md) | 1 | 1 |
+| [134](#id134) | [How do you trim a string in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/134%20-%20How%20do%20you%20trim%20a%20string%20in%20javascript.md) | 1 | 1 |
+| [135](#id135) | [How do you add a key value pair in javascr](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/135%20-%20How%20do%20you%20add%20a%20key%20value%20pair%20in%20javascr.md) | 1 | 1 |
+| [136](#id136) | [Is the -- notation represents a special o](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/136%20-%20Is%20the%20--%20notation%20represents%20a%20special%20o.md) | 1 | 1 |
+| [137](#id137) | [How do you assign default values to variab](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/137%20-%20How%20do%20you%20assign%20default%20values%20to%20variab.md) | 1 | 1 |
+| [138](#id138) | [How do you define multiline strings](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/138%20-%20How%20do%20you%20define%20multiline%20strings.md) | 1 | 1 |
+| [139](#id139) | [What is an app shell model](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/139%20-%20What%20is%20an%20app%20shell%20model.md) | 1 | 1 |
+| [140](#id140) | [Can we define properties for functions](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/140%20-%20Can%20we%20define%20properties%20for%20functions.md) | 1 | 1 |
+| [141](#id141) | [What is the way to find the number of para](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/141%20-%20What%20is%20the%20way%20to%20find%20the%20number%20of%20para.md) | 1 | 1 |
+| [142](#id142) | [What is a polyfill](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/142%20-%20What%20is%20a%20polyfill.md) | 1 | 1 |
+| [143](#id143) | [What are break and continue statements](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/143%20-%20What%20are%20break%20and%20continue%20statements.md) | 1 | 1 |
+| [144](#id144) | [What are js labels](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/144%20-%20What%20are%20js%20labels.md) | 1 | 1 |
+| [145](#id145) | [What are the benefits of keeping declarati](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/145%20-%20What%20are%20the%20benefits%20of%20keeping%20declarati.md) | 1 | 1 |
+| [146](#id146) | [What are the benefits of initializing vari](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/146%20-%20What%20are%20the%20benefits%20of%20initializing%20vari.md) | 1 | 1 |
+| [147](#id147) | [What are the recommendations to create new](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/147%20-%20What%20are%20the%20recommendations%20to%20create%20new.md) | 1 | 1 |
+| [148](#id148) | [How do you define json arrays](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/148%20-%20How%20do%20you%20define%20json%20arrays.md) | 1 | 1 |
+| [149](#id149) | [How do you generate random integers](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/149%20-%20How%20do%20you%20generate%20random%20integers.md) | 1 | 1 |
+| [150](#id150) | [Can you write a random integers function t](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/150%20-%20Can%20you%20write%20a%20random%20integers%20function%20t.md) | 1 | 1 |
+| [151](#id151) | [What is tree shaking](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/151%20-%20What%20is%20tree%20shaking.md) | 1 | 1 |
+| [152](#id152) | [What is the need of tree shaking](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/152%20-%20What%20is%20the%20need%20of%20tree%20shaking.md) | 1 | 1 |
+| [153](#id153) | [Is it recommended to use eval](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/153%20-%20Is%20it%20recommended%20to%20use%20eval.md) | 1 | 1 |
+| [154](#id154) | [What is a regular expression](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/154%20-%20What%20is%20a%20regular%20expression.md) | 1 | 1 |
+| [155](#id155) | [What are the string methods available in r](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/155%20-%20What%20are%20the%20string%20methods%20available%20in%20r.md) | 1 | 1 |
+| [156](#id156) | [What are modifiers in regular expression](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/156%20-%20What%20are%20modifiers%20in%20regular%20expression.md) | 1 | 1 |
+| [157](#id157) | [What are regular expression patterns](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/157%20-%20What%20are%20regular%20expression%20patterns.md) | 1 | 1 |
+| [158](#id158) | [What is a regexp object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/158%20-%20What%20is%20a%20regexp%20object.md) | 1 | 1 |
+| [159](#id159) | [How do you search a string for a pattern](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/159%20-%20How%20do%20you%20search%20a%20string%20for%20a%20pattern.md) | 1 | 1 |
+| [160](#id160) | [What is the purpose of exec method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/160%20-%20What%20is%20the%20purpose%20of%20exec%20method.md) | 1 | 1 |
+| [161](#id161) | [How do you change the style of a html elem](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/161%20-%20How%20do%20you%20change%20the%20style%20of%20a%20html%20elem.md) | 1 | 1 |
+| [162](#id162) | [What would be the result of 1 2 3](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/162%20-%20What%20would%20be%20the%20result%20of%201%202%203.md) | 1 | 1 |
+| [163](#id163) | [What is a debugger statement](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/163%20-%20What%20is%20a%20debugger%20statement.md) | 1 | 1 |
+| [164](#id164) | [What is the purpose of breakpoints in debu](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/164%20-%20What%20is%20the%20purpose%20of%20breakpoints%20in%20debu.md) | 1 | 1 |
+| [165](#id165) | [Can i use reserved words as identifiers](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/165%20-%20Can%20i%20use%20reserved%20words%20as%20identifiers.md) | 1 | 1 |
+| [166](#id166) | [How do you detect a mobile browser](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/166%20-%20How%20do%20you%20detect%20a%20mobile%20browser.md) | 1 | 1 |
+| [167](#id167) | [How do you detect a mobile browser without](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/167%20-%20How%20do%20you%20detect%20a%20mobile%20browser%20without.md) | 1 | 1 |
+| [168](#id168) | [How do you get the image width and height](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/168%20-%20How%20do%20you%20get%20the%20image%20width%20and%20height.md) | 1 | 1 |
+| [169](#id169) | [How do you make synchronous http request](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/169%20-%20How%20do%20you%20make%20synchronous%20http%20request.md) | 1 | 1 |
+| [170](#id170) | [How do you make asynchronous http request](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/170%20-%20How%20do%20you%20make%20asynchronous%20http%20request.md) | 1 | 1 |
+| [171](#id171) | [How do you convert date to another timezon](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/171%20-%20How%20do%20you%20convert%20date%20to%20another%20timezon.md) | 1 | 1 |
+| [172](#id172) | [What are the properties used to get size o](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/172%20-%20What%20are%20the%20properties%20used%20to%20get%20size%20o.md) | 1 | 1 |
+| [173](#id173) | [What is a conditional operator in javascri](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/173%20-%20What%20is%20a%20conditional%20operator%20in%20javascri.md) | 1 | 1 |
+| [174](#id174) | [Can you apply chaining on conditional oper](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/174%20-%20Can%20you%20apply%20chaining%20on%20conditional%20oper.md) | 1 | 1 |
+| [175](#id175) | [What are the ways to execute javascript af](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/175%20-%20What%20are%20the%20ways%20to%20execute%20javascript%20af.md) | 1 | 1 |
+| [176](#id176) | [What is the difference between proto and p](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/176%20-%20What%20is%20the%20difference%20between%20proto%20and%20p.md) | 1 | 1 |
+| [177](#id177) | [Give an example where do you really need s](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/177%20-%20Give%20an%20example%20where%20do%20you%20really%20need%20s.md) | 1 | 1 |
+| [178](#id178) | [What is a freeze method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/178%20-%20What%20is%20a%20freeze%20method.md) | 1 | 1 |
+| [179](#id179) | [What is the purpose of freeze method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/179%20-%20What%20is%20the%20purpose%20of%20freeze%20method.md) | 1 | 1 |
+| [180](#id180) | [Why do i need to use freeze method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/180%20-%20Why%20do%20i%20need%20to%20use%20freeze%20method.md) | 1 | 1 |
+| [181](#id181) | [How do you detect a browser language prefe](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/181%20-%20How%20do%20you%20detect%20a%20browser%20language%20prefe.md) | 1 | 1 |
+| [182](#id182) | [How to convert string to title case with j](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/182%20-%20How%20to%20convert%20string%20to%20title%20case%20with%20j.md) | 1 | 1 |
+| [183](#id183) | [How do you detect javascript disabled in t](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/183%20-%20How%20do%20you%20detect%20javascript%20disabled%20in%20t.md) | 1 | 1 |
+| [184](#id184) | [What are various operators supported by ja](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/184%20-%20What%20are%20various%20operators%20supported%20by%20ja.md) | 1 | 1 |
+| [185](#id185) | [What is a rest parameter](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/185%20-%20What%20is%20a%20rest%20parameter.md) | 1 | 1 |
+| [186](#id186) | [What happens if you do not use rest parame](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/186%20-%20What%20happens%20if%20you%20do%20not%20use%20rest%20parame.md) | 1 | 1 |
+| [187](#id187) | [What are the bitwise operators available i](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/187%20-%20What%20are%20the%20bitwise%20operators%20available%20i.md) | 1 | 1 |
+| [188](#id188) | [What is a spread operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/188%20-%20What%20is%20a%20spread%20operator.md) | 1 | 1 |
+| [189](#id189) | [How do you determine whether object is fro](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/189%20-%20How%20do%20you%20determine%20whether%20object%20is%20fro.md) | 1 | 1 |
+| [190](#id190) | [How do you determine two values same or no](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/190%20-%20How%20do%20you%20determine%20two%20values%20same%20or%20no.md) | 1 | 1 |
+| [191](#id191) | [What is the purpose of using object is met](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/191%20-%20What%20is%20the%20purpose%20of%20using%20object%20is%20met.md) | 1 | 1 |
+| [192](#id192) | [How do you copy properties from one object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/192%20-%20How%20do%20you%20copy%20properties%20from%20one%20object.md) | 1 | 1 |
+| [193](#id193) | [What are the applications of assign method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/193%20-%20What%20are%20the%20applications%20of%20assign%20method.md) | 1 | 1 |
+| [194](#id194) | [What is a proxy object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/194%20-%20What%20is%20a%20proxy%20object.md) | 1 | 1 |
+| [195](#id195) | [What is the purpose of seal method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/195%20-%20What%20is%20the%20purpose%20of%20seal%20method.md) | 1 | 1 |
+| [196](#id196) | [What are the applications of seal method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/196%20-%20What%20are%20the%20applications%20of%20seal%20method.md) | 1 | 1 |
+| [197](#id197) | [What are the differences between freeze an](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/197%20-%20What%20are%20the%20differences%20between%20freeze%20an.md) | 1 | 1 |
+| [198](#id198) | [How do you determine if an object is seale](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/198%20-%20How%20do%20you%20determine%20if%20an%20object%20is%20seale.md) | 1 | 1 |
+| [199](#id199) | [How do you get enumerable key and value pa](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/199%20-%20How%20do%20you%20get%20enumerable%20key%20and%20value%20pa.md) | 1 | 1 |
+| [200](#id200) | [What is the main difference between object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/200%20-%20What%20is%20the%20main%20difference%20between%20object.md) | 1 | 1 |
+| [201](#id201) | [How can you get the list of keys of any ob](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/201%20-%20How%20can%20you%20get%20the%20list%20of%20keys%20of%20any%20ob.md) | 1 | 1 |
+| [202](#id202) | [How do you create an object with prototype](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/202%20-%20How%20do%20you%20create%20an%20object%20with%20prototype.md) | 1 | 1 |
+| [203](#id203) | [What is a weakset](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/203%20-%20What%20is%20a%20weakset.md) | 1 | 1 |
+| [204](#id204) | [What are the differences between weakset a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/204%20-%20What%20are%20the%20differences%20between%20weakset%20a.md) | 1 | 1 |
+| [205](#id205) | [List down the collection of methods availa](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/205%20-%20List%20down%20the%20collection%20of%20methods%20availa.md) | 1 | 1 |
+| [206](#id206) | [What is a weakmap](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/206%20-%20What%20is%20a%20weakmap.md) | 1 | 1 |
+| [207](#id207) | [What are the differences between weakmap a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/207%20-%20What%20are%20the%20differences%20between%20weakmap%20a.md) | 1 | 1 |
+| [208](#id208) | [List down the collection of methods availa](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/208%20-%20List%20down%20the%20collection%20of%20methods%20availa.md) | 1 | 1 |
+| [209](#id209) | [What is the purpose of uneval](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/209%20-%20What%20is%20the%20purpose%20of%20uneval.md) | 1 | 1 |
+| [210](#id210) | [How do you encode an url](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/210%20-%20How%20do%20you%20encode%20an%20url.md) | 1 | 1 |
+| [211](#id211) | [How do you decode an url](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/211%20-%20How%20do%20you%20decode%20an%20url.md) | 1 | 1 |
+| [212](#id212) | [How do you print the contents of web page](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/212%20-%20How%20do%20you%20print%20the%20contents%20of%20web%20page.md) | 1 | 1 |
+| [213](#id213) | [What is the difference between uneval and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/213%20-%20What%20is%20the%20difference%20between%20uneval%20and.md) | 1 | 1 |
+| [214](#id214) | [What is an anonymous function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/214%20-%20What%20is%20an%20anonymous%20function.md) | 1 | 1 |
+| [215](#id215) | [What is the precedence order between local](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/215%20-%20What%20is%20the%20precedence%20order%20between%20local.md) | 1 | 1 |
+| [216](#id216) | [What are javascript accessors](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/216%20-%20What%20are%20javascript%20accessors.md) | 1 | 1 |
+| [217](#id217) | [How do you define property on object const](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/217%20-%20How%20do%20you%20define%20property%20on%20object%20const.md) | 1 | 1 |
+| [218](#id218) | [What is the difference between get and def](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/218%20-%20What%20is%20the%20difference%20between%20get%20and%20def.md) | 1 | 1 |
+| [219](#id219) | [What are the advantages of getters and set](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/219%20-%20What%20are%20the%20advantages%20of%20getters%20and%20set.md) | 1 | 1 |
+| [220](#id220) | [Can i add getters and setters using define](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/220%20-%20Can%20i%20add%20getters%20and%20setters%20using%20define.md) | 1 | 1 |
+| [221](#id221) | [What is the purpose of switch-case](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/221%20-%20What%20is%20the%20purpose%20of%20switch-case.md) | 1 | 1 |
+| [222](#id222) | [What are the conventions to be followed fo](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/222%20-%20What%20are%20the%20conventions%20to%20be%20followed%20fo.md) | 1 | 1 |
+| [223](#id223) | [What are primitive data types](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/223%20-%20What%20are%20primitive%20data%20types.md) | 1 | 1 |
+| [224](#id224) | [What are the different ways to access obje](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/224%20-%20What%20are%20the%20different%20ways%20to%20access%20obje.md) | 1 | 1 |
+| [225](#id225) | [What are the function parameter rules](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/225%20-%20What%20are%20the%20function%20parameter%20rules.md) | 1 | 1 |
+| [226](#id226) | [What is an error object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/226%20-%20What%20is%20an%20error%20object.md) | 1 | 1 |
+| [227](#id227) | [When you get a syntax error](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/227%20-%20When%20you%20get%20a%20syntax%20error.md) | 1 | 1 |
+| [228](#id228) | [What are the different error names from er](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/228%20-%20What%20are%20the%20different%20error%20names%20from%20er.md) | 1 | 1 |
+| [229](#id229) | [What are the various statements in error h](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/229%20-%20What%20are%20the%20various%20statements%20in%20error%20h.md) | 1 | 1 |
+| [230](#id230) | [What are the two types of loops in javascr](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/230%20-%20What%20are%20the%20two%20types%20of%20loops%20in%20javascr.md) | 1 | 1 |
+| [231](#id231) | [What is nodejs](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/231%20-%20What%20is%20nodejs.md) | 1 | 1 |
+| [232](#id232) | [What is an intl object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/232%20-%20What%20is%20an%20intl%20object.md) | 1 | 1 |
+| [233](#id233) | [How do you perform language specific date](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/233%20-%20How%20do%20you%20perform%20language%20specific%20date.md) | 1 | 1 |
+| [234](#id234) | [What is an iterator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/234%20-%20What%20is%20an%20iterator.md) | 1 | 1 |
+| [235](#id235) | [How does synchronous iteration works](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/235%20-%20How%20does%20synchronous%20iteration%20works.md) | 1 | 1 |
+| [236](#id236) | [What is an event loop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/236%20-%20What%20is%20an%20event%20loop.md) | 1 | 1 |
+| [237](#id237) | [What is call stack](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/237%20-%20What%20is%20call%20stack.md) | 1 | 1 |
+| [238](#id238) | [What is an event queue](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/238%20-%20What%20is%20an%20event%20queue.md) | 1 | 1 |
+| [239](#id239) | [What is a decorator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/239%20-%20What%20is%20a%20decorator.md) | 1 | 1 |
+| [240](#id240) | [What are the properties of intl object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/240%20-%20What%20are%20the%20properties%20of%20intl%20object.md) | 1 | 1 |
+| [241](#id241) | [What is an unary operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/241%20-%20What%20is%20an%20unary%20operator.md) | 1 | 1 |
+| [242](#id242) | [How do you sort elements in an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/242%20-%20How%20do%20you%20sort%20elements%20in%20an%20array.md) | 1 | 1 |
+| [243](#id243) | [What is the purpose of comparefunction whi](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/243%20-%20What%20is%20the%20purpose%20of%20comparefunction%20whi.md) | 1 | 1 |
+| [244](#id244) | [How do you reversing an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/244%20-%20How%20do%20you%20reversing%20an%20array.md) | 1 | 1 |
+| [245](#id245) | [How do you find min and max value in an ar](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/245%20-%20How%20do%20you%20find%20min%20and%20max%20value%20in%20an%20ar.md) | 1 | 1 |
+| [246](#id246) | [How do you find min and max values without](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/246%20-%20How%20do%20you%20find%20min%20and%20max%20values%20without.md) | 1 | 1 |
+| [247](#id247) | [What is an empty statement and purpose of](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/247%20-%20What%20is%20an%20empty%20statement%20and%20purpose%20of.md) | 1 | 1 |
+| [248](#id248) | [How do you get metadata of a module](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/248%20-%20How%20do%20you%20get%20metadata%20of%20a%20module.md) | 1 | 1 |
+| [249](#id249) | [What is a comma operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/249%20-%20What%20is%20a%20comma%20operator.md) | 1 | 1 |
+| [250](#id250) | [What is the advantage of a comma operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/250%20-%20What%20is%20the%20advantage%20of%20a%20comma%20operator.md) | 1 | 1 |
+| [251](#id251) | [What is typescript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/251%20-%20What%20is%20typescript.md) | 1 | 1 |
+| [252](#id252) | [What are the differences between javascrip](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/252%20-%20What%20are%20the%20differences%20between%20javascrip.md) | 1 | 1 |
+| [253](#id253) | [What are the advantages of typescript over](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/253%20-%20What%20are%20the%20advantages%20of%20typescript%20over.md) | 1 | 1 |
+| [254](#id254) | [What is an object initializer](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/254%20-%20What%20is%20an%20object%20initializer.md) | 1 | 1 |
+| [255](#id255) | [What is a constructor method](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/255%20-%20What%20is%20a%20constructor%20method.md) | 1 | 1 |
+| [256](#id256) | [What happens if you write constructor more](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/256%20-%20What%20happens%20if%20you%20write%20constructor%20more.md) | 1 | 1 |
+| [257](#id257) | [How do you call the constructor of a paren](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/257%20-%20How%20do%20you%20call%20the%20constructor%20of%20a%20paren.md) | 1 | 1 |
+| [258](#id258) | [How do you get the prototype of an object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/258%20-%20How%20do%20you%20get%20the%20prototype%20of%20an%20object.md) | 1 | 1 |
+| [259](#id259) | [What happens if i pass string type for get](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/259%20-%20What%20happens%20if%20i%20pass%20string%20type%20for%20get.md) | 1 | 1 |
+| [260](#id260) | [How do you set prototype of one object to](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/260%20-%20How%20do%20you%20set%20prototype%20of%20one%20object%20to.md) | 1 | 1 |
+| [261](#id261) | [How do you check whether an object can be](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/261%20-%20How%20do%20you%20check%20whether%20an%20object%20can%20be.md) | 1 | 1 |
+| [262](#id262) | [How do you prevent an object to extend](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/262%20-%20How%20do%20you%20prevent%20an%20object%20to%20extend.md) | 1 | 1 |
+| [263](#id263) | [What are the different ways to make an obj](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/263%20-%20What%20are%20the%20different%20ways%20to%20make%20an%20obj.md) | 1 | 1 |
+| [264](#id264) | [How do you define multiple properties on a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/264%20-%20How%20do%20you%20define%20multiple%20properties%20on%20a.md) | 1 | 1 |
+| [265](#id265) | [What is mean in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/265%20-%20What%20is%20mean%20in%20javascript.md) | 1 | 1 |
+| [266](#id266) | [What is obfuscation in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/266%20-%20What%20is%20obfuscation%20in%20javascript.md) | 1 | 1 |
+| [267](#id267) | [Why do you need obfuscation](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/267%20-%20Why%20do%20you%20need%20obfuscation.md) | 1 | 1 |
+| [268](#id268) | [What is minification](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/268%20-%20What%20is%20minification.md) | 1 | 1 |
+| [269](#id269) | [What are the advantages of minification](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/269%20-%20What%20are%20the%20advantages%20of%20minification.md) | 1 | 1 |
+| [270](#id270) | [What are the differences between obfuscati](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/270%20-%20What%20are%20the%20differences%20between%20obfuscati.md) | 1 | 1 |
+| [271](#id271) | [What are the common tools used for minific](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/271%20-%20What%20are%20the%20common%20tools%20used%20for%20minific.md) | 1 | 1 |
+| [272](#id272) | [How do you perform form validation using j](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/272%20-%20How%20do%20you%20perform%20form%20validation%20using%20j.md) | 1 | 1 |
+| [273](#id273) | [How do you perform form validation without](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/273%20-%20How%20do%20you%20perform%20form%20validation%20without.md) | 1 | 1 |
+| [274](#id274) | [What are the dom methods available for con](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/274%20-%20What%20are%20the%20dom%20methods%20available%20for%20con.md) | 1 | 1 |
+| [275](#id275) | [What are the available constraint validati](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/275%20-%20What%20are%20the%20available%20constraint%20validati.md) | 1 | 1 |
+| [276](#id276) | [What are the list of validity properties](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/276%20-%20What%20are%20the%20list%20of%20validity%20properties.md) | 1 | 1 |
+| [277](#id277) | [Give an example usage of rangeoverflow pro](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/277%20-%20Give%20an%20example%20usage%20of%20rangeoverflow%20pro.md) | 1 | 1 |
+| [278](#id278) | [Is enums feature available in javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/278%20-%20Is%20enums%20feature%20available%20in%20javascript.md) | 1 | 1 |
+| [279](#id279) | [What is an enum](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/279%20-%20What%20is%20an%20enum.md) | 1 | 1 |
+| [280](#id280) | [How do you list all properties of an objec](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/280%20-%20How%20do%20you%20list%20all%20properties%20of%20an%20objec.md) | 1 | 1 |
+| [281](#id281) | [How do you get property descriptors of an](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/281%20-%20How%20do%20you%20get%20property%20descriptors%20of%20an.md) | 1 | 1 |
+| [282](#id282) | [What are the attributes provided by a prop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/282%20-%20What%20are%20the%20attributes%20provided%20by%20a%20prop.md) | 1 | 1 |
+| [283](#id283) | [How do you extend classes](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/283%20-%20How%20do%20you%20extend%20classes.md) | 1 | 1 |
+| [284](#id284) | [How do i modify the url without reloading](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/284%20-%20How%20do%20i%20modify%20the%20url%20without%20reloading.md) | 1 | 1 |
+| [285](#id285) | [How do you check whether an array includes](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/285%20-%20How%20do%20you%20check%20whether%20an%20array%20includes.md) | 1 | 1 |
+| [286](#id286) | [How do you compare scalar arrays](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/286%20-%20How%20do%20you%20compare%20scalar%20arrays.md) | 1 | 1 |
+| [287](#id287) | [How to get the value from get parameters](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/287%20-%20How%20to%20get%20the%20value%20from%20get%20parameters.md) | 1 | 1 |
+| [288](#id288) | [How do you print numbers with commas as th](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/288%20-%20How%20do%20you%20print%20numbers%20with%20commas%20as%20th.md) | 1 | 1 |
+| [289](#id289) | [What is the difference between java and ja](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/289%20-%20What%20is%20the%20difference%20between%20java%20and%20ja.md) | 1 | 1 |
+| [290](#id290) | [Does javascript supports namespace](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/290%20-%20Does%20javascript%20supports%20namespace.md) | 1 | 1 |
+| [291](#id291) | [How do you declare namespace](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/291%20-%20How%20do%20you%20declare%20namespace.md) | 1 | 1 |
+| [292](#id292) | [How do you invoke javascript code in an if](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/292%20-%20How%20do%20you%20invoke%20javascript%20code%20in%20an%20if.md) | 1 | 1 |
+| [293](#id293) | [How do get the timezone offset from date](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/293%20-%20How%20do%20get%20the%20timezone%20offset%20from%20date.md) | 1 | 1 |
+| [294](#id294) | [How do you load css and js files dynamical](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/294%20-%20How%20do%20you%20load%20css%20and%20js%20files%20dynamical.md) | 1 | 1 |
+| [295](#id295) | [What are the different methods to find htm](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/295%20-%20What%20are%20the%20different%20methods%20to%20find%20htm.md) | 1 | 1 |
+| [296](#id296) | [What is jquery](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/296%20-%20What%20is%20jquery.md) | 1 | 1 |
+| [297](#id297) | [What is v8 javascript engine](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/297%20-%20What%20is%20v8%20javascript%20engine.md) | 1 | 1 |
+| [298](#id298) | [Why do we call javascript as dynamic langu](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/298%20-%20Why%20do%20we%20call%20javascript%20as%20dynamic%20langu.md) | 1 | 1 |
+| [299](#id299) | [What is a void operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/299%20-%20What%20is%20a%20void%20operator.md) | 1 | 1 |
+| [300](#id300) | [How to set the cursor to wait](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/300%20-%20How%20to%20set%20the%20cursor%20to%20wait.md) | 1 | 1 |
+| [301](#id301) | [How do you create an infinite loop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/301%20-%20How%20do%20you%20create%20an%20infinite%20loop.md) | 1 | 1 |
+| [302](#id302) | [Why do you need to avoid with statement](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/302%20-%20Why%20do%20you%20need%20to%20avoid%20with%20statement.md) | 1 | 1 |
+| [303](#id303) | [What is the output of below for loops](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/303%20-%20What%20is%20the%20output%20of%20below%20for%20loops.md) | 1 | 1 |
+| [304](#id304) | [List down some of the features of es6](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/304%20-%20List%20down%20some%20of%20the%20features%20of%20es6.md) | 1 | 1 |
+| [305](#id305) | [What is es6](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/305%20-%20What%20is%20es6.md) | 1 | 1 |
+| [306](#id306) | [Can i redeclare let and const variables](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/306%20-%20Can%20i%20redeclare%20let%20and%20const%20variables.md) | 1 | 1 |
+| [307](#id307) | [Is const variable makes the value immutabl](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/307%20-%20Is%20const%20variable%20makes%20the%20value%20immutabl.md) | 1 | 1 |
+| [308](#id308) | [What are default parameters](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/308%20-%20What%20are%20default%20parameters.md) | 1 | 1 |
+| [309](#id309) | [What are template literals](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/309%20-%20What%20are%20template%20literals.md) | 1 | 1 |
+| [310](#id310) | [How do you write multi-line strings in tem](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/310%20-%20How%20do%20you%20write%20multi-line%20strings%20in%20tem.md) | 1 | 1 |
+| [311](#id311) | [What are nesting templates](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/311%20-%20What%20are%20nesting%20templates.md) | 1 | 1 |
+| [312](#id312) | [What are tagged templates](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/312%20-%20What%20are%20tagged%20templates.md) | 1 | 1 |
+| [313](#id313) | [What are raw strings](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/313%20-%20What%20are%20raw%20strings.md) | 1 | 1 |
+| [314](#id314) | [What is destructuring assignment](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/314%20-%20What%20is%20destructuring%20assignment.md) | 1 | 1 |
+| [315](#id315) | [What are default values in destructuring a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/315%20-%20What%20are%20default%20values%20in%20destructuring%20a.md) | 1 | 1 |
+| [316](#id316) | [How do you swap variables in destructuring](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/316%20-%20How%20do%20you%20swap%20variables%20in%20destructuring.md) | 1 | 1 |
+| [317](#id317) | [What are enhanced object literals](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/317%20-%20What%20are%20enhanced%20object%20literals.md) | 1 | 1 |
+| [318](#id318) | [What are dynamic imports](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/318%20-%20What%20are%20dynamic%20imports.md) | 1 | 1 |
+| [319](#id319) | [What are the use cases for dynamic imports](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/319%20-%20What%20are%20the%20use%20cases%20for%20dynamic%20imports.md) | 1 | 1 |
+| [320](#id320) | [What are typed arrays](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/320%20-%20What%20are%20typed%20arrays.md) | 1 | 1 |
+| [321](#id321) | [What are the advantages of module loaders](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/321%20-%20What%20are%20the%20advantages%20of%20module%20loaders.md) | 1 | 1 |
+| [322](#id322) | [What is collation](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/322%20-%20What%20is%20collation.md) | 1 | 1 |
+| [323](#id323) | [What is for of statement](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/323%20-%20What%20is%20for%20of%20statement.md) | 1 | 1 |
+| [324](#id324) | [What is the output of below spread operato](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/324%20-%20What%20is%20the%20output%20of%20below%20spread%20operato.md) | 1 | 1 |
+| [325](#id325) | [Is postmessage secure](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/325%20-%20Is%20postmessage%20secure.md) | 1 | 1 |
+| [326](#id326) | [What are the problems with postmessage tar](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/326%20-%20What%20are%20the%20problems%20with%20postmessage%20tar.md) | 1 | 1 |
+| [327](#id327) | [How do you avoid receiving postmessages fr](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/327%20-%20How%20do%20you%20avoid%20receiving%20postmessages%20fr.md) | 1 | 1 |
+| [328](#id328) | [Can i avoid using postmessages completely](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/328%20-%20Can%20i%20avoid%20using%20postmessages%20completely.md) | 1 | 1 |
+| [329](#id329) | [Is postmessages synchronous](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/329%20-%20Is%20postmessages%20synchronous.md) | 1 | 1 |
+| [330](#id330) | [What paradigm is javascript](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/330%20-%20What%20paradigm%20is%20javascript.md) | 1 | 1 |
+| [331](#id331) | [What is the difference between internal an](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/331%20-%20What%20is%20the%20difference%20between%20internal%20an.md) | 1 | 1 |
+| [332](#id332) | [Is javascript faster than server side scri](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/332%20-%20Is%20javascript%20faster%20than%20server%20side%20scri.md) | 1 | 1 |
+| [333](#id333) | [How do you get the status of a checkbox](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/333%20-%20How%20do%20you%20get%20the%20status%20of%20a%20checkbox.md) | 1 | 1 |
+| [334](#id334) | [What is the purpose of double tilde operat](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/334%20-%20What%20is%20the%20purpose%20of%20double%20tilde%20operat.md) | 1 | 1 |
+| [335](#id335) | [How do you convert character to ascii code](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/335%20-%20How%20do%20you%20convert%20character%20to%20ascii%20code.md) | 1 | 1 |
+| [336](#id336) | [What is arraybuffer](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/336%20-%20What%20is%20arraybuffer.md) | 1 | 1 |
+| [337](#id337) | [What is the output of below string express](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/337%20-%20What%20is%20the%20output%20of%20below%20string%20express.md) | 1 | 1 |
+| [338](#id338) | [What is the purpose of error object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/338%20-%20What%20is%20the%20purpose%20of%20error%20object.md) | 1 | 1 |
+| [339](#id339) | [What is the purpose of evalerror object](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/339%20-%20What%20is%20the%20purpose%20of%20evalerror%20object.md) | 1 | 1 |
+| [340](#id340) | [What are the list of cases error thrown fr](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/340%20-%20What%20are%20the%20list%20of%20cases%20error%20thrown%20fr.md) | 1 | 1 |
+| [341](#id341) | [Do all objects have prototypes](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/341%20-%20Do%20all%20objects%20have%20prototypes.md) | 1 | 1 |
+| [342](#id342) | [What is the difference between a parameter](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/342%20-%20What%20is%20the%20difference%20between%20a%20parameter.md) | 1 | 1 |
+| [343](#id343) | [What is the purpose of some method in arra](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/343%20-%20What%20is%20the%20purpose%20of%20some%20method%20in%20arra.md) | 1 | 1 |
+| [344](#id344) | [How do you combine two or more arrays](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/344%20-%20How%20do%20you%20combine%20two%20or%20more%20arrays.md) | 1 | 1 |
+| [345](#id345) | [What is the difference between shallow and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/345%20-%20What%20is%20the%20difference%20between%20shallow%20and.md) | 1 | 1 |
+| [346](#id346) | [How do you create specific number of copie](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/346%20-%20How%20do%20you%20create%20specific%20number%20of%20copie.md) | 1 | 1 |
+| [347](#id347) | [How do you return all matching strings aga](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/347%20-%20How%20do%20you%20return%20all%20matching%20strings%20aga.md) | 1 | 1 |
+| [348](#id348) | [How do you trim a string at the beginning](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/348%20-%20How%20do%20you%20trim%20a%20string%20at%20the%20beginning.md) | 1 | 1 |
+| [349](#id349) | [What is the output of below console statem](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/349%20-%20What%20is%20the%20output%20of%20below%20console%20statem.md) | 1 | 1 |
+| [350](#id350) | [Does javascript uses mixins](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/350%20-%20Does%20javascript%20uses%20mixins.md) | 1 | 1 |
+| [351](#id351) | [What is a thunk function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/351%20-%20What%20is%20a%20thunk%20function.md) | 1 | 1 |
+| [352](#id352) | [What are asynchronous thunks](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/352%20-%20What%20are%20asynchronous%20thunks.md) | 1 | 1 |
+| [353](#id353) | [What is the output of below function calls](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/353%20-%20What%20is%20the%20output%20of%20below%20function%20calls.md) | 1 | 1 |
+| [354](#id354) | [How to remove all line breaks from a strin](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/354%20-%20How%20to%20remove%20all%20line%20breaks%20from%20a%20strin.md) | 1 | 1 |
+| [355](#id355) | [What is the difference between reflow and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/355%20-%20What%20is%20the%20difference%20between%20reflow%20and.md) | 1 | 1 |
+| [356](#id356) | [What happens with negating an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/356%20-%20What%20happens%20with%20negating%20an%20array.md) | 1 | 1 |
+| [357](#id357) | [What happens if we add two arrays](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/357%20-%20What%20happens%20if%20we%20add%20two%20arrays.md) | 1 | 1 |
+| [358](#id358) | [What is the output of prepend additive ope](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/358%20-%20What%20is%20the%20output%20of%20prepend%20additive%20ope.md) | 1 | 1 |
+| [359](#id359) | [How do you create self string using specia](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/359%20-%20How%20do%20you%20create%20self%20string%20using%20specia.md) | 1 | 1 |
+| [360](#id360) | [How do you remove falsy values from an arr](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/360%20-%20How%20do%20you%20remove%20falsy%20values%20from%20an%20arr.md) | 1 | 1 |
+| [361](#id361) | [How do you get unique values of an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/361%20-%20How%20do%20you%20get%20unique%20values%20of%20an%20array.md) | 1 | 1 |
+| [362](#id362) | [What is destructuring aliases](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/362%20-%20What%20is%20destructuring%20aliases.md) | 1 | 1 |
+| [363](#id363) | [How do you map the array values without us](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/363%20-%20How%20do%20you%20map%20the%20array%20values%20without%20us.md) | 1 | 1 |
+| [364](#id364) | [How do you empty an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/364%20-%20How%20do%20you%20empty%20an%20array.md) | 1 | 1 |
+| [365](#id365) | [How do you rounding numbers to certain dec](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/365%20-%20How%20do%20you%20rounding%20numbers%20to%20certain%20dec.md) | 1 | 1 |
+| [366](#id366) | [What is the easiest way to convert an arra](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/366%20-%20What%20is%20the%20easiest%20way%20to%20convert%20an%20arra.md) | 1 | 1 |
+| [367](#id367) | [How do you create an array with some data](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/367%20-%20How%20do%20you%20create%20an%20array%20with%20some%20data.md) | 1 | 1 |
+| [368](#id368) | [What are the placeholders from console obj](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/368%20-%20What%20are%20the%20placeholders%20from%20console%20obj.md) | 1 | 1 |
+| [369](#id369) | [Is it possible to add css to console messa](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/369%20-%20Is%20it%20possible%20to%20add%20css%20to%20console%20messa.md) | 1 | 1 |
+| [370](#id370) | [What is the purpose of dir method of conso](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/370%20-%20What%20is%20the%20purpose%20of%20dir%20method%20of%20conso.md) | 1 | 1 |
+| [371](#id371) | [Is it possible to debug html elements in c](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/371%20-%20Is%20it%20possible%20to%20debug%20html%20elements%20in%20c.md) | 1 | 1 |
+| [372](#id372) | [How do you display data in a tabular forma](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/372%20-%20How%20do%20you%20display%20data%20in%20a%20tabular%20forma.md) | 1 | 1 |
+| [373](#id373) | [How do you verify that an argument is a nu](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/373%20-%20How%20do%20you%20verify%20that%20an%20argument%20is%20a%20nu.md) | 1 | 1 |
+| [374](#id374) | [How do you create copy to clipboard button](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/374%20-%20How%20do%20you%20create%20copy%20to%20clipboard%20button.md) | 1 | 1 |
+| [375](#id375) | [What is the shortcut to get timestamp](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/375%20-%20What%20is%20the%20shortcut%20to%20get%20timestamp.md) | 1 | 1 |
+| [376](#id376) | [How do you flattening multi dimensional ar](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/376%20-%20How%20do%20you%20flattening%20multi%20dimensional%20ar.md) | 1 | 1 |
+| [377](#id377) | [What is the easiest multi condition checki](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/377%20-%20What%20is%20the%20easiest%20multi%20condition%20checki.md) | 1 | 1 |
+| [378](#id378) | [How do you capture browser back button](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/378%20-%20How%20do%20you%20capture%20browser%20back%20button.md) | 1 | 1 |
+| [379](#id379) | [How do you disable right click in the web](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/379%20-%20How%20do%20you%20disable%20right%20click%20in%20the%20web.md) | 1 | 1 |
+| [380](#id380) | [What are wrapper objects](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/380%20-%20What%20are%20wrapper%20objects.md) | 1 | 1 |
+| [381](#id381) | [What is ajax](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/381%20-%20What%20is%20ajax.md) | 1 | 1 |
+| [382](#id382) | [What are the different ways to deal with a](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/382%20-%20What%20are%20the%20different%20ways%20to%20deal%20with%20a.md) | 1 | 1 |
+| [383](#id383) | [How to cancel a fetch request](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/383%20-%20How%20to%20cancel%20a%20fetch%20request.md) | 1 | 1 |
+| [384](#id384) | [What is web speech api](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/384%20-%20What%20is%20web%20speech%20api.md) | 1 | 1 |
+| [385](#id385) | [What is minimum timeout throttling](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/385%20-%20What%20is%20minimum%20timeout%20throttling.md) | 1 | 1 |
+| [386](#id386) | [How do you implement zero timeout in moder](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/386%20-%20How%20do%20you%20implement%20zero%20timeout%20in%20moder.md) | 1 | 1 |
+| [387](#id387) | [What are tasks in event loop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/387%20-%20What%20are%20tasks%20in%20event%20loop.md) | 1 | 1 |
+| [388](#id388) | [What is microtask](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/388%20-%20What%20is%20microtask.md) | 1 | 1 |
+| [389](#id389) | [What are different event loops](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/389%20-%20What%20are%20different%20event%20loops.md) | 1 | 1 |
+| [390](#id390) | [What is the purpose of queuemicrotask](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/390%20-%20What%20is%20the%20purpose%20of%20queuemicrotask.md) | 1 | 1 |
+| [391](#id391) | [How do you use javascript libraries in typ](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/391%20-%20How%20do%20you%20use%20javascript%20libraries%20in%20typ.md) | 1 | 1 |
+| [392](#id392) | [What are the differences between promises](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/392%20-%20What%20are%20the%20differences%20between%20promises.md) | 1 | 1 |
+| [393](#id393) | [What is heap](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/393%20-%20What%20is%20heap.md) | 1 | 1 |
+| [394](#id394) | [What is an event table](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/394%20-%20What%20is%20an%20event%20table.md) | 1 | 1 |
+| [395](#id395) | [What is a microtask queue](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/395%20-%20What%20is%20a%20microtask%20queue.md) | 1 | 1 |
+| [396](#id396) | [What is the difference between shim and po](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/396%20-%20What%20is%20the%20difference%20between%20shim%20and%20po.md) | 1 | 1 |
+| [397](#id397) | [How do you detect primitive or non primiti](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/397%20-%20How%20do%20you%20detect%20primitive%20or%20non%20primiti.md) | 1 | 1 |
+| [398](#id398) | [What is babel](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/398%20-%20What%20is%20babel.md) | 1 | 1 |
+| [399](#id399) | [Is node js completely single threaded](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/399%20-%20Is%20node%20js%20completely%20single%20threaded.md) | 1 | 1 |
+| [400](#id400) | [What are the common use cases of observabl](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/400%20-%20What%20are%20the%20common%20use%20cases%20of%20observabl.md) | 1 | 1 |
+| [401](#id401) | [What is rxjs](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/401%20-%20What%20is%20rxjs.md) | 1 | 1 |
+| [402](#id402) | [What is the difference between function co](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/402%20-%20What%20is%20the%20difference%20between%20function%20co.md) | 1 | 1 |
+| [403](#id403) | [What is a short circuit condition](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/403%20-%20What%20is%20a%20short%20circuit%20condition.md) | 1 | 1 |
+| [404](#id404) | [What is the easiest way to resize an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/404%20-%20What%20is%20the%20easiest%20way%20to%20resize%20an%20array.md) | 1 | 1 |
+| [405](#id405) | [What is an observable](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/405%20-%20What%20is%20an%20observable.md) | 1 | 1 |
+| [406](#id406) | [What is the difference between function an](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/406%20-%20What%20is%20the%20difference%20between%20function%20an.md) | 1 | 1 |
+| [407](#id407) | [What is an async function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/407%20-%20What%20is%20an%20async%20function.md) | 1 | 1 |
+| [408](#id408) | [How do you prevent promises swallowing err](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/408%20-%20How%20do%20you%20prevent%20promises%20swallowing%20err.md) | 1 | 1 |
+| [409](#id409) | [What is deno](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/409%20-%20What%20is%20deno.md) | 1 | 1 |
+| [410](#id410) | [How do you make an object iterable in java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/410%20-%20How%20do%20you%20make%20an%20object%20iterable%20in%20java.md) | 1 | 1 |
+| [411](#id411) | [What is a proper tail call](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/411%20-%20What%20is%20a%20proper%20tail%20call.md) | 1 | 1 |
+| [412](#id412) | [How do you check an object is a promise or](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/412%20-%20How%20do%20you%20check%20an%20object%20is%20a%20promise%20or.md) | 1 | 1 |
+| [413](#id413) | [How to detect if a function is called as c](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/413%20-%20How%20to%20detect%20if%20a%20function%20is%20called%20as%20c.md) | 1 | 1 |
+| [414](#id414) | [What are the differences between arguments](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/414%20-%20What%20are%20the%20differences%20between%20arguments.md) | 1 | 1 |
+| [415](#id415) | [What are the differences between spread op](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/415%20-%20What%20are%20the%20differences%20between%20spread%20op.md) | 1 | 1 |
+| [416](#id416) | [What are the different kinds of generators](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/416%20-%20What%20are%20the%20different%20kinds%20of%20generators.md) | 1 | 1 |
+| [417](#id417) | [What are the built-in iterables](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/417%20-%20What%20are%20the%20built-in%20iterables.md) | 1 | 1 |
+| [418](#id418) | [What are the differences between for of](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/418%20-%20What%20are%20the%20differences%20between%20for%20of.md) | 1 | 1 |
+| [419](#id419) | [How do you define instance and non-instanc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/419%20-%20How%20do%20you%20define%20instance%20and%20non-instanc.md) | 1 | 1 |
+| [420](#id420) | [What is the difference between isnan and n](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/420%20-%20What%20is%20the%20difference%20between%20isnan%20and%20n.md) | 1 | 1 |
+| [421](#id421) | [How to invoke an iife without any extra br](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/421%20-%20How%20to%20invoke%20an%20iife%20without%20any%20extra%20br.md) | 1 | 1 |
+| [422](#id422) | [Is that possible to use expressions in swi](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/422%20-%20Is%20that%20possible%20to%20use%20expressions%20in%20swi.md) | 1 | 1 |
+| [423](#id423) | [What is the easiest way to ignore promise](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/423%20-%20What%20is%20the%20easiest%20way%20to%20ignore%20promise.md) | 1 | 1 |
+| [424](#id424) | [How do style the console output using css](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/424%20-%20How%20do%20style%20the%20console%20output%20using%20css.md) | 1 | 1 |
+| [425](#id425) | [What is nullish coalescing operator](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/425%20-%20What%20is%20nullish%20coalescing%20operator.md) | 1 | 1 |
+| [426](#id426) | [How do you group and nest console output](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/426%20-%20How%20do%20you%20group%20and%20nest%20console%20output.md) | 1 | 1 |
+| [427](#id427) | [What is the difference between dense and s](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/427%20-%20What%20is%20the%20difference%20between%20dense%20and%20s.md) | 1 | 1 |
+| [428](#id428) | [What are the different ways to create spar](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/428%20-%20What%20are%20the%20different%20ways%20to%20create%20spar.md) | 1 | 1 |
+| [429](#id429) | [What is the difference between settimeout](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/429%20-%20What%20is%20the%20difference%20between%20settimeout.md) | 1 | 1 |
+| [430](#id430) | [How do you reverse an array without modify](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/430%20-%20How%20do%20you%20reverse%20an%20array%20without%20modify.md) | 1 | 1 |
+| [431](#id431) | [How do you create custom html element](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/431%20-%20How%20do%20you%20create%20custom%20html%20element.md) | 1 | 1 |
+| [432](#id432) | [What is global execution context](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/432%20-%20What%20is%20global%20execution%20context.md) | 1 | 1 |
+| [433](#id433) | [What is function execution context](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/433%20-%20What%20is%20function%20execution%20context.md) | 1 | 1 |
+| [434](#id434) | [What is debouncing](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/434%20-%20What%20is%20debouncing.md) | 1 | 1 |
+| [435](#id435) | [What is throttling](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/435%20-%20What%20is%20throttling.md) | 1 | 1 |
+| [436](#id436) | [What is optional chaining](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/436%20-%20What%20is%20optional%20chaining.md) | 1 | 1 |
+| [437](#id437) | [What is an environment record](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/437%20-%20What%20is%20an%20environment%20record.md) | 1 | 1 |
+| [438](#id438) | [How to verify if a variable is an array](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/438%20-%20How%20to%20verify%20if%20a%20variable%20is%20an%20array.md) | 1 | 1 |
+| [439](#id439) | [What is pass by value and pass by referenc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/439%20-%20What%20is%20pass%20by%20value%20and%20pass%20by%20referenc.md) | 1 | 1 |
+| [440](#id440) | [What are the differences between primitive](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/440%20-%20What%20are%20the%20differences%20between%20primitive.md) | 1 | 1 |
+| [441](#id441) | [How do you create your own bind method usi](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/441%20-%20How%20do%20you%20create%20your%20own%20bind%20method%20usi.md) | 1 | 1 |
+| [442](#id442) | [What are the differences between pure and](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/442%20-%20What%20are%20the%20differences%20between%20pure%20and.md) | 1 | 1 |
+| [443](#id443) | [What is referential transparency](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/443%20-%20What%20is%20referential%20transparency.md) | 1 | 1 |
+| [444](#id444) | [What are the possible side-effects in java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/444%20-%20What%20are%20the%20possible%20side-effects%20in%20java.md) | 1 | 1 |
+| [445](#id445) | [What are compose and pipe functions](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/445%20-%20What%20are%20compose%20and%20pipe%20functions.md) | 1 | 1 |
+| [446](#id446) | [What is module pattern](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/446%20-%20What%20is%20module%20pattern.md) | 1 | 1 |
+| [447](#id447) | [What is function composition](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/447%20-%20What%20is%20function%20composition.md) | 1 | 1 |
+| [448](#id448) | [How to use await outside of async function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/448%20-%20How%20to%20use%20await%20outside%20of%20async%20function.md) | 1 | 1 |
+| [449](#id449) | [What is the purpose of the this keyword in](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/449%20-%20What%20is%20the%20purpose%20of%20the%20this%20keyword%20in.md) | 1 | 1 |
+| **-** | **Introduction > Coding Exercises** | **1** | **2** |
+| [450](#id450) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/450%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [451](#id451) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/451%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [452](#id452) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/452%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [453](#id453) | [What is the output of below equality check](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/453%20-%20What%20is%20the%20output%20of%20below%20equality%20check.md) | 1 | 2 |
+| [454](#id454) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/454%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [455](#id455) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/455%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [456](#id456) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/456%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [457](#id457) | [What is the output of below code in latest](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/457%20-%20What%20is%20the%20output%20of%20below%20code%20in%20latest.md) | 1 | 2 |
+| [458](#id458) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/458%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [459](#id459) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/459%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [460](#id460) | [What is the output of below code in non-st](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/460%20-%20What%20is%20the%20output%20of%20below%20code%20in%20non-st.md) | 1 | 2 |
+| [461](#id461) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/461%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [462](#id462) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/462%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [463](#id463) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/463%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [464](#id464) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/464%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [465](#id465) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/465%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [466](#id466) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/466%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [467](#id467) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/467%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [468](#id468) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/468%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [469](#id469) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/469%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [470](#id470) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/470%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [471](#id471) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/471%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [472](#id472) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/472%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [473](#id473) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/473%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [474](#id474) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/474%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [475](#id475) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/475%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [476](#id476) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/476%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [477](#id477) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/477%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [478](#id478) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/478%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [479](#id479) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/479%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [480](#id480) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/480%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [481](#id481) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/481%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [482](#id482) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/482%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [483](#id483) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/483%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [484](#id484) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/484%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [485](#id485) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/485%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [486](#id486) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/486%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [487](#id487) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/487%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [488](#id488) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/488%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [489](#id489) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/489%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [490](#id490) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/490%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [491](#id491) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/491%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [492](#id492) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/492%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [493](#id493) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/493%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [494](#id494) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/494%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [495](#id495) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/495%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [496](#id496) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/496%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [497](#id497) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/497%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [498](#id498) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/498%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [499](#id499) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/499%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [500](#id500) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/500%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [501](#id501) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/501%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [502](#id502) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/502%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [503](#id503) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/503%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [504](#id504) | [What is the output of below code in non st](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/504%20-%20What%20is%20the%20output%20of%20below%20code%20in%20non%20st.md) | 1 | 2 |
+| [505](#id505) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/505%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [506](#id506) | [What is the output of below code - 1](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/506%20-%20What%20is%20the%20output%20of%20below%20code%20-%201.md) | 1 | 2 |
+| [507](#id507) | [What is the output of below code ja](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/507%20-%20What%20is%20the%20output%20of%20below%20code%20ja.md) | 1 | 2 |
+| [508](#id508) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/508%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [509](#id509) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/509%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [510](#id510) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/510%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [511](#id511) | [Write a function that returns a random hex](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/511%20-%20Write%20a%20function%20that%20returns%20a%20random%20hex.md) | 1 | 2 |
+| [512](#id512) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/512%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [513](#id513) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/513%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [514](#id514) | [What is the output order of below code](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/514%20-%20What%20is%20the%20output%20order%20of%20below%20code.md) | 1 | 2 |
+| [515](#id515) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/515%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [516](#id516) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/516%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [517](#id517) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/517%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [518](#id518) | [What is the output of below code in an ord](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/518%20-%20What%20is%20the%20output%20of%20below%20code%20in%20an%20ord.md) | 1 | 2 |
+| [519](#id519) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/519%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [520](#id520) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/520%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [521](#id521) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/521%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [522](#id522) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/522%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [523](#id523) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/523%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [524](#id524) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/524%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [525](#id525) | [What is the type of below function j](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/525%20-%20What%20is%20the%20type%20of%20below%20function%20j.md) | 1 | 2 |
+| [526](#id526) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/526%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [527](#id527) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/527%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [528](#id528) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/528%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [529](#id529) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/529%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [530](#id530) | [How do you verify two strings are anagrams](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/530%20-%20How%20do%20you%20verify%20two%20strings%20are%20anagrams.md) | 1 | 2 |
 
 ### Part I - Introduction
 
@@ -1935,7 +1935,7 @@ Q:: =============================================
 ###### ID60
 
 A:: =============================================  
-Below are the list of events available for server sent events  
+Below are the list of events available for server sent events
 
 | Event     | Description                                          |  
 |-----------|------------------------------------------------------|
@@ -5388,7 +5388,7 @@ Q:: =============================================
 ###### ID228
 
 A:: =============================================  
-There are 6 different types of error names returned from error object,  
+There are 6 different types of error names returned from error object,
 
 | Error Name     | Description                                        |  
 |----------------|----------------------------------------------------|
@@ -6651,7 +6651,7 @@ Q:: =============================================
 ###### ID289
 
 A:: =============================================  
-Both are totally unrelated programming languages and no relation between them. Java is statically typed, compiled, runs on its own VM. Whereas Javascript is dynamically typed, interpreted, and runs in a browser and nodejs environments. Let's see the major differences in a tabular format,  
+Both are totally unrelated programming languages and no relation between them. Java is statically typed, compiled, runs on its own VM. Whereas Javascript is dynamically typed, interpreted, and runs in a browser and nodejs environments. Let's see the major differences in a tabular format,
 
 | Feature     | Java                           | JavaScript                                            |  
 |-------------|--------------------------------|-------------------------------------------------------|
@@ -10611,7 +10611,7 @@ function Vehicle(model, color, year, country) {
 ###### ID450
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 The function declarations are hoisted similar to any variables. So the placement for `Vehicle` function declaration doesn't make any difference.
 
@@ -10642,7 +10642,7 @@ console.log(foo(), typeof x, typeof y);
 ###### ID451
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 Of course the return value of `foo()` is 1 due to the increment operator. But the statement `let x = y = 0` declares a local variable x. Whereas y declared as a global variable accidentally. This statement is equivalent to,
 
@@ -10681,7 +10681,7 @@ main();
 ###### ID452
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 The statements order is based on the event loop mechanism. The order of statements follows the below order,
 
@@ -10712,7 +10712,7 @@ console.log(0.1 + 0.2 === 0.3);
 ###### ID453
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 This is due to the float point math problem. Since the floating point numbers are encoded in binary format, the addition operations on them lead to rounding errors. Hence, the comparison of floating points doesn't give expected results.
 You can find more details about the explanation here [0.30000000000000004.com/](https://0.30000000000000004.com/)
@@ -10741,7 +10741,7 @@ console.log(y);
 ###### ID454
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 The main points in the above code snippets are,
 
@@ -10786,7 +10786,7 @@ console.log(foo());
 ###### ID455
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 This is a semicolon issue. Normally semicolons are optional in JavaScript. So if there are any statements(in this case, return) missing semicolon, it is automatically inserted immediately. Hence, the function returned as undefined.
 
@@ -10825,7 +10825,7 @@ console.log(myChars.length);
 ###### ID456
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 The `delete` operator will delete the object property but it will not reindex the array or change its length. So the number or elements or length of the array won't be changed.
 If you try to print myChars then you can observe that it doesn't set an undefined value, rather the property is removed from the array. The newer versions of Chrome use `empty` instead of `undefined` to make the difference a bit clearer.
@@ -10858,7 +10858,7 @@ console.log(array3);
 ###### ID457
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 The latest chrome versions display `sparse array`(they are filled with holes) using this empty x n notation. Whereas the older versions have undefined x n notation.
 **Note:** The latest version of FF displays `n empty slots` notation.
@@ -10897,7 +10897,7 @@ console.log(obj.prop3());
 ###### ID458
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 ES6 provides method definitions and property shorthands for objects. So both prop2 and prop3 are treated as regular function values.
 
@@ -10922,7 +10922,7 @@ console.log(3 > 2 > 1);
 ###### ID459
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 The important point is that if the statement contains the same operators(e.g, < or >) then it can be evaluated from left to right.
 The first statement follows the below order,
@@ -10962,7 +10962,7 @@ printNumbers(1, 2, 3);
 ###### ID460
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 In non-strict mode, the regular JavaScript functions allow duplicate named parameters. The above code snippet has duplicate parameters on 1st and 3rd parameters.
 The value of the first parameter is mapped to the third argument which is passed to the function. Hence, the 3rd argument overrides the first parameter.
@@ -10992,7 +10992,7 @@ printNumbersArrow(1, 2, 3);
 ###### ID461
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 Unlike regular functions, the arrow functions doesn't not allow duplicate parameters in either strict or non-strict mode. So you can see `SyntaxError` in the console.
 
@@ -11017,7 +11017,7 @@ console.log(arrowFunc(1, 2, 3));
 ###### ID462
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 Arrow functions do not have an `arguments, super, this, or new.target` bindings. So any reference to `arguments` variable tries to resolve to a binding in a lexically enclosing environment. In this case, the arguments variable is not defined outside of the arrow function. Hence, you will receive a reference error.
 
@@ -11056,7 +11056,7 @@ console.log(String.prototype.trimLeft.name === "trimStart");
 ###### ID463
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 In order to be consistent with functions like `String.prototype.padStart`, the standard method name for trimming the whitespaces is considered as `trimStart`. Due to web web compatibility reasons, the old method name 'trimLeft' still acts as an alias for 'trimStart'. Hence, the prototype for 'trimLeft' is always 'trimStart'
 
@@ -11080,7 +11080,7 @@ console.log(Math.max());
 ###### ID464
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 -Infinity is the initial comparant because almost every other value is bigger. So when no arguments are provided, -Infinity is going to be returned.
 **Note:** Zero number of arguments is a valid case.
@@ -11106,7 +11106,7 @@ console.log(10 == [[[[[[[10]]]]]]]);
 ###### ID465
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 As per the comparison algorithm in the ECMAScript specification(ECMA-262), the above expression converted into JS as below
 
@@ -11137,7 +11137,7 @@ console.log(10 - "10");
 ###### ID466
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 The concatenation operator(+) is applicable for both number and string types. So if any operand is string type then both operands concatenated as strings. Whereas subtract(-) operator tries to convert the operands as number type.
 
@@ -11166,7 +11166,7 @@ if ([0]) {
 ###### ID467
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 In comparison operators, the expression `[0]` converted to Number([0].valueOf().toString()) which is resolved to false. Whereas `[0]` just becomes a truthy value without any conversion because there is no comparison operator.
 
@@ -11188,7 +11188,7 @@ console.log([1, 2] + [3, 4]);
 ###### ID468
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 The + operator is not meant or defined for arrays. So it converts arrays into strings and concatenates them.
 
@@ -11216,7 +11216,7 @@ console.log(browser);
 ###### ID469
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 Since `Set` object is a collection of unique values, it won't allow duplicate values in the collection. At the same time, it is case sensitive data structure.
 
@@ -11238,7 +11238,7 @@ console.log(NaN === NaN);
 ###### ID470
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never equal for floating-point numbers.
 
@@ -11263,7 +11263,7 @@ console.log(numbers.indexOf(NaN));
 ###### ID471
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 The `indexOf` uses strict equality operator(===) internally and `NaN === NaN` evaluates to false. Since indexOf won't be able to find NaN inside an array, it returns -1 always.
 But you can use `Array.prototype.findIndex` method to find out the index of NaN in an array or You can use `Array.prototype.includes` to check if NaN is present in an array or not.
@@ -11296,7 +11296,7 @@ console.log(a, b);
 ###### ID472
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 When using rest parameters, trailing commas are not allowed and will throw a SyntaxError.
 If you remove the trailing comma then it displays 1st answer
@@ -11329,7 +11329,7 @@ console.log(func());
 ###### ID473
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 Async functions always return a promise. But even if the return value of an async function is not explicitly a promise, it will be implicitly wrapped in a promise. The above async function is equivalent to below expression,
 
@@ -11362,7 +11362,7 @@ console.log(func());
 ###### ID474
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 The await expression returns value 10 with promise resolution and the code after each await expression can be treated as existing in a `.then` callback. In this case, there is no return expression at the end of the function. Hence, the default return value of `undefined` is returned as the resolution of the promise. The above async function is equivalent to below expression,
 
@@ -11407,7 +11407,7 @@ processArray([1, 2, 3, 4]);
 ###### ID475
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 Even though “processArray” is an async function, the anonymous function that we use for `forEach` is synchronous. If you use await inside a synchronous function then it throws a syntax error.
 
@@ -11447,7 +11447,7 @@ process([1, 2, 3, 5]);
 ###### ID476
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 The forEach method will not wait until all items are finished but it just runs the tasks and goes next. Hence, the last statement is displayed first followed by a sequence of promise resolutions.
 
@@ -11484,7 +11484,7 @@ console.log(set);
 ###### ID477
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 Set has few exceptions from equality check,
 
@@ -11517,7 +11517,7 @@ console.log(sym1 === sym2, sym3 === sym4);
 ###### ID478
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 Symbol follows below conventions,
 
@@ -11548,7 +11548,7 @@ console.log(sym1);
 ###### ID479
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 `Symbol` is a just a standard function and not an object constructor(unlike other primitives new Boolean, new String and new Number). So if you try to call it with the new operator will result in a TypeError
 
@@ -11586,7 +11586,7 @@ if (!typeof myString === "number") {
 ###### ID480
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 The return value of `typeof myNumber` or `typeof myString` is always a truthy value (either "number" or "string"). The ! operator operates on either `typeof myNumber` or `typeof myString`, converting them to boolean values. Since the value of both `!typeof myNumber` and `!typeof myString` is false, the if condition fails, and control goes to else block.
 
@@ -11628,7 +11628,7 @@ console.log(
 ###### ID481
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 The symbols has below constraints,
 
@@ -11667,7 +11667,7 @@ new B();
 ###### ID482
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 Using constructors, `new.target` refers to the constructor (points to the class definition of class which is initialized) that was directly invoked by new. This also applies to the case if the constructor is in a parent class and was delegated from a child constructor.
 
@@ -11693,7 +11693,7 @@ console.log(x, y, z);
 ###### ID483
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 It throws a syntax error because the rest element should not have a trailing comma. You should always consider using a rest operator as the last element.
 
@@ -11721,7 +11721,7 @@ console.log(y);
 ###### ID484
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 The object property follows below rules,
 
@@ -11753,7 +11753,7 @@ area();
 ###### ID485
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 If you leave out the right-hand side assignment for the destructuring object, the function will look for at least one argument to be supplied when invoked. Otherwise you will receive an error `Error: Cannot read property 'length' of undefined` as mentioned above.
 
@@ -11807,7 +11807,7 @@ console.log(name);
 ###### ID486
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 It is possible to combine Array and Object destructuring. In this case, the third element in the array props accessed first followed by name property in the object.
 
@@ -11839,7 +11839,7 @@ checkType(null);
 ###### ID487
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 If the function argument is set implicitly(not passing argument) or explicitly to undefined, the value of the argument is the default parameter. Whereas for other falsy values('' or null), the value of the argument is passed as a parameter.
 
@@ -11873,7 +11873,7 @@ console.log(add("Apple"));
 ###### ID488
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 Since the default argument is evaluated at call time, a new object is created each time the function is called. So in this case, the new array is created and an element pushed to the default empty array.
 
@@ -11901,7 +11901,7 @@ greet("Hello", "John", "Good morning!");
 ###### ID489
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 Since parameters defined earlier are available to later default parameters, this code snippet doesn't throw any error.
 
@@ -11929,7 +11929,7 @@ outer();
 ###### ID490
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 The functions and variables declared in the function body cannot be referred from default value parameter initializers. If you still try to access, it throws a run-time ReferenceError(i.e, `inner` is not defined).
 
@@ -11959,7 +11959,7 @@ myFun(1, 2);
 ###### ID491
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 The rest parameter is used to hold the remaining parameters of a function and it becomes an empty array if the argument is not provided.
 
@@ -11986,7 +11986,7 @@ console.log(array);
 ###### ID492
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 Spread syntax can be applied only to iterable objects. By default, Objects are not iterable, but they become iterable when used in an Array, or with iterating functions such as `map(), reduce(), and assign()`. If you still try to do it, it still throws `TypeError: obj is not iterable`.
 
@@ -12017,7 +12017,7 @@ console.log(myGenObj.next().value);
 ###### ID493
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 Generators are not constructible type. But if you still proceed to do, there will be an error saying "TypeError: myGenFunc is not a constructor"
 
@@ -12051,7 +12051,7 @@ console.log(myGenObj.next());
 ###### ID494
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 A return statement in a generator function will make the generator finish. If a value is returned, it will be set as the value property of the object and done property to true. When a generator is finished, subsequent next() calls return an object of this form: `{value: undefined, done: true}`.
 
@@ -12088,7 +12088,7 @@ for (const value of myGenerator) {
 ###### ID495
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 The generator should not be re-used once the iterator is closed. i.e, Upon exiting a loop(on completion or using break & return), the generator is closed and trying to iterate over it again does not yield any more results. Hence, the second loop doesn't print any value.
 
@@ -12112,7 +12112,7 @@ console.log(num);
 ###### ID496
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 If you use an invalid number(outside of 0-7 range) in the octal literal, JavaScript will throw a SyntaxError. In ES5, it treats the octal literal as a decimal number.
 
@@ -12150,7 +12150,7 @@ class Square {
 ###### ID497
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 Unlike function declarations, class declarations are not hoisted. i.e, First You need to declare your class and then access it, otherwise it will throw a ReferenceError "Uncaught ReferenceError: Square is not defined".
 
@@ -12192,7 +12192,7 @@ console.log(run());
 ###### ID498
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 When a regular or prototype method is called without a value for **this**, the methods return an initial this value if the value is not undefined. Otherwise global window object will be returned. In our case, the initial `this` value is undefined so both methods return window objects.
 
@@ -12235,7 +12235,7 @@ console.log(car.start());
 ###### ID499
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 The super keyword is used to call methods of a superclass. Unlike other languages the super invocation doesn't need to be a first statement. i.e, The statements will be executed in the same order of code.
 
@@ -12262,7 +12262,7 @@ console.log(USER.age);
 ###### ID500
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 Even though we used constant variables, the content of it is an object and the object's contents (e.g properties) can be altered. Hence, the change is going to be valid in this case.
 
@@ -12285,7 +12285,7 @@ console.log("🙂" === "🙂");
 ###### ID501
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 Emojis are unicodes and the unicode for smile symbol is "U+1F642". The unicode comparision of same emojies is equivalent to string comparison. Hence, the output is always true.
 
@@ -12310,7 +12310,7 @@ console.log(typeof typeof typeof true);
 ###### ID502
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 The typeof operator on any primitive returns a string value. So even if you apply the chain of typeof operators on the return value, it is always string.
 
@@ -12341,7 +12341,7 @@ if (zero) {
 ###### ID503
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 1. The type of operator on new Number always returns object. i.e, typeof new Number(0) --> object.
 2. Objects are always truthy in if block
@@ -12373,7 +12373,7 @@ console.log(msg.name);
 ###### ID504
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 It returns undefined for non-strict mode and returns Error for strict mode. In non-strict mode, the wrapper object is going to be created and get the mentioned property. But the object get disappeared after accessing the property in next line.
 
@@ -12406,7 +12406,7 @@ let count = 10;
 ###### ID505
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 11 and 10 is logged to the console.
 
@@ -12465,7 +12465,7 @@ console.log(arr == str);
 ###### ID507
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 Arrays have their own implementation of `toString` method that returns a comma-separated list of elements. So the above code snippet returns true. In order to avoid conversion of array type, we should use === for comparison.
 
@@ -12494,7 +12494,7 @@ var getMessage = () => {
 ###### ID508
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 Hoisting will move variables and functions to be the top of scope. Even though getMessage is an arrow function the above function will considered as a varible due to it's variable declaration or assignment. So the variables will have undefined value in memory phase and throws an error '`getMessage` is not a function' at the code execution phase.
 
@@ -12523,7 +12523,7 @@ console.log("program finished");
 ###### ID509
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 Even though a promise is resolved immediately, it won't be executed immediately because its **.then/catch/finally** handlers or callbacks(aka task) are pushed into the queue. Whenever the JavaScript engine becomes free from the current program, it pulls a task from the queue and executes it. This is the reason why last statement is printed first before the log of promise handler.
 
@@ -12553,7 +12553,7 @@ console.log("Third line");
 ###### ID510
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 When JavaScript encounters a line break without a semicolon, the JavaScript parser will automatically add a semicolon based on a set of rules called `Automatic Semicolon Insertion` which determines whether line break as end of statement or not to insert semicolon. But it does not assume a semicolon before square brackets [...]. So the first two lines considered as a single statement as below.
 
@@ -12653,7 +12653,7 @@ for (var of of of) {
 ###### ID512
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 In JavaScript, `of` is not considered as a reserved keyword. So the variable declaration with `of` is accepted and prints the array value `of` using for..of loop.
 
@@ -12689,7 +12689,7 @@ console.log(numbers);
 ###### ID513
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 By default, the sort method sorts elements alphabetically. This is because elemented converted to strings and strings compared in UTF-16 code units order. Hence, you will see the above numbers not sorted as expected. In order to sort numerically just supply a comparator function which handles numeric sorts.
 
@@ -12726,7 +12726,7 @@ console.log("3");
 ###### ID514
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 When the JavaScript engine parses the above code, the first two statements are asynchronous which will be executed later and third statement is synchronous statement which will be moved to callstack, executed and prints the number 3 in the console. Next, Promise is native in ES6 and it will be moved to Job queue which has high priority than callback queue in the execution order. At last, since setTimeout is part of WebAPI the callback function moved to callback queue and executed. Hence, you will see number 2 printed first followed by 1.
 
@@ -12754,7 +12754,7 @@ var name = "John";
 ###### ID515
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 IIFE(Immediately Invoked Function Expression) is just like any other function expression which won't be hoisted. Hence, there will be a reference error for message call.
 The behavior would be the same with below function expression of message1,
@@ -12795,7 +12795,7 @@ function message() {
 ###### ID516
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 As part of hoisting, initially JavaScript Engine or compiler will store first function in heap memory but later rewrite or replaces with redefined function content.
 
@@ -12827,7 +12827,7 @@ changeCurrentCity();
 ###### ID517
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 Due to hositing feature, the variables declared with `var` will have `undefined` value in the creation phase so the outer variable `currentCity` will get same `undefined` value. But after few lines of code JavaScript engine found a new function call(`changeCurrentCity()`) to update the current city with `var` re-declaration. Since each function call will create a new execution context, the same variable will have `undefined` value before the declaration and new value(`Singapore`) after the declarion. Hence, the value `undefined` print first followed by new value `Singapore` in the execution phase.
 
@@ -12864,7 +12864,7 @@ console.log(message);
 ###### ID518
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 Each context(global or functional) has it's own variable environment and the callstack of variables in a LIFO order. So you can see the message variable value from second, first functions in an order followed by global context message variable value at the end.
 
@@ -12891,7 +12891,7 @@ functionOne();
 ###### ID519
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 The function call `functionOne` is not going to be part of scope chain and it has it's own execution context with the enclosed variable environment. i.e, It won't be accessed from global context. Hence, there will be an error while invoking the function as `functionOne is not defined`.
 
@@ -12925,7 +12925,7 @@ user.eat();
 ###### ID520
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 `this` keyword is dynamic scoped but not lexically scoped . In other words, it doesn't matter where `this` has been written but how it has been invoked really matter. In the above code snippet, the `user` object invokes `eat` function so `this` keyword refers to `user` object but `eatFruit` has been invoked by `eat` function and `this` will have default `Window` object.
 
@@ -13008,7 +13008,7 @@ console.log(name);
 ###### ID521
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 In JavaScript, primitives are immutable i.e. there is no way to change a primitive value once it gets created. So when you try to update the string's first character, there is no change in the string value and prints the same initial value `Hello World!`. Whereas in the later example, the concatenated value is re-assigned to the same variable which will result into creation of new memory block with the reference pointing to `John Smith` value and the old memory block value(`John`) will be garbage collected.
 
@@ -13041,7 +13041,7 @@ console.log(user1 === user2);
 ###### ID522
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 In JavaScript, the variables such as objects, arrays and functions comes under pass by reference. When you try to compare two objects with same content, it is going to compare memory address or reference of those variables. These variables always create separate memory blocks hence the comparison is always going to return false value.
 
@@ -13071,7 +13071,7 @@ greeting();
 ###### ID523
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 The variable `message` is still treated as closure(since it has been used in inner function) eventhough it has been declared after setTimeout function. The function with in setTimeout function will be sent to WebAPI and the variable declaration executed with in 5 seconds with the assigned value. Hence, the text declared for the variable will be displayed.
 
@@ -13095,7 +13095,7 @@ console.log(a === b);
 ###### ID524
 
 A:: =============================================  
-##### Answer: 1
+Answer: 1
 
 Eventhough both variables `a` and `b` refer a number value, the first declaration is based on constructor function and the type of the variable is going to be `object` type. Whereas the second declaration is primitive assignment with a number and the type is `number` type. Hence, the equality operator `===` will output `false` value.
 
@@ -13120,7 +13120,7 @@ function add(a, b) {
 ###### ID525
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 Eventhough the above function returns the same result for the same arguments(input) that are passed in the function, the `console.log()` statement causes a function to have side effects because it affects the state of an external code. i.e, the `console` object's state and depends on it to perform the job. Hence, the above function considered as impure function.
 
@@ -13147,7 +13147,7 @@ Promise.all([promiseOne, promiseTwo]).then((data) => console.log(data));
 ###### ID526
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 The above promises settled at the same time but one of them resolved and other one rejected. When you use `.all` method on these promises, the result will be short circuted by throwing an error due to rejection in second promise. But If you use `.allSettled` method then result of both the promises will be returned irrespective of resolved or rejected promise status without throwing any error.
 
@@ -13182,7 +13182,7 @@ try {
 ###### ID527
 
 A:: =============================================  
-##### Answer: 3
+Answer: 3
 
 If you put `setTimeout` and `setInterval` methods inside the try clause and an exception is thrown, the catch clause will not catch any of them. This is because the try...catch statement works synchronously, and the function in the above code is executed asynchronously after a certain period of time. Hence, you will see runtime exception without catching the error. To resolve this issue, you have to put the try...catch block inside the function as below,
 
@@ -13224,7 +13224,7 @@ console.log(a, "outside");
 ###### ID528
 
 A:: =============================================  
-##### Answer: 2
+Answer: 2
 
 The variable "a" declared inside "if" has block scope and does not affect the value of the outer "a" variable.
 
@@ -13250,7 +13250,7 @@ console.log(arr);
 ###### ID529
 
 A:: =============================================  
-##### Answer: 4
+Answer: 4
 
 The length of the array 'arr' has been set to 0, so the array becomes empty.
 

@@ -16,22 +16,23 @@ functionOne();
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 The function call `functionOne` is not going to be part of scope chain and it
 has it's own execution context with the enclosed variable environment. i.e, It
 won't be accessed from global context. Hence, there will be an error while
 invoking the function as `functionOne is not defined`.
 
+==================== Id ====================  
+519
+<!--ID: 1707879793670-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#519-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#519-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -41,5 +42,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

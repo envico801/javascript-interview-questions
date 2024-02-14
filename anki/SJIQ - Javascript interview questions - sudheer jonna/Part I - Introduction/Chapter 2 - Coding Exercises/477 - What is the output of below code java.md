@@ -15,22 +15,23 @@ console.log(set);
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 Set has few exceptions from equality check,
 
 1. All NaN values are equal
 2. Both +0 and -0 considered as different values
 
+==================== Id ====================  
+477
+<!--ID: 1707879799007-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#477-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#477-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -40,5 +41,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

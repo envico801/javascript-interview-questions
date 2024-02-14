@@ -15,8 +15,7 @@ console.log(numbers);
 
 ==================== Answer ====================  
 
-##### Answer: 2
-
+Answer: 2  
 By default, the sort method sorts elements alphabetically. This is because
 elemented converted to strings and strings compared in UTF-16 code units order.
 Hence, you will see the above numbers not sorted as expected. In order to sort
@@ -30,15 +29,17 @@ console.log(numbers);
 
 **Note:** Sort() method changes the original array.
 
+==================== Id ====================  
+513
+<!--ID: 1707879785996-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#513-What-is-the-output-of-below-code-jav
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#513-What-is-the-output-of-below-code-jav
 
 Reference:
 
@@ -48,5 +49,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -15,15 +15,17 @@ As per the above expression, variable 'a 'will get the value of 'c' only if 'b'
 is falsy (if is null, false, undefined, 0, empty string, or NaN), otherwise 'a'
 will get the value of 'b'.
 
+==================== Id ====================  
+137
+<!--ID: 1707879838346-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#137-How-do-you-assign-default-values-to-variab
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#137-How-do-you-assign-default-values-to-variab
 
 Reference:
 
@@ -33,5 +35,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

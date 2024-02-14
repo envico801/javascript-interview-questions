@@ -12,21 +12,22 @@ console.log(num);
 
 ==================== Answer ====================  
 
-##### Answer: 1
-
+Answer: 1  
 If you use an invalid number(outside of 0-7 range) in the octal literal,
 JavaScript will throw a SyntaxError. In ES5, it treats the octal literal as a
 decimal number.
+
+==================== Id ====================  
+496
+<!--ID: 1707879801785-->
 
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 2 - Coding Exercises
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#496-What-is-the-output-of-below-code-java
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-2-Coding-Exercises::#496-What-is-the-output-of-below-code-java
 
 Reference:
 
@@ -36,5 +37,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

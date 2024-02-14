@@ -38,15 +38,17 @@ console.log(output1); // Mr/Ms. John is a/an expert developer in JavaScript
 console.log(output2); // Mr/Ms. Kane is a/an junior developer in JavaScript
 ```
 
+==================== Id ====================  
+312
+<!--ID: 1707879826026-->
+
 ---
 
 DECK INFO
 
-TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions -
-sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
+TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS:
-#Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#312-What-are-tagged-templates
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#312-What-are-tagged-templates
 
 Reference:
 
@@ -56,5 +58,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store
