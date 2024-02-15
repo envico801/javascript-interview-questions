@@ -1,9 +1,19 @@
-Q: What is a first order function  
-A: First-order function is a function that doesn’t accept another function as an argument and doesn’t return a function as its return value.
+==================== Question ====================  
+
+### What is a first order function  
+
+==================== Answer ====================  
+
+A first-order function is a function that doesn’t accept another function as an
+argument and doesn’t return a function as its return value.
+
 ```javascript
-const firstOrder = () => console.log("I am a first order function!");
+const firstOrder = () => console.log('I am a first order function!');
 ```
-<!--ID: 1693596722712-->
+
+==================== Id ====================  
+12
+<!--ID: 1707879846987-->
 
 ---
 
@@ -11,7 +21,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#12-What-is-a-first-order-function
 
 Reference:
 
@@ -21,5 +31,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

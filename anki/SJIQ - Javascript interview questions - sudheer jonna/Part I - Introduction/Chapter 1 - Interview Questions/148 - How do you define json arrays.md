@@ -1,13 +1,23 @@
-Q: How do you define JSON arrays  
-A: JSON arrays are written inside square brackets and arrays contain javascript objects. For example, the JSON array of users would be as below,
+==================== Question ====================  
+
+### How do you define JSON arrays  
+
+==================== Answer ====================  
+
+JSON arrays are written inside square brackets and arrays contain javascript
+objects. For example, the JSON array of users would be as below,
+
 ```javascript
-"users":[
-{"firstName":"John", "lastName":"Abrahm"},
-{"firstName":"Anna", "lastName":"Smith"},
-{"firstName":"Shane", "lastName":"Warn"}
-]
+     "users":[
+       {"firstName":"John", "lastName":"Abrahm"},
+       {"firstName":"Anna", "lastName":"Smith"},
+       {"firstName":"Shane", "lastName":"Warn"}
+     ]
 ```
-<!--ID: 1693596710180-->
+
+==================== Id ====================  
+148
+<!--ID: 1707879851233-->
 
 ---
 
@@ -15,7 +25,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#148-How-do-you-define-json-arrays
 
 Reference:
 
@@ -25,5 +35,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

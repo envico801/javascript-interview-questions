@@ -1,12 +1,23 @@
-Q: What is a promise  
-A: A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.  
+==================== Question ====================  
+
+### What is a promise  
+
+==================== Answer ====================  
+
+A promise is an object that may produce a single value some time in the future
+with either a resolved value or a reason that it’s not resolved(for example,
+network error). It will be in one of the 3 possible states: fulfilled, rejected,
+or pending.  
 The syntax of Promise creation looks like below,
+
 ```javascript
 const promise = new Promise(function (resolve, reject) {
   // promise description
 });
 ```
+
 The usage of a promise would be as below,
+
 ```javascript
 const promise = new Promise(
   (resolve) => {
@@ -18,9 +29,13 @@ const promise = new Promise(
 );
 promise.then((value) => console.log(value));
 ```
-The action flow of a promise will be as below,
+
+The action flow of a promise will be as below,  
 ![promises](../../../../images/promises.png)
-<!--ID: 1693596718560-->
+
+==================== Id ====================  
+51
+<!--ID: 1707879814356-->
 
 ---
 
@@ -28,7 +43,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#51-What-is-a-promise
 
 Reference:
 
@@ -38,5 +53,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -1,10 +1,20 @@
-Q: How do you create an array with some data  
-A: You can create an array with some data or an array with the same values using `fill` method.
+==================== Question ====================  
+
+### How do you create an array with some data  
+
+==================== Answer ====================  
+
+You can create an array with some data or an array with the same values using
+`fill` method.
+
 ```javascript
-var newArray = new Array(5).fill("0");
+var newArray = new Array(5).fill('0');
 console.log(newArray); // ["0", "0", "0", "0", "0"]
 ```
-<!--ID: 1693596689146-->
+
+==================== Id ====================  
+367
+<!--ID: 1707879822243-->
 
 ---
 
@@ -12,7 +22,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#367-How-do-you-create-an-array-with-some-data
 
 Reference:
 
@@ -22,5 +32,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

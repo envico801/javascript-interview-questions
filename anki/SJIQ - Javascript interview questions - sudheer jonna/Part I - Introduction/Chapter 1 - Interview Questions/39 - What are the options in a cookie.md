@@ -1,14 +1,28 @@
-Q: What are the options in a cookie  
-A: There are few below options available for a cookie,
-1. By default, the cookie is deleted when the browser is closed but you can change this behavior by setting expiry date (in UTC time).
+==================== Question ====================  
+
+### What are the options in a cookie  
+
+==================== Answer ====================  
+
+There are few below options available for a cookie,
+
+1. By default, the cookie is deleted when the browser is closed but you can
+   change this behavior by setting expiry date (in UTC time).
+
 ```javascript
-document.cookie = "username=John; expires=Sat, 8 Jun 2019 12:00:00 UTC";
+document.cookie = 'username=John; expires=Sat, 8 Jun 2019 12:00:00 UTC';
 ```
-1. By default, the cookie belongs to a current page. But you can tell the browser what path the cookie belongs to using a path parameter.
+
+1. By default, the cookie belongs to a current page. But you can tell the
+   browser what path the cookie belongs to using a path parameter.
+
 ```javascript
-document.cookie = "username=John; path=/services";
+document.cookie = 'username=John; path=/services';
 ```
-<!--ID: 1693596719863-->
+
+==================== Id ====================  
+39
+<!--ID: 1707879814709-->
 
 ---
 
@@ -16,7 +30,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#39-What-are-the-options-in-a-cookie
 
 Reference:
 
@@ -26,5 +40,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

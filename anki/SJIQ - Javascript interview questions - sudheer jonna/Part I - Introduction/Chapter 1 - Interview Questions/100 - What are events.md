@@ -1,25 +1,37 @@
-Q: What are events  
-A: Events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can `react` on these events. Some of the examples of HTML events are,
+==================== Question ====================  
+
+### What are events  
+
+==================== Answer ====================  
+
+Events are "things" that happen to HTML elements. When JavaScript is used in
+HTML pages, JavaScript can `react` on these events. Some of the examples of HTML
+events are,
+
 1. Web page has finished loading
 2. Input field was changed
-3. Button was clicked
+3. Button was clicked  
    Let's describe the behavior of click event for button element,
+
 ```javascript
-<!doctype html>
-<html>
-<head>
-<script>
-function greeting() {
-alert('Hello! Good morning');
-}
-</script>
-</head>
-<body>
-<button type="button" onclick="greeting()">Click me</button>
-</body>
-</html>
+     <!doctype html>
+     <html>
+      <head>
+        <script>
+          function greeting() {
+            alert('Hello! Good morning');
+          }
+        </script>
+      </head>
+      <body>
+        <button type="button" onclick="greeting()">Click me</button>
+      </body>
+     </html>
 ```
-<!--ID: 1693596723842-->
+
+==================== Id ====================  
+100
+<!--ID: 1707879852775-->
 
 ---
 
@@ -27,7 +39,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#100-What-are-events
 
 Reference:
 
@@ -37,5 +49,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

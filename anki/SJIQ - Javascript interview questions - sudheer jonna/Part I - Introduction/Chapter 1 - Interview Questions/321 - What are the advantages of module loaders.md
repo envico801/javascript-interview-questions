@@ -1,11 +1,20 @@
-Q: What are the advantages of module loaders  
-A: The module loaders provides the below features,
+==================== Question ====================  
+
+### What are the advantages of module loaders  
+
+==================== Answer ====================  
+
+The module loaders provides the below features,
+
 1. Dynamic loading
 2. State isolation
 3. Global namespace isolation
 4. Compilation hooks
 5. Nested virtualization
-<!--ID: 1693596693527-->
+
+==================== Id ====================  
+321
+<!--ID: 1707879854742-->
 
 ---
 
@@ -13,7 +22,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#321-What-are-the-advantages-of-module-loaders
 
 Reference:
 
@@ -23,5 +32,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store

@@ -1,5 +1,13 @@
-Q: What are enhanced object literals  
-A: Object literals make it easy to quickly create objects with properties inside the curly braces. For example, it provides shorter syntax for common object property definition as below.
+==================== Question ====================  
+
+### What are enhanced object literals  
+
+==================== Answer ====================  
+
+Object literals make it easy to quickly create objects with properties inside
+the curly braces. For example, it provides shorter syntax for common object
+property definition as below.
+
 ```javascript
 //ES6
 var x = 10,
@@ -12,7 +20,10 @@ var x = 10,
 obj = { x: x, y: y };
 console.log(obj); // {x: 10, y:20}
 ```
-<!--ID: 1693596693841-->
+
+==================== Id ====================  
+317
+<!--ID: 1707879825671-->
 
 ---
 
@@ -20,7 +31,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::SJIQ - Javascript interview questions - sudheer jonna::Part I - Introduction::Chapter 1 - Interview Questions
 
-FILE TAGS: #Javascript #Interview
+FILE TAGS: #Javascript::#Interview::#SJIQ-Javascript-interview-questions-sudheer-jonna::#Part-I-Introduction::#Chapter-1-Interview-Questions::#317-What-are-enhanced-object-literals
 
 Reference:
 
@@ -30,5 +41,4 @@ Related:
 LIST
 where file.name = this.file.name
 ```
-
 QUESTION STATUS: Safe to store
