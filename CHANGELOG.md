@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/envico801/javascript-interview-questions/compare/v1.0.0...v2.0.0) (2024-02-15)
+
+
+### Features
+
+* add latest changes. ([e4bf2c9](https://github.com/envico801/javascript-interview-questions/commit/e4bf2c9afb947482c6c6bb473accc22a2c4ba2ed))
+
 ## 1.0.0 (2024-02-14)
 
 
