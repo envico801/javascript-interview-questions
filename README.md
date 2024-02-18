@@ -1,3 +1,78 @@
+# ✨ Introduction
+
+Greetings, code wanderers! Welcome to this dazzling deck of [JavaScript interview questions](https://github.com/sudheerj/javascript-interview-questions), originally crafted by the coding maestro [Sudheer Jonna](https://twitter.com/SudheerJonna). A round of applause 👏 for Sudheer and [the brilliant minds (contributors)](https://github.com/sudheerj/javascript-interview-questions/graphs/contributors) who've sprinkled their coding magic to improve this repository.
+
+### Anki Adaptation Magic ✨
+
+Behold, the [Anki-adapted version](https://github.com/envico801/javascript-interview-questions)! My goal is to preserve the charm of the original questions while juggling some formatting quirks. *Yes, there might be a bit of indentation errors thanks to a [script I summoned](https://github.com/envico801/obsidian-to-anki-card-converter)*, but fear not 🧙‍♂️ – the questions retain 100% of their original glory.
+
+<p align="center">
+    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/b392b2c4-2d10-4f92-b519-788443f3b727"
+       target="_blank">
+        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/b392b2c4-2d10-4f92-b519-788443f3b727"
+             alt="Indentation errors example" style="height: 400px;">
+    </a>
+</p>
+
+### Quest for Perfection 🚀
+
+Some might say perfection is a journey, not a destination. In our case, these questions could be jazzed up for easier learning. Picture this: the first question transformed into a symphony of 2 or 3 sub-questions. Alas, as the harbinger of fresh changes, keeping track of when to split or modify questions is akin to herding caffeinated cats. 🐱
+
+## 💖 Support the Sorcerer/s
+
+Extend your digital love to Sudheer – visit [his GitHub profile](https://github.com/sudheerj) and consider the magic of referral links as you enchantingly subscribe to one of these realms:
+
+* [ZTM - JavaScript Web Projects: 20 Projects to Build Your Portfolio](https://links.zerotomastery.io/jsp_sudheer)
+* [Master the Coding Interview: Data Structures + Algorithms](https://links.zerotomastery.io/mci_sudheer2)
+* [JavaScript: The Advanced Concepts](https://links.zerotomastery.io/ajs_sudheer)
+
+## 🆘 Need a Spell Breaker?
+
+Seeking refuge from the digital labyrinth, weary traveler? Fear not, for I am your trusty guide through the treacherous terrain of bugs and glitches. However, let us tread cautiously and steer clear of the murky waters of [Ankiweb.net](https://ankiweb.net/) reviews. Instead, arm yourself with the following:
+
+* **[Issue Tracker (Preferred)](https://github.com/envico801/javascript-interview-questions/issues):** The sanctified ground for reporting bugs 🐛 and seeking support. The path less traveled but infinitely more efficient.
+* **Carrier Pigeon (Email):** For those who prefer a more personal touch, send a message to [envico801@gmail.com](mailto:envico801@gmail.com?subject=Support%20request%20concerning%20'SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna'&body=Please%20describe%20your%20request%20here%20while%20providing%20as%20many%20details%20as%20possible%20(e.g.%20exact%20instructions%20to%20reproduce%20the%20problem,%20screenshots,%20info%20about%20your%20Anki%20version%20and%20operating%20system,%20etc.)). I promise, the pigeons 🕊️ are well-fed and ready to deliver your digital scrolls.
+
+Feeling chatty? Constructive feedback and suggestions are the secret sauce – sprinkle them generously! 🌟
+
+## 🌟 Usage Tips
+
+In case Anki forgets its styling magic, tap into the mystical powers of [CSS/HTML styles from my repository](https://github.com/envico801/anki-config/tree/main/cards/basic). Your eyes will thank you for the clarity! Pay special attention to the styles for code blocks and tables – those sneaky code blocks tend to lose their indentations, and table borders play hide and seek.
+
+For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://ankiweb.net/shared/info/566351439) addon. Watch the syntax sparkle when a code block emerges from the coding shadows.
+
+<p align="center">
+    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/f310ce3b-18ec-4ed8-8bc3-b411f182c2de"
+       target="_blank">
+        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/f310ce3b-18ec-4ed8-8bc3-b411f182c2de"
+             alt="Card example 1" style="height: 200px;">
+    </a>
+    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/6049c414-1002-45c3-b2fe-e6c769e95390"
+       target="_blank">
+        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/6049c414-1002-45c3-b2fe-e6c769e95390"
+             alt="Card example 2" style="height: 200px;">
+    </a>
+    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/60dc00ab-9c65-4098-8086-c66da8e8bf94"
+       target="_blank">
+        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/60dc00ab-9c65-4098-8086-c66da8e8bf94"
+             alt="Card example 3" style="height: 200px;">
+    </a>
+    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/01730604-b57f-4a18-892a-cb71218f37e5"
+       target="_blank">
+        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/01730604-b57f-4a18-892a-cb71218f37e5"
+             alt="Card example 4" style="height: 200px;">
+    </a>
+    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/2b0f40f1-ae4a-4955-a960-b85b2e84f5d1"
+       target="_blank">
+        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/2b0f40f1-ae4a-4955-a960-b85b2e84f5d1"
+             alt="Card example 5" style="height: 200px;">
+    </a>
+</p>
+
+## README.md of the original repository below
+
+---
+
 # JavaScript Interview Questions & Answers
 
 > Click :star:if you like the project and follow [@SudheerJonna](https://twitter.com/SudheerJonna) for more updates. Coding questions available [here](#coding-exercise). PDF and Epub versions available at [actions tab](https://github.com/sudheerj/JavaScript-Interview-Questions/actions).
