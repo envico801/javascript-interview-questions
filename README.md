@@ -94,6 +94,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
 ---
 
+**Note:** Please check [DataStructures and Algorithms](https://github.com/sudheerj/datastructures-algorithms) for DSA related questions or problems.
+
 ### Table of Contents
 
 | No. | Questions                                                                                                                                                     |
@@ -107,7 +109,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 | 7   | [What is the difference between slice and splice](#what-is-the-difference-between-slice-and-splice)                                                           |
 | 8   | [How do you compare an Object with a Map](#how-do-you-compare-object-and-map)                                                                                 |
 | 9   | [What is the difference between == and === operators](#what-is-the-difference-between--and--operators)                                                        |
-| 10  | [What are lambda or arrow functions](#what-are-lambda-or-arrow-functions)                                                                                     |
+| 10  | [What are lambda expression or arrow functions](#what-are-lambda-or-arrow-functions)                                                                                     |
 | 11  | [What is a first class function](#what-is-a-first-class-function)                                                                                             |
 | 12  | [What is a first order function](#what-is-a-first-order-function)                                                                                             |
 | 13  | [What is a higher order function](#what-is-a-higher-order-function)                                                                                           |
@@ -554,114 +556,145 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
    There are many ways to create objects in javascript as mentioned below:
 
-   1. **Object literal syntax:**
+    1. **Object literal syntax:**
 
-      The object literal syntax (or object initializer), is a comma-separated set of name-value pairs wrapped in curly braces.
+       The object literal syntax (or object initializer), is a comma-separated set of name-value pairs wrapped in curly braces.
 
-      ```javascript
-      var object = {
-           name: "Sudheer",
-           age: 34
-      };
+       ```javascript
+       var object = {
+            name: "Sudheer",
+            age: 34
+       };
+       ```
 
-      Object literal property values can be of any data type, including array, function, and nested object.
-      ```
+       Object literal property values can be of any data type, including array, function, and nested object.
 
-      **Note:** This is one of the easiest ways to create an object.
+       **Note:** This is one of the easiest ways to create an object.
 
-   2. **Object constructor:**
+    2. **Object constructor:**
 
-      The simplest way to create an empty object is using the `Object` constructor. Currently this approach is not recommended.
+       The simplest way to create an empty object is using the `Object` constructor. Currently this approach is not recommended.
 
-      ```javascript
-      var object = new Object();
-      ```
+       ```javascript
+       var object = new Object();
+       ```
 
-      The `Object()` is a built-in constructor function so "new" keyword is not required. The above code snippet can be re-written as:
+       The `Object()` is a built-in constructor function so "new" keyword is not required. The above code snippet can be re-written as:
 
-      ```javascript
-      var object = Object();
-      ```
+       ```javascript
+       var object = Object();
+       ```
 
-   3. **Object's create method:**
+    3. **Object's create method:**
 
-      The create method of Object is used to create a new object by passing the specificied prototype object and properties as arguments, i.e., this pattern is helpful to create new objects based on existing objects.
-      The second argument is optional and it is used to create properties on a newly created object.
+       The `create` method of Object is used to create a new object by passing the specificied prototype object and properties as arguments, i.e., this pattern is helpful to create new objects based on existing objects.
+       The second argument is optional and it is used to create properties on a newly created object.
 
-      The following code creates a new empty object whose prototype is null.
+       The following code creates a new empty object whose prototype is null.
 
-      ```javascript
-      var object = Object.create(null);
-      ```
+       ```javascript
+       var object = Object.create(null);
+       ```
+       The following example creates an object along with additional new properties.
 
-   4. **Function constructor:**
+       ```javascript
+       let vehicle = {
+         wheels: '4',
+         fuelType: 'Gasoline',
+         color: 'Green'
+       }
+       let carProps = {
+         type: {
+           value: 'Volkswagen'
+         },
+         model: {
+           value: 'Golf'
+         }
+       }
+ 
+       var car = Object.create(vehicle, carProps);
+       console.log(car);
+       ```
 
-      In this approach, create any function and apply the new operator to create object instances.
+    4. **Function constructor:**
 
-      ```javascript
-      function Person(name) {
-        this.name = name;
-        this.age = 21;
-      }
-      var object = new Person("Sudheer");
-      ```
+       In this approach, create any function and apply the new operator to create object instances.
 
-   5. **Function constructor with prototype:**
+       ```javascript
+       function Person(name) {
+         this.name = name;
+         this.age = 21;
+       }
+       var object = new Person("Sudheer");
+       ```
 
-      This is similar to function constructor but it uses prototype for their properties and methods,
+    5. **Function constructor with prototype:**
 
-      ```javascript
-      function Person() {}
-      Person.prototype.name = "Sudheer";
-      var object = new Person();
-      ```
+       This is similar to function constructor but it uses prototype for their properties and methods,
 
-      This is equivalent to creating an instance with Object.create method with a function prototype and then calling that function with an instance and parameters as arguments.
+       ```javascript
+       function Person() {}
+       Person.prototype.name = "Sudheer";
+       var object = new Person();
+       ```
 
-      ```javascript
-      function func() {}
+       This is equivalent to creating an instance with Object.create method with a function prototype and then calling that function with an instance and parameters as arguments.
 
-      new func(x, y, z);
-      ```
+       ```javascript
+       function func() {}
+ 
+       new func(x, y, z);
+       ```
 
-      **(OR)**
+       **(OR)**
 
-      ```javascript
-      // Create a new instance using function prototype.
-      var newInstance = Object.create(func.prototype)
+       ```javascript
+       // Create a new instance using function prototype.
+       var newInstance = Object.create(func.prototype)
+ 
+       // Call the function
+       var result = func.call(newInstance, x, y, z),
+ 
+       // If the result is a non-null object then use it otherwise just use the new instance.
+       console.log(result && typeof result === 'object' ? result : newInstance);
+       ```
+    6. **Object's assign method:**
 
-      // Call the function
-      var result = func.call(newInstance, x, y, z),
+       The `Object.assign` method is used to copy all the properties from one or more source objects and stores them into a target object.
 
-      // If the result is a non-null object then use it otherwise just use the new instance.
-      console.log(result && typeof result === 'object' ? result : newInstance);
-      ```
+       The following code creates a new staff object by copying properties of his working company and the car he owns.
 
-   6. **ES6 Class syntax:**
+       ```javascript
+       const orgObject = { company: 'XYZ Corp'};
+       const carObject = { name: 'Toyota'};
+       const staff = Object.assign({}, orgObject, carObject);
+       ```
 
-      ES6 introduces class feature to create objects.
+    7. **ES6 Class syntax:**
 
-      ```javascript
-      class Person {
-        constructor(name) {
-          this.name = name;
-        }
-      }
+       ES6 introduces class feature to create objects.
 
-      var object = new Person("Sudheer");
-      ```
+       ```javascript
+       class Person {
+         constructor(name) {
+           this.name = name;
+         }
+       }
+ 
+       var object = new Person("Sudheer");
+       ```
 
-   7. **Singleton pattern:**
+    8. **Singleton pattern:**
 
-      A Singleton is an object which can only be instantiated one time. Repeated calls to its constructor return the same instance. This way one can ensure that they don't accidentally create multiple instances.
+       A Singleton is an object which can only be instantiated one time. Repeated calls to its constructor return the same instance. This way one can ensure that they don't accidentally create multiple instances.
 
-      ```javascript
-      var object = new (function () {
-        this.name = "Sudheer";
-      })();
-      ```
+       ```javascript
+       var object = new (function () {
+         this.name = "Sudheer";
+       })();
+       ```
 
-      **[⬆ Back to Top](#table-of-contents)**
+       **[⬆ Back to Top](#table-of-contents)**
 
 2. ### What is a prototype chain
 
@@ -793,7 +826,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
    Some of the major differences in a tabular form:
 
    | Slice                                        | Splice                                          |
-   | -------------------------------------------- | ----------------------------------------------- |
+      | -------------------------------------------- | ----------------------------------------------- |
    | Doesn't modify the original array(immutable) | Modifies the original array(mutable)            |
    | Returns the subset of original array         | Returns the deleted elements as array           |
    | Used to pick the elements from array         | Used to insert/delete elements to/from array |
@@ -804,12 +837,12 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
    **Objects** are similar to **Maps** in that both let you set keys to values, retrieve those values, delete keys, and detect whether something is stored at a key. Due to this reason, Objects have been used as Maps historically. But there are important differences that make using a Map preferable in certain cases:
 
-   1. The keys of an Object can be Strings and Symbols, whereas they can be any value for a Map, including functions, objects, and any primitive.
-   2. The keys in a Map are ordered while keys added to Object are not. Thus, when iterating over it, a Map object returns keys in the order of insertion.
-   3. You can get the size of a Map easily with the size property, while the number of properties in an Object must be determined manually.
-   4. A Map is an iterable and can thus be directly iterated, whereas iterating over an Object requires obtaining its keys in some fashion and iterating over them.
-   5. An Object has a prototype, so there are default keys in an object that could collide with your keys if you're not careful. As of ES5 this can be bypassed by creating an object(which can be called a map) using `Object.create(null)`, but this practice is seldom done.
-   6. A Map may perform better in scenarios involving frequent addition and removal of key pairs.
+    1. The keys of an Object can be Strings and Symbols, whereas they can be any value for a Map, including functions, objects, and any primitive.
+    2. The keys in a Map are ordered while keys added to Object are not. Thus, when iterating over it, a Map object returns keys in the order of insertion.
+    3. You can get the size of a Map easily with the size property, while the number of properties in an Object must be determined manually.
+    4. A Map is an iterable and can thus be directly iterated, whereas iterating over an Object requires obtaining its keys in some fashion and iterating over them.
+    5. An Object has a prototype, so there are default keys in an object that could collide with your keys if you're not careful. As of ES5 this can be bypassed by creating an object(which can be called a map) using `Object.create(null)`, but this practice is seldom done.
+    6. A Map may perform better in scenarios involving frequent addition and removal of key pairs.
 
    **[⬆ Back to Top](#table-of-contents)**
 
@@ -817,15 +850,15 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
    JavaScript provides both strict(===, !==) and type-converting(==, !=) equality comparison. The strict operators take type of variable in consideration, while non-strict operators make type correction/conversion based upon values of variables. The strict operators follow the below conditions for different types,
 
-   1. Two strings are strictly equal when they have the same sequence of characters, same length, and same characters in corresponding positions.
-   2. Two numbers are strictly equal when they are numerically equal, i.e., having the same number value.
-      There are two special cases in this,
-      1. NaN is not equal to anything, including NaN.
-      2. Positive and negative zeros are equal to one another.
-   3. Two Boolean operands are strictly equal if both are true or both are false.
-   4. Two objects are strictly equal if they refer to the same Object.
-   5. Null and Undefined types are not equal with ===, but equal with ==, i.e,
-      null===undefined --> false, but null==undefined --> true
+    1. Two strings are strictly equal when they have the same sequence of characters, same length, and same characters in corresponding positions.
+    2. Two numbers are strictly equal when they are numerically equal, i.e., having the same number value.
+       There are two special cases in this,
+        1. NaN is not equal to anything, including NaN.
+        2. Positive and negative zeros are equal to one another.
+    3. Two Boolean operands are strictly equal if both are true or both are false.
+    4. Two objects are strictly equal if they refer to the same Object.
+    5. Null and Undefined types are not equal with ===, but equal with == .
+       i.e, `null===undefined --> false`, but `null==undefined --> true`
 
    Some of the example which covers the above cases:
 
@@ -838,15 +871,23 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
    null === undefined // false
    '0' == false // true
    '0' === false // false
+   NaN == NaN or NaN === NaN // false
    []==[] or []===[] //false, refer different objects in memory
    {}=={} or {}==={} //false, refer different objects in memory
    ```
 
    **[⬆ Back to Top](#table-of-contents)**
 
-10. ### What are lambda or arrow functions
+10. ### What are lambda expressions or arrow functions
 
-    An arrow function is a shorter syntax for a function expression and does not have its own **this, arguments, super, or new.target**. These functions are best suited for non-method functions, and they cannot be used as constructors.
+    An arrow function is a shorter/concise syntax for a function expression and does not have its own **this, arguments, super, or new.target**. These functions are best suited for non-method functions, and they cannot be used as constructors.
+
+    Some of the examples of arrow functions are listed as below,
+    ```javascript
+    const arrowFunc1 = (a, b) => a + b; // Multiple parameters
+    const arrowFunc2 = a => a * 10; // Single parameter
+    const arrowFunc3 = () => {} // no parameters
+    ```
 
     **[⬆ Back to Top](#table-of-contents)**
 
@@ -967,10 +1008,11 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
     You can list out the differences in a tabular format
 
     | var                                                   | let                         |
-    | ----------------------------------------------------- | --------------------------- |
+        | ----------------------------------------------------- | --------------------------- |
     | It has been available from the beginning of JavaScript | Introduced as part of ES6   |
     | It has function scope                                 | It has block scope          |
-    | Variables will be hoisted                             | Hoisted but not initialized |
+    | Variable declaration will be hoisted                             | Hoisted but not initialized |
+    | It is possible to re-declare the variable in the same scope | It is not possible to re-declare the variable |
 
     Let's take an example to see the difference,
 
@@ -1033,7 +1075,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
 21. ### What is the Temporal Dead Zone
 
-    The Temporal Dead Zone is a behavior in JavaScript that occurs when declaring a variable with the let and const keywords, but not with var. In ECMAScript 6, accessing a `let` or `const` variable before its declaration (within its scope) causes a ReferenceError. The time span when that happens, between the creation of a variable’s binding and its declaration, is called the temporal dead zone.
+    The Temporal Dead Zone(TDZ) is a specific period or area of a block where a variable is inaccessible until it has been intialized with a value. This behavior in JavaScript that occurs when declaring a variable with the let and const keywords, but not with var. In ECMAScript 6, accessing a `let` or `const` variable before its declaration (within its scope) causes a ReferenceError.
 
     Let's see this behavior with an example,
 
@@ -1180,7 +1222,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
 27. ### What are closures
 
-    A closure is the combination of a function and the lexical environment within which that function was declared. i.e, It is an inner function that has access to the outer or enclosing function’s variables. The closure has three scope chains
+    A closure is the combination of a function and the lexical environment within which that function was declared. i.e, It is an inner function that has access to the outer or enclosing function’s variables, functions and other data even after the outer function has finished its execution. The closure has three scope chains.
 
     1. Own scope where variables defined between its curly brackets
     2. Outer function’s variables
@@ -1197,7 +1239,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
     }
     var myFunction = Welcome("John");
     myFunction("Welcome "); //Output: Welcome John
-    myFunction("Hello Mr."); //output: Hello Mr.John
+    myFunction("Hello Mr."); //output: Hello Mr. John
     ```
 
     As per the above code, the inner function(i.e, greetingInfo) has access to the variables in the outer function scope(i.e, Welcome) even after the outer function has returned.
@@ -1324,7 +1366,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
     Below are some of the differences between cookie, local storage and session storage,
 
     | Feature                           | Cookie                             | Local storage    | Session storage     |
-    | --------------------------------- | ---------------------------------- | ---------------- | ------------------- |
+        | --------------------------------- | ---------------------------------- | ---------------- | ------------------- |
     | Accessed on client or server side | Both server-side & client-side     | client-side only | client-side only    |
     | Lifetime                          | As configured using Expires option | until deleted    | until tab is closed |
     | SSL support                       | Supported                          | Not supported    | Not supported       |
@@ -1862,7 +1904,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
     Below are the main differences between null and undefined,
 
     | Null                                                                                            | Undefined                                                                                               |
-    | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+        | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
     | It is an assignment value which indicates that variable points to no object.                    | It is not an assignment value where a variable has been declared but has not yet been assigned a value. |
     | Type of null is object                                                                          | Type of undefined is undefined                                                                          |
     | The null value is a primitive value that represents the null, empty, or non-existent reference. | The undefined value is a primitive value used when a variable has not been assigned a value.            |
@@ -1886,7 +1928,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
     Below are the main differences between window and document,
 
     | Window                                                                        | Document                                                                                      |
-    | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+        | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
     | It is the root level element in any web page                                  | It is the direct child of the window object. This is also known as Document Object Model(DOM) |
     | By default window object is available implicitly in the page                  | You can access it via window.document or document.                                            |
     | It has methods like alert(), confirm() and properties like document, location | It provides methods like getElementById, getElementsByTagName, createElement etc              |
@@ -1952,7 +1994,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
     Below are the major differences between undeclared(not defined) and undefined variables,
 
     | undeclared                                                                                  | undefined                                                                              |
-    | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+        | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
     | These variables do not exist in a program and are not declared                              | These variables declared in the program but have not assigned any value                |
     | If you try to read the value of an undeclared variable, then a runtime error is encountered | If you try to read the value of an undefined variable, an undefined value is returned. |
 
@@ -2151,9 +2193,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can `react` on these events. Some of the examples of HTML events are,
 
-     1. Web page has finished loading
-     2. Input field was changed
-     3. Button was clicked
+    1. Web page has finished loading
+    2. Input field was changed
+    3. Button was clicked
 
      Let's describe the behavior of click event for button element,
 
@@ -2225,9 +2267,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      The return false statement in event handlers performs the below steps,
 
-     1. First it stops the browser's default action or behaviour.
-     2. It prevents the event from propagating the DOM
-     3. Stops callback execution and returns immediately when called.
+    1. First it stops the browser's default action or behaviour.
+    2. It prevents the event from propagating the DOM
+    3. Stops callback execution and returns immediately when called.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -2307,10 +2349,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of syntax rules of JSON
 
-     1. The data is in name/value pairs
-     2. The data is separated by commas
-     3. Curly braces hold objects
-     4. Square brackets hold arrays
+    1. The data is in name/value pairs
+    2. The data is separated by commas
+    3. Curly braces hold objects
+    4. Square brackets hold arrays
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -2416,7 +2458,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      There are 3 possible ways to check whether a string contains a substring or not,
 
-     1. **Using includes:** ES6 provided `String.prototype.includes` method to test a string contains a substring
+    1. **Using includes:** ES6 provided `String.prototype.includes` method to test a string contains a substring
 
      ```javascript
      var mainString = "hello",
@@ -2424,7 +2466,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      mainString.includes(subString);
      ```
 
-     1. **Using indexOf:** In an ES5 or older environment, you can use `String.prototype.indexOf` which returns the index of a substring. If the index value is not equal to -1 then it means the substring exists in the main string.
+    1. **Using indexOf:** In an ES5 or older environment, you can use `String.prototype.indexOf` which returns the index of a substring. If the index value is not equal to -1 then it means the substring exists in the main string.
 
      ```javascript
      var mainString = "hello",
@@ -2432,7 +2474,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      mainString.indexOf(subString) !== -1;
      ```
 
-     1. **Using RegEx:** The advanced solution is using Regular expression's test method(`RegExp.test`), which allows for testing for against regular expressions
+    1. **Using RegEx:** The advanced solution is using Regular expression's test method(`RegExp.test`), which allows for testing for against regular expressions
 
      ```javascript
      var mainString = "hello",
@@ -2472,14 +2514,14 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      The below `Location` object properties can be used to access URL components of the page,
 
-     1. href - The entire URL
-     2. protocol - The protocol of the URL
-     3. host - The hostname and port of the URL
-     4. hostname - The hostname of the URL
-     5. port - The port number in the URL
-     6. pathname - The path name of the URL
-     7. search - The query portion of the URL
-     8. hash - The anchor portion of the URL
+    1. href - The entire URL
+    2. protocol - The protocol of the URL
+    3. host - The hostname and port of the URL
+    4. hostname - The hostname of the URL
+    5. port - The port number in the URL
+    6. pathname - The path name of the URL
+    7. search - The query portion of the URL
+    8. hash - The anchor portion of the URL
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -2498,7 +2540,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      You can check whether a key exists in an object or not using three approaches,
 
-     1. **Using in operator:** You can use the in operator whether a key exists in an object or not
+    1. **Using in operator:** You can use the in operator whether a key exists in an object or not
 
      ```javascript
      "key" in obj;
@@ -2510,13 +2552,13 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      !("key" in obj);
      ```
 
-     1. **Using hasOwnProperty method:** You can use `hasOwnProperty` to particularly test for properties of the object instance (and not inherited properties)
+    1. **Using hasOwnProperty method:** You can use `hasOwnProperty` to particularly test for properties of the object instance (and not inherited properties)
 
      ```javascript
      obj.hasOwnProperty("key"); // true
      ```
 
-     1. **Using undefined comparison:** If you access a non-existing property from an object, the result is undefined. Let’s compare the properties against undefined to determine the existence of the property.
+    1. **Using undefined comparison:** If you access a non-existing property from an object, the result is undefined. Let’s compare the properties against undefined to determine the existence of the property.
 
      ```javascript
      const user = {
@@ -2553,19 +2595,19 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      There are different solutions based on ECMAScript versions
 
-     1. **Using Object entries(ECMA 7+):** You can use object entries length along with constructor type.
+    1. **Using Object entries(ECMA 7+):** You can use object entries length along with constructor type.
 
      ```javascript
      Object.entries(obj).length === 0 && obj.constructor === Object; // Since date object length is 0, you need to check constructor check as well
      ```
 
-     1. **Using Object keys(ECMA 5+):** You can use object keys length along with constructor type.
+    1. **Using Object keys(ECMA 5+):** You can use object keys length along with constructor type.
 
      ```javascript
      Object.keys(obj).length === 0 && obj.constructor === Object; // Since date object length is 0, you need to check constructor check as well
      ```
 
-     1. **Using for-in with hasOwnProperty(Pre-ECMA 5):** You can use a for-in loop along with hasOwnProperty.
+    1. **Using for-in with hasOwnProperty(Pre-ECMA 5):** You can use a for-in loop along with hasOwnProperty.
 
      ```javascript
      function isEmpty(obj) {
@@ -2623,14 +2665,14 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      #### Pros
 
-     1. Works on every environment
-     2. You can use break and continue flow control statements
+    1. Works on every environment
+    2. You can use break and continue flow control statements
 
      #### Cons
 
-     1. Too verbose
-     2. Imperative
-     3. You might face one-by-off errors
+    1. Too verbose
+    2. Imperative
+    3. You might face one-by-off errors
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -2709,13 +2751,13 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      };
      ```
 
-     1. **Using dot notation:** This solution is useful when you know the name of the property
+    1. **Using dot notation:** This solution is useful when you know the name of the property
 
      ```javascript
      object.key3 = "value3";
      ```
 
-     1. **Using square bracket notation:** This solution is useful when the name of the property is dynamically determined.
+    1. **Using square bracket notation:** This solution is useful when the name of the property is dynamically determined.
 
      ```javascript
      obj["key3"] = "value3";
@@ -2727,8 +2769,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      No,that's not a special operator. But it is a combination of 2 standard operators one after the other,
 
-     1. A logical not (!)
-     2. A prefix decrement (--)
+    1. A logical not (!)
+    2. A prefix decrement (--)
 
      At first, the value decremented by one and then tested to see if it is equal to zero or not for determining the truthy/falsy value.
 
@@ -2858,10 +2900,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      It is recommended to keep all declarations at the top of each script or function. The benefits of doing this are,
 
-     1. Gives cleaner code
-     2. It provides a single place to look for local variables
-     3. Easy to avoid unwanted global variables
-     4. It reduces the possibility of unwanted re-declarations
+    1. Gives cleaner code
+    2. It provides a single place to look for local variables
+    3. Easy to avoid unwanted global variables
+    4. It reduces the possibility of unwanted re-declarations
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -2869,9 +2911,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      It is recommended to initialize variables because of the below benefits,
 
-     1. It gives cleaner code
-     2. It provides a single place to initialize variables
-     3. Avoid undefined values in the code
+    1. It gives cleaner code
+    2. It provides a single place to initialize variables
+    3. Avoid undefined values in the code
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -2879,13 +2921,13 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      It is recommended to avoid creating new objects using `new Object()`. Instead you can initialize values based on it's type to create the objects.
 
-     1. Assign {} instead of new Object()
-     2. Assign "" instead of new String()
-     3. Assign 0 instead of new Number()
-     4. Assign false instead of new Boolean()
-     5. Assign [] instead of new Array()
-     6. Assign /()/ instead of new RegExp()
-     7. Assign function (){} instead of new Function()
+    1. Assign {} instead of new Object()
+    2. Assign "" instead of new String()
+    3. Assign 0 instead of new Number()
+    4. Assign false instead of new Boolean()
+    5. Assign [] instead of new Array()
+    6. Assign /()/ instead of new RegExp()
+    7. Assign function (){} instead of new Function()
 
      You can define them as an example,
 
@@ -3000,7 +3042,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      Modifiers can be used to perform case-insensitive and global searches. Let's list down some of the modifiers,
 
      | Modifier | Description                                             |
-     | -------- | ------------------------------------------------------- |
+          | -------- | ------------------------------------------------------- |
      | i        | Perform case-insensitive matching                       |
      | g        | Perform a global match rather than stops at first match |
      | m        | Perform multiline matching                              |
@@ -3019,18 +3061,18 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Regular Expressions provide a group of patterns in order to match characters. Basically they are categorized into 3 types,
 
-     1. **Brackets:** These are used to find a range of characters.
-        For example, below are some use cases,
+    1. **Brackets:** These are used to find a range of characters.
+       For example, below are some use cases,
         1. [abc]: Used to find any of the characters between the brackets(a,b,c)
         2. [0-9]: Used to find any of the digits between the brackets
         3. (a|b): Used to find any of the alternatives separated with |
-     2. **Metacharacters:** These are characters with a special meaning
-        For example, below are some use cases,
+    2. **Metacharacters:** These are characters with a special meaning
+       For example, below are some use cases,
         1. \\d: Used to find a digit
         2. \\s: Used to find a whitespace character
         3. \\b: Used to find a match at the beginning or ending of a word
-     3. **Quantifiers:** These are useful to define quantities
-        For example, below are some use cases,
+    3. **Quantifiers:** These are useful to define quantities
+       For example, below are some use cases,
         1. n+: Used to find matches for any string that contains at least one n
         2. n\*: Used to find matches for any string that contains zero or more occurrences of n
         3. n?: Used to find matches for any string that contains zero or one occurrences of n
@@ -3075,13 +3117,13 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      You can change inline style or classname of a HTML element using javascript
 
-     1. **Using style property:** You can modify inline style using style property
+    1. **Using style property:** You can modify inline style using style property
 
      ```javascript
      document.getElementById("title").style.fontSize = "30px";
      ```
 
-     1. **Using ClassName property:** It is easy to modify element class using className property
+    1. **Using ClassName property:** It is easy to modify element class using className property
 
      ```javascript
      document.getElementById("title").className = "custom-title";
@@ -3299,19 +3341,19 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      You can execute javascript after page load in many different ways,
 
-     1. **window.onload:**
+    1. **window.onload:**
 
      ```javascript
      window.onload = function ...
      ```
 
-     1. **document.onload:**
+    1. **document.onload:**
 
      ```javascript
      document.onload = function ...
      ```
 
-     1. **body onload:**
+    1. **body onload:**
 
      ```javascript
      <body onload="script();">
@@ -3331,7 +3373,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      There are few more differences,
 
      | feature    | Prototype                                                    | proto                                                      |
-     | ---------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
+          | ---------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
      | Access     | All the function constructors have prototype properties.     | All the objects have \_\_proto\_\_ property                |
      | Purpose    | Used to reduce memory wastage with a single copy of function | Used in lookup chain to resolve methods, constructors etc. |
      | ECMAScript | Introduced in ES6                                            | Introduced in ES5                                          |
@@ -3409,8 +3451,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the main benefits of using freeze method,
 
-     1. It is used for freezing objects and arrays.
-     2. It is used to make an object immutable.
+    1. It is used for freezing objects and arrays.
+    2. It is used to make an object immutable.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -3469,12 +3511,12 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      An operator is capable of manipulating(mathematical and logical computations) a certain value or operand. There are various operators supported by JavaScript as below,
 
-     1. **Arithmetic Operators:** Includes + (Addition),– (Subtraction), \* (Multiplication), / (Division), % (Modulus), + + (Increment) and – – (Decrement)
-     2. **Comparison Operators:** Includes = =(Equal),!= (Not Equal), ===(Equal with type), > (Greater than),> = (Greater than or Equal to),< (Less than),<= (Less than or Equal to)
-     3. **Logical Operators:** Includes &&(Logical AND),||(Logical OR),!(Logical NOT)
-     4. **Assignment Operators:** Includes = (Assignment Operator), += (Add and Assignment Operator), – = (Subtract and Assignment Operator), \*= (Multiply and Assignment), /= (Divide and Assignment), %= (Modules and Assignment)
-     5. **Ternary Operators:** It includes conditional(: ?) Operator
-     6. **typeof Operator:** It uses to find type of variable. The syntax looks like `typeof variable`
+    1. **Arithmetic Operators:** Includes + (Addition),– (Subtraction), \* (Multiplication), / (Division), % (Modulus), + + (Increment) and – – (Decrement)
+    2. **Comparison Operators:** Includes = =(Equal),!= (Not Equal), ===(Equal with type), > (Greater than),> = (Greater than or Equal to),< (Less than),<= (Less than or Equal to)
+    3. **Logical Operators:** Includes &&(Logical AND),||(Logical OR),!(Logical NOT)
+    4. **Assignment Operators:** Includes = (Assignment Operator), += (Add and Assignment Operator), – = (Subtract and Assignment Operator), \*= (Multiply and Assignment), /= (Divide and Assignment), %= (Modules and Assignment)
+    5. **Ternary Operators:** It includes conditional(: ?) Operator
+    6. **typeof Operator:** It uses to find type of variable. The syntax looks like `typeof variable`
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -3526,13 +3568,13 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of bitwise logical operators used in JavaScript
 
-     1. Bitwise AND ( & )
-     2. Bitwise OR ( | )
-     3. Bitwise XOR ( ^ )
-     4. Bitwise NOT ( ~ )
-     5. Left Shift ( << )
-     6. Sign Propagating Right Shift ( >> )
-     7. Zero fill Right Shift ( >>> )
+    1. Bitwise AND ( & )
+    2. Bitwise OR ( | )
+    3. Bitwise XOR ( ^ )
+    4. Bitwise NOT ( ~ )
+    5. Left Shift ( << )
+    6. Sign Propagating Right Shift ( >> )
+    7. Zero fill Right Shift ( >>> )
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -3556,10 +3598,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Object.isFrozen() method is used to determine if an object is frozen or not.An object is frozen if all of the below conditions hold true,
 
-     1. If it is not extensible.
-     2. If all of its properties are non-configurable.
-     3. If all its data properties are non-writable.
-        The usage is going to be as follows,
+    1. If it is not extensible.
+    2. If all of its properties are non-configurable.
+    3. If all its data properties are non-writable.
+       The usage is going to be as follows,
 
      ```javascript
      const object = {
@@ -3583,16 +3625,16 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Two values are the same if one of the following holds:
 
-     1. both undefined
-     2. both null
-     3. both true or both false
-     4. both strings of the same length with the same characters in the same order
-     5. both the same object (means both object have same reference)
-     6. both numbers and
-        both +0
-        both -0
-        both NaN
-        both non-zero and both not NaN and both have the same value.
+    1. both undefined
+    2. both null
+    3. both true or both false
+    4. both strings of the same length with the same characters in the same order
+    5. both the same object (means both object have same reference)
+    6. both numbers and
+       both +0
+       both -0
+       both NaN
+       both non-zero and both not NaN and both have the same value.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -3600,10 +3642,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Some of the applications of Object's `is` method are follows,
 
-     1. It is used for comparison of two strings.
-     2. It is used for comparison of two numbers.
-     3. It is used for comparing the polarity of two numbers.
-     4. It is used for comparison of two objects.
+    1. It is used for comparison of two strings.
+    2. It is used for comparison of two numbers.
+    3. It is used for comparing the polarity of two numbers.
+    4. It is used for comparison of two objects.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -3636,8 +3678,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the some of main applications of Object.assign() method,
 
-     1. It is used for cloning an object.
-     2. It is used to merge objects with the same properties.
+    1. It is used for cloning an object.
+    2. It is used to merge objects with the same properties.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -3691,8 +3733,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the main applications of Object.seal() method,
 
-     1. It is used for sealing objects and arrays.
-     2. It is used to make an object immutable.
+    1. It is used for sealing objects and arrays.
+    2. It is used to make an object immutable.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -3706,10 +3748,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      The Object.isSealed() method is used to determine if an object is sealed or not. An object is sealed if all of the below conditions hold true
 
-     1. If it is not extensible.
-     2. If all of its properties are non-configurable.
-     3. If it is not removable (but not necessarily non-writable).
-        Let's see it in the action
+    1. If it is not extensible.
+    2. If all of its properties are non-configurable.
+    3. If it is not removable (but not necessarily non-writable).
+       Let's see it in the action
 
      ```javascript
      const object = {
@@ -3824,10 +3866,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      The main difference is that references to objects in Set are strong while references to objects in WeakSet are weak. i.e, An object in WeakSet can be garbage collected if there is no other reference to it.
      Other differences are,
 
-     1. Sets can store any value Whereas WeakSets can store only collections of objects
-     2. WeakSet does not have size property unlike Set
-     3. WeakSet does not have methods such as clear, keys, values, entries, forEach.
-     4. WeakSet is not iterable.
+    1. Sets can store any value Whereas WeakSets can store only collections of objects
+    2. WeakSet does not have size property unlike Set
+    3. WeakSet does not have methods such as clear, keys, values, entries, forEach.
+    4. WeakSet is not iterable.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -3835,9 +3877,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of methods available on WeakSet,
 
-     1. add(value): A new object is appended with the given value to the weakset
-     2. delete(value): Deletes the value from the WeakSet collection.
-     3. has(value): It returns true if the value is present in the WeakSet Collection, otherwise it returns false.
+    1. add(value): A new object is appended with the given value to the weakset
+    2. delete(value): Deletes the value from the WeakSet collection.
+    3. has(value): It returns true if the value is present in the WeakSet Collection, otherwise it returns false.
 
      Let's see the functionality of all the above methods in an example,
 
@@ -3880,10 +3922,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      The main difference is that references to key objects in Map are strong while references to key objects in WeakMap are weak. i.e, A key object in WeakMap can be garbage collected if there is no other reference to it.
      Other differences are,
 
-     1. Maps can store any key type Whereas WeakMaps can store only collections of key objects
-     2. WeakMap does not have size property unlike Map
-     3. WeakMap does not have methods such as clear, keys, values, entries, forEach.
-     4. WeakMap is not iterable.
+    1. Maps can store any key type Whereas WeakMaps can store only collections of key objects
+    2. WeakMap does not have size property unlike Map
+    3. WeakMap does not have methods such as clear, keys, values, entries, forEach.
+    4. WeakMap is not iterable.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -3891,11 +3933,11 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of methods available on WeakMap,
 
-     1. set(key, value): Sets the value for the key in the WeakMap object. Returns the WeakMap object.
-     2. delete(key): Removes any value associated to the key.
-     3. has(key): Returns a Boolean asserting whether a value has been associated to the key in the WeakMap object or not.
-     4. get(key): Returns the value associated to the key, or undefined if there is none.
-        Let's see the functionality of all the above methods in an example,
+    1. set(key, value): Sets the value for the key in the WeakMap object. Returns the WeakMap object.
+    2. delete(key): Removes any value associated to the key.
+    3. has(key): Returns a Boolean asserting whether a value has been associated to the key in the WeakMap object or not.
+    4. get(key): Returns the value associated to the key, or undefined if there is none.
+       Let's see the functionality of all the above methods in an example,
 
      ```javascript
      var weakMapObject = new WeakMap();
@@ -4083,11 +4125,11 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of benefits of Getters and Setters,
 
-     1. They provide simpler syntax
-     2. They are used for defining computed properties, or accessors in JS.
-     3. Useful to provide equivalence relation between properties and methods
-     4. They can provide better data quality
-     5. Useful for doing things behind the scenes with the encapsulated logic.
+    1. They provide simpler syntax
+    2. They are used for defining computed properties, or accessors in JS.
+    3. Useful to provide equivalence relation between properties and methods
+    4. They can provide better data quality
+    5. Useful for doing things behind the scenes with the encapsulated logic.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4161,11 +4203,11 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of conventions should be taken care,
 
-     1. The expression can be of type either number or string.
-     2. Duplicate values are not allowed for the expression.
-     3. The default statement is optional. If the expression passed to switch does not match with any case value then the statement within default case will be executed.
-     4. The break statement is used inside the switch to terminate a statement sequence.
-     5. The break statement is optional. But if it is omitted, the execution will continue on into the next case.
+    1. The expression can be of type either number or string.
+    2. Duplicate values are not allowed for the expression.
+    3. The default statement is optional. If the expression passed to switch does not match with any case value then the statement within default case will be executed.
+    4. The break statement is used inside the switch to terminate a statement sequence.
+    5. The break statement is optional. But if it is omitted, the execution will continue on into the next case.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4173,13 +4215,13 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      A primitive data type is data that has a primitive value (which has no properties or methods). There are 7 types of primitive data types.
 
-     1. string
-     2. number
-     3. boolean
-     4. null
-     5. undefined
-     6. bigint
-     7. symbol
+    1. string
+    2. number
+    3. boolean
+    4. null
+    5. undefined
+    6. bigint
+    7. symbol
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4187,19 +4229,19 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      There are 3 possible ways for accessing the property of an object.
 
-     1. **Dot notation:** It uses dot for accessing the properties
+    1. **Dot notation:** It uses dot for accessing the properties
 
      ```javascript
      objectName.property;
      ```
 
-     1. **Square brackets notation:** It uses square brackets for property access
+    1. **Square brackets notation:** It uses square brackets for property access
 
      ```javascript
      objectName["property"];
      ```
 
-     1. **Expression notation:** It uses expression in the square brackets
+    1. **Expression notation:** It uses expression in the square brackets
 
      ```javascript
      objectName[expression];
@@ -4211,10 +4253,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      JavaScript functions follow below rules for parameters,
 
-     1. The function definitions do not specify data types for parameters.
-     2. Do not perform type checking on the passed arguments.
-     3. Do not check the number of arguments received.
-        i.e, The below function follows the above rules,
+    1. The function definitions do not specify data types for parameters.
+    2. Do not perform type checking on the passed arguments.
+    3. Do not check the number of arguments received.
+       i.e, The below function follows the above rules,
 
      ```javascript
      function functionName(parameter1, parameter2, parameter3) {
@@ -4271,17 +4313,17 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of statements used in an error handling,
 
-     1. **try:** This statement is used to test a block of code for errors
-     2. **catch:** This statement is used to handle the error
-     3. **throw:** This statement is used to create custom errors.
-     4. **finally:** This statement is used to execute code after try and catch regardless of the result.
+    1. **try:** This statement is used to test a block of code for errors
+    2. **catch:** This statement is used to handle the error
+    3. **throw:** This statement is used to create custom errors.
+    4. **finally:** This statement is used to execute code after try and catch regardless of the result.
 
      **[⬆ Back to Top](#table-of-contents)**
 
 230. ### What are the two types of loops in javascript
 
-     1. **Entry Controlled loops:** In this kind of loop type, the test condition is tested before entering the loop body. For example, For Loop and While Loop comes under this category.
-     2. **Exit Controlled Loops:** In this kind of loop type, the test condition is tested or evaluated at the end of the loop body. i.e, the loop body will execute at least once irrespective of test condition true or false. For example, do-while loop comes under this category.
+    1. **Entry Controlled loops:** In this kind of loop type, the test condition is tested before entering the loop body. For example, For Loop and While Loop comes under this category.
+    2. **Exit Controlled Loops:** In this kind of loop type, the test condition is tested or evaluated at the end of the loop body. i.e, the loop body will execute at least once irrespective of test condition true or false. For example, do-while loop comes under this category.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4348,8 +4390,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Call Stack is a data structure for javascript interpreters to keep track of function calls(creates execution context) in the program. It has two major actions,
 
-     1. Whenever you call a function for its execution, you are pushing it to the stack.
-     2. Whenever the execution is completed, the function is popped out of the stack.
+    1. Whenever you call a function for its execution, you are pushing it to the stack.
+    2. Whenever the execution is completed, the function is popped out of the stack.
 
      Let's take an example and it's state representation in a diagram format
 
@@ -4367,10 +4409,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      The above code processed in a call stack as below,
 
-     1. Add the `hungry()` function to the call stack list and execute the code.
-     2. Add the `eatFruits()` function to the call stack list and execute the code.
-     3. Delete the `eatFruits()` function from our call stack list.
-     4. Delete the `hungry()` function from the call stack list since there are no items anymore.
+    1. Add the `hungry()` function to the call stack list and execute the code.
+    2. Add the `eatFruits()` function to the call stack list and execute the code.
+    3. Delete the `eatFruits()` function from our call stack list.
+    4. Delete the `hungry()` function from the call stack list since there are no items anymore.
 
      ![Screenshot](images/call-stack.png)
 
@@ -4414,12 +4456,12 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of properties available on Intl object,
 
-     1. **Collator:** These are the objects that enable language-sensitive string comparison.
-     2. **DateTimeFormat:** These are the objects that enable language-sensitive date and time formatting.
-     3. **ListFormat:** These are the objects that enable language-sensitive list formatting.
-     4. **NumberFormat:** Objects that enable language-sensitive number formatting.
-     5. **PluralRules:** Objects that enable plural-sensitive formatting and language-specific rules for plurals.
-     6. **RelativeTimeFormat:** Objects that enable language-sensitive relative time formatting.
+    1. **Collator:** These are the objects that enable language-sensitive string comparison.
+    2. **DateTimeFormat:** These are the objects that enable language-sensitive date and time formatting.
+    3. **ListFormat:** These are the objects that enable language-sensitive list formatting.
+    4. **NumberFormat:** Objects that enable language-sensitive number formatting.
+    5. **PluralRules:** Objects that enable plural-sensitive formatting and language-specific rules for plurals.
+    6. **RelativeTimeFormat:** Objects that enable language-sensitive relative time formatting.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4612,7 +4654,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      Below are the list of differences between javascript and typescript,
 
      | feature             | typescript                            | javascript                                      |
-     | ------------------- | ------------------------------------- | ----------------------------------------------- |
+          | ------------------- | ------------------------------------- | ----------------------------------------------- |
      | Language paradigm   | Object oriented programming language  | Scripting language                              |
      | Typing support      | Supports static typing                | It has dynamic typing                           |
      | Modules             | Supported                             | Not supported                                   |
@@ -4625,9 +4667,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are some of the advantages of typescript over javascript,
 
-     1. TypeScript is able to find compile time errors at the development time only and it makes sures less runtime errors. Whereas javascript is an interpreted language.
-     2. TypeScript is strongly-typed or supports static typing which allows for checking type correctness at compile time. This is not available in javascript.
-     3. TypeScript compiler can compile the .ts files into ES3,ES4 and ES5 unlike ES6 features of javascript which may not be supported in some browsers.
+    1. TypeScript is able to find compile time errors at the development time only and it makes sures less runtime errors. Whereas javascript is an interpreted language.
+    2. TypeScript is strongly-typed or supports static typing which allows for checking type correctness at compile time. This is not available in javascript.
+    3. TypeScript compiler can compile the .ts files into ES3,ES4 and ES5 unlike ES6 features of javascript which may not be supported in some browsers.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4779,9 +4821,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      You can mark an object non-extensible in 3 ways,
 
-     1. Object.preventExtensions
-     2. Object.seal
-     3. Object.freeze
+    1. Object.preventExtensions
+    2. Object.seal
+    3. Object.freeze
 
      ```javascript
      var newObject = {};
@@ -4878,10 +4920,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the few reasons for Obfuscation,
 
-     1. The Code size will be reduced. So data transfers between server and client will be fast.
-     2. It hides the business logic from outside world and protects the code from others
-     3. Reverse engineering is highly difficult
-     4. The download time will be reduced
+    1. The Code size will be reduced. So data transfers between server and client will be fast.
+    2. It hides the business logic from outside world and protects the code from others
+    3. Reverse engineering is highly difficult
+    4. The download time will be reduced
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4895,8 +4937,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Normally it is recommended to use minification for heavy traffic and intensive requirements of resources. It reduces file sizes with below benefits,
 
-     1. Decreases loading times of a web page
-     2. Saves bandwidth usages
+    1. Decreases loading times of a web page
+    2. Saves bandwidth usages
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4905,7 +4947,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      Below are the main differences between Obfuscation and Encryption,
 
      | Feature            | Obfuscation                                     | Encryption                                                              |
-     | ------------------ | ----------------------------------------------- | ----------------------------------------------------------------------- |
+          | ------------------ | ----------------------------------------------- | ----------------------------------------------------------------------- |
      | Definition         | Changing the form of any data in any other form | Changing the form of information to an unreadable format by using a key |
      | A key to decode    | It can be decoded without any key               | It is required                                                          |
      | Target data format | It will be converted to a complex form          | Converted into an unreadable format                                     |
@@ -4916,11 +4958,11 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      There are many online/offline tools to minify the javascript files,
 
-     1. Google's Closure Compiler
-     2. UglifyJS2
-     3. jsmin
-     4. javascript-minifier.com/
-     5. prettydiff.com
+    1. Google's Closure Compiler
+    2. UglifyJS2
+    3. jsmin
+    4. javascript-minifier.com/
+    5. prettydiff.com
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4969,9 +5011,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      The below DOM methods are available for constraint validation on an invalid input,
 
-     1. checkValidity(): It returns true if an input element contains valid data.
-     2. setCustomValidity(): It is used to set the validationMessage property of an input element.
-        Let's take an user login form with DOM validations
+    1. checkValidity(): It returns true if an input element contains valid data.
+    2. setCustomValidity(): It is used to set the validationMessage property of an input element.
+       Let's take an user login form with DOM validations
 
      ```javascript
      function myFunction() {
@@ -4992,9 +5034,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of some of the constraint validation DOM properties available,
 
-     1. validity: It provides a list of boolean properties related to the validity of an input element.
-     2. validationMessage: It displays the message when the validity is false.
-     3. willValidate: It indicates if an input element will be validated or not.
+    1. validity: It provides a list of boolean properties related to the validity of an input element.
+    2. validationMessage: It displays the message when the validity is false.
+    3. willValidate: It indicates if an input element will be validated or not.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -5002,15 +5044,15 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      The validity property of an input element provides a set of properties related to the validity of data.
 
-     1. customError: It returns true, if a custom validity message is set.
-     2. patternMismatch: It returns true, if an element's value does not match its pattern attribute.
-     3. rangeOverflow: It returns true, if an element's value is greater than its max attribute.
-     4. rangeUnderflow: It returns true, if an element's value is less than its min attribute.
-     5. stepMismatch: It returns true, if an element's value is invalid according to step attribute.
-     6. tooLong: It returns true, if an element's value exceeds its maxLength attribute.
-     7. typeMismatch: It returns true, if an element's value is invalid according to type attribute.
-     8. valueMissing: It returns true, if an element with a required attribute has no value.
-     9. valid: It returns true, if an element's value is valid.
+    1. customError: It returns true, if a custom validity message is set.
+    2. patternMismatch: It returns true, if an element's value does not match its pattern attribute.
+    3. rangeOverflow: It returns true, if an element's value is greater than its max attribute.
+    4. rangeUnderflow: It returns true, if an element's value is less than its min attribute.
+    5. stepMismatch: It returns true, if an element's value is invalid according to step attribute.
+    6. tooLong: It returns true, if an element's value exceeds its maxLength attribute.
+    7. typeMismatch: It returns true, if an element's value is invalid according to type attribute.
+    8. valueMissing: It returns true, if an element with a required attribute has no value.
+    9. valid: It returns true, if an element's value is valid.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -5095,12 +5137,12 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      A property descriptor is a record which has the following attributes
 
-     1. value: The value associated with the property
-     2. writable: Determines whether the value associated with the property can be changed or not
-     3. configurable: Returns true if the type of this property descriptor can be changed and if the property can be deleted from the corresponding object.
-     4. enumerable: Determines whether the property appears during enumeration of the properties on the corresponding object or not.
-     5. set: A function which serves as a setter for the property
-     6. get: A function which serves as a getter for the property
+    1. value: The value associated with the property
+    2. writable: Determines whether the value associated with the property can be changed or not
+    3. configurable: Returns true if the type of this property descriptor can be changed and if the property can be deleted from the corresponding object.
+    4. enumerable: Determines whether the property appears during enumeration of the properties on the corresponding object or not.
+    5. set: A function which serves as a setter for the property
+    6. get: A function which serves as a getter for the property
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -5245,7 +5287,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Even though JavaScript lacks namespaces, we can use Objects , IIFE to create namespaces.
 
-     1. **Using Object Literal Notation:** Let's wrap variables and functions inside an Object literal which acts as a namespace. After that you can access them using object notation
+    1. **Using Object Literal Notation:** Let's wrap variables and functions inside an Object literal which acts as a namespace. After that you can access them using object notation
 
      ```javascript
      var namespaceOne = {
@@ -5262,7 +5304,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      namespaceTwo.func1(); // This is a second definition
      ```
 
-     1. **Using IIFE (Immediately invoked function expression):** The outer pair of parentheses of IIFE creates a local scope for all the code inside of it and makes the anonymous function a function expression. Due to that, you can create the same function in two different function expressions to act as a namespace.
+    1. **Using IIFE (Immediately invoked function expression):** The outer pair of parentheses of IIFE creates a local scope for all the code inside of it and makes the anonymous function a function expression. Due to that, you can create the same function in two different function expressions to act as a namespace.
 
      ```javascript
      (function () {
@@ -5280,7 +5322,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      })();
      ```
 
-     1. **Using a block and a let/const declaration:** In ECMAScript 6, you can simply use a block and a let declaration to restrict the scope of a variable to a block.
+    1. **Using a block and a let/const declaration:** In ECMAScript 6, you can simply use a block and a let declaration to restrict the scope of a variable to a block.
 
      ```javascript
      {
@@ -5353,9 +5395,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      If you want to access any element in an HTML page, you need to start with accessing the document object. Later you can use any of the below methods to find the HTML element,
 
-     1. document.getElementById(id): It finds an element by Id
-     2. document.getElementsByTagName(name): It finds an element by tag name
-     3. document.getElementsByClassName(name): It finds an element by class name
+    1. document.getElementById(id): It finds an element by Id
+    2. document.getElementsByTagName(name): It finds an element by tag name
+    3. document.getElementsByClassName(name): It finds an element by class name
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -5491,18 +5533,18 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of some new features of ES6,
 
-     1. Support for constants or immutable variables
-     2. Block-scope support for variables, constants and functions
-     3. Arrow functions
-     4. Default parameters
-     5. Rest and Spread Parameters
-     6. Template Literals
-     7. Multi-line Strings
-     8. Destructuring Assignment
-     9. Enhanced Object Literals
-     10. Promises
-     11. Classes
-     12. Modules
+    1. Support for constants or immutable variables
+    2. Block-scope support for variables, constants and functions
+    3. Arrow functions
+    4. Default parameters
+    5. Rest and Spread Parameters
+    6. Template Literals
+    7. Multi-line Strings
+    8. Destructuring Assignment
+    9. Enhanced Object Literals
+    10. Promises
+    11. Classes
+    12. Modules
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -5821,7 +5863,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are some of the use cases of using dynamic imports over static imports,
 
-     1. Import a module on-demand or conditionally. For example, if you want to load a polyfill on legacy browser
+    1. Import a module on-demand or conditionally. For example, if you want to load a polyfill on legacy browser
 
      ```javascript
      if (isLegacyBrowser()) {
@@ -5830,13 +5872,13 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      }
      ```
 
-     1. Compute the module specifier at runtime. For example, you can use it for internationalization.
+    1. Compute the module specifier at runtime. For example, you can use it for internationalization.
 
      ```javascript
      import(`messages_${getLocale()}.js`).then(···);
      ```
 
-     1. Import a module from within a regular script instead a module.
+    1. Import a module from within a regular script instead a module.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -5844,14 +5886,14 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Typed arrays are array-like objects from ECMAScript 6 API for handling binary data. JavaScript provides 8 Typed array types,
 
-     1. Int8Array: An array of 8-bit signed integers
-     2. Int16Array: An array of 16-bit signed integers
-     3. Int32Array: An array of 32-bit signed integers
-     4. Uint8Array: An array of 8-bit unsigned integers
-     5. Uint16Array: An array of 16-bit unsigned integers
-     6. Uint32Array: An array of 32-bit unsigned integers
-     7. Float32Array: An array of 32-bit floating point numbers
-     8. Float64Array: An array of 64-bit floating point numbers
+    1. Int8Array: An array of 8-bit signed integers
+    2. Int16Array: An array of 16-bit signed integers
+    3. Int32Array: An array of 32-bit signed integers
+    4. Uint8Array: An array of 8-bit unsigned integers
+    5. Uint16Array: An array of 16-bit unsigned integers
+    6. Uint32Array: An array of 32-bit unsigned integers
+    7. Float32Array: An array of 32-bit floating point numbers
+    8. Float64Array: An array of 64-bit floating point numbers
 
      For example, you can create an array of 8-bit signed integers as below
 
@@ -5868,11 +5910,11 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      The module loaders provides the below features,
 
-     1. Dynamic loading
-     2. State isolation
-     3. Global namespace isolation
-     4. Compilation hooks
-     5. Nested virtualization
+    1. Dynamic loading
+    2. State isolation
+    3. Global namespace isolation
+    4. Compilation hooks
+    5. Nested virtualization
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -5880,7 +5922,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Collation is used for sorting a set of strings and searching within a set of strings. It is parameterized by locale and aware of Unicode. Let's take comparison and sorting features,
 
-     1. **Comparison:**
+    1. **Comparison:**
 
      ```javascript
      var list = ["ä", "a", "z"]; // In German,  "ä" sorts with "a" Whereas in Swedish, "ä" sorts after "z"
@@ -5890,7 +5932,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      console.log(l10nSV.compare("ä", "z") === +1); // true
      ```
 
-     1. **Sorting:**
+    1. **Sorting:**
 
      ```javascript
      var list = ["ä", "a", "z"]; // In German,  "ä" sorts with "a" Whereas in Swedish, "ä" sorts after "z"
@@ -6100,17 +6142,17 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      When you apply 'use strict'; syntax, some of the below cases will throw a SyntaxError before executing the script
 
-     1. When you use Octal syntax
+    1. When you use Octal syntax
 
      ```javascript
      var n = 022;
      ```
 
-     1. Using `with` statement
-     2. When you use delete operator on a variable name
-     3. Using eval or arguments as variable or function argument name
-     4. When you use newly reserved keywords
-     5. When you declare a function in a block
+    1. Using `with` statement
+    2. When you use delete operator on a variable name
+    3. Using eval or arguments as variable or function argument name
+    4. When you use newly reserved keywords
+    5. When you declare a function in a block
 
      ```javascript
      if (someCondition) {
@@ -6447,9 +6489,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      The self string can be formed with the combination of `[]()!+` characters. You need to remember the below conventions to achieve this pattern.
 
-     1. Since Arrays are truthful values, negating the arrays will produce false: ![] === false
-     2. As per JavaScript coercion rules, the addition of arrays together will toString them: [] + [] === ""
-     3. Prepend an array with + operator will convert an array to false, the negation will make it true and finally converting the result will produce value '1': +(!(+[])) === 1
+    1. Since Arrays are truthful values, negating the arrays will produce false: ![] === false
+    2. As per JavaScript coercion rules, the addition of arrays together will toString them: [] + [] === ""
+    3. Prepend an array with + operator will convert an array to false, the negation will make it true and finally converting the result will produce value '1': +(!(+[])) === 1
 
      By applying the above rules, we can derive below conditions
 
@@ -6577,10 +6619,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of placeholders available from console object,
 
-     1. %o — It takes an object,
-     2. %s — It takes a string,
-     3. %d — It is used for a decimal or integer
-        These placeholders can be represented in the console.log as below
+    1. %o — It takes an object,
+    2. %s — It takes a string,
+    3. %d — It is used for a decimal or integer
+       These placeholders can be represented in the console.log as below
 
      ```javascript
      const user = { name: "John", id: 1, city: "Delhi" };
@@ -6767,7 +6809,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
       });
      ```
 
-     You can also use `popstate` event to detect the browser back button. 
+     You can also use `popstate` event to detect the browser back button.
      **Note:** The history entry has been activated using `history.pushState` method.
 
      ```javascript
@@ -6784,9 +6826,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      });
      ```
 
-    In the preceeding code, When the box element clicked, its background color appears in blue color and changed to while color upon clicking the browser back button using `popstate` event handler. The `state` property of `popstate` contains the copy of history entry's state object.
+In the preceeding code, When the box element clicked, its background color appears in blue color and changed to while color upon clicking the browser back button using `popstate` event handler. The `state` property of `popstate` contains the copy of history entry's state object.
 
-     **[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#table-of-contents)**
 
 379. ### How do you disable right click in the web page
 
@@ -6822,10 +6864,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of different ways to deal with Asynchronous code.
 
-     1. Callbacks
-     2. Promises
-     3. Async/await
-     4. Third-party libraries such as async.js,bluebird etc
+    1. Callbacks
+    2. Promises
+    3. Async/await
+    4. Third-party libraries such as async.js,bluebird etc
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -6834,10 +6876,10 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      Until a few days back, One shortcoming of native promises is no direct way to cancel a fetch request. But the new `AbortController` from js specification allows you to use a signal to abort one or multiple fetch calls.
      The basic flow of cancelling a fetch request would be as below,
 
-     1. Create an `AbortController` instance
-     2. Get the signal property of an instance and pass the signal as a fetch option for signal
-     3. Call the AbortController's abort property to cancel all fetches that use that signal
-        For example, let's pass the same signal to multiple fetch calls will cancel all requests with that signal,
+    1. Create an `AbortController` instance
+    2. Get the signal property of an instance and pass the signal as a fetch option for signal
+    3. Call the AbortController's abort property to cancel all fetches that use that signal
+       For example, let's pass the same signal to multiple fetch calls will cancel all requests with that signal,
 
      ```javascript
      const controller = new AbortController();
@@ -6873,8 +6915,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Web speech API is used to enable modern browsers recognize and synthesize speech(i.e, voice data into web apps). This API has been introduced by W3C Community in the year 2012. It has two main parts,
 
-     1. **SpeechRecognition (Asynchronous Speech Recognition or Speech-to-Text):** It provides the ability to recognize voice context from an audio input and respond accordingly. This is accessed by the `SpeechRecognition` interface.
-        The below example shows on how to use this API to get text from speech,
+    1. **SpeechRecognition (Asynchronous Speech Recognition or Speech-to-Text):** It provides the ability to recognize voice context from an audio input and respond accordingly. This is accessed by the `SpeechRecognition` interface.
+       The below example shows on how to use this API to get text from speech,
 
      ```javascript
      window.SpeechRecognition =
@@ -6890,8 +6932,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      In this API, browser is going to ask you for permission to use your microphone
 
-     1. **SpeechSynthesis (Text-to-Speech):** It provides the ability to recognize voice context from an audio input and respond. This is accessed by the `SpeechSynthesis` interface.
-        For example, the below code is used to get voice/speech from text,
+    1. **SpeechSynthesis (Text-to-Speech):** It provides the ability to recognize voice context from an audio input and respond. This is accessed by the `SpeechSynthesis` interface.
+       For example, the below code is used to get voice/speech from text,
 
      ```javascript
      if ("speechSynthesis" in window) {
@@ -6959,9 +7001,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      A task is any javascript code/program which is scheduled to be run by the standard mechanisms such as initially starting to run a program, run an event callback, or an interval or timeout being fired. All these tasks are scheduled on a task queue.
      Below are the list of use cases to add tasks to the task queue,
 
-     1. When a new javascript program is executed directly from console or running by the `<script>` element, the task will be added to the task queue.
-     2. When an event fires, the event callback added to task queue
-     3. When a setTimeout or setInterval is reached, the corresponding callback added to task queue
+    1. When a new javascript program is executed directly from console or running by the `<script>` element, the task will be added to the task queue.
+    2. When an event fires, the event callback added to task queue
+    3. When a setTimeout or setInterval is reached, the corresponding callback added to task queue
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -6977,8 +7019,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      In JavaScript, there are multiple event loops that can be used depending on the context of your application. The most common event loops are:
 
-     1. The Browser Event Loop
-     2. The Node.js Event Loop
+    1. The Browser Event Loop
+    2. The Node.js Event Loop
 
 
     - Browser Event Loop: The Browser Event Loop is used in client-side JavaScript applications and is responsible for handling events that occur within the browser environment, such as user interactions (clicks, keypresses, etc.), HTTP requests, and other asynchronous actions.
@@ -7028,7 +7070,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      Some of the major difference in a tabular form
 
      | Promises                                                           | Observables                                                                              |
-     | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+          | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
      | Emits only a single value at a time                                | Emits multiple values over a period of time(stream of values ranging from 0 to multiple) |
      | Eager in nature; they are going to be called immediately           | Lazy in nature; they require subscription to be invoked                                  |
      | Promise is always asynchronous even though it resolved immediately | Observable can be either synchronous or asynchronous                                     |
@@ -7093,9 +7135,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Babel is a JavaScript transpiler to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. Some of the main features are listed below,
 
-     1. Transform syntax
-     2. Polyfill features that are missing in your target environment (using @babel/polyfill)
-     3. Source code transformations (or codemods)
+    1. Transform syntax
+    2. Polyfill features that are missing in your target environment (using @babel/polyfill)
+    3. Source code transformations (or codemods)
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -7276,64 +7318,64 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      But there are many modern JavaScript environments that won't print any errors. You can fix this problem in different ways,
 
-     1. **Add catch block at the end of each chain:** You can add catch block to the end of each of your promise chains
+    1. **Add catch block at the end of each chain:** You can add catch block to the end of each of your promise chains
 
-        ```javascript
-        Promise.resolve("promised value")
-          .then(function () {
-            throw new Error("error");
-          })
-          .catch(function (error) {
-            console.error(error.stack);
-          });
-        ```
+       ```javascript
+       Promise.resolve("promised value")
+         .then(function () {
+           throw new Error("error");
+         })
+         .catch(function (error) {
+           console.error(error.stack);
+         });
+       ```
 
-        But it is quite difficult to type for each promise chain and verbose too.
+       But it is quite difficult to type for each promise chain and verbose too.
 
-     2. **Add done method:** You can replace first solution's then and catch blocks with done method
+    2. **Add done method:** You can replace first solution's then and catch blocks with done method
 
-        ```javascript
-        Promise.resolve("promised value").done(function () {
-          throw new Error("error");
-        });
-        ```
+       ```javascript
+       Promise.resolve("promised value").done(function () {
+         throw new Error("error");
+       });
+       ```
 
-        Let's say you want to fetch data using HTTP and later perform processing on the resulting data asynchronously. You can write `done` block as below,
+       Let's say you want to fetch data using HTTP and later perform processing on the resulting data asynchronously. You can write `done` block as below,
 
-        ```javascript
-        getDataFromHttp()
-          .then(function (result) {
-            return processDataAsync(result);
-          })
-          .done(function (processed) {
-            displayData(processed);
-          });
-        ```
+       ```javascript
+       getDataFromHttp()
+         .then(function (result) {
+           return processDataAsync(result);
+         })
+         .done(function (processed) {
+           displayData(processed);
+         });
+       ```
 
-        In future, if the processing library API changed to synchronous then you can remove `done` block as below,
+       In future, if the processing library API changed to synchronous then you can remove `done` block as below,
 
-        ```javascript
-        getDataFromHttp().then(function (result) {
-          return displayData(processDataAsync(result));
-        });
-        ```
+       ```javascript
+       getDataFromHttp().then(function (result) {
+         return displayData(processDataAsync(result));
+       });
+       ```
 
-        and then you forgot to add `done` block to `then` block leads to silent errors.
+       and then you forgot to add `done` block to `then` block leads to silent errors.
 
-     3. **Extend ES6 Promises by Bluebird:**
-        Bluebird extends the ES6 Promises API to avoid the issue in the second solution. This library has a “default” onRejection handler which will print all errors from rejected Promises to stderr. After installation, you can process unhandled rejections
+    3. **Extend ES6 Promises by Bluebird:**
+       Bluebird extends the ES6 Promises API to avoid the issue in the second solution. This library has a “default” onRejection handler which will print all errors from rejected Promises to stderr. After installation, you can process unhandled rejections
 
-        ```javascript
-        Promise.onPossiblyUnhandledRejection(function (error) {
-          throw error;
-        });
-        ```
+       ```javascript
+       Promise.onPossiblyUnhandledRejection(function (error) {
+         throw error;
+       });
+       ```
 
-        and discard a rejection, just handle it with an empty catch
+       and discard a rejection, just handle it with an empty catch
 
-        ```javascript
-        Promise.reject("error value").catch(function () {});
-        ```
+       ```javascript
+       Promise.reject("error value").catch(function () {});
+       ```
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -7473,8 +7515,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      You can use `new.target` pseudo-property to detect whether a function was called as a constructor(using the new operator) or as a regular function call.
 
-     1. If a constructor or function invoked using the new operator, new.target returns a reference to the constructor or function.
-     2. For function calls, new.target is undefined.
+    1. If a constructor or function invoked using the new operator, new.target returns a reference to the constructor or function.
+    2. For function calls, new.target is undefined.
 
      ```javascript
      function Myfunc() {
@@ -7496,9 +7538,9 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      There are three main differences between arguments object and rest parameters
 
-     1. The arguments object is an array-like but not an array. Whereas the rest parameters are array instances.
-     2. The arguments object does not support methods such as sort, map, forEach, or pop. Whereas these methods can be used in rest parameters.
-     3. The rest parameters are only the ones that haven’t been given a separate name, while the arguments object contains all arguments passed to the function
+    1. The arguments object is an array-like but not an array. Whereas the rest parameters are array instances.
+    2. The arguments object does not support methods such as sort, map, forEach, or pop. Whereas these methods can be used in rest parameters.
+    3. The rest parameters are only the ones that haven’t been given a separate name, while the arguments object contains all arguments passed to the function
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -7512,68 +7554,68 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      There are five kinds of generators,
 
-     1. **Generator function declaration:**
+    1. **Generator function declaration:**
 
-        ```javascript
-        function* myGenFunc() {
-          yield 1;
-          yield 2;
-          yield 3;
-        }
-        const genObj = myGenFunc();
-        ```
+       ```javascript
+       function* myGenFunc() {
+         yield 1;
+         yield 2;
+         yield 3;
+       }
+       const genObj = myGenFunc();
+       ```
 
-     2. **Generator function expressions:**
+    2. **Generator function expressions:**
 
-        ```javascript
-        const myGenFunc = function* () {
-          yield 1;
-          yield 2;
-          yield 3;
-        };
-        const genObj = myGenFunc();
-        ```
+       ```javascript
+       const myGenFunc = function* () {
+         yield 1;
+         yield 2;
+         yield 3;
+       };
+       const genObj = myGenFunc();
+       ```
 
-     3. **Generator method definitions in object literals:**
+    3. **Generator method definitions in object literals:**
 
-        ```javascript
-        const myObj = {
-          *myGeneratorMethod() {
-            yield 1;
-            yield 2;
-            yield 3;
-          },
-        };
-        const genObj = myObj.myGeneratorMethod();
-        ```
+       ```javascript
+       const myObj = {
+         *myGeneratorMethod() {
+           yield 1;
+           yield 2;
+           yield 3;
+         },
+       };
+       const genObj = myObj.myGeneratorMethod();
+       ```
 
-     4. **Generator method definitions in class:**
+    4. **Generator method definitions in class:**
 
-        ```javascript
-        class MyClass {
-          *myGeneratorMethod() {
-            yield 1;
-            yield 2;
-            yield 3;
-          }
-        }
-        const myObject = new MyClass();
-        const genObj = myObject.myGeneratorMethod();
-        ```
+       ```javascript
+       class MyClass {
+         *myGeneratorMethod() {
+           yield 1;
+           yield 2;
+           yield 3;
+         }
+       }
+       const myObject = new MyClass();
+       const genObj = myObject.myGeneratorMethod();
+       ```
 
-     5. **Generator as a computed property:**
+    5. **Generator as a computed property:**
 
-        ```javascript
-        const SomeObj = {
-          *[Symbol.iterator]() {
-            yield 1;
-            yield 2;
-            yield 3;
-          },
-        };
+       ```javascript
+       const SomeObj = {
+         *[Symbol.iterator]() {
+           yield 1;
+           yield 2;
+           yield 3;
+         },
+       };
 
-        console.log(Array.from(SomeObj)); // [ 1, 2, 3 ]
-        ```
+       console.log(Array.from(SomeObj)); // [ 1, 2, 3 ]
+       ```
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -7581,12 +7623,12 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Below are the list of built-in iterables in javascript,
 
-     1. Arrays and TypedArrays
-     2. Strings: Iterate over each character or Unicode code-points
-     3. Maps: iterate over its key-value pairs
-     4. Sets: iterates over their elements
-     5. arguments: An array-like special variable in functions
-     6. DOM collection such as NodeList
+    1. Arrays and TypedArrays
+    2. Strings: Iterate over each character or Unicode code-points
+    3. Maps: iterate over its key-value pairs
+    4. Sets: iterates over their elements
+    5. arguments: An array-like special variable in functions
+    6. DOM collection such as NodeList
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -7594,8 +7636,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      Both for...in and for...of statements iterate over js data structures. The only difference is over what they iterate:
 
-     1. for..in iterates over all enumerable property keys of an object
-     2. for..of iterates over the values of an iterable object.
+    1. for..in iterates over all enumerable property keys of an object
+    2. for..of iterates over the values of an iterable object.
 
      Let's explain this difference with an example,
 
@@ -7643,8 +7685,8 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
 420. ### What is the difference between isNaN and Number.isNaN?
 
-     1. **isNaN**: The global function `isNaN` converts the argument to a Number and returns true if the resulting value is NaN.
-     2. **Number.isNaN**: This method does not convert the argument. But it returns true when the type is a Number and value is NaN.
+    1. **isNaN**: The global function `isNaN` converts the argument to a Number and returns true if the resulting value is NaN.
+    2. **Number.isNaN**: This method does not convert the argument. But it returns true when the type is a Number and value is NaN.
 
      Let's see the difference with an example,
 
@@ -7792,36 +7834,36 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      There are 4 different ways to create sparse arrays in JavaScript
 
-     1. **Array literal:** Omit a value when using the array literal
-        ```js
-        const justiceLeague = ["Superman", "Aquaman", , "Batman"];
-        console.log(justiceLeague); // ['Superman', 'Aquaman', empty ,'Batman']
-        ```
-     2. **Array() constructor:** Invoking Array(length) or new Array(length)
-        ```js
-        const array = Array(3);
-        console.log(array); // [empty, empty ,empty]
-        ```
-     3. **Delete operator:** Using delete array[index] operator on the array
-        ```js
-        const justiceLeague = ["Superman", "Aquaman", "Batman"];
-        delete justiceLeague[1];
-        console.log(justiceLeague); // ['Superman', empty, ,'Batman']
-        ```
-     4. **Increase length property:** Increasing length property of an array
-        ```js
-        const justiceLeague = ["Superman", "Aquaman", "Batman"];
-        justiceLeague.length = 5;
-        console.log(justiceLeague); // ['Superman', 'Aquaman', 'Batman', empty, empty]
-        ```
+    1. **Array literal:** Omit a value when using the array literal
+       ```js
+       const justiceLeague = ["Superman", "Aquaman", , "Batman"];
+       console.log(justiceLeague); // ['Superman', 'Aquaman', empty ,'Batman']
+       ```
+    2. **Array() constructor:** Invoking Array(length) or new Array(length)
+       ```js
+       const array = Array(3);
+       console.log(array); // [empty, empty ,empty]
+       ```
+    3. **Delete operator:** Using delete array[index] operator on the array
+       ```js
+       const justiceLeague = ["Superman", "Aquaman", "Batman"];
+       delete justiceLeague[1];
+       console.log(justiceLeague); // ['Superman', empty, ,'Batman']
+       ```
+    4. **Increase length property:** Increasing length property of an array
+       ```js
+       const justiceLeague = ["Superman", "Aquaman", "Batman"];
+       justiceLeague.length = 5;
+       console.log(justiceLeague); // ['Superman', 'Aquaman', 'Batman', empty, empty]
+       ```
 
      **[⬆ Back to Top](#table-of-contents)**
 
 429. ### What is the difference between setTimeout, setImmediate and process.nextTick?
 
-     1. **Set Timeout:** setTimeout() is to schedule execution of a one-time callback after delay milliseconds.
-     2. **Set Immediate:** The setImmediate function is used to execute a function right after the current event loop finishes.
-     3. **Process NextTick:** If process.nextTick() is called in a given phase, all the callbacks passed to process.nextTick() will be resolved before the event loop continues. This will block the event loop and create I/O Starvation if process.nextTick() is called recursively.
+    1. **Set Timeout:** setTimeout() is to schedule execution of a one-time callback after delay milliseconds.
+    2. **Set Immediate:** The setImmediate function is used to execute a function right after the current event loop finishes.
+    3. **Process NextTick:** If process.nextTick() is called in a given phase, all the callbacks passed to process.nextTick() will be resolved before the event loop continues. This will block the event loop and create I/O Starvation if process.nextTick() is called recursively.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -7839,67 +7881,67 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      There are few solutions that won't mutate the original array. Let's take a look.
 
-     1. **Using slice and reverse methods:**
-        In this case, just invoke the `slice()` method on the array to create a shallow copy followed by `reverse()` method call on the copy.
+    1. **Using slice and reverse methods:**
+       In this case, just invoke the `slice()` method on the array to create a shallow copy followed by `reverse()` method call on the copy.
 
-        ```javascript
-        const originalArray = [1, 2, 3, 4, 5];
-        const newArray = originalArray.slice().reverse(); //Slice an array gives a new copy
+       ```javascript
+       const originalArray = [1, 2, 3, 4, 5];
+       const newArray = originalArray.slice().reverse(); //Slice an array gives a new copy
 
-        console.log(originalArray); // [1, 2, 3, 4, 5]
-        console.log(newArray); // [ 5, 4, 3, 2, 1]
-        ```
+       console.log(originalArray); // [1, 2, 3, 4, 5]
+       console.log(newArray); // [ 5, 4, 3, 2, 1]
+       ```
 
-     2. **Using spread and reverse methods:**
-        In this case, let's use the spread syntax (...) to create a copy of the array followed by `reverse()` method call on the copy.
+    2. **Using spread and reverse methods:**
+       In this case, let's use the spread syntax (...) to create a copy of the array followed by `reverse()` method call on the copy.
 
-        ```javascript
-        const originalArray = [1, 2, 3, 4, 5];
-        const newArray = [...originalArray].reverse();
+       ```javascript
+       const originalArray = [1, 2, 3, 4, 5];
+       const newArray = [...originalArray].reverse();
 
-        console.log(originalArray); // [1, 2, 3, 4, 5]
-        console.log(newArray); // [ 5, 4, 3, 2, 1]
-        ```
+       console.log(originalArray); // [1, 2, 3, 4, 5]
+       console.log(newArray); // [ 5, 4, 3, 2, 1]
+       ```
 
-     3. **Using reduce and spread methods:**
-        Here execute a reducer function on an array elements and append the accumulated array on right side using spread syntax
+    3. **Using reduce and spread methods:**
+       Here execute a reducer function on an array elements and append the accumulated array on right side using spread syntax
 
-        ```javascript
-        const originalArray = [1, 2, 3, 4, 5];
-        const newArray = originalArray.reduce((accumulator, value) => {
-          return [value, ...accumulator];
-        }, []);
+       ```javascript
+       const originalArray = [1, 2, 3, 4, 5];
+       const newArray = originalArray.reduce((accumulator, value) => {
+         return [value, ...accumulator];
+       }, []);
 
-        console.log(originalArray); // [1, 2, 3, 4, 5]
-        console.log(newArray); // [ 5, 4, 3, 2, 1]
-        ```
+       console.log(originalArray); // [1, 2, 3, 4, 5]
+       console.log(newArray); // [ 5, 4, 3, 2, 1]
+       ```
 
-     4. **Using reduceRight and spread methods:**
-        Here execute a right reducer function(i.e. opposite direction of reduce method) on an array elements and append the accumulated array on left side using spread syntax
+    4. **Using reduceRight and spread methods:**
+       Here execute a right reducer function(i.e. opposite direction of reduce method) on an array elements and append the accumulated array on left side using spread syntax
 
-        ```javascript
-        const originalArray = [1, 2, 3, 4, 5];
-        const newArray = originalArray.reduceRight((accumulator, value) => {
-          return [...accumulator, value];
-        }, []);
+       ```javascript
+       const originalArray = [1, 2, 3, 4, 5];
+       const newArray = originalArray.reduceRight((accumulator, value) => {
+         return [...accumulator, value];
+       }, []);
 
-        console.log(originalArray); // [1, 2, 3, 4, 5]
-        console.log(newArray); // [ 5, 4, 3, 2, 1]
-        ```
+       console.log(originalArray); // [1, 2, 3, 4, 5]
+       console.log(newArray); // [ 5, 4, 3, 2, 1]
+       ```
 
-     5. **Using reduceRight and push methods:**
-        Here execute a right reducer function(i.e. opposite direction of reduce method) on an array elements and push the iterated value to the accumulator
+    5. **Using reduceRight and push methods:**
+       Here execute a right reducer function(i.e. opposite direction of reduce method) on an array elements and push the iterated value to the accumulator
 
-        ```javascript
-        const originalArray = [1, 2, 3, 4, 5];
-        const newArray = originalArray.reduceRight((accumulator, value) => {
-          accumulator.push(value);
-          return accumulator;
-        }, []);
+       ```javascript
+       const originalArray = [1, 2, 3, 4, 5];
+       const newArray = originalArray.reduceRight((accumulator, value) => {
+         accumulator.push(value);
+         return accumulator;
+       }, []);
 
-        console.log(originalArray); // [1, 2, 3, 4, 5]
-        console.log(newArray); // [ 5, 4, 3, 2, 1]
-        ```
+       console.log(originalArray); // [1, 2, 3, 4, 5]
+       console.log(newArray); // [ 5, 4, 3, 2, 1]
+       ```
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -7907,18 +7949,18 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      The creation of custom HTML elements involves two main steps,
 
-     1. **Define your custom HTML element:** First you need to define some custom class by extending HTMLElement class.
-        After that define your component properties (styles,text etc) using `connectedCallback` method.
-        **Note:** The browser exposes a function called `customElements.define` inorder to reuse the element.
-        ```javascript
-        class CustomElement extends HTMLElement {
-          connectedCallback() {
-            this.innerHTML = "This is a custom element";
-          }
-        }
-        customElements.define("custom-element", CustomElement);
-        ```
-     2. **Use custome element just like other HTML element:** Declare your custom element as a HTML tag.
+    1. **Define your custom HTML element:** First you need to define some custom class by extending HTMLElement class.
+       After that define your component properties (styles,text etc) using `connectedCallback` method.
+       **Note:** The browser exposes a function called `customElements.define` inorder to reuse the element.
+       ```javascript
+       class CustomElement extends HTMLElement {
+         connectedCallback() {
+           this.innerHTML = "This is a custom element";
+         }
+       }
+       customElements.define("custom-element", CustomElement);
+       ```
+    2. **Use custome element just like other HTML element:** Declare your custom element as a HTML tag.
 
      ```javascript
         <body>
@@ -8068,38 +8110,38 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
 
      It is possible to check if a variable is an array instance using 3 different ways,
 
-     1. Array.isArray() method:
+    1. Array.isArray() method:
 
-        The `Array.isArray(value)` utility function is used to determine whether value is an array or not. This function returns a true boolean value if the variable is an array and a false value if it is not.
+       The `Array.isArray(value)` utility function is used to determine whether value is an array or not. This function returns a true boolean value if the variable is an array and a false value if it is not.
 
-        ```javascript
-        const numbers = [1, 2, 3];
-        const user = { name: "John" };
-        Array.isArray(numbers); // true
-        Array.isArray(user); //false
-        ```
+       ```javascript
+       const numbers = [1, 2, 3];
+       const user = { name: "John" };
+       Array.isArray(numbers); // true
+       Array.isArray(user); //false
+       ```
 
-     2. instanceof operator:
+    2. instanceof operator:
 
-        The instanceof operator is used to check the type of an array at run time. It returns true if the type of a variable is an Array other false for other type.
+       The instanceof operator is used to check the type of an array at run time. It returns true if the type of a variable is an Array other false for other type.
 
-        ```javascript
-        const numbers = [1, 2, 3];
-        const user = { name: "John" };
-        console.log(numbers instanceof Array); // true
-        console.log(user instanceof Array); // false
-        ```
+       ```javascript
+       const numbers = [1, 2, 3];
+       const user = { name: "John" };
+       console.log(numbers instanceof Array); // true
+       console.log(user instanceof Array); // false
+       ```
 
-     3. Checking constructor type:
+    3. Checking constructor type:
 
-        The constructor property of the variable is used to determine whether the variable Array type or not.
+       The constructor property of the variable is used to determine whether the variable Array type or not.
 
-        ```javascript
-        const numbers = [1, 2, 3];
-        const user = { name: "John" };
-        console.log(numbers.constructor === Array); // true
-        console.log(user.constructor === Array); // false
-        ```
+       ```javascript
+       const numbers = [1, 2, 3];
+       const user = { name: "John" };
+       console.log(numbers.constructor === Array); // true
+       console.log(user.constructor === Array); // false
+       ```
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -8139,7 +8181,7 @@ For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://an
      JavaScript language has both primitives and non-primitives but there are few differences between them as below,
 
      | Primitives                 | Non-primitives       |
-     | -------------------------- | -------------------- |
+          | -------------------------- | -------------------- |
      | These types are predefined | Created by developer |
      | These are immutable        | Mutable              |
      | Compare by value           | Compare by reference |
@@ -8305,7 +8347,7 @@ multiplyBy2(add(2, 3));
 451. ### What is the purpose of the this keyword in JavaScript?
 * The `this` keyword in JavaScript is a special variable that is used within a function to refer to the object on which the function is invoked. The value of this depends on how the function is called. It allows functions to access and interact with the object they are bound to.
 * The this keyword in JavaScript is a reference to the object that owns or invokes the current function. Its value is determined by the calling context.
-**Example 1: this in a Global Context**
+  **Example 1: this in a Global Context**
 ```javascript
 console.log(this);
 ```
@@ -10238,12 +10280,12 @@ Whereas the second console.log logs 10 by capturing the count variable from oute
 - 3: console.log(true && '' && 0);
 
 <details><summary><b>Answer</b></summary>
-  
- - 1: hi
- - 2: 1
- - 3: ''
-  
- Reason : The operator returns the value of the first falsy operand encountered when evaluating from left to right, or the value of the last operand if they are all truthy.
+
+- 1: hi
+- 2: 1
+- 3: ''
+
+Reason : The operator returns the value of the first falsy operand encountered when evaluating from left to right, or the value of the last operand if they are all truthy.
 
 **Note:** Below these values are consider as falsy value
 
@@ -11108,6 +11150,55 @@ function verifyAnagrams(word1, word2) {
 }
 console.log(verifyAnagrams("eat", "ate"));
 ```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+#### 82. What is the output of below code?
+
+```javascript
+printHello();
+
+printMessage();
+
+function printHello() {
+  console.log('Hello')
+
+  function printMessage() {
+    console.log("Good day")
+  }
+}
+```
+
+- 1: Hello, Good day
+- 2: Reference Error: printHello is not defined, Reference Error: printMessage is not defined
+- 3: Reference Error: printHello is not defined, Good day
+- 4: Hello, Reference Error: printMessage is not defined
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: 4
+
+The function `printHello` is hoisted to the top of the global scope and prints "Hello" to the console. Even `printMessage` function is hoisted, but it is lifted to the local scope(in "printHello") it was declared in. That is the reason you will endup with reference error for second function call.
+
+But if the second function is invoked in the first function itself, there won't be any reference error.
+
+```javascript
+printHello();
+
+function printHello() {
+  printMessage();
+  console.log('Hello')
+
+  function printMessage() {
+    console.log("Good day")
+  }
+}
+```
+
+</p>
+</details>
+---
 
 **[⬆ Back to Top](#table-of-contents)**
 
