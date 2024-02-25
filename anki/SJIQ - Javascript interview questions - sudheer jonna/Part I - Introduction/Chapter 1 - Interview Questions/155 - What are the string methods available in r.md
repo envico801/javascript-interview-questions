@@ -23,7 +23,6 @@ var n = msg.replace(/John/i, 'Buttler'); // Hello Buttler
 
 ==================== Id ====================  
 155
-<!--ID: 1707879813145-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

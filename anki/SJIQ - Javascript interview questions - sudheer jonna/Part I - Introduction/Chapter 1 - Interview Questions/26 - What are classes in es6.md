@@ -35,7 +35,6 @@ class Bike {
 
 ==================== Id ====================  
 26
-<!--ID: 1707879815113-->
 
 ---
 
@@ -53,4 +52,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -15,7 +15,6 @@ loop.
 
 ==================== Id ====================  
 388
-<!--ID: 1707879860078-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

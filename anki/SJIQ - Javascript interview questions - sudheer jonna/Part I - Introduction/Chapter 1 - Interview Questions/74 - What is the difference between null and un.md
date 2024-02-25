@@ -16,7 +16,6 @@ Below are the main differences between null and undefined,
 
 ==================== Id ====================  
 74
-<!--ID: 1707879886303-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

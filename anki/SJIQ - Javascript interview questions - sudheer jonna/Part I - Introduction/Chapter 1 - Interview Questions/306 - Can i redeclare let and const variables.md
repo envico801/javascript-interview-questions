@@ -8,7 +8,7 @@ No, you cannot redeclare let and const variables. If you do, it throws below
 error
 
 ```bash
-     Uncaught SyntaxError: Identifier 'someVariable' has already been declared
+Uncaught SyntaxError: Identifier 'someVariable' has already been declared
 ```
 
 **Explanation:** The variable declaration with `var` keyword refers to a
@@ -44,7 +44,6 @@ alert(name);
 
 ==================== Id ====================  
 306
-<!--ID: 1707879810311-->
 
 ---
 
@@ -62,4 +61,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

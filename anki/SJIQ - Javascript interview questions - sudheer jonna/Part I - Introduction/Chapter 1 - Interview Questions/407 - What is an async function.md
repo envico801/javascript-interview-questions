@@ -22,7 +22,6 @@ It is basically syntax sugar over ES2015 promises and generators.
 
 ==================== Id ====================  
 407
-<!--ID: 1707879819593-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -31,7 +31,6 @@ console.log(calculateArea()); //300
 
 ==================== Id ====================  
 308
-<!--ID: 1707879810036-->
 
 ---
 
@@ -49,4 +48,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -10,7 +10,6 @@ It is also a type of obfuscation .
 
 ==================== Id ====================  
 268
-<!--ID: 1707879866831-->
 
 ---
 
@@ -28,4 +27,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

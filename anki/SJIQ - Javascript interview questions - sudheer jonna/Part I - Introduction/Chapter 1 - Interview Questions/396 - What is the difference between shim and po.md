@@ -14,7 +14,6 @@ In a simple sentence, A polyfill is a shim for a browser API.
 
 ==================== Id ====================  
 396
-<!--ID: 1707879858230-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

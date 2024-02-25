@@ -12,7 +12,6 @@ degradation.
 
 ==================== Id ====================  
 395
-<!--ID: 1707879858737-->
 
 ---
 
@@ -30,4 +29,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

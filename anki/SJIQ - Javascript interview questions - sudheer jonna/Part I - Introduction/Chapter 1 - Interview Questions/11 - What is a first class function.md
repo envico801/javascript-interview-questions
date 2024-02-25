@@ -18,7 +18,6 @@ document.addEventListener('click', handler);
 
 ==================== Id ====================  
 11
-<!--ID: 1707879846547-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

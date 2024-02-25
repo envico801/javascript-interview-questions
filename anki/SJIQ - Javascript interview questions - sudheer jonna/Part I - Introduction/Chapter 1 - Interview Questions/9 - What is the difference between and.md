@@ -14,30 +14,30 @@ variables. The strict operators follow the below conditions for different types,
 2. Two numbers are strictly equal when they are numerically equal, i.e., having
    the same number value.  
    There are two special cases in this,
-3. NaN is not equal to anything, including NaN.
-4. Positive and negative zeros are equal to one another.
-5. Two Boolean operands are strictly equal if both are true or both are false.
-6. Two objects are strictly equal if they refer to the same Object.
-7. Null and Undefined types are not equal with ===, but equal with ==, i.e,  
-   null===undefined --> false, but null==undefined --> true  
+   1. NaN is not equal to anything, including NaN.
+   2. Positive and negative zeros are equal to one another.
+3. Two Boolean operands are strictly equal if both are true or both are false.
+4. Two objects are strictly equal if they refer to the same Object.
+5. Null and Undefined types are not equal with ===, but equal with == .  
+    i.e, `null===undefined --> false`, but `null==undefined --> true`  
    Some of the example which covers the above cases:
 
 ```javascript
-   0 == false   // true
-   0 === false  // false
-   1 == "1"     // true
-   1 === "1"    // false
-   null == undefined // true
-   null === undefined // false
-   '0' == false // true
-   '0' === false // false
-   []==[] or []===[] //false, refer different objects in memory
-   {}=={} or {}==={} //false, refer different objects in memory
+0 == false   // true
+0 === false  // false
+1 == "1"     // true
+1 === "1"    // false
+null == undefined // true
+null === undefined // false
+'0' == false // true
+'0' === false // false
+NaN == NaN or NaN === NaN // false
+[]==[] or []===[] //false, refer different objects in memory
+{}=={} or {}==={} //false, refer different objects in memory
 ```
 
 ==================== Id ====================  
 9
-<!--ID: 1707879853733-->
 
 ---
 
@@ -55,4 +55,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

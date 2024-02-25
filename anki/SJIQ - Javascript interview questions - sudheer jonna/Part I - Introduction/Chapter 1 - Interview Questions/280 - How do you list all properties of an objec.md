@@ -20,7 +20,6 @@ console.log(Object.getOwnPropertyNames(newObject));
 
 ==================== Id ====================  
 280
-<!--ID: 1707879828338-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

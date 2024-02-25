@@ -51,7 +51,6 @@ function generateRandomHex() {
 
 ==================== Id ====================  
 511
-<!--ID: 1707879786353-->
 
 ---
 
@@ -69,4 +68,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -10,21 +10,20 @@ object remains for compatibility. The syntax of this expression would be as
 below,
 
 ```javascript
-     new EvalError([message[, fileName[, lineNumber]]])
+new EvalError([message[, fileName[, lineNumber]]])
 ```
 
 You can throw EvalError with in try...catch block as below,
 
 ```javascript
-     try {
-       throw new EvalError('Eval function error', 'someFile.js', 100);
-     } catch (e) {
-       console.log(e.message, e.name, e.fileName);              // "Eval function error", "EvalError", "someFile.js"
+try {
+  throw new EvalError('Eval function error', 'someFile.js', 100);
+} catch (e) {
+  console.log(e.message, e.name, e.fileName);              // "Eval function error", "EvalError", "someFile.js"
 ```
 
 ==================== Id ====================  
 339
-<!--ID: 1707879817398-->
 
 ---
 
@@ -42,4 +41,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

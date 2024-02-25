@@ -9,12 +9,11 @@ solutions to simulate them even though they may not provide exact equivalents.
 For example, you can use freeze or seal on object,
 
 ```javascript
-     var DaysEnum = Object.freeze({"monday":1, "tuesday":2, "wednesday":3, ...})
+var DaysEnum = Object.freeze({"monday":1, "tuesday":2, "wednesday":3, ...})
 ```
 
 ==================== Id ====================  
 278
-<!--ID: 1707879849490-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

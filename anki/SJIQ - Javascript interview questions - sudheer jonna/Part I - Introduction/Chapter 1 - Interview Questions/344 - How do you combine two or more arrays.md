@@ -8,7 +8,7 @@ The concat() method is used to join two or more arrays by returning a new array
 containing all the elements. The syntax would be as below,
 
 ```javascript
-     array1.concat(array2, array3, ..., arrayX)
+array1.concat(array2, array3, ..., arrayX)
 ```
 
 Let's take an example of array's concatenation with veggies and fruits arrays,
@@ -22,7 +22,6 @@ console.log(veggiesAndFruits); // Tomato, Carrot, Cabbage, Apple, Orange, Pears
 
 ==================== Id ====================  
 344
-<!--ID: 1707879816244-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -17,7 +17,6 @@ console.log(convertToThousandFormat(12345.6789));
 
 ==================== Id ====================  
 288
-<!--ID: 1707879827764-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

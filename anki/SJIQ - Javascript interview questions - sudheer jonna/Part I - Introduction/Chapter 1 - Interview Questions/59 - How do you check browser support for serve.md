@@ -16,7 +16,6 @@ if (typeof EventSource !== 'undefined') {
 
 ==================== Id ====================  
 59
-<!--ID: 1707879842851-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

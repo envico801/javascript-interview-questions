@@ -9,21 +9,20 @@ once in a class. i.e, If you write a constructor method more than once in a
 class it will throw a `SyntaxError` error.
 
 ```javascript
-      class Employee {
-        constructor() {
-          this.name = "John";
-        }
-        constructor() {   //  Uncaught SyntaxError: A class may only have one constructor
-          this.age = 30;
-        }
-      }
-      var employeeObject = new Employee();
-      console.log(employeeObject.name);
+ class Employee {
+   constructor() {
+     this.name = "John";
+   }
+   constructor() {   //  Uncaught SyntaxError: A class may only have one constructor
+     this.age = 30;
+   }
+ }
+ var employeeObject = new Employee();
+ console.log(employeeObject.name);
 ```
 
 ==================== Id ====================  
 256
-<!--ID: 1707879849731-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

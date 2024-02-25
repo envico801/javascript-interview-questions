@@ -17,7 +17,6 @@ targetWindow.postMessage(message, '*');
 
 ==================== Id ====================  
 326
-<!--ID: 1707879824845-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

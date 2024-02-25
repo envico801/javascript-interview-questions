@@ -22,7 +22,6 @@ console.log(findMax(marks));
 
 ==================== Id ====================  
 245
-<!--ID: 1707879830325-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

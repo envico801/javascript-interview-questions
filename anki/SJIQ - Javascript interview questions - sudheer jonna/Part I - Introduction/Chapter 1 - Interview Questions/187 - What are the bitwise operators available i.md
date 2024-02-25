@@ -16,7 +16,6 @@ Below are the list of bitwise logical operators used in JavaScript
 
 ==================== Id ====================  
 187
-<!--ID: 1707879873107-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

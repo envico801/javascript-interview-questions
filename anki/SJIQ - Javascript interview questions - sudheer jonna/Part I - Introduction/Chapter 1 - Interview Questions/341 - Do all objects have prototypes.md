@@ -9,7 +9,6 @@ the user, or an object that is created using the new keyword.
 
 ==================== Id ====================  
 341
-<!--ID: 1707879861918-->
 
 ---
 
@@ -27,4 +26,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -28,7 +28,6 @@ console.log('GlobalContext');
 
 ==================== Id ====================  
 432
-<!--ID: 1707879818609-->
 
 ---
 
@@ -46,4 +45,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

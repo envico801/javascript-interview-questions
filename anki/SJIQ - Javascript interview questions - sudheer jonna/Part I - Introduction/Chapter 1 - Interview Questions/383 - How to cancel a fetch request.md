@@ -44,7 +44,6 @@ setTimeout(() => controller.abort(), 2000);
 
 ==================== Id ====================  
 383
-<!--ID: 1707879820208-->
 
 ---
 
@@ -62,4 +61,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -15,7 +15,6 @@ console.log(fruitsObject); // {0: "banana", 1: "apple", 2: "orange", 3: "waterme
 
 ==================== Id ====================  
 366
-<!--ID: 1707879822381-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

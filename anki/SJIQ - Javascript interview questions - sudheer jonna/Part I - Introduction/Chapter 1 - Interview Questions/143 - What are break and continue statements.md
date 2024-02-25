@@ -31,7 +31,6 @@ for (i = 0; i < 10; i++) {
 
 ==================== Id ====================  
 143
-<!--ID: 1707879813316-->
 
 ---
 
@@ -49,4 +48,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

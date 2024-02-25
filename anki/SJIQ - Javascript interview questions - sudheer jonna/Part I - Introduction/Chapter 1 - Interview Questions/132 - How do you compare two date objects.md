@@ -16,7 +16,6 @@ console.log(d1 === d2); // False
 
 ==================== Id ====================  
 132
-<!--ID: 1707879838706-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

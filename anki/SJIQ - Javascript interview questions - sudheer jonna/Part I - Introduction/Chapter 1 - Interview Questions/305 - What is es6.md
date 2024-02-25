@@ -11,7 +11,6 @@ browsers there are many transpilers, like Babel.js etc.
 
 ==================== Id ====================  
 305
-<!--ID: 1707879864191-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

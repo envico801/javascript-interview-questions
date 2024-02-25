@@ -21,7 +21,6 @@ it with the new operator will result in a TypeError
 
 ==================== Id ====================  
 479
-<!--ID: 1707879798675-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -12,7 +12,6 @@ web page using Document Object Model(DOM).
 
 ==================== Id ====================  
 95
-<!--ID: 1707879882197-->
 
 ---
 
@@ -30,4 +29,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -22,7 +22,6 @@ console.log(cityNames); // ['Delhi, 'Washington', 'Moscow', 'Singapore', 'Beijin
 
 ==================== Id ====================  
 363
-<!--ID: 1707879819886-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

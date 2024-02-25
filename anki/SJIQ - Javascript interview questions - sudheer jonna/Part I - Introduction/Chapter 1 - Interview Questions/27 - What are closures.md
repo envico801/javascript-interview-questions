@@ -6,8 +6,9 @@
 
 A closure is the combination of a function and the lexical environment within
 which that function was declared. i.e, It is an inner function that has access
-to the outer or enclosing function’s variables. The closure has three scope
-chains
+to the outer or enclosing function’s variables, functions and other data even
+after the outer function has finished its execution. The closure has three scope
+chains.
 
 1. Own scope where variables defined between its curly brackets
 2. Outer function’s variables
@@ -23,7 +24,7 @@ function Welcome(name) {
 }
 var myFunction = Welcome('John');
 myFunction('Welcome '); //Output: Welcome John
-myFunction('Hello Mr.'); //output: Hello Mr.John
+myFunction('Hello Mr.'); //output: Hello Mr. John
 ```
 
 As per the above code, the inner function(i.e, greetingInfo) has access to the
@@ -32,7 +33,6 @@ function has returned.
 
 ==================== Id ====================  
 27
-<!--ID: 1707879844000-->
 
 ---
 
@@ -50,4 +50,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

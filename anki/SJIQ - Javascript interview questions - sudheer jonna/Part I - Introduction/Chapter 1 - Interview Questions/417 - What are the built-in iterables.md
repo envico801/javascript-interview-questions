@@ -15,7 +15,6 @@ Below are the list of built-in iterables in javascript,
 
 ==================== Id ====================  
 417
-<!--ID: 1707879856581-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

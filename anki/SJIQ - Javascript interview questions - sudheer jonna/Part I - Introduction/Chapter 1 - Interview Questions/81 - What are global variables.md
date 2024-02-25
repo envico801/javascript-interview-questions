@@ -14,7 +14,6 @@ msg = 'Hello'; // var is missing, it becomes global variable
 
 ==================== Id ====================  
 81
-<!--ID: 1707879841778-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

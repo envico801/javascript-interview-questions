@@ -15,7 +15,6 @@ console.log(pattern.exec('How are you?')); //["you", index: 8, input: "How are y
 
 ==================== Id ====================  
 160
-<!--ID: 1707879836666-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

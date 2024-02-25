@@ -9,20 +9,19 @@ hard to read and debug when dealing with asynchronous logic. The callback hell
 looks like below,
 
 ```javascript
-    async1(function(){
-        async2(function(){
-            async3(function(){
-                async4(function(){
-                    ....
-                });
+async1(function(){
+    async2(function(){
+        async3(function(){
+            async4(function(){
+                ....
             });
         });
     });
+});
 ```
 
 ==================== Id ====================  
 56
-<!--ID: 1707879853400-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

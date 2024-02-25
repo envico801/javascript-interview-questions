@@ -17,7 +17,6 @@ console.log(calculateSum(...numbers)); // 6
 
 ==================== Id ====================  
 188
-<!--ID: 1707879834089-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

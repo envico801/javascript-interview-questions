@@ -17,7 +17,6 @@ isFinite(100); // true
 
 ==================== Id ====================  
 84
-<!--ID: 1707879841492-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

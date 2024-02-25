@@ -11,7 +11,6 @@ page has loaded, including all dependent resources(stylesheets, images).
 
 ==================== Id ====================  
 90
-<!--ID: 1707879883600-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -17,7 +17,6 @@ console.log(initObject.a); // John
 
 ==================== Id ====================  
 254
-<!--ID: 1707879829744-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

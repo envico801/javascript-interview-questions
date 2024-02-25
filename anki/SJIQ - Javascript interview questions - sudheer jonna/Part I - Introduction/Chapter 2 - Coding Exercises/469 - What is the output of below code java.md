@@ -22,7 +22,6 @@ values in the collection. At the same time, it is case sensitive data structure.
 
 ==================== Id ====================  
 469
-<!--ID: 1707879791132-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

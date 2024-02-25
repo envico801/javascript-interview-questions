@@ -32,7 +32,6 @@ undefined so both methods return window objects.
 
 ==================== Id ====================  
 498
-<!--ID: 1707879795768-->
 
 ---
 
@@ -50,4 +49,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

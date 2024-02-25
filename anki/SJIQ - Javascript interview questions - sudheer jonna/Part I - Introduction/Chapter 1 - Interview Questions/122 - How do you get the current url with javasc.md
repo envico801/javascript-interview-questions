@@ -14,7 +14,6 @@ console.log('location.href', window.location.href); // Returns full URL
 
 ==================== Id ====================  
 122
-<!--ID: 1707879839523-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

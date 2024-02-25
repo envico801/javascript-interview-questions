@@ -40,7 +40,6 @@ console.log(user.nickName !== undefined); // false
 
 ==================== Id ====================  
 125
-<!--ID: 1707879803616-->
 
 ---
 
@@ -58,4 +57,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -22,7 +22,6 @@ operator `===` will output `false` value.
 
 ==================== Id ====================  
 524
-<!--ID: 1707879792980-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -40,7 +40,6 @@ console.log(obj.decrement); //5
 
 ==================== Id ====================  
 220
-<!--ID: 1707879831725-->
 
 ---
 
@@ -58,4 +57,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

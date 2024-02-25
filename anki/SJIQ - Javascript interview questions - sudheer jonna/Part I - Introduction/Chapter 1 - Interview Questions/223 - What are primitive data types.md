@@ -17,7 +17,6 @@ properties or methods). There are 7 types of primitive data types.
 
 ==================== Id ====================  
 223
-<!--ID: 1707879870123-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

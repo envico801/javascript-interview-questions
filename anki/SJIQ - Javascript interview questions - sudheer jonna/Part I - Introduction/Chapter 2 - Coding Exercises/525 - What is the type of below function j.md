@@ -23,7 +23,6 @@ the job. Hence, the above function considered as impure function.
 
 ==================== Id ====================  
 525
-<!--ID: 1707879792727-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

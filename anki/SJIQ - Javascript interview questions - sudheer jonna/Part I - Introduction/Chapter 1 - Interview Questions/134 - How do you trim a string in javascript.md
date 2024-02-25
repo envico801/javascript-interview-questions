@@ -28,7 +28,6 @@ if (!String.prototype.trim) {
 
 ==================== Id ====================  
 134
-<!--ID: 1707879813473-->
 
 ---
 
@@ -46,4 +45,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

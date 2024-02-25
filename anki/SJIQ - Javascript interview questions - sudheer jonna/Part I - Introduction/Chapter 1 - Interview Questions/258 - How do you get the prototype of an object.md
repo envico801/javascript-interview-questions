@@ -16,7 +16,6 @@ console.log(Object.getPrototypeOf(newObject) === newPrototype); // true
 
 ==================== Id ====================  
 258
-<!--ID: 1707879829344-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

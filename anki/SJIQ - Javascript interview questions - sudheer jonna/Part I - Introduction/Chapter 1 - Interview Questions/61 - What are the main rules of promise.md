@@ -14,7 +14,6 @@ A promise must follow a specific set of rules:
 
 ==================== Id ====================  
 61
-<!--ID: 1707879887085-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

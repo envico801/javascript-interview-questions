@@ -18,7 +18,6 @@ Below are the list of pros and cons of promises over callbacks,
 
 ==================== Id ====================  
 93
-<!--ID: 1707879864425-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

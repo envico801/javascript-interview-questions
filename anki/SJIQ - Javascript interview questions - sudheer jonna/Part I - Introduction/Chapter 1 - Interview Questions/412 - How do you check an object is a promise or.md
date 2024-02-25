@@ -39,7 +39,6 @@ console.log(isPromise(promise)); // true
 
 ==================== Id ====================  
 412
-<!--ID: 1707879806312-->
 
 ---
 
@@ -57,4 +56,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -20,7 +20,6 @@ So when no arguments are provided, -Infinity is going to be returned.
 
 ==================== Id ====================  
 464
-<!--ID: 1707879799541-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

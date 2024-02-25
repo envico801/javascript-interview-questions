@@ -23,7 +23,6 @@ console.log(descriptorsObject.a.value); // 1
 
 ==================== Id ====================  
 281
-<!--ID: 1707879828000-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

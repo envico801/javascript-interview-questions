@@ -10,7 +10,7 @@ to perform all types of text search and text replace operations. Let's see the
 syntax format now,
 
 ```javascript
-     /pattern/modifiers;
+/pattern/modifiers;
 ```
 
 For example, the regular expression or search pattern with case-insensitive
@@ -22,7 +22,6 @@ username would be,
 
 ==================== Id ====================  
 154
-<!--ID: 1707879817008-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

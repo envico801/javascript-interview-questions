@@ -13,7 +13,6 @@ prototype on constructors function is available through **Object.prototype**.
 
 ==================== Id ====================  
 2
-<!--ID: 1707879893095-->
 
 ---
 
@@ -31,4 +30,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

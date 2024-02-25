@@ -14,7 +14,6 @@ console.log(eval('1 + 2')); //  3
 
 ==================== Id ====================  
 75
-<!--ID: 1707879842095-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

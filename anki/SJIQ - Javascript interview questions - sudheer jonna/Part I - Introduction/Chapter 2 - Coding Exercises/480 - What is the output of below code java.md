@@ -45,7 +45,6 @@ if (typeof myNumber !== "string")
 
 ==================== Id ====================  
 480
-<!--ID: 1707879798508-->
 
 ---
 
@@ -63,4 +62,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

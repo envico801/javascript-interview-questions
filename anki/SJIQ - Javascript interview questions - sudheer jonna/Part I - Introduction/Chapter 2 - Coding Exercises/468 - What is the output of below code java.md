@@ -19,7 +19,6 @@ strings and concatenates them.
 
 ==================== Id ====================  
 468
-<!--ID: 1707879790859-->
 
 ---
 
@@ -37,4 +36,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

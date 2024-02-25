@@ -9,7 +9,7 @@ class which is a child of another class. It can be used to subclass custom
 classes as well as built-in objects. The syntax would be as below,
 
 ```javascript
-     class ChildClass extends ParentClass { ... }
+class ChildClass extends ParentClass { ... }
 ```
 
 Let's take an example of Square subclass from Polygon parent class,
@@ -31,7 +31,6 @@ class Square extends Rectangle {
 
 ==================== Id ====================  
 283
-<!--ID: 1707879816677-->
 
 ---
 
@@ -49,4 +48,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

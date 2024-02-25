@@ -32,7 +32,6 @@ window.onstorage = function (e) {
 
 ==================== Id ====================  
 45
-<!--ID: 1707879814531-->
 
 ---
 
@@ -50,4 +49,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

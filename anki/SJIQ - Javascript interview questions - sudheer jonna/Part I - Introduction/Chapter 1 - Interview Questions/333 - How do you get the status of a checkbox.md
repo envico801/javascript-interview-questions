@@ -15,12 +15,11 @@ conditions<br />
 ```
 
 ```javascript
-     console.log(document.getElementById(‘checkboxname’).checked); // true or false
+console.log(document.getElementById(‘checkboxname’).checked); // true or false
 ```
 
 ==================== Id ====================  
 333
-<!--ID: 1707879848090-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

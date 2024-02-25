@@ -27,7 +27,6 @@ window.mobilecheck = function () {
 
 ==================== Id ====================  
 166
-<!--ID: 1707879836258-->
 
 ---
 
@@ -45,4 +44,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

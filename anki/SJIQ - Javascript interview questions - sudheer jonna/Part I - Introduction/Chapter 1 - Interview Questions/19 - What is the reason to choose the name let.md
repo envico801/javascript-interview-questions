@@ -11,7 +11,6 @@ other languages that use `let` already as a traditional keyword as close to
 
 ==================== Id ====================  
 19
-<!--ID: 1707879892129-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

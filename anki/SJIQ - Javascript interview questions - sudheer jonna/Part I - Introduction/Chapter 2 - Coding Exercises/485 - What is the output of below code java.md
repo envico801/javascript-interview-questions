@@ -43,7 +43,6 @@ area();
 
 ==================== Id ====================  
 485
-<!--ID: 1707879784504-->
 
 ---
 
@@ -61,4 +60,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

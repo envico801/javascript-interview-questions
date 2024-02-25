@@ -15,7 +15,6 @@ browsers. Let's see an example to see this usage,
 
 ==================== Id ====================  
 133
-<!--ID: 1707879838513-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

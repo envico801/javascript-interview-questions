@@ -14,7 +14,6 @@ Below are the main differences between window and document,
 
 ==================== Id ====================  
 76
-<!--ID: 1707879886011-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

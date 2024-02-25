@@ -25,7 +25,6 @@ using "void(0)".
 
 ==================== Id ====================  
 299
-<!--ID: 1707879810818-->
 
 ---
 
@@ -43,4 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -35,7 +35,6 @@ console.log(sum(1, 2, 3, 4, 5)); //15
 
 ==================== Id ====================  
 185
-<!--ID: 1707879812408-->
 
 ---
 
@@ -53,4 +52,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

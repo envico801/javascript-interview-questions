@@ -20,7 +20,6 @@ comma. You should always consider using a rest operator as the last element.
 
 ==================== Id ====================  
 483
-<!--ID: 1707879801911-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

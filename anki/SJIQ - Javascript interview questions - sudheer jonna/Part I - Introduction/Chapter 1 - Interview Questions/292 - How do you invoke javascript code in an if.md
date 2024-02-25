@@ -15,7 +15,6 @@ window.frames[0].frameElement.contentWindow.targetFunction(); // Accessing ifram
 
 ==================== Id ====================  
 292
-<!--ID: 1707879827433-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

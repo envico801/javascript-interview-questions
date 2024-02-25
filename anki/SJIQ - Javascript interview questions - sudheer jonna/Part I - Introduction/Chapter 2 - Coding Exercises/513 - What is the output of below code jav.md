@@ -31,7 +31,6 @@ console.log(numbers);
 
 ==================== Id ====================  
 513
-<!--ID: 1707879785996-->
 
 ---
 
@@ -49,4 +48,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

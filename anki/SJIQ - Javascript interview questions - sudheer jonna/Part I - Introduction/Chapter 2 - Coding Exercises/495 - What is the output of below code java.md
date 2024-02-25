@@ -32,7 +32,6 @@ second loop doesn't print any value.
 
 ==================== Id ====================  
 495
-<!--ID: 1707879796107-->
 
 ---
 
@@ -50,4 +49,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -22,7 +22,6 @@ function User() {}
 
 ==================== Id ====================  
 406
-<!--ID: 1707879806844-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

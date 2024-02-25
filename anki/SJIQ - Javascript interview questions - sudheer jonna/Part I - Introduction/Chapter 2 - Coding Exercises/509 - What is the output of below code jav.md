@@ -25,7 +25,6 @@ last statement is printed first before the log of promise handler.
 
 ==================== Id ====================  
 509
-<!--ID: 1707879794180-->
 
 ---
 
@@ -43,4 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

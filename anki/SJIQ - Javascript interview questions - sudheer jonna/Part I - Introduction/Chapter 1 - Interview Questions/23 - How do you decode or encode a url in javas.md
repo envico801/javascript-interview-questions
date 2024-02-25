@@ -19,7 +19,6 @@ let decoded_uri = decodeURI(encoded_uri);
 
 ==================== Id ====================  
 23
-<!--ID: 1707879844196-->
 
 ---
 
@@ -37,4 +36,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

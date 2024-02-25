@@ -13,17 +13,16 @@ the sender's origin [http://www.some-sender.com](http://www.some-sender.com) on
 receiver side [www.some-receiver.com](www.some-receiver.com),
 
 ```javascript
-     //Listener on http://www.some-receiver.com/
-     window.addEventListener("message", function(message){
-         if(/^http://www\.some-sender\.com$/.test(message.origin)){
-              console.log('You received the data from valid sender', message.data);
-        }
-     });
+//Listener on http://www.some-receiver.com/
+window.addEventListener("message", function(message){
+    if(/^http://www\.some-sender\.com$/.test(message.origin)){
+         console.log('You received the data from valid sender', message.data);
+   }
+});
 ```
 
 ==================== Id ====================  
 327
-<!--ID: 1707879849007-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

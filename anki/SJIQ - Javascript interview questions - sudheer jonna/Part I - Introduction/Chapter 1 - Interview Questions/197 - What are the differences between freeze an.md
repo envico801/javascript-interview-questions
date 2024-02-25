@@ -11,7 +11,6 @@ existing properties of the object.
 
 ==================== Id ====================  
 197
-<!--ID: 1707879871778-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

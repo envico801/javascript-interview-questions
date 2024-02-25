@@ -15,7 +15,6 @@ parseInt('Hello');
 
 ==================== Id ====================  
 83
-<!--ID: 1707879841660-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

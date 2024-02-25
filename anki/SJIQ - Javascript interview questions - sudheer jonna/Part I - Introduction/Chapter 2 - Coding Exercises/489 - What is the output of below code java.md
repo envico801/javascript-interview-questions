@@ -21,7 +21,6 @@ code snippet doesn't throw any error.
 
 ==================== Id ====================  
 489
-<!--ID: 1707879797159-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

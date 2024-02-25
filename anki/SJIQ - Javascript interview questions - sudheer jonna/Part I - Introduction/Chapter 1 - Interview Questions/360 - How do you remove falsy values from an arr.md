@@ -15,7 +15,6 @@ myArray.filter(Boolean); // [1, 5] // is same as myArray.filter(x => x);
 
 ==================== Id ====================  
 360
-<!--ID: 1707879822824-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

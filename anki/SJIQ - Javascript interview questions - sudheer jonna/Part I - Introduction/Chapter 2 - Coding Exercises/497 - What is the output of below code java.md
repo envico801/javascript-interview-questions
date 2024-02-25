@@ -32,7 +32,6 @@ class declarations.
 
 ==================== Id ====================  
 497
-<!--ID: 1707879795936-->
 
 ---
 
@@ -50,4 +49,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -21,7 +21,6 @@ Below are the list of some new features of ES6,
 
 ==================== Id ====================  
 304
-<!--ID: 1707879864691-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

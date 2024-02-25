@@ -16,7 +16,6 @@ There are two ways of event flow
 
 ==================== Id ====================  
 85
-<!--ID: 1707879885151-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

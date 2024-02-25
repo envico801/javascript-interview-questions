@@ -12,18 +12,18 @@ namespaces.
    using object notation
 
 ```javascript
-     var namespaceOne = {
-        function func1() {
-            console.log("This is a first definition");
-        }
+var namespaceOne = {
+   function func1() {
+       console.log("This is a first definition");
+   }
+}
+var namespaceTwo = {
+     function func1() {
+         console.log("This is a second definition");
      }
-     var namespaceTwo = {
-          function func1() {
-              console.log("This is a second definition");
-          }
-      }
-     namespaceOne.func1(); // This is a first definition
-     namespaceTwo.func1(); // This is a second definition
+ }
+namespaceOne.func1(); // This is a first definition
+namespaceTwo.func1(); // This is a second definition
 ```
 
 1. **Using IIFE (Immediately invoked function expression):** The outer pair of
@@ -70,7 +70,6 @@ namespaces.
 
 ==================== Id ====================  
 291
-<!--ID: 1707879805190-->
 
 ---
 
@@ -88,4 +87,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -25,7 +25,6 @@ const weather = (function getWeather(temp) {
 
 ==================== Id ====================  
 422
-<!--ID: 1707879819269-->
 
 ---
 
@@ -43,4 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -11,7 +11,6 @@ performance of a program.
 
 ==================== Id ====================  
 399
-<!--ID: 1707879857815-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

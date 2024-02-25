@@ -11,7 +11,6 @@ Below are the some of main applications of Object.assign() method,
 
 ==================== Id ====================  
 193
-<!--ID: 1707879872339-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

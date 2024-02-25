@@ -38,7 +38,6 @@ new User('Dude').cleanRoom(); // Hello Dude, your room is clean now!
 
 ==================== Id ====================  
 350
-<!--ID: 1707879823650-->
 
 ---
 
@@ -56,4 +55,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

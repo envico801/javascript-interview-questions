@@ -25,7 +25,6 @@ console.log(user.toString()); // returns "(function user(){})"
 
 ==================== Id ====================  
 209
-<!--ID: 1707879811484-->
 
 ---
 
@@ -43,4 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

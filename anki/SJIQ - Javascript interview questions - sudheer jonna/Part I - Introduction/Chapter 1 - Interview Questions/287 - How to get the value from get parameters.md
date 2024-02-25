@@ -18,7 +18,6 @@ console.log(parameterZ); // 3
 
 ==================== Id ====================  
 287
-<!--ID: 1707879827874-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

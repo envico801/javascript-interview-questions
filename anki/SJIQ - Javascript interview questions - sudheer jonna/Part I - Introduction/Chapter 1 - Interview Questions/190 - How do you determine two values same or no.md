@@ -28,7 +28,6 @@ Two values are the same if one of the following holds:
 
 ==================== Id ====================  
 190
-<!--ID: 1707879833872-->
 
 ---
 
@@ -46,4 +45,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

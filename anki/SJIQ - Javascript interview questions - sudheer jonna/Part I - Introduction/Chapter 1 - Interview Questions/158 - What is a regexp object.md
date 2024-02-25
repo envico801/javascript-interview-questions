@@ -15,7 +15,6 @@ console.log(regexp);
 
 ==================== Id ====================  
 158
-<!--ID: 1707879837009-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

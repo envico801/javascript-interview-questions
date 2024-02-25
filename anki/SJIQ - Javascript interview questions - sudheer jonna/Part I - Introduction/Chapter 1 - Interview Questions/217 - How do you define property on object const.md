@@ -20,7 +20,6 @@ newObject.newProperty = 200; // It throws an error in strict mode due to writabl
 
 ==================== Id ====================  
 217
-<!--ID: 1707879831840-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

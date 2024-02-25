@@ -48,7 +48,6 @@ console.log(createEmployee.getDepartment());
 
 ==================== Id ====================  
 446
-<!--ID: 1707879805572-->
 
 ---
 
@@ -66,4 +65,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

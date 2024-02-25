@@ -23,7 +23,6 @@ console.log(object.property); //Welcome to object world
 
 ==================== Id ====================  
 195
-<!--ID: 1707879833696-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

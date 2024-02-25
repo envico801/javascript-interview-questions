@@ -22,7 +22,6 @@ console.log(Object.isSealed(object)); // checking whether the object is sealed o
 
 ==================== Id ====================  
 198
-<!--ID: 1707879833497-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

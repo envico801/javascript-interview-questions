@@ -28,7 +28,6 @@ function detectmob() {
 
 ==================== Id ====================  
 167
-<!--ID: 1707879836094-->
 
 ---
 
@@ -46,4 +45,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -26,7 +26,6 @@ console.log(age); // 32
 
 ==================== Id ====================  
 314
-<!--ID: 1707879809170-->
 
 ---
 
@@ -44,4 +43,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

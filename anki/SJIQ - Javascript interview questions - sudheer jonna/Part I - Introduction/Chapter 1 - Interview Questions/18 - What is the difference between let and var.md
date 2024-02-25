@@ -6,11 +6,12 @@
 
 You can list out the differences in a tabular format
 
-| var                                                    | let                         |
-| ------------------------------------------------------ | --------------------------- |
-| It has been available from the beginning of JavaScript | Introduced as part of ES6   |
-| It has function scope                                  | It has block scope          |
-| Variables will be hoisted                              | Hoisted but not initialized |
+| var                                                         | let                                           |
+| ----------------------------------------------------------- | --------------------------------------------- |
+| It has been available from the beginning of JavaScript      | Introduced as part of ES6                     |
+| It has function scope                                       | It has block scope                            |
+| Variable declaration will be hoisted                        | Hoisted but not initialized                   |
+| It is possible to re-declare the variable in the same scope | It is not possible to re-declare the variable |
 
 Let's take an example to see the difference,
 
@@ -30,7 +31,6 @@ userDetails('John');
 
 ==================== Id ====================  
 18
-<!--ID: 1707879844821-->
 
 ---
 
@@ -48,4 +48,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

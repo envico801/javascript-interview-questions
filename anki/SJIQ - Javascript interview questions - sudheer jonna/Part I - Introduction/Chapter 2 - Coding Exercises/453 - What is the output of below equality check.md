@@ -21,7 +21,6 @@ You can find more details about the explanation here
 
 ==================== Id ====================  
 453
-<!--ID: 1707879801411-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

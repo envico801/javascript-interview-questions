@@ -36,7 +36,6 @@ function, the value is 0 and type is number.
 
 ==================== Id ====================  
 451
-<!--ID: 1707879789987-->
 
 ---
 
@@ -54,4 +53,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

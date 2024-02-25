@@ -19,7 +19,6 @@ apply the chain of typeof operators on the return value, it is always string.
 
 ==================== Id ====================  
 502
-<!--ID: 1707879795122-->
 
 ---
 
@@ -37,4 +36,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -15,7 +15,6 @@ typeof [1, 2, 3]; // Returns "object" because all arrays are also objects
 
 ==================== Id ====================  
 71
-<!--ID: 1707879842311-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

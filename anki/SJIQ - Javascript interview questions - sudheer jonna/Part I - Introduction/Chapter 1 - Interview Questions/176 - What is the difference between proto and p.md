@@ -24,7 +24,6 @@ There are few more differences,
 
 ==================== Id ====================  
 176
-<!--ID: 1707879834747-->
 
 ---
 
@@ -42,4 +41,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

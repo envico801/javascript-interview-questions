@@ -21,7 +21,6 @@ as an alias for 'trimStart'. Hence, the prototype for 'trimLeft' is always
 
 ==================== Id ====================  
 463
-<!--ID: 1707879799803-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

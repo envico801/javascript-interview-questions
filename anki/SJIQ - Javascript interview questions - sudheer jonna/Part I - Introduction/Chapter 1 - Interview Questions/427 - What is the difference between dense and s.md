@@ -25,7 +25,6 @@ console.log(justiceLeague.length); // 4
 
 ==================== Id ====================  
 427
-<!--ID: 1707879818782-->
 
 ---
 
@@ -43,4 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

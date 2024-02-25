@@ -22,7 +22,6 @@ CDNs, like google.
 
 ==================== Id ====================  
 296
-<!--ID: 1707879826835-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

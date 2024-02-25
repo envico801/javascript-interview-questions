@@ -9,24 +9,23 @@ chain. For example, the below nested divs with stopPropagation method prevents
 default event propagation when clicking on nested div(Div1)
 
 ```javascript
-     <p>Click DIV1 Element</p>
-     <div onclick="secondFunc()">DIV 2
-       <div onclick="firstFunc(event)">DIV 1</div>
-     </div>
-     <script>
-     function firstFunc(event) {
-       alert("DIV 1");
-       event.stopPropagation();
-     }
-     function secondFunc() {
-       alert("DIV 2");
-     }
-     </script>
+<p>Click DIV1 Element</p>
+<div onclick="secondFunc()">DIV 2
+  <div onclick="firstFunc(event)">DIV 1</div>
+</div>
+<script>
+function firstFunc(event) {
+  alert("DIV 1");
+  event.stopPropagation();
+}
+function secondFunc() {
+  alert("DIV 2");
+}
+</script>
 ```
 
 ==================== Id ====================  
 103
-<!--ID: 1707879852443-->
 
 ---
 
@@ -44,4 +43,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

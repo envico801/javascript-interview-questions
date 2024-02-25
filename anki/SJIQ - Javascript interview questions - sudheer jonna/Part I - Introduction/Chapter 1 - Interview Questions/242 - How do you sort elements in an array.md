@@ -15,7 +15,6 @@ console.log(months); //  ["Aug", "Jan", "June", "Sep"]
 
 ==================== Id ====================  
 242
-<!--ID: 1707879830716-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

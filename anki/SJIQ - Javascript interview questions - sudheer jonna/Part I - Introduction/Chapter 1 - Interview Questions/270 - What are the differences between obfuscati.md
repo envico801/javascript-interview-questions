@@ -14,7 +14,6 @@ Below are the main differences between Obfuscation and Encryption,
 
 ==================== Id ====================  
 270
-<!--ID: 1707879866607-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

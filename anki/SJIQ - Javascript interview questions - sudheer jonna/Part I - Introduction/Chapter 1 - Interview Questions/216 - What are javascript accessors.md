@@ -27,7 +27,6 @@ console.log(user.lang); // setter used to set lang as fr
 
 ==================== Id ====================  
 216
-<!--ID: 1707879831956-->
 
 ---
 
@@ -45,4 +44,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -15,7 +15,6 @@ isNaN('100'); //false
 
 ==================== Id ====================  
 79
-<!--ID: 1707879841888-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

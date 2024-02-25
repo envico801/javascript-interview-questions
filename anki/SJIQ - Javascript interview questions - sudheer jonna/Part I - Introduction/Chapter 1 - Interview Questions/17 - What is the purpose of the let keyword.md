@@ -22,7 +22,6 @@ console.log(counter); // 30 (because the variable in if block won't exist here)
 
 ==================== Id ====================  
 17
-<!--ID: 1707879845187-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

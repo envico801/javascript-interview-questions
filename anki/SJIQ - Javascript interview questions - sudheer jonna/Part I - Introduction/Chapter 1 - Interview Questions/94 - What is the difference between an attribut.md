@@ -8,7 +8,7 @@ Attributes are defined on the HTML markup whereas properties are defined on the
 DOM. For example, the below HTML element has 2 attributes type and value,
 
 ```javascript
-    <input type="text" value="Name:">
+<input type="text" value="Name:">
 ```
 
 You can retrieve the attribute value as below,
@@ -29,7 +29,6 @@ console.log(input.value); // Good evening
 
 ==================== Id ====================  
 94
-<!--ID: 1707879805314-->
 
 ---
 
@@ -47,4 +46,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -29,7 +29,6 @@ function func() {
 
 ==================== Id ====================  
 473
-<!--ID: 1707879787971-->
 
 ---
 
@@ -47,4 +46,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -11,7 +11,6 @@ values, you can resume the execution of code using the play button.
 
 ==================== Id ====================  
 164
-<!--ID: 1707879874472-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

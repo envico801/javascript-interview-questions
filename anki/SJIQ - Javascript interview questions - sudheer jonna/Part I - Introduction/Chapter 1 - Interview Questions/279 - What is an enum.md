@@ -9,14 +9,13 @@ constants. JavaScript has no enums but typescript provides built-in enum
 support.
 
 ```javascript
-     enum Color {
-      RED, GREEN, BLUE
-     }
+enum Color {
+ RED, GREEN, BLUE
+}
 ```
 
 ==================== Id ====================  
 279
-<!--ID: 1707879849290-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

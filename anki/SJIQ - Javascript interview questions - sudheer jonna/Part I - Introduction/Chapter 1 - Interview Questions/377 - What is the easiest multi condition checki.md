@@ -20,7 +20,6 @@ if (['first', 1, 'second', 2].indexOf(input) !== -1) {
 
 ==================== Id ====================  
 377
-<!--ID: 1707879820777-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

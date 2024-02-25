@@ -15,7 +15,6 @@ console.log(![] + []); // "false", because ![] returns false.
 
 ==================== Id ====================  
 357
-<!--ID: 1707879823100-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

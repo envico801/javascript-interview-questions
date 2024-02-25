@@ -16,7 +16,6 @@ if (typeof Worker !== 'undefined') {
 
 ==================== Id ====================  
 48
-<!--ID: 1707879843275-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

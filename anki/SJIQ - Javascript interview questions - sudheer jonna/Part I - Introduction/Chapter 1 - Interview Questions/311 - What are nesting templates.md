@@ -29,7 +29,6 @@ const iconStyles = `icon ${
 
 ==================== Id ====================  
 311
-<!--ID: 1707879809453-->
 
 ---
 
@@ -47,4 +46,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

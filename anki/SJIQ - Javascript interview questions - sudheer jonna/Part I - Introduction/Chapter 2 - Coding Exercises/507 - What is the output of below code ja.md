@@ -21,7 +21,6 @@ order to avoid conversion of array type, we should use === for comparison.
 
 ==================== Id ====================  
 507
-<!--ID: 1707879794401-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -10,7 +10,7 @@ supply multiple parameters in a `for` loop. For example, the below for loop uses
 multiple expressions in a single location using comma operator,
 
 ```javascript
-     for (var a = 0, b =10; a <= 10; a++, b--)
+for (var a = 0, b =10; a <= 10; a++, b--)
 ```
 
 You can also use the comma operator in a return statement where it processes
@@ -25,7 +25,6 @@ function myFunction() {
 
 ==================== Id ====================  
 250
-<!--ID: 1707879816783-->
 
 ---
 
@@ -43,4 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

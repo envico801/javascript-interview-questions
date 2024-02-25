@@ -20,7 +20,6 @@ console.log(employeeObject.name); // John
 
 ==================== Id ====================  
 255
-<!--ID: 1707879829632-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

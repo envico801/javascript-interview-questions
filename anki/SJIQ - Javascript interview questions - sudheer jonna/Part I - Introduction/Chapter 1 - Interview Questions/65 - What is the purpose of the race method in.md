@@ -22,7 +22,6 @@ Promise.race([promise1, promise2]).then(function (value) {
 
 ==================== Id ====================  
 65
-<!--ID: 1707879842518-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

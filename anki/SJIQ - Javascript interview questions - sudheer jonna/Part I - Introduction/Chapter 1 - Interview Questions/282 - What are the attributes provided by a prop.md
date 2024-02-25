@@ -18,7 +18,6 @@ A property descriptor is a record which has the following attributes
 
 ==================== Id ====================  
 282
-<!--ID: 1707879865840-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

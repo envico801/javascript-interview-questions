@@ -16,7 +16,6 @@ console.log(new Intl.DateTimeFormat('en-AU').format(date)); // 07/08/2019
 
 ==================== Id ====================  
 233
-<!--ID: 1707879831232-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -88,7 +88,6 @@ user.eat()();
 
 ==================== Id ====================  
 520
-<!--ID: 1707879783810-->
 
 ---
 
@@ -106,4 +105,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -21,7 +21,6 @@ Object.defineProperties(newObject, {
 
 ==================== Id ====================  
 264
-<!--ID: 1707879828588-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

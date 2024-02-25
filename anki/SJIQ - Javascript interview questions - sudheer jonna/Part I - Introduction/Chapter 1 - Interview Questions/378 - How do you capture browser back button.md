@@ -36,7 +36,6 @@ contains the copy of history entry's state object.
 
 ==================== Id ====================  
 378
-<!--ID: 1707879807848-->
 
 ---
 
@@ -54,4 +53,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

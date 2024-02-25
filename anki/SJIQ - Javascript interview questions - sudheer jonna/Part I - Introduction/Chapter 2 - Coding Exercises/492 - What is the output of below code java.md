@@ -23,7 +23,6 @@ still throws `TypeError: obj is not iterable`.
 
 ==================== Id ====================  
 492
-<!--ID: 1707879796627-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

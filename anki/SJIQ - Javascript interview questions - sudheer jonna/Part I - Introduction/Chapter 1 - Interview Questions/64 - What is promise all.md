@@ -9,7 +9,7 @@ iterable), and it gets resolved when all the promises get resolved or any one of
 them gets rejected. For example, the syntax of promise.all method is below,
 
 ```javascript
-    Promise.all([Promise1, Promise2, Promise3]) .then(result) => {   console.log(result) }) .catch(error => console.log(`Error in promises ${error}`))
+Promise.all([Promise1, Promise2, Promise3]) .then(result) => {   console.log(result) }) .catch(error => console.log(`Error in promises ${error}`))
 ```
 
 **Note:** Remember that the order of the promises(output the result) is
@@ -17,7 +17,6 @@ maintained as per input order.
 
 ==================== Id ====================  
 64
-<!--ID: 1707879853075-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

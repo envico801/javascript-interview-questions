@@ -16,7 +16,6 @@ document.cookie = 'username=John';
 
 ==================== Id ====================  
 37
-<!--ID: 1707879843859-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

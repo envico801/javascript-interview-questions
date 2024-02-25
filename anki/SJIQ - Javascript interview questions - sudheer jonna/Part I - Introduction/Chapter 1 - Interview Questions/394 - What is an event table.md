@@ -15,7 +15,6 @@ the below diagram.
 
 ==================== Id ====================  
 394
-<!--ID: 1707879859237-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

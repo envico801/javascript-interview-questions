@@ -20,7 +20,6 @@ Below are the list of properties available on Intl object,
 
 ==================== Id ====================  
 240
-<!--ID: 1707879867424-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

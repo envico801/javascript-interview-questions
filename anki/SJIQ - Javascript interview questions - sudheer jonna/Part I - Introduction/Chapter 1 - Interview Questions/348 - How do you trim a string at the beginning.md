@@ -20,7 +20,6 @@ console.log(greeting.trimRight()); // "   Hello, Goodmorning!"
 
 ==================== Id ====================  
 348
-<!--ID: 1707879823959-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

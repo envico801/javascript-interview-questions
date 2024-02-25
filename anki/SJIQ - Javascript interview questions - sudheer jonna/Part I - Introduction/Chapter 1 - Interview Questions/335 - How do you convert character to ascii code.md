@@ -21,7 +21,6 @@ String.fromCharCode(65, 66, 67); // returns 'ABC'
 
 ==================== Id ====================  
 335
-<!--ID: 1707879808556-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -11,7 +11,6 @@ Below are the main applications of Object.seal() method,
 
 ==================== Id ====================  
 196
-<!--ID: 1707879872021-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

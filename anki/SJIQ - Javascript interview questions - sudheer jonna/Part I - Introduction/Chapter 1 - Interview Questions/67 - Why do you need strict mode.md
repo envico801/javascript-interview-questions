@@ -12,7 +12,6 @@ non-existing variable, or a non-existing object.
 
 ==================== Id ====================  
 67
-<!--ID: 1707879886569-->
 
 ---
 
@@ -30,4 +29,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

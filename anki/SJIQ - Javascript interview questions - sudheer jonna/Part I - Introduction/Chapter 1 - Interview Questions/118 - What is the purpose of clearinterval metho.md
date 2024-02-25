@@ -12,23 +12,22 @@ For example, the below setInterval method is used to display the message for
 every 3 seconds. This interval can be cleared by the clearInterval() method.
 
 ```javascript
-     <script>
-     var msg;
-     function greeting() {
-        alert('Good morning');
-     }
-     function start() {
-       msg = setInterval(greeting, 3000);
-     }
-     function stop() {
-         clearInterval(msg);
-     }
-     </script>
+<script>
+var msg;
+function greeting() {
+   alert('Good morning');
+}
+function start() {
+  msg = setInterval(greeting, 3000);
+}
+function stop() {
+    clearInterval(msg);
+}
+</script>
 ```
 
 ==================== Id ====================  
 118
-<!--ID: 1707879851732-->
 
 ---
 
@@ -46,4 +45,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

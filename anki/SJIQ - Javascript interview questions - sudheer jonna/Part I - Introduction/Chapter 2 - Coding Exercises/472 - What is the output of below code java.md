@@ -26,7 +26,6 @@ console.log(a, b); // 1, [2, 3, 4, 5]
 
 ==================== Id ====================  
 472
-<!--ID: 1707879788357-->
 
 ---
 
@@ -44,4 +43,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

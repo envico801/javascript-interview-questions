@@ -38,7 +38,6 @@ statements follows the below order,
 
 ==================== Id ====================  
 452
-<!--ID: 1707879801535-->
 
 ---
 
@@ -56,4 +55,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

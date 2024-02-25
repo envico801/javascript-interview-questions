@@ -15,7 +15,6 @@ console.log(offset); // -480
 
 ==================== Id ====================  
 293
-<!--ID: 1707879827009-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

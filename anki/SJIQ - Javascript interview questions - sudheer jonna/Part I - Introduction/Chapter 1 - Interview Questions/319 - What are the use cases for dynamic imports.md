@@ -10,24 +10,23 @@ Below are some of the use cases of using dynamic imports over static imports,
    a polyfill on legacy browser
 
 ```javascript
-     if (isLegacyBrowser()) {
-         import(···)
-         .then(···);
-     }
+if (isLegacyBrowser()) {
+    import(···)
+    .then(···);
+}
 ```
 
 1. Compute the module specifier at runtime. For example, you can use it for
    internationalization.
 
 ```javascript
-     import(`messages_${getLocale()}.js`).then(···);
+import(`messages_${getLocale()}.js`).then(···);
 ```
 
 1. Import a module from within a regular script instead a module.
 
 ==================== Id ====================  
 319
-<!--ID: 1707879817493-->
 
 ---
 
@@ -45,4 +44,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

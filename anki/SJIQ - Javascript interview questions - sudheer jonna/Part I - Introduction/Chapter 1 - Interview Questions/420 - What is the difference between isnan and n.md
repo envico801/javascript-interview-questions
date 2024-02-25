@@ -11,13 +11,12 @@
    Let's see the difference with an example,
 
 ```javascript
-     isNaN(‘hello’);   // true
-     Number.isNaN('hello'); // false
+isNaN(‘hello’);   // true
+Number.isNaN('hello'); // false
 ```
 
 ==================== Id ====================  
 420
-<!--ID: 1707879848407-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

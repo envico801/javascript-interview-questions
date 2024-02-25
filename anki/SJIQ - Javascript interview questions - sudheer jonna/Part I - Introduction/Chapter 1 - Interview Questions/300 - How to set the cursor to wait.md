@@ -21,7 +21,6 @@ and this function invoked on page load
 
 ==================== Id ====================  
 300
-<!--ID: 1707879805432-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

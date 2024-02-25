@@ -27,7 +27,6 @@ console.log(iterator.next()); // { value: 'undefined, done: true }
 
 ==================== Id ====================  
 235
-<!--ID: 1707879831065-->
 
 ---
 
@@ -45,4 +44,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

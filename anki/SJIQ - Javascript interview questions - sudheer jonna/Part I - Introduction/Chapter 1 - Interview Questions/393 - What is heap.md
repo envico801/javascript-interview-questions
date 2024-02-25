@@ -14,7 +14,6 @@ stores them in the Heap.
 
 ==================== Id ====================  
 393
-<!--ID: 1707879859420-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

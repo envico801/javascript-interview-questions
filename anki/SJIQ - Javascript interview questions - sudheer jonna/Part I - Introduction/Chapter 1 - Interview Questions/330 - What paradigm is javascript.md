@@ -10,7 +10,6 @@ supports Object-Oriented Programming with prototypical inheritance.
 
 ==================== Id ====================  
 330
-<!--ID: 1707879863009-->
 
 ---
 
@@ -28,4 +27,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

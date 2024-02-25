@@ -13,7 +13,6 @@ console.log(navigator.platform);
 
 ==================== Id ====================  
 89
-<!--ID: 1707879841279-->
 
 ---
 
@@ -31,4 +30,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

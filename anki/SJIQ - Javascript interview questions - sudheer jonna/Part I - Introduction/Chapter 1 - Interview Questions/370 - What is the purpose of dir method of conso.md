@@ -17,7 +17,6 @@ The user object displayed in JSON representation
 
 ==================== Id ====================  
 370
-<!--ID: 1707879821801-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

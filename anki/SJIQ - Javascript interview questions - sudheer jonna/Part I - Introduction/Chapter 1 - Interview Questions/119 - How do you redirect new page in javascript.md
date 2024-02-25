@@ -15,7 +15,6 @@ function redirect() {
 
 ==================== Id ====================  
 119
-<!--ID: 1707879839978-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

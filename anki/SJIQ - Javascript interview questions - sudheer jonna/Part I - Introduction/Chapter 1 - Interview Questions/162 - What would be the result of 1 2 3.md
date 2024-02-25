@@ -11,7 +11,6 @@ type value `3` is just going to be a concatenation value `33`.
 
 ==================== Id ====================  
 162
-<!--ID: 1707879874780-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

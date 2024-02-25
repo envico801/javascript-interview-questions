@@ -14,7 +14,6 @@ Below are the list of benefits of Getters and Setters,
 
 ==================== Id ====================  
 219
-<!--ID: 1707879870631-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -10,7 +10,6 @@ a data format by any programming language.
 
 ==================== Id ====================  
 115
-<!--ID: 1707879878756-->
 
 ---
 
@@ -28,4 +27,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

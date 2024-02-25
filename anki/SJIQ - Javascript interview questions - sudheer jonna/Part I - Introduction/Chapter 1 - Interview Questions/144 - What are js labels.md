@@ -26,7 +26,6 @@ loop1: for (i = 0; i < 3; i++) {
 
 ==================== Id ====================  
 144
-<!--ID: 1707879837806-->
 
 ---
 
@@ -44,4 +43,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

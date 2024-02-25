@@ -19,7 +19,6 @@ document.querySelector('#copy-button').onclick = function () {
 
 ==================== Id ====================  
 374
-<!--ID: 1707879821099-->
 
 ---
 
@@ -37,4 +36,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -21,7 +21,6 @@ Whereas subtract(-) operator tries to convert the operands as number type.
 
 ==================== Id ====================  
 466
-<!--ID: 1707879799357-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

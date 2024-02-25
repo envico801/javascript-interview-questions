@@ -17,7 +17,6 @@ of the statement results in NaN value.
 
 ==================== Id ====================  
 349
-<!--ID: 1707879823822-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

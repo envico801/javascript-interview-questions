@@ -16,7 +16,6 @@ age = true; // age is a boolean
 
 ==================== Id ====================  
 298
-<!--ID: 1707879826694-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

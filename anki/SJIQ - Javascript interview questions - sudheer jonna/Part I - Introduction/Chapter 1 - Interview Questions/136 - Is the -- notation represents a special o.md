@@ -14,7 +14,6 @@ operators one after the other,
 
 ==================== Id ====================  
 136
-<!--ID: 1707879877367-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -27,7 +27,6 @@ iteration. Hence, the output of the first loop is `0 1 2 3`.
 
 ==================== Id ====================  
 303
-<!--ID: 1707879826301-->
 
 ---
 
@@ -45,4 +44,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

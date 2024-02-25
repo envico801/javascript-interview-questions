@@ -27,7 +27,6 @@ console.log(array); // []
 
 ==================== Id ====================  
 404
-<!--ID: 1707879806989-->
 
 ---
 
@@ -45,4 +44,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

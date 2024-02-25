@@ -16,7 +16,6 @@ various printing options. Let's see the usage of print method in an example,
 
 ==================== Id ====================  
 212
-<!--ID: 1707879854615-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

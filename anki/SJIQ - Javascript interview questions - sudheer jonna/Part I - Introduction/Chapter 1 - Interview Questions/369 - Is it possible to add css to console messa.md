@@ -20,7 +20,6 @@ The text will be displayed as below,
 
 ==================== Id ====================  
 369
-<!--ID: 1707879821966-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

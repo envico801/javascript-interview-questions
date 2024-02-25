@@ -39,7 +39,6 @@ the other property due to the same reference.
 
 ==================== Id ====================  
 439
-<!--ID: 1707879805732-->
 
 ---
 
@@ -57,4 +56,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

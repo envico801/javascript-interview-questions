@@ -26,7 +26,6 @@ Function.prototype.myOwnBind = function (whoIsCallingMe) {
 
 ==================== Id ====================  
 441
-<!--ID: 1707879818229-->
 
 ---
 
@@ -44,4 +43,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -35,7 +35,6 @@ The action flow of a promise will be as below,
 
 ==================== Id ====================  
 51
-<!--ID: 1707879814356-->
 
 ---
 
@@ -53,4 +52,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

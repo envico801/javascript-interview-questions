@@ -17,7 +17,6 @@ console.log(stringArray.includes('blue')); //true
 
 ==================== Id ====================  
 285
-<!--ID: 1707879828104-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

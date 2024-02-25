@@ -38,7 +38,6 @@ user.employment.department = 'HR';
 
 ==================== Id ====================  
 178
-<!--ID: 1707879812591-->
 
 ---
 
@@ -56,4 +55,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

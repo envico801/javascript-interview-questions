@@ -46,7 +46,6 @@ Firefox browsers(ofcourse Chrome only implemented the specification)
 
 ==================== Id ====================  
 384
-<!--ID: 1707879807671-->
 
 ---
 
@@ -64,4 +63,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

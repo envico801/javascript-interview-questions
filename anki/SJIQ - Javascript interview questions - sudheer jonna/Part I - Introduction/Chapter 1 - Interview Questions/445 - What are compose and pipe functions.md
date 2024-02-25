@@ -11,7 +11,6 @@ right to left any number of functions to the output of the previous function.
 
 ==================== Id ====================  
 445
-<!--ID: 1707879854958-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

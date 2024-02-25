@@ -14,7 +14,6 @@ console.log(user); // {firstName: "John", lastName:"Doe"}
 
 ==================== Id ====================  
 70
-<!--ID: 1707879842418-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

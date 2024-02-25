@@ -21,7 +21,6 @@ let view = new DataView(buffer);
 
 ==================== Id ====================  
 336
-<!--ID: 1707879808387-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -14,7 +14,6 @@ variables,
 
 ==================== Id ====================  
 80
-<!--ID: 1707879885684-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

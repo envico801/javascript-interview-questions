@@ -18,7 +18,6 @@ Below are some side effects which make function impure,
 
 ==================== Id ====================  
 444
-<!--ID: 1707879855265-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

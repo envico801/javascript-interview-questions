@@ -14,24 +14,23 @@ events are,
    Let's describe the behavior of click event for button element,
 
 ```javascript
-     <!doctype html>
-     <html>
-      <head>
-        <script>
-          function greeting() {
-            alert('Hello! Good morning');
-          }
-        </script>
-      </head>
-      <body>
-        <button type="button" onclick="greeting()">Click me</button>
-      </body>
-     </html>
+<!doctype html>
+<html>
+ <head>
+   <script>
+     function greeting() {
+       alert('Hello! Good morning');
+     }
+   </script>
+ </head>
+ <body>
+   <button type="button" onclick="greeting()">Click me</button>
+ </body>
+</html>
 ```
 
 ==================== Id ====================  
 100
-<!--ID: 1707879852775-->
 
 ---
 
@@ -49,4 +48,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

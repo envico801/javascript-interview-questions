@@ -18,7 +18,6 @@ Below are the list of conventions should be taken care,
 
 ==================== Id ====================  
 222
-<!--ID: 1707879870414-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

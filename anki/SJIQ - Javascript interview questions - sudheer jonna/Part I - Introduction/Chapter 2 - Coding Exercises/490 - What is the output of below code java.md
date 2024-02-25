@@ -23,7 +23,6 @@ a run-time ReferenceError(i.e, `inner` is not defined).
 
 ==================== Id ====================  
 490
-<!--ID: 1707879796976-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

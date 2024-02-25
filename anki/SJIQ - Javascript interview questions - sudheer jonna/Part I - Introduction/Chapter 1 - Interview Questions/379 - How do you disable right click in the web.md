@@ -13,7 +13,6 @@ The right click on the page can be disabled by returning false from the
 
 ==================== Id ====================  
 379
-<!--ID: 1707879853999-->
 
 ---
 
@@ -31,4 +30,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

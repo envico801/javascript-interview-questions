@@ -40,7 +40,6 @@ console.log(output2); // Mr/Ms. Kane is a/an junior developer in JavaScript
 
 ==================== Id ====================  
 312
-<!--ID: 1707879826026-->
 
 ---
 
@@ -58,4 +57,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

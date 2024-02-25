@@ -4,11 +4,11 @@
 
 ==================== Answer ====================  
 
-The Temporal Dead Zone is a behavior in JavaScript that occurs when declaring a
-variable with the let and const keywords, but not with var. In ECMAScript 6,
-accessing a `let` or `const` variable before its declaration (within its scope)
-causes a ReferenceError. The time span when that happens, between the creation
-of a variable’s binding and its declaration, is called the temporal dead zone.  
+The Temporal Dead Zone(TDZ) is a specific period or area of a block where a
+variable is inaccessible until it has been intialized with a value. This
+behavior in JavaScript that occurs when declaring a variable with the let and
+const keywords, but not with var. In ECMAScript 6, accessing a `let` or `const`
+variable before its declaration (within its scope) causes a ReferenceError.  
 Let's see this behavior with an example,
 
 ```javascript
@@ -22,7 +22,6 @@ function somemethod() {
 
 ==================== Id ====================  
 21
-<!--ID: 1707879844479-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

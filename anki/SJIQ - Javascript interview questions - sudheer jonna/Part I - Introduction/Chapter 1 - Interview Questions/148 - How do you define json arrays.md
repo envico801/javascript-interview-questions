@@ -8,16 +8,15 @@ JSON arrays are written inside square brackets and arrays contain javascript
 objects. For example, the JSON array of users would be as below,
 
 ```javascript
-     "users":[
-       {"firstName":"John", "lastName":"Abrahm"},
-       {"firstName":"Anna", "lastName":"Smith"},
-       {"firstName":"Shane", "lastName":"Warn"}
-     ]
+"users":[
+  {"firstName":"John", "lastName":"Abrahm"},
+  {"firstName":"Anna", "lastName":"Smith"},
+  {"firstName":"Shane", "lastName":"Warn"}
+]
 ```
 
 ==================== Id ====================  
 148
-<!--ID: 1707879851233-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -20,7 +20,6 @@ console.log(verifyAnagrams('eat', 'ate'));
 
 ==================== Id ====================  
 530
-<!--ID: 1707879791800-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

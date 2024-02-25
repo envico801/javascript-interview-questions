@@ -15,7 +15,6 @@ console.log(typeof user); //object
 
 ==================== Id ====================  
 73
-<!--ID: 1707879842202-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

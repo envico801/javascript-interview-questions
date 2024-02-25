@@ -19,7 +19,6 @@ myFunction('argument1', 'argument2', 'argument3');
 
 ==================== Id ====================  
 342
-<!--ID: 1707879824566-->
 
 ---
 
@@ -37,4 +36,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -9,16 +9,15 @@ in the string. In this case, we use replace function along with string to
 replace with, which in our case is an empty string.
 
 ```javascript
-     function remove_linebreaks( var message ) {
-         return message.replace( /[\r\n]+/gm, "" );
-     }
+function remove_linebreaks( var message ) {
+    return message.replace( /[\r\n]+/gm, "" );
+}
 ```
 
 In the above expression, g and m are for global and multiline flags.
 
 ==================== Id ====================  
 354
-<!--ID: 1707879848723-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

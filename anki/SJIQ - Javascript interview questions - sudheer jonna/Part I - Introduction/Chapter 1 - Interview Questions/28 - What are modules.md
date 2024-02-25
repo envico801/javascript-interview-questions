@@ -10,7 +10,6 @@ export an object literal, a function, or a constructor
 
 ==================== Id ====================  
 28
-<!--ID: 1707879891820-->
 
 ---
 
@@ -28,4 +27,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

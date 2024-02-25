@@ -8,12 +8,11 @@ No, you cannot use the reserved words as variables, labels, object or function
 names. Let's see one simple example,
 
 ```javascript
-     var else = "hello"; // Uncaught SyntaxError: Unexpected token else
+var else = "hello"; // Uncaught SyntaxError: Unexpected token else
 ```
 
 ==================== Id ====================  
 165
-<!--ID: 1707879850889-->
 
 ---
 
@@ -31,4 +30,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

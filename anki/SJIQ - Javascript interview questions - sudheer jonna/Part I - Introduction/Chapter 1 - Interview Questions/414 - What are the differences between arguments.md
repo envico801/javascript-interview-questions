@@ -16,7 +16,6 @@ There are three main differences between arguments object and rest parameters
 
 ==================== Id ====================  
 414
-<!--ID: 1707879857020-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

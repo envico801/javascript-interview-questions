@@ -30,7 +30,6 @@ Symbol follows below conventions,
 
 ==================== Id ====================  
 478
-<!--ID: 1707879798833-->
 
 ---
 
@@ -48,4 +47,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

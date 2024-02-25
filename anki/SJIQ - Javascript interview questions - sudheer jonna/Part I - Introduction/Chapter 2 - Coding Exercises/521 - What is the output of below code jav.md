@@ -29,7 +29,6 @@ memory block value(`John`) will be garbage collected.
 
 ==================== Id ====================  
 521
-<!--ID: 1707879793557-->
 
 ---
 
@@ -47,4 +46,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

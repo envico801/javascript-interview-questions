@@ -22,7 +22,6 @@ be valid in this case.
 
 ==================== Id ====================  
 500
-<!--ID: 1707879795445-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

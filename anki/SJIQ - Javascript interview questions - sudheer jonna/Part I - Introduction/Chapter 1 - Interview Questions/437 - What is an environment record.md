@@ -18,7 +18,6 @@ According to ECMAScript specification 262 (9.1):
 
 ==================== Id ====================  
 437
-<!--ID: 1707879855789-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

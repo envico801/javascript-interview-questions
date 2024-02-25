@@ -17,7 +17,6 @@ for (let i = 0; i < a.length; a[i++] = 0);
 
 ==================== Id ====================  
 247
-<!--ID: 1707879830094-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

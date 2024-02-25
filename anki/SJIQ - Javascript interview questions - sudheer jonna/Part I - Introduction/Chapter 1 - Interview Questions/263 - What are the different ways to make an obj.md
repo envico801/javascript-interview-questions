@@ -22,7 +22,6 @@ Object.isExtensible(frozenObject); // false
 
 ==================== Id ====================  
 263
-<!--ID: 1707879828710-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -10,7 +10,6 @@ consistent capitalization of letters.
 
 ==================== Id ====================  
 98
-<!--ID: 1707879881890-->
 
 ---
 
@@ -28,4 +27,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

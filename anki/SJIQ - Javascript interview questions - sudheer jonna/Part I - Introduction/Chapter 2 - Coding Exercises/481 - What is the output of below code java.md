@@ -30,7 +30,6 @@ The symbols has below constraints,
 
 ==================== Id ====================  
 481
-<!--ID: 1707879798325-->
 
 ---
 
@@ -48,4 +47,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

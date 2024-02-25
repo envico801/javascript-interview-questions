@@ -16,7 +16,6 @@ console.log(import.meta); // { url: "file:///home/user/welcome-module.js" }
 
 ==================== Id ====================  
 248
-<!--ID: 1707879829977-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

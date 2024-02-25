@@ -30,7 +30,6 @@ with argument.
 
 ==================== Id ====================  
 302
-<!--ID: 1707879810553-->
 
 ---
 
@@ -48,4 +47,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

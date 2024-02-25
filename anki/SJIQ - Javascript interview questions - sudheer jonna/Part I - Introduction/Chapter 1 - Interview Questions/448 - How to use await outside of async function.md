@@ -28,7 +28,6 @@ await Promise.resolve(console.log('Hello await')); //Hello await
 
 ==================== Id ====================  
 448
-<!--ID: 1707879803760-->
 
 ---
 
@@ -46,4 +45,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

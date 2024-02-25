@@ -20,7 +20,6 @@ for (let value of Object.values(object)) {
 
 ==================== Id ====================  
 200
-<!--ID: 1707879833139-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

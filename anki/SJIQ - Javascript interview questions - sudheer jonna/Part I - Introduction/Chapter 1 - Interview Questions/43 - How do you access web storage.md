@@ -19,7 +19,6 @@ localStorage.getItem('logo');
 
 ==================== Id ====================  
 43
-<!--ID: 1707879843582-->
 
 ---
 
@@ -37,4 +36,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

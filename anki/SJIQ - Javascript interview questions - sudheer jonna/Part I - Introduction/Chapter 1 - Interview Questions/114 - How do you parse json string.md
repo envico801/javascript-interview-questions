@@ -16,7 +16,6 @@ console.log(userJSON); // {name: "John", age: 31}
 
 ==================== Id ====================  
 114
-<!--ID: 1707879840339-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

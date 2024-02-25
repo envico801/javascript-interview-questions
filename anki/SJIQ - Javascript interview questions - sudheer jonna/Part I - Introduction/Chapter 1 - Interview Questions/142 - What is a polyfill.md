@@ -11,7 +11,6 @@ Microsoft Internet Explorer 7.
 
 ==================== Id ====================  
 142
-<!--ID: 1707879876756-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -30,13 +30,12 @@ console.log(name);
 console.log(message());
 var name = 'John';
 var message = function () {
-   console.log('Hello John: Welcome');
+console.log('Hello John: Welcome');
 });
 ```
 
 ==================== Id ====================  
 515
-<!--ID: 1707879790334-->
 
 ---
 
@@ -54,4 +53,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

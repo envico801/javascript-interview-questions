@@ -32,7 +32,6 @@ Hence, the result of function calls categorized as below,
 
 ==================== Id ====================  
 487
-<!--ID: 1707879797566-->
 
 ---
 
@@ -50,4 +49,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

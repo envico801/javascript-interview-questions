@@ -14,7 +14,6 @@ Some of the major differences between pure and impure function are as below,
 
 ==================== Id ====================  
 442
-<!--ID: 1707879855440-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

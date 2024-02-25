@@ -15,7 +15,6 @@ character of a string becomes an element within an Array.
 
 ==================== Id ====================  
 324
-<!--ID: 1707879824987-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

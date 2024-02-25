@@ -37,7 +37,6 @@ console.log(foo()); // {message: "Hello World"}
 
 ==================== Id ====================  
 455
-<!--ID: 1707879789520-->
 
 ---
 
@@ -55,4 +54,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

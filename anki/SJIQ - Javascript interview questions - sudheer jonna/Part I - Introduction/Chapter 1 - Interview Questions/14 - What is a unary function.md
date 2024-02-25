@@ -14,7 +14,6 @@ const unaryFunction = (a) => console.log(a + 10); // Add 10 to the given argumen
 
 ==================== Id ====================  
 14
-<!--ID: 1707879846112-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -11,7 +11,6 @@ java, go, C++ can make multi-threaded and multi-process programs.
 
 ==================== Id ====================  
 108
-<!--ID: 1707879880208-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

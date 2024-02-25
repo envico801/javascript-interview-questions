@@ -24,7 +24,6 @@ invoking the function as `functionOne is not defined`.
 
 ==================== Id ====================  
 519
-<!--ID: 1707879793670-->
 
 ---
 
@@ -42,4 +41,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

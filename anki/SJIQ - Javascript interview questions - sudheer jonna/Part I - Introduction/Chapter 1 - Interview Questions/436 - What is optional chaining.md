@@ -29,7 +29,6 @@ console.log(adventurer.someNonExistentMethod?.());
 
 ==================== Id ====================  
 436
-<!--ID: 1707879818346-->
 
 ---
 
@@ -47,4 +46,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -20,7 +20,6 @@ functionName(1);
 
 ==================== Id ====================  
 225
-<!--ID: 1707879831616-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

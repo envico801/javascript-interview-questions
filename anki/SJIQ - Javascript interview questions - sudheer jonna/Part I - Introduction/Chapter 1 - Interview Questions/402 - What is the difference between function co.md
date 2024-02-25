@@ -36,7 +36,6 @@ console.log(createFunction()()); // 200
 
 ==================== Id ====================  
 402
-<!--ID: 1707879807333-->
 
 ---
 
@@ -54,4 +53,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

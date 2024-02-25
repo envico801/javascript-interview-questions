@@ -28,7 +28,6 @@ var argsArray = Array.prototype.slice.call(arguments);
 
 ==================== Id ====================  
 128
-<!--ID: 1707879813648-->
 
 ---
 
@@ -46,4 +45,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

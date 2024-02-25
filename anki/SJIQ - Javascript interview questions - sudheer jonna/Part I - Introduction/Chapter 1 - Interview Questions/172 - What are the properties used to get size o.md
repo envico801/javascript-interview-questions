@@ -22,7 +22,6 @@ var height =
 
 ==================== Id ====================  
 172
-<!--ID: 1707879835264-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

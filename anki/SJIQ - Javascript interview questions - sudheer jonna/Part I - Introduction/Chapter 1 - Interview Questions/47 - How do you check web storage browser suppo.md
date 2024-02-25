@@ -17,7 +17,6 @@ if (typeof Storage !== 'undefined') {
 
 ==================== Id ====================  
 47
-<!--ID: 1707879843376-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

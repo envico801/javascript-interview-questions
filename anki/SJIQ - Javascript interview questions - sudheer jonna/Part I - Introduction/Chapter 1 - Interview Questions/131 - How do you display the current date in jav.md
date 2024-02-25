@@ -18,7 +18,6 @@ document.write(today);
 
 ==================== Id ====================  
 131
-<!--ID: 1707879838870-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -12,7 +12,6 @@ requirements of resources. It reduces file sizes with below benefits,
 
 ==================== Id ====================  
 269
-<!--ID: 1707879866706-->
 
 ---
 
@@ -30,4 +29,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

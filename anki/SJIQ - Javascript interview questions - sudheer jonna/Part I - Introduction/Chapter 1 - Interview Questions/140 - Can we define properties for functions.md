@@ -18,7 +18,6 @@ fn.profile = function (y) {
 
 ==================== Id ====================  
 140
-<!--ID: 1707879838180-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

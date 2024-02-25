@@ -20,7 +20,6 @@ The length of the array 'arr' has been set to 0, so the array becomes empty.
 
 ==================== Id ====================  
 529
-<!--ID: 1707879792052-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -11,7 +11,6 @@ Below are the main benefits of using freeze method,
 
 ==================== Id ====================  
 179
-<!--ID: 1707879874106-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

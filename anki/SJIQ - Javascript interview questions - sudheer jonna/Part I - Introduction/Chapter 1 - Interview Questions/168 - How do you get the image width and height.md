@@ -17,7 +17,6 @@ img.src = 'http://www.google.com/intl/en_ALL/images/logo.gif';
 
 ==================== Id ====================  
 168
-<!--ID: 1707879835799-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

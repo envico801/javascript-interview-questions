@@ -20,7 +20,6 @@ For example, the below link notify the message without reloading the page
 
 ==================== Id ====================  
 96
-<!--ID: 1707879841180-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -12,28 +12,25 @@ The creation of custom HTML elements involves two main steps,
    `connectedCallback` method.  
    **Note:** The browser exposes a function called `customElements.define`
    inorder to reuse the element.
-
-```javascript
-class CustomElement extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = 'This is a custom element';
-  }
-}
-customElements.define('custom-element', CustomElement);
-```
-
+   ```javascript
+   class CustomElement extends HTMLElement {
+     connectedCallback() {
+       this.innerHTML = 'This is a custom element';
+     }
+   }
+   customElements.define('custom-element', CustomElement);
+   ```
 2. **Use custome element just like other HTML element:** Declare your custom
    element as a HTML tag.
 
 ```javascript
-        <body>
-             <custom-element>
-        </body>
+   <body>
+        <custom-element>
+   </body>
 ```
 
 ==================== Id ====================  
 431
-<!--ID: 1707879815971-->
 
 ---
 
@@ -51,4 +48,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

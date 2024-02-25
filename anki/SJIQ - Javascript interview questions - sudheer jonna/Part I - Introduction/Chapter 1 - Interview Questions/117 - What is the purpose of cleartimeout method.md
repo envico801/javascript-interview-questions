@@ -12,23 +12,22 @@ For example, the below setTimeout method is used to display the message after 3
 seconds. This timeout can be cleared by the clearTimeout() method.
 
 ```javascript
-     <script>
-     var msg;
-     function greeting() {
-        alert('Good morning');
-     }
-     function start() {
-       msg =setTimeout(greeting, 3000);
-     }
-     function stop() {
-         clearTimeout(msg);
-     }
-     </script>
+<script>
+var msg;
+function greeting() {
+   alert('Good morning');
+}
+function start() {
+  msg =setTimeout(greeting, 3000);
+}
+function stop() {
+    clearTimeout(msg);
+}
+</script>
 ```
 
 ==================== Id ====================  
 117
-<!--ID: 1707879852065-->
 
 ---
 
@@ -46,4 +45,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -12,7 +12,6 @@ implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS
 
 ==================== Id ====================  
 297
-<!--ID: 1707879864934-->
 
 ---
 
@@ -30,4 +29,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

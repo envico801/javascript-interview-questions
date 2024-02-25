@@ -10,7 +10,6 @@ global variables.
 
 ==================== Id ====================  
 82
-<!--ID: 1707879885410-->
 
 ---
 
@@ -28,4 +27,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -30,7 +30,6 @@ console.log(numbers.includes(NaN)); // true
 
 ==================== Id ====================  
 471
-<!--ID: 1707879788740-->
 
 ---
 
@@ -48,4 +47,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -19,7 +19,6 @@ console.log(typeof a, typeof b, b); // string, number, NaN
 
 ==================== Id ====================  
 241
-<!--ID: 1707879830833-->
 
 ---
 
@@ -37,4 +36,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

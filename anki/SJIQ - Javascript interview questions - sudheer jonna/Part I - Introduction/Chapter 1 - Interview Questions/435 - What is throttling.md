@@ -29,7 +29,6 @@ window.addEventListener('scroll', () => {
 
 ==================== Id ====================  
 435
-<!--ID: 1707879818504-->
 
 ---
 
@@ -47,4 +46,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -10,7 +10,7 @@ plain JavaScript. Angular built entirely in TypeScript and used as a primary
 language. You can install it globally as
 
 ```bash
-     npm install -g typescript
+npm install -g typescript
 ```
 
 Let's see a simple example of TypeScript usage,
@@ -27,7 +27,6 @@ The greeting method allows only string type as argument.
 
 ==================== Id ====================  
 251
-<!--ID: 1707879817623-->
 
 ---
 
@@ -45,4 +44,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

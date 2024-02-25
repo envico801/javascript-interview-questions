@@ -22,7 +22,6 @@ console.log(Object.isFrozen(object));
 
 ==================== Id ====================  
 189
-<!--ID: 1707879834255-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

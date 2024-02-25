@@ -10,7 +10,6 @@ interface, and those pages can manipulate the DOM.
 
 ==================== Id ====================  
 32
-<!--ID: 1707879890913-->
 
 ---
 
@@ -28,4 +27,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -26,7 +26,6 @@ for `Vehicle` function declaration doesn't make any difference.
 
 ==================== Id ====================  
 450
-<!--ID: 1707879801651-->
 
 ---
 
@@ -44,4 +43,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

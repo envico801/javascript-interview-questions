@@ -16,7 +16,6 @@ const { x: otherName } = obj;
 
 ==================== Id ====================  
 362
-<!--ID: 1707879820450-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

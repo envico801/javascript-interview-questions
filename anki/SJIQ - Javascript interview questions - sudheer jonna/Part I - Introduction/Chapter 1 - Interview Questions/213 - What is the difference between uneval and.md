@@ -18,7 +18,6 @@ greeting(); // returns "Hello, Good morning"
 
 ==================== Id ====================  
 213
-<!--ID: 1707879832168-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

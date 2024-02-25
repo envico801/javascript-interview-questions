@@ -23,7 +23,6 @@ JSON.stringify(object);
 
 ==================== Id ====================  
 4
-<!--ID: 1707879815706-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

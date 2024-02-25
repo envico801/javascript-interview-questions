@@ -23,7 +23,6 @@ Set has few exceptions from equality check,
 
 ==================== Id ====================  
 477
-<!--ID: 1707879799007-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

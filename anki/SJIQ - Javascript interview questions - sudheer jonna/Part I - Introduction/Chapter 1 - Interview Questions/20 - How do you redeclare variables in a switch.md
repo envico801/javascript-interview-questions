@@ -39,7 +39,6 @@ switch (x) {
 
 ==================== Id ====================  
 20
-<!--ID: 1707879815588-->
 
 ---
 
@@ -57,4 +56,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -11,7 +11,6 @@ and libuv library.
 
 ==================== Id ====================  
 231
-<!--ID: 1707879868916-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -37,7 +37,6 @@ of ES6: giving preference to **const** over **let** usage.
 
 ==================== Id ====================  
 16
-<!--ID: 1707879845471-->
 
 ---
 
@@ -55,4 +54,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

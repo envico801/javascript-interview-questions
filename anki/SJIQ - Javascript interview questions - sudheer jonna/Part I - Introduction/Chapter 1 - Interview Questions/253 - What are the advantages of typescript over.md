@@ -17,7 +17,6 @@ Below are some of the advantages of typescript over javascript,
 
 ==================== Id ====================  
 253
-<!--ID: 1707879867047-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

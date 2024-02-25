@@ -36,7 +36,6 @@ The above code processed in a call stack as below,
 
 ==================== Id ====================  
 237
-<!--ID: 1707879830953-->
 
 ---
 
@@ -54,4 +53,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

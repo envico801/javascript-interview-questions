@@ -13,7 +13,6 @@ Below are the list of syntax rules of JSON
 
 ==================== Id ====================  
 112
-<!--ID: 1707879879191-->
 
 ---
 
@@ -31,4 +30,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

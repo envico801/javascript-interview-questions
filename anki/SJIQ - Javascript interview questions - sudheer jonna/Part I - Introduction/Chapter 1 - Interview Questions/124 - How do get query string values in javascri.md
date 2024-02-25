@@ -14,7 +14,6 @@ const clientCode = urlParams.get('clientCode');
 
 ==================== Id ====================  
 124
-<!--ID: 1707879839361-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

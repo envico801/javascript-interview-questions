@@ -34,7 +34,6 @@ console.log(addition(20)); //output: 40 cached
 
 ==================== Id ====================  
 24
-<!--ID: 1707879844100-->
 
 ---
 
@@ -52,4 +51,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

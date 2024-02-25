@@ -13,7 +13,6 @@ Some of the applications of Object's `is` method are follows,
 
 ==================== Id ====================  
 191
-<!--ID: 1707879872655-->
 
 ---
 
@@ -31,4 +30,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

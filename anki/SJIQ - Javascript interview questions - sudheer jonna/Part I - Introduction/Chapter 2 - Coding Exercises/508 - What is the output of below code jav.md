@@ -25,7 +25,6 @@ function' at the code execution phase.
 
 ==================== Id ====================  
 508
-<!--ID: 1707879794285-->
 
 ---
 
@@ -43,4 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

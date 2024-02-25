@@ -16,7 +16,6 @@ Let's take an example of Hello string to repeat it 4 times,
 
 ==================== Id ====================  
 346
-<!--ID: 1707879824263-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

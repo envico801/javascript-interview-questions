@@ -23,7 +23,6 @@
 
 ==================== Id ====================  
 506
-<!--ID: 1707879802178-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

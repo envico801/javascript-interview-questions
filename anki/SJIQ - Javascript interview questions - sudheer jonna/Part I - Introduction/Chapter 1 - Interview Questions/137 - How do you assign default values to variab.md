@@ -17,7 +17,6 @@ will get the value of 'b'.
 
 ==================== Id ====================  
 137
-<!--ID: 1707879838346-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -16,7 +16,7 @@ var greeting = `Welcome to JS World, Mr. ${firstName} ${lastName}.`;
 In ES5, you need break string like below,
 
 ```javascript
-     var greeting = 'Welcome to JS World, Mr. ' + firstName + ' ' + lastName.`
+var greeting = 'Welcome to JS World, Mr. ' + firstName + ' ' + lastName.`
 ```
 
 **Note:** You can use multi-line strings and string interpolation features with
@@ -24,7 +24,6 @@ template literals.
 
 ==================== Id ====================  
 309
-<!--ID: 1707879816569-->
 
 ---
 
@@ -42,4 +41,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

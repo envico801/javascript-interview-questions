@@ -10,7 +10,6 @@ code.
 
 ==================== Id ====================  
 52
-<!--ID: 1707879888160-->
 
 ---
 
@@ -28,4 +27,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

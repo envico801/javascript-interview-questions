@@ -11,7 +11,6 @@ initial HTML to the screen fast without a network.
 
 ==================== Id ====================  
 139
-<!--ID: 1707879877072-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

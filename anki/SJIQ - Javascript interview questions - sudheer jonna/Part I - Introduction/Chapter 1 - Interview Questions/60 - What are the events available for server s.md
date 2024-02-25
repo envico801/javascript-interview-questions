@@ -14,7 +14,6 @@ Below are the list of events available for server sent events
 
 ==================== Id ====================  
 60
-<!--ID: 1707879887328-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

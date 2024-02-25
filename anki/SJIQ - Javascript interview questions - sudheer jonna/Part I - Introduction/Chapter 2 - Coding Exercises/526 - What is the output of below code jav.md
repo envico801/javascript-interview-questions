@@ -29,7 +29,6 @@ Promise.allSettled([promiseOne, promiseTwo]).then((data) => console.log(data));
 
 ==================== Id ====================  
 526
-<!--ID: 1707879785718-->
 
 ---
 
@@ -47,4 +46,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

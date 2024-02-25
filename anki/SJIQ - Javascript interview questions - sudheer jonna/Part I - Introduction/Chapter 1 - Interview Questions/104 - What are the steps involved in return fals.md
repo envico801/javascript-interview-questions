@@ -12,7 +12,6 @@ The return false statement in event handlers performs the below steps,
 
 ==================== Id ====================  
 104
-<!--ID: 1707879880857-->
 
 ---
 
@@ -30,4 +29,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

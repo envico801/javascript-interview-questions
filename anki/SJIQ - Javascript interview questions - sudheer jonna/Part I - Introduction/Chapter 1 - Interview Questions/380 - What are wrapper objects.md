@@ -20,7 +20,6 @@ of wrapper objects are String,Number,Boolean,Symbol and BigInt.
 
 ==================== Id ====================  
 380
-<!--ID: 1707879820317-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

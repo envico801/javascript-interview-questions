@@ -27,7 +27,6 @@ console.log(message); //Error: message is not defined
 
 ==================== Id ====================  
 22
-<!--ID: 1707879815446-->
 
 ---
 
@@ -45,4 +44,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

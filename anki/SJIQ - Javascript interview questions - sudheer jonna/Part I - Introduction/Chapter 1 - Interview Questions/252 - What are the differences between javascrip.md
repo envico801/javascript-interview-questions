@@ -16,7 +16,6 @@ Below are the list of differences between javascript and typescript,
 
 ==================== Id ====================  
 252
-<!--ID: 1707879867147-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

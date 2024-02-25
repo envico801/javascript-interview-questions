@@ -13,7 +13,6 @@ cities.length = 0; // cities becomes []
 
 ==================== Id ====================  
 364
-<!--ID: 1707879822686-->
 
 ---
 
@@ -31,4 +30,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

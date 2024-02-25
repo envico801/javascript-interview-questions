@@ -9,15 +9,14 @@ remaining arguments into an array. For example, if you define a function like
 below it doesn’t make any sense and will throw an error.
 
 ```javascript
-     function someFunc(a,…b,c){
-     //You code goes here
-     return;
-     }
+function someFunc(a,…b,c){
+//You code goes here
+return;
+}
 ```
 
 ==================== Id ====================  
 186
-<!--ID: 1707879850405-->
 
 ---
 
@@ -35,4 +34,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

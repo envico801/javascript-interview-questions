@@ -31,7 +31,6 @@ outerscope.
 
 ==================== Id ====================  
 505
-<!--ID: 1707879794535-->
 
 ---
 
@@ -49,4 +48,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

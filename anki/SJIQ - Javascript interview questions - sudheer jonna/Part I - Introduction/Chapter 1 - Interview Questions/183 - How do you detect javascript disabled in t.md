@@ -10,17 +10,16 @@ typically used to display alternative content when the page generated in
 JavaScript.
 
 ```javascript
-     <script type="javascript">
-         // JS related code goes here
-     </script>
-     <noscript>
-         <a href="next_page.html?noJS=true">JavaScript is disabled in the page. Please click Next Page</a>
-     </noscript>
+<script type="javascript">
+    // JS related code goes here
+</script>
+<noscript>
+    <a href="next_page.html?noJS=true">JavaScript is disabled in the page. Please click Next Page</a>
+</noscript>
 ```
 
 ==================== Id ====================  
 183
-<!--ID: 1707879850681-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

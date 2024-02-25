@@ -14,7 +14,6 @@ function. The benefits of doing this are,
 
 ==================== Id ====================  
 145
-<!--ID: 1707879876456-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

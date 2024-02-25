@@ -27,8 +27,8 @@ console.log('Script loaded');
 and the output would be in
 
 ```cmd
-     Script loaded
-     My script is initialized
+Script loaded
+My script is initialized
 ```
 
 If you don't use `setTimeout`, the order of logs will be sequential.
@@ -44,13 +44,12 @@ console.log('Script loaded');
 and the output is,
 
 ```cmd
-     My script is initialized
-     Script loaded
+My script is initialized
+Script loaded
 ```
 
 ==================== Id ====================  
 385
-<!--ID: 1707879807498-->
 
 ---
 
@@ -68,4 +67,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

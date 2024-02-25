@@ -24,7 +24,6 @@ solve the name collision problem.
 
 ==================== Id ====================  
 290
-<!--ID: 1707879827653-->
 
 ---
 
@@ -42,4 +41,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

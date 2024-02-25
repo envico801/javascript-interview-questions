@@ -24,7 +24,6 @@ object), the Object constructor will give the same object.
 
 ==================== Id ====================  
 397
-<!--ID: 1707879820003-->
 
 ---
 
@@ -42,4 +41,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

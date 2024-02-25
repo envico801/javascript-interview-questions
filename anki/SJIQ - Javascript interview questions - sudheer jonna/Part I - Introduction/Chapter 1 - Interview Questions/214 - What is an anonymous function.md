@@ -9,15 +9,15 @@ commonly assigned to a variable name or used as a callback function. The syntax
 would be as below,
 
 ```javascript
-     function (optionalParameters) {
-       //do something
-     }
-     const myFunction = function(){ //Anonymous function assigned to a variable
-       //do something
-     };
-     [1, 2, 3].map(function(element){ //Anonymous function used as a callback function
-       //do something
-     });
+function (optionalParameters) {
+  //do something
+}
+const myFunction = function(){ //Anonymous function assigned to a variable
+  //do something
+};
+[1, 2, 3].map(function(element){ //Anonymous function used as a callback function
+  //do something
+});
 ```
 
 Let's see the above anonymous function in an example,
@@ -32,7 +32,6 @@ console.log(z); // 50
 
 ==================== Id ====================  
 214
-<!--ID: 1707879816894-->
 
 ---
 
@@ -50,4 +49,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

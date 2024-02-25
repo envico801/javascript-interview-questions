@@ -12,7 +12,6 @@ It is recommended to initialize variables because of the below benefits,
 
 ==================== Id ====================  
 146
-<!--ID: 1707879876189-->
 
 ---
 
@@ -30,4 +29,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

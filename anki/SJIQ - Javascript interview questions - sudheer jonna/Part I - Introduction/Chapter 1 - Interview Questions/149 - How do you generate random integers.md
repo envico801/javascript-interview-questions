@@ -18,7 +18,6 @@ Math.floor(Math.random() * 100) + 1; // returns a random integer from 1 to 100
 
 ==================== Id ====================  
 149
-<!--ID: 1707879837456-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

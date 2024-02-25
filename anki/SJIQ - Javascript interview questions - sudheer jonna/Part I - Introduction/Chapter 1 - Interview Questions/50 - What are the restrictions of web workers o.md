@@ -13,7 +13,6 @@ in an external files
 
 ==================== Id ====================  
 50
-<!--ID: 1707879888402-->
 
 ---
 
@@ -31,4 +30,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

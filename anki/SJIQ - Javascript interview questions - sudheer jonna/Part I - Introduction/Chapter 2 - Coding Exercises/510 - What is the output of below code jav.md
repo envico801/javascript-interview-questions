@@ -37,7 +37,6 @@ applying the array square bracket on log function.
 
 ==================== Id ====================  
 510
-<!--ID: 1707879786696-->
 
 ---
 
@@ -55,4 +54,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

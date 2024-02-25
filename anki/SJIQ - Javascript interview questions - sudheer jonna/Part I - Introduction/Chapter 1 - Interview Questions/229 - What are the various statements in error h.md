@@ -14,7 +14,6 @@ Below are the list of statements used in an error handling,
 
 ==================== Id ====================  
 229
-<!--ID: 1707879869499-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

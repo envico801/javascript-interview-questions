@@ -28,7 +28,6 @@ declared for the variable will be displayed.
 
 ==================== Id ====================  
 523
-<!--ID: 1707879793228-->
 
 ---
 
@@ -46,4 +45,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -15,7 +15,6 @@ function isNumber(n) {
 
 ==================== Id ====================  
 373
-<!--ID: 1707879821273-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -25,7 +25,6 @@ will be an error saying "TypeError: myGenFunc is not a constructor"
 
 ==================== Id ====================  
 493
-<!--ID: 1707879796450-->
 
 ---
 
@@ -43,4 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

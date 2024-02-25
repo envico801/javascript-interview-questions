@@ -16,7 +16,6 @@ console.log(array.some(odd)); // true (the odd element exists)
 
 ==================== Id ====================  
 343
-<!--ID: 1707879824413-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

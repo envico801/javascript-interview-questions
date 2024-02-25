@@ -32,7 +32,6 @@ message variable value at the end.
 
 ==================== Id ====================  
 518
-<!--ID: 1707879793772-->
 
 ---
 
@@ -50,4 +49,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

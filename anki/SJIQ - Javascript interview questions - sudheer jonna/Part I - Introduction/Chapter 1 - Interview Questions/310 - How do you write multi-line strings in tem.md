@@ -15,12 +15,11 @@ Whereas in ES6, You don't need to mention any newline sequence character,
 
 ```javascript
 console.log(`This is string sentence  
-     'This is string sentence 2`);
+'This is string sentence 2`);
 ```
 
 ==================== Id ====================  
 310
-<!--ID: 1707879809627-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

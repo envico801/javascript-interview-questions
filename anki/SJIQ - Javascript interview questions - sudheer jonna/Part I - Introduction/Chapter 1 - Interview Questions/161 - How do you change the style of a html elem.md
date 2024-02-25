@@ -21,7 +21,6 @@ document.getElementById('title').className = 'custom-title';
 
 ==================== Id ====================  
 161
-<!--ID: 1707879812950-->
 
 ---
 
@@ -39,4 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

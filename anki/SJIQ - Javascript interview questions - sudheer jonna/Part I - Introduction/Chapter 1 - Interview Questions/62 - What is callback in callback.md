@@ -22,7 +22,6 @@ loadScript('/script1.js', function (script) {
 
 ==================== Id ====================  
 62
-<!--ID: 1707879842736-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

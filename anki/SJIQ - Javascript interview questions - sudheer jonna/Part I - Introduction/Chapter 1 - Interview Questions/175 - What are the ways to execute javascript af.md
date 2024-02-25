@@ -9,24 +9,23 @@ You can execute javascript after page load in many different ways,
 1. **window.onload:**
 
 ```javascript
-     window.onload = function ...
+window.onload = function ...
 ```
 
 1. **document.onload:**
 
 ```javascript
-     document.onload = function ...
+document.onload = function ...
 ```
 
 1. **body onload:**
 
 ```javascript
-     <body onload="script();">
+<body onload="script();">
 ```
 
 ==================== Id ====================  
 175
-<!--ID: 1707879815853-->
 
 ---
 
@@ -44,4 +43,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

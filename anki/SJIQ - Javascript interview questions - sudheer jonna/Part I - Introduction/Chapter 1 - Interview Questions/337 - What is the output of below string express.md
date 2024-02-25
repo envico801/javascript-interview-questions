@@ -16,7 +16,6 @@ use the .charAt() method to get the desired result.
 
 ==================== Id ====================  
 337
-<!--ID: 1707879824705-->
 
 ---
 
@@ -34,4 +33,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

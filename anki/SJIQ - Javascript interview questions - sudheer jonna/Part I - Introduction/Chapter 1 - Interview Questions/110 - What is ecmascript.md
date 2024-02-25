@@ -11,7 +11,6 @@ released in 1997.
 
 ==================== Id ====================  
 110
-<!--ID: 1707879879849-->
 
 ---
 
@@ -29,4 +28,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

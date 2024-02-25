@@ -24,7 +24,6 @@ for (let [key, value] of Object.entries(object)) {
 
 ==================== Id ====================  
 199
-<!--ID: 1707879833328-->
 
 ---
 
@@ -42,4 +41,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -23,7 +23,6 @@ admin.printInfo(); // My name is Nick
 
 ==================== Id ====================  
 202
-<!--ID: 1707879832880-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

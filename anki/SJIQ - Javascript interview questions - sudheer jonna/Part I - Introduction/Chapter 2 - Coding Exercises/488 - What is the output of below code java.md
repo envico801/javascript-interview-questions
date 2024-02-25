@@ -23,7 +23,6 @@ an element pushed to the default empty array.
 
 ==================== Id ====================  
 488
-<!--ID: 1707879797344-->
 
 ---
 
@@ -41,4 +40,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

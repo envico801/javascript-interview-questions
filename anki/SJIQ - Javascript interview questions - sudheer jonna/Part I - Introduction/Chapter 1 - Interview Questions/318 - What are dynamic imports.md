@@ -18,7 +18,6 @@ import('./Module').then((Module) => Module.method());
 
 ==================== Id ====================  
 318
-<!--ID: 1707879825502-->
 
 ---
 
@@ -36,4 +35,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -13,7 +13,6 @@ programmatically managing a cache of responses.
 
 ==================== Id ====================  
 31
-<!--ID: 1707879891121-->
 
 ---
 
@@ -31,4 +30,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

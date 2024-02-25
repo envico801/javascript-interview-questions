@@ -15,7 +15,6 @@ higherOrder(firstOrderFunc);
 
 ==================== Id ====================  
 13
-<!--ID: 1707879846353-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

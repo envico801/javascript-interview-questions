@@ -13,19 +13,18 @@ declaration and have a namespace called `customLibrary` in the global namespace.
 You can use this library in typescript code as below,
 
 ```javascript
-     declare var customLibrary;
+declare var customLibrary;
 ```
 
 In the runtime, typescript will provide the type to the `customLibrary` variable
 as `any` type. The another alternative without using declare keyword is below
 
 ```javascript
-     var customLibrary: any;
+var customLibrary: any;
 ```
 
 ==================== Id ====================  
 391
-<!--ID: 1707879817285-->
 
 ---
 
@@ -43,4 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

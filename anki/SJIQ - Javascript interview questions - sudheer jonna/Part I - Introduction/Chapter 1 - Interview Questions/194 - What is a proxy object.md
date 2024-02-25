@@ -32,7 +32,6 @@ when an operation is performed on it
 
 ==================== Id ====================  
 194
-<!--ID: 1707879812043-->
 
 ---
 
@@ -50,4 +49,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -26,7 +26,6 @@ Myfunc.call({}); // not called with new
 
 ==================== Id ====================  
 413
-<!--ID: 1707879819481-->
 
 ---
 
@@ -44,4 +43,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -29,7 +29,6 @@ weakMapObject.delete(secondObject);
 
 ==================== Id ====================  
 208
-<!--ID: 1707879832589-->
 
 ---
 
@@ -47,4 +46,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

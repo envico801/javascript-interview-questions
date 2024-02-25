@@ -24,7 +24,6 @@ value of the outer "a" variable.
 
 ==================== Id ====================  
 528
-<!--ID: 1707879792334-->
 
 ---
 
@@ -42,4 +41,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

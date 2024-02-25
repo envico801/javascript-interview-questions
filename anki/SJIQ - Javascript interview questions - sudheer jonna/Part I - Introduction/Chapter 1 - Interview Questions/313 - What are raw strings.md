@@ -34,7 +34,6 @@ function tag(strings) {
 
 ==================== Id ====================  
 313
-<!--ID: 1707879804156-->
 
 ---
 
@@ -52,4 +51,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

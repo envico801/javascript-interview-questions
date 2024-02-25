@@ -10,7 +10,7 @@ base object for user-defined exceptions. The syntax of error object would be as
 below,
 
 ```javascript
-     new Error([message[, fileName[, lineNumber]]])
+new Error([message[, fileName[, lineNumber]]])
 ```
 
 You can throw user defined exceptions or errors using Error object in
@@ -27,7 +27,6 @@ try {
 
 ==================== Id ====================  
 338
-<!--ID: 1707879816402-->
 
 ---
 
@@ -45,4 +44,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

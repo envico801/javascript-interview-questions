@@ -10,7 +10,6 @@ the visibility of variables and other resources in areas of your code.
 
 ==================== Id ====================  
 30
-<!--ID: 1707879891379-->
 
 ---
 
@@ -28,4 +27,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

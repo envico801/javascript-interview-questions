@@ -22,7 +22,6 @@ The data visualized in a table format,
 
 ==================== Id ====================  
 372
-<!--ID: 1707879821416-->
 
 ---
 
@@ -40,4 +39,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

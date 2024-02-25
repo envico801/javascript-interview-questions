@@ -19,7 +19,6 @@ for (let value of arrayIterable) {
 
 ==================== Id ====================  
 323
-<!--ID: 1707879825144-->
 
 ---
 
@@ -37,4 +36,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -32,7 +32,6 @@ prop2 and prop3 are treated as regular function values.
 
 ==================== Id ====================  
 458
-<!--ID: 1707879800613-->
 
 ---
 
@@ -50,4 +49,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -20,7 +20,6 @@ sessionStorage.clear();
 
 ==================== Id ====================  
 44
-<!--ID: 1707879843486-->
 
 ---
 
@@ -38,4 +37,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

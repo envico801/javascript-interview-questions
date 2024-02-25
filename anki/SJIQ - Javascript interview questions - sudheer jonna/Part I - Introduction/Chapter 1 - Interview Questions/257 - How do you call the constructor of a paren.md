@@ -25,7 +25,6 @@ class Square extends Rectangle {
 
 ==================== Id ====================  
 257
-<!--ID: 1707879829479-->
 
 ---
 
@@ -43,4 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

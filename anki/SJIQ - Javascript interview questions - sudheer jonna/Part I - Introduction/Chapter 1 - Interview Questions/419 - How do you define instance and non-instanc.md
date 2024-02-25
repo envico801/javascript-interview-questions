@@ -26,7 +26,6 @@ Person.prototype.prototypeAge = 40;
 
 ==================== Id ====================  
 419
-<!--ID: 1707879806191-->
 
 ---
 
@@ -44,4 +43,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

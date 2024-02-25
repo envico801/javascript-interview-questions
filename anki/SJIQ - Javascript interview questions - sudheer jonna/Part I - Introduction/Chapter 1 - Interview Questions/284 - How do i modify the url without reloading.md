@@ -15,7 +15,6 @@ window.history.pushState('page2', 'Title', '/page2.html');
 
 ==================== Id ====================  
 284
-<!--ID: 1707879828180-->
 
 ---
 
@@ -33,4 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -19,7 +19,6 @@ console.log(greetingList[2]); //Hello3
 
 ==================== Id ====================  
 347
-<!--ID: 1707879824114-->
 
 ---
 
@@ -37,4 +36,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

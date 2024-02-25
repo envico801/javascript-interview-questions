@@ -14,7 +14,6 @@ Some of the major differences in a tabular form:
 
 ==================== Id ====================  
 7
-<!--ID: 1707879892886-->
 
 ---
 
@@ -32,4 +31,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store
