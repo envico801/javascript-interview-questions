@@ -308,7 +308,7 @@
 | [300](#id300) | [How to set the cursor to wait](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/300%20-%20How%20to%20set%20the%20cursor%20to%20wait.md) | 1 | 1 |
 | [301](#id301) | [How do you create an infinite loop](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/301%20-%20How%20do%20you%20create%20an%20infinite%20loop.md) | 1 | 1 |
 | [302](#id302) | [Why do you need to avoid with statement](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/302%20-%20Why%20do%20you%20need%20to%20avoid%20with%20statement.md) | 1 | 1 |
-| [303](#id303) | [What is the output of below for loops](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/303%20-%20What%20is%20the%20output%20of%20below%20for%20loops.md) | 1 | 1 |
+| [303](#id303) | [What is the output of below for loops j](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/303%20-%20What%20is%20the%20output%20of%20below%20for%20loops%20j.md) | 1 | 1 |
 | [304](#id304) | [List down some of the features of es6](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/304%20-%20List%20down%20some%20of%20the%20features%20of%20es6.md) | 1 | 1 |
 | [305](#id305) | [What is es6](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/305%20-%20What%20is%20es6.md) | 1 | 1 |
 | [306](#id306) | [Can i redeclare let and const variables](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/306%20-%20Can%20i%20redeclare%20let%20and%20const%20variables.md) | 1 | 1 |
@@ -456,88 +456,88 @@
 | [448](#id448) | [How to use await outside of async function](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/448%20-%20How%20to%20use%20await%20outside%20of%20async%20function.md) | 1 | 1 |
 | [449](#id449) | [What is the purpose of the this keyword in](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%201%20-%20Interview%20Questions/449%20-%20What%20is%20the%20purpose%20of%20the%20this%20keyword%20in.md) | 1 | 1 |
 | **-** | **Introduction > Coding Exercises** | **1** | **2** |
-| [450](#id450) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/450%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [451](#id451) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/451%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [452](#id452) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/452%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [450](#id450) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/450%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [451](#id451) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/451%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [452](#id452) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/452%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
 | [453](#id453) | [What is the output of below equality check](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/453%20-%20What%20is%20the%20output%20of%20below%20equality%20check.md) | 1 | 2 |
-| [454](#id454) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/454%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [455](#id455) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/455%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [456](#id456) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/456%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [454](#id454) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/454%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [455](#id455) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/455%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [456](#id456) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/456%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
 | [457](#id457) | [What is the output of below code in latest](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/457%20-%20What%20is%20the%20output%20of%20below%20code%20in%20latest.md) | 1 | 2 |
-| [458](#id458) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/458%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [459](#id459) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/459%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [458](#id458) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/458%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [459](#id459) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/459%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
 | [460](#id460) | [What is the output of below code in non-st](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/460%20-%20What%20is%20the%20output%20of%20below%20code%20in%20non-st.md) | 1 | 2 |
-| [461](#id461) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/461%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [462](#id462) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/462%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [463](#id463) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/463%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [464](#id464) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/464%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [465](#id465) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/465%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [466](#id466) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/466%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [467](#id467) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/467%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [468](#id468) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/468%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [469](#id469) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/469%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [470](#id470) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/470%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [471](#id471) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/471%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [472](#id472) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/472%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [473](#id473) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/473%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [474](#id474) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/474%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [475](#id475) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/475%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [476](#id476) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/476%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [477](#id477) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/477%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [478](#id478) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/478%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [479](#id479) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/479%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [480](#id480) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/480%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [481](#id481) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/481%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [482](#id482) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/482%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [483](#id483) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/483%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [484](#id484) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/484%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [485](#id485) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/485%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [486](#id486) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/486%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [487](#id487) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/487%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [488](#id488) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/488%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [489](#id489) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/489%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [490](#id490) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/490%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [491](#id491) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/491%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [492](#id492) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/492%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [493](#id493) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/493%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [494](#id494) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/494%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [495](#id495) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/495%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [496](#id496) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/496%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [497](#id497) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/497%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [498](#id498) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/498%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [499](#id499) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/499%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [500](#id500) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/500%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [501](#id501) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/501%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
-| [502](#id502) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/502%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [503](#id503) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/503%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [461](#id461) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/461%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [462](#id462) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/462%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [463](#id463) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/463%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [464](#id464) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/464%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [465](#id465) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/465%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [466](#id466) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/466%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [467](#id467) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/467%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [468](#id468) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/468%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [469](#id469) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/469%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [470](#id470) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/470%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [471](#id471) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/471%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [472](#id472) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/472%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [473](#id473) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/473%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [474](#id474) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/474%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [475](#id475) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/475%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [476](#id476) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/476%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [477](#id477) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/477%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [478](#id478) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/478%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [479](#id479) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/479%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [480](#id480) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/480%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [481](#id481) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/481%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [482](#id482) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/482%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [483](#id483) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/483%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [484](#id484) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/484%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [485](#id485) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/485%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [486](#id486) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/486%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [487](#id487) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/487%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [488](#id488) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/488%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [489](#id489) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/489%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [490](#id490) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/490%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [491](#id491) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/491%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [492](#id492) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/492%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [493](#id493) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/493%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [494](#id494) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/494%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [495](#id495) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/495%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [496](#id496) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/496%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [497](#id497) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/497%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [498](#id498) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/498%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [499](#id499) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/499%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [500](#id500) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/500%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [501](#id501) | [What is the output of below code javasc](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/501%20-%20What%20is%20the%20output%20of%20below%20code%20javasc.md) | 1 | 2 |
+| [502](#id502) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/502%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [503](#id503) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/503%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
 | [504](#id504) | [What is the output of below code in non st](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/504%20-%20What%20is%20the%20output%20of%20below%20code%20in%20non%20st.md) | 1 | 2 |
-| [505](#id505) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/505%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [506](#id506) | [What is the output of below code - 1](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/506%20-%20What%20is%20the%20output%20of%20below%20code%20-%201.md) | 1 | 2 |
-| [507](#id507) | [What is the output of below code ja](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/507%20-%20What%20is%20the%20output%20of%20below%20code%20ja.md) | 1 | 2 |
-| [508](#id508) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/508%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [509](#id509) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/509%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [510](#id510) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/510%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [505](#id505) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/505%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [506](#id506) | [What is the output of below code - 1 co](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/506%20-%20What%20is%20the%20output%20of%20below%20code%20-%201%20co.md) | 1 | 2 |
+| [507](#id507) | [What is the output of below code java](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/507%20-%20What%20is%20the%20output%20of%20below%20code%20java.md) | 1 | 2 |
+| [508](#id508) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/508%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [509](#id509) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/509%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [510](#id510) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/510%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
 | [511](#id511) | [Write a function that returns a random hex](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/511%20-%20Write%20a%20function%20that%20returns%20a%20random%20hex.md) | 1 | 2 |
-| [512](#id512) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/512%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [513](#id513) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/513%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [512](#id512) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/512%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [513](#id513) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/513%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
 | [514](#id514) | [What is the output order of below code](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/514%20-%20What%20is%20the%20output%20order%20of%20below%20code.md) | 1 | 2 |
-| [515](#id515) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/515%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [516](#id516) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/516%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [517](#id517) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/517%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [515](#id515) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/515%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [516](#id516) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/516%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [517](#id517) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/517%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
 | [518](#id518) | [What is the output of below code in an ord](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/518%20-%20What%20is%20the%20output%20of%20below%20code%20in%20an%20ord.md) | 1 | 2 |
-| [519](#id519) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/519%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [520](#id520) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/520%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [521](#id521) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/521%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [522](#id522) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/522%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [523](#id523) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/523%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [524](#id524) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/524%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [525](#id525) | [What is the type of below function j](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/525%20-%20What%20is%20the%20type%20of%20below%20function%20j.md) | 1 | 2 |
-| [526](#id526) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/526%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [527](#id527) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/527%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [528](#id528) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/528%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
-| [529](#id529) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/529%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [519](#id519) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/519%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [520](#id520) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/520%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [521](#id521) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/521%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [522](#id522) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/522%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [523](#id523) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/523%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [524](#id524) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/524%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [525](#id525) | [What is the type of below function jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/525%20-%20What%20is%20the%20type%20of%20below%20function%20jav.md) | 1 | 2 |
+| [526](#id526) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/526%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [527](#id527) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/527%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [528](#id528) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/528%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
+| [529](#id529) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/529%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
 | [530](#id530) | [How do you verify two strings are anagrams](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/530%20-%20How%20do%20you%20verify%20two%20strings%20are%20anagrams.md) | 1 | 2 |
-| [531](#id531) | [What is the output of below code jav](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/531%20-%20What%20is%20the%20output%20of%20below%20code%20jav.md) | 1 | 2 |
+| [531](#id531) | [What is the output of below code javas](./SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna/Part%20I%20-%20Introduction/Chapter%202%20-%20Coding%20Exercises/531%20-%20What%20is%20the%20output%20of%20below%20code%20javas.md) | 1 | 2 |
 
 ### Part I - Introduction
 
@@ -545,7 +545,7 @@
 
 Q:: =============================================  
 
-##### What are the possible ways to create objects in JavaScript  
+##### What are the possible ways to create objects in JavaScript
 
 ###### ID1
 
@@ -694,7 +694,7 @@ There are many ways to create objects in javascript as mentioned below:
 
 Q:: =============================================  
 
-##### What is a prototype chain  
+##### What is a prototype chain
 
 ###### ID2
 
@@ -707,7 +707,7 @@ The prototype on object instance is available through **Object.getPrototypeOf(ob
 
 Q:: =============================================  
 
-##### What is the difference between Call, Apply and Bind  
+##### What is the difference between Call, Apply and Bind
 
 ###### ID3
 
@@ -770,7 +770,7 @@ Bind creates a new function that will have `this` set to the first parameter pas
 
 Q:: =============================================  
 
-##### What is JSON and its common operations  
+##### What is JSON and its common operations
 
 ###### ID4
 
@@ -791,7 +791,7 @@ JSON.stringify(object);
 
 Q:: =============================================  
 
-##### What is the purpose of the array slice method  
+##### What is the purpose of the array slice method
 
 ###### ID5
 
@@ -811,7 +811,7 @@ let arrayIntegers3 = arrayIntegers.slice(4); //returns [5]
 
 Q:: =============================================  
 
-##### What is the purpose of the array splice method  
+##### What is the purpose of the array splice method
 
 ###### ID6
 
@@ -834,7 +834,7 @@ let arrayIntegers3 = arrayIntegersOriginal3.splice(3, 1, "a", "b", "c"); //retur
 
 Q:: =============================================  
 
-##### What is the difference between slice and splice  
+##### What is the difference between slice and splice
 
 ###### ID7
 
@@ -849,7 +849,7 @@ Some of the major differences in a tabular form:
 
 Q:: =============================================  
 
-##### How do you compare Object and Map  
+##### How do you compare Object and Map
 
 ###### ID8
 
@@ -865,7 +865,7 @@ A:: =============================================
 
 Q:: =============================================  
 
-##### What is the difference between == and === operators  
+##### What is the difference between == and === operators
 
 ###### ID9
 
@@ -900,7 +900,7 @@ NaN == NaN or NaN === NaN // false
 
 Q:: =============================================  
 
-##### What are lambda expressions or arrow functions  
+##### What are lambda expressions or arrow functions
 
 ###### ID10
 
@@ -917,7 +917,7 @@ const arrowFunc3 = () => {}; // no parameters
 
 Q:: =============================================  
 
-##### What is a first class function  
+##### What is a first class function
 
 ###### ID11
 
@@ -933,7 +933,7 @@ document.addEventListener("click", handler);
 
 Q:: =============================================  
 
-##### What is a first order function  
+##### What is a first order function
 
 ###### ID12
 
@@ -946,7 +946,7 @@ const firstOrder = () => console.log("I am a first order function!");
 
 Q:: =============================================  
 
-##### What is a higher order function  
+##### What is a higher order function
 
 ###### ID13
 
@@ -961,7 +961,7 @@ higherOrder(firstOrderFunc);
 
 Q:: =============================================  
 
-##### What is a unary function  
+##### What is a unary function
 
 ###### ID14
 
@@ -976,7 +976,7 @@ const unaryFunction = (a) => console.log(a + 10); // Add 10 to the given argumen
 
 Q:: =============================================  
 
-##### What is the currying function  
+##### What is the currying function
 
 ###### ID15
 
@@ -999,7 +999,7 @@ Curried functions are great to improve **code reusability** and **functional com
 
 Q:: =============================================  
 
-##### What is a pure function  
+##### What is a pure function
 
 ###### ID16
 
@@ -1029,7 +1029,7 @@ Remember that Pure functions are important as they simplify unit testing without
 
 Q:: =============================================  
 
-##### What is the purpose of the let keyword  
+##### What is the purpose of the let keyword
 
 ###### ID17
 
@@ -1049,7 +1049,7 @@ console.log(counter); // 30 (because the variable in if block won't exist here)
 
 Q:: =============================================  
 
-##### What is the difference between let and var  
+##### What is the difference between let and var
 
 ###### ID18
 
@@ -1081,7 +1081,7 @@ userDetails("John");
 
 Q:: =============================================  
 
-##### What is the reason to choose the name let as a keyword  
+##### What is the reason to choose the name let as a keyword
 
 ###### ID19
 
@@ -1090,7 +1090,7 @@ A:: =============================================
 
 Q:: =============================================  
 
-##### How do you redeclare variables in a switch block without an error  
+##### How do you redeclare variables in a switch block without an error
 
 ###### ID20
 
@@ -1128,7 +1128,7 @@ switch (x) {
 
 Q:: =============================================  
 
-##### What is the Temporal Dead Zone  
+##### What is the Temporal Dead Zone
 
 ###### ID21
 
@@ -1148,7 +1148,7 @@ function somemethod() {
 
 Q:: =============================================  
 
-##### What is an IIFE (Immediately Invoked Function Expression)  
+##### What is an IIFE (Immediately Invoked Function Expression)
 
 ###### ID22
 
@@ -1173,12 +1173,13 @@ console.log(message); //Error: message is not defined
 
 Q:: =============================================  
 
-##### How do you decode or encode a URL in JavaScript?  
+##### How do you decode or encode a URL in JavaScript?
 
 ###### ID23
 
 A:: =============================================  
-`encodeURI()` function is used to encode an URL. This function requires a URL string as a parameter and return that encoded string.  
+`encodeURI()` function is used to encode an URL. This function requires a URL string as a parameter and return that encoded string.
+
 `decodeURI()` function is used to decode an URL. This function requires an encoded URL string as parameter and return that decoded string.
 
 **Note:** If you want to encode characters such as `/ ? : @ & = + $ #` then you need to use `encodeURIComponent()`.
@@ -1191,12 +1192,13 @@ let decoded_uri = decodeURI(encoded_uri);
 
 Q:: =============================================  
 
-##### What is memoization  
+##### What is memoization
 
 ###### ID24
 
 A:: =============================================  
-Memoization is a functional programming technique which attempts to increase a function’s performance by caching its previously computed results. Each time a memoized function is called, its parameters are used to index the cache. If the data is present, then it can be returned, without executing the entire function. Otherwise the function is executed and then the result is added to the cache.  
+Memoization is a functional programming technique which attempts to increase a function’s performance by caching its previously computed results. Each time a memoized function is called, its parameters are used to index the cache. If the data is present, then it can be returned, without executing the entire function. Otherwise the function is executed and then the result is added to the cache.
+
 Let's take an example of adding function with memoization,
 
 ```javascript
@@ -1222,12 +1224,13 @@ console.log(addition(20)); //output: 40 cached
 
 Q:: =============================================  
 
-##### What is Hoisting  
+##### What is Hoisting
 
 ###### ID25
 
 A:: =============================================  
-Hoisting is a JavaScript mechanism where variables, function declarations and classes are moved to the top of their scope before code execution. Remember that JavaScript only hoists declarations, not initialisation.  
+Hoisting is a JavaScript mechanism where variables, function declarations and classes are moved to the top of their scope before code execution. Remember that JavaScript only hoists declarations, not initialisation.
+
 Let's take a simple example of variable hoisting,
 
 ```javascript
@@ -1257,12 +1260,13 @@ This hoisting makes functions to be safely used in code before they are declared
 
 Q:: =============================================  
 
-##### What are classes in ES6  
+##### What are classes in ES6
 
 ###### ID26
 
 A:: =============================================  
-In ES6, Javascript classes are primarily syntactic sugar over JavaScript’s existing prototype-based inheritance.  
+In ES6, Javascript classes are primarily syntactic sugar over JavaScript’s existing prototype-based inheritance.
+
 For example, the prototype based inheritance written in function expression as below,
 
 ```javascript
@@ -1293,7 +1297,7 @@ class Bike {
 
 Q:: =============================================  
 
-##### What are closures  
+##### What are closures
 
 ###### ID27
 
@@ -1322,7 +1326,7 @@ As per the above code, the inner function(i.e, greetingInfo) has access to the v
 
 Q:: =============================================  
 
-##### What are modules  
+##### What are modules
 
 ###### ID28
 
@@ -1331,7 +1335,7 @@ Modules refer to small units of independent, reusable code and also act as the f
 
 Q:: =============================================  
 
-##### Why do you need modules  
+##### Why do you need modules
 
 ###### ID29
 
@@ -1344,7 +1348,7 @@ Below are the list of benefits using modules in javascript ecosystem
 
 Q:: =============================================  
 
-##### What is scope in javascript  
+##### What is scope in javascript
 
 ###### ID30
 
@@ -1353,7 +1357,7 @@ Scope is the accessibility of variables, functions, and objects in some particul
 
 Q:: =============================================  
 
-##### What is a service worker  
+##### What is a service worker
 
 ###### ID31
 
@@ -1362,7 +1366,7 @@ A Service worker is basically a script (JavaScript file) that runs in the backgr
 
 Q:: =============================================  
 
-##### How do you manipulate DOM using a service worker  
+##### How do you manipulate DOM using a service worker
 
 ###### ID32
 
@@ -1371,7 +1375,7 @@ Service worker can't access the DOM directly. But it can communicate with the pa
 
 Q:: =============================================  
 
-##### How do you reuse information across service worker restarts  
+##### How do you reuse information across service worker restarts
 
 ###### ID33
 
@@ -1380,7 +1384,7 @@ The problem with service worker is that it gets terminated when not in use, and 
 
 Q:: =============================================  
 
-##### What is IndexedDB  
+##### What is IndexedDB
 
 ###### ID34
 
@@ -1389,7 +1393,7 @@ IndexedDB is a low-level API for client-side storage of larger amounts of struct
 
 Q:: =============================================  
 
-##### What is web storage  
+##### What is web storage
 
 ###### ID35
 
@@ -1401,7 +1405,7 @@ Web storage is an API that provides a mechanism by which browsers can store key/
 
 Q:: =============================================  
 
-##### What is a post message  
+##### What is a post message
 
 ###### ID36
 
@@ -1410,12 +1414,13 @@ Post message is a method that enables cross-origin communication between Window 
 
 Q:: =============================================  
 
-##### What is a Cookie  
+##### What is a Cookie
 
 ###### ID37
 
 A:: =============================================  
-A cookie is a piece of data that is stored on your computer to be accessed by your browser. Cookies are saved as key/value pairs.  
+A cookie is a piece of data that is stored on your computer to be accessed by your browser. Cookies are saved as key/value pairs.
+
 For example, you can create a cookie named username as below,
 
 ```javascript
@@ -1426,7 +1431,7 @@ document.cookie = "username=John";
 
 Q:: =============================================  
 
-##### Why do you need a Cookie  
+##### Why do you need a Cookie
 
 ###### ID38
 
@@ -1438,7 +1443,7 @@ Cookies are used to remember information about the user profile(such as username
 
 Q:: =============================================  
 
-##### What are the options in a cookie  
+##### What are the options in a cookie
 
 ###### ID39
 
@@ -1459,12 +1464,13 @@ document.cookie = "username=John; path=/services";
 
 Q:: =============================================  
 
-##### How do you delete a cookie  
+##### How do you delete a cookie
 
 ###### ID40
 
 A:: =============================================  
-You can delete a cookie by setting the expiry date as a passed date. You don't need to specify a cookie value in this case.  
+You can delete a cookie by setting the expiry date as a passed date. You don't need to specify a cookie value in this case.
+
 For example, you can delete a username cookie in the current page as below.
 
 ```javascript
@@ -1475,7 +1481,7 @@ document.cookie = "username=; expires=Fri, 07 Jun 2019 00:00:00 UTC; path=/;";
 
 Q:: =============================================  
 
-##### What are the differences between cookie, local storage and session storage  
+##### What are the differences between cookie, local storage and session storage
 
 ###### ID41
 
@@ -1491,7 +1497,7 @@ Below are some of the differences between cookie, local storage and session stor
 
 Q:: =============================================  
 
-##### What is the main difference between localStorage and sessionStorage  
+##### What is the main difference between localStorage and sessionStorage
 
 ###### ID42
 
@@ -1500,12 +1506,13 @@ LocalStorage is the same as SessionStorage but it persists the data even when th
 
 Q:: =============================================  
 
-##### How do you access web storage  
+##### How do you access web storage
 
 ###### ID43
 
 A:: =============================================  
-The Window object implements the `WindowLocalStorage` and `WindowSessionStorage` objects which has `localStorage`(window.localStorage) and `sessionStorage`(window.sessionStorage) properties respectively. These properties create an instance of the Storage object, through which data items can be set, retrieved and removed for a specific domain and storage type (session or local).  
+The Window object implements the `WindowLocalStorage` and `WindowSessionStorage` objects which has `localStorage`(window.localStorage) and `sessionStorage`(window.sessionStorage) properties respectively. These properties create an instance of the Storage object, through which data items can be set, retrieved and removed for a specific domain and storage type (session or local).
+
 For example, you can read and write on local storage objects as below
 
 ```javascript
@@ -1515,7 +1522,7 @@ localStorage.getItem("logo");
 
 Q:: =============================================  
 
-##### What are the methods available on session storage  
+##### What are the methods available on session storage
 
 ###### ID44
 
@@ -1538,12 +1545,13 @@ sessionStorage.clear();
 
 Q:: =============================================  
 
-##### What is a storage event and its event handler  
+##### What is a storage event and its event handler
 
 ###### ID45
 
 A:: =============================================  
-The StorageEvent is an event that fires when a storage area has been changed in the context of another document. Whereas onstorage property is an EventHandler for processing storage events.  
+The StorageEvent is an event that fires when a storage area has been changed in the context of another document. Whereas onstorage property is an EventHandler for processing storage events.
+
 The syntax would be as below
 
 ```javascript
@@ -1568,7 +1576,7 @@ window.onstorage = function (e) {
 
 Q:: =============================================  
 
-##### Why do you need web storage  
+##### Why do you need web storage
 
 ###### ID46
 
@@ -1577,7 +1585,7 @@ Web storage is more secure, and large amounts of data can be stored locally, wit
 
 Q:: =============================================  
 
-##### How do you check web storage browser support  
+##### How do you check web storage browser support
 
 ###### ID47
 
@@ -1594,7 +1602,7 @@ if (typeof Storage !== "undefined") {
 
 Q:: =============================================  
 
-##### How do you check web workers browser support  
+##### How do you check web workers browser support
 
 ###### ID48
 
@@ -1611,7 +1619,7 @@ if (typeof Worker !== "undefined") {
 
 Q:: =============================================  
 
-##### Give an example of a web worker  
+##### Give an example of a web worker
 
 ###### ID49
 
@@ -1665,7 +1673,7 @@ w = undefined;
 
 Q:: =============================================  
 
-##### What are the restrictions of web workers on DOM  
+##### What are the restrictions of web workers on DOM
 
 ###### ID50
 
@@ -1678,7 +1686,7 @@ WebWorkers don't have access to below javascript objects since they are defined 
 
 Q:: =============================================  
 
-##### What is a promise  
+##### What is a promise
 
 ###### ID51
 
@@ -1714,7 +1722,7 @@ The action flow of a promise will be as below,
 
 Q:: =============================================  
 
-##### Why do you need a promise  
+##### Why do you need a promise
 
 ###### ID52
 
@@ -1723,7 +1731,7 @@ Promises are used to handle asynchronous operations. They provide an alternative
 
 Q:: =============================================  
 
-##### What are the three states of promise  
+##### What are the three states of promise
 
 ###### ID53
 
@@ -1736,12 +1744,13 @@ Promises have three states:
 
 Q:: =============================================  
 
-##### What is a callback function  
+##### What is a callback function
 
 ###### ID54
 
 A:: =============================================  
-A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.  
+A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
+
 Let's take a simple example of how to use callback function
 
 ```javascript
@@ -1759,12 +1768,13 @@ outerFunction(callbackFunction);
 
 Q:: =============================================  
 
-##### Why do we need callbacks  
+##### Why do we need callbacks
 
 ###### ID55
 
 A:: =============================================  
-The callbacks are needed because javascript is an event driven language. That means instead of waiting for a response javascript will keep executing while listening for other events.  
+The callbacks are needed because javascript is an event driven language. That means instead of waiting for a response javascript will keep executing while listening for other events.
+
 Let's take an example with the first function invoking an API call(simulated by setTimeout) and the next function which logs the message.
 
 ```javascript
@@ -1789,7 +1799,7 @@ As observed from the output, javascript didn't wait for the response of the firs
 
 Q:: =============================================  
 
-##### What is a callback hell  
+##### What is a callback hell
 
 ###### ID56
 
@@ -1810,7 +1820,7 @@ async1(function(){
 
 Q:: =============================================  
 
-##### What are server-sent events  
+##### What are server-sent events
 
 ###### ID57
 
@@ -1819,7 +1829,7 @@ Server-sent events (SSE) is a server push technology enabling a browser to recei
 
 Q:: =============================================  
 
-##### How do you receive server-sent event notifications  
+##### How do you receive server-sent event notifications
 
 ###### ID58
 
@@ -1837,7 +1847,7 @@ if (typeof EventSource !== "undefined") {
 
 Q:: =============================================  
 
-##### How do you check browser support for server-sent events  
+##### How do you check browser support for server-sent events
 
 ###### ID59
 
@@ -1854,7 +1864,7 @@ if (typeof EventSource !== "undefined") {
 
 Q:: =============================================  
 
-##### What are the events available for server sent events  
+##### What are the events available for server sent events
 
 ###### ID60
 
@@ -1869,7 +1879,7 @@ Below are the list of events available for server sent events
 
 Q:: =============================================  
 
-##### What are the main rules of promise  
+##### What are the main rules of promise
 
 ###### ID61
 
@@ -1883,7 +1893,7 @@ A promise must follow a specific set of rules:
 
 Q:: =============================================  
 
-##### What is callback in callback  
+##### What is callback in callback
 
 ###### ID62
 
@@ -1907,7 +1917,7 @@ loadScript("/script1.js", function (script) {
 
 Q:: =============================================  
 
-##### What is promise chaining  
+##### What is promise chaining
 
 ###### ID63
 
@@ -1941,7 +1951,7 @@ In the above handlers, the result is passed to the chain of .then() handlers wit
 
 Q:: =============================================  
 
-##### What is promise.all  
+##### What is promise.all
 
 ###### ID64
 
@@ -1956,7 +1966,7 @@ Promise.all([Promise1, Promise2, Promise3]) .then(result) => {   console.log(res
 
 Q:: =============================================  
 
-##### What is the purpose of the race method in promise  
+##### What is the purpose of the race method in promise
 
 ###### ID65
 
@@ -1978,7 +1988,7 @@ Promise.race([promise1, promise2]).then(function (value) {
 
 Q:: =============================================  
 
-##### What is a strict mode in javascript  
+##### What is a strict mode in javascript
 
 ###### ID66
 
@@ -1987,7 +1997,7 @@ Strict Mode is a new feature in ECMAScript 5 that allows you to place a program,
 
 Q:: =============================================  
 
-##### Why do you need strict mode  
+##### Why do you need strict mode
 
 ###### ID67
 
@@ -1996,12 +2006,13 @@ Strict mode is useful to write "secure" JavaScript by notifying "bad syntax" int
 
 Q:: =============================================  
 
-##### How do you declare strict mode  
+##### How do you declare strict mode
 
 ###### ID68
 
 A:: =============================================  
-The strict mode is declared by adding "use strict"; to the beginning of a script or a function.  
+The strict mode is declared by adding "use strict"; to the beginning of a script or a function.
+
 If declared at the beginning of a script, it has global scope.
 
 ```javascript
@@ -2023,12 +2034,13 @@ function myFunction() {
 
 Q:: =============================================  
 
-##### What is the purpose of double exclamation  
+##### What is the purpose of double exclamation
 
 ###### ID69
 
 A:: =============================================  
-The double exclamation or negation(!!) ensures the resulting type is a boolean. If it was falsey (e.g. 0, null, undefined, etc.), it will be false, otherwise, it will be true.  
+The double exclamation or negation(!!) ensures the resulting type is a boolean. If it was falsey (e.g. 0, null, undefined, etc.), it will be false, otherwise, it will be true.
+
 For example, you can test IE version using this expression as below,
 
 ```javascript
@@ -2047,7 +2059,7 @@ console.log(navigator.userAgent.match(/MSIE 8.0/)); // returns either an Array o
 
 Q:: =============================================  
 
-##### What is the purpose of the delete operator  
+##### What is the purpose of the delete operator
 
 ###### ID70
 
@@ -2063,7 +2075,7 @@ console.log(user); // {firstName: "John", lastName:"Doe"}
 
 Q:: =============================================  
 
-##### What is typeof operator  
+##### What is typeof operator
 
 ###### ID71
 
@@ -2078,7 +2090,7 @@ typeof [1, 2, 3]; // Returns "object" because all arrays are also objects
 
 Q:: =============================================  
 
-##### What is undefined property  
+##### What is undefined property
 
 ###### ID72
 
@@ -2098,12 +2110,13 @@ user = undefined;
 
 Q:: =============================================  
 
-##### What is null value  
+##### What is null value
 
 ###### ID73
 
 A:: =============================================  
-The value null represents the intentional absence of any object value. It is one of JavaScript's primitive values. The type of null value is object.  
+The value null represents the intentional absence of any object value. It is one of JavaScript's primitive values. The type of null value is object.
+
 You can empty the variable by setting the value to null.
 
 ```javascript
@@ -2113,7 +2126,7 @@ console.log(typeof user); //object
 
 Q:: =============================================  
 
-##### What is the difference between null and undefined  
+##### What is the difference between null and undefined
 
 ###### ID74
 
@@ -2130,7 +2143,7 @@ Below are the main differences between null and undefined,
 
 Q:: =============================================  
 
-##### What is eval  
+##### What is eval
 
 ###### ID75
 
@@ -2143,7 +2156,7 @@ console.log(eval("1 + 2")); //  3
 
 Q:: =============================================  
 
-##### What is the difference between window and document  
+##### What is the difference between window and document
 
 ###### ID76
 
@@ -2158,7 +2171,7 @@ Below are the main differences between window and document,
 
 Q:: =============================================  
 
-##### How do you access history in javascript  
+##### How do you access history in javascript
 
 ###### ID77
 
@@ -2178,7 +2191,7 @@ function goForward() {
 
 Q:: =============================================  
 
-##### How do you detect caps lock key turned on or not  
+##### How do you detect caps lock key turned on or not
 
 ###### ID78
 
@@ -2206,7 +2219,7 @@ Let's take an input element to detect the CapsLock on/off behavior with an examp
 
 Q:: =============================================  
 
-##### What is isNaN  
+##### What is isNaN
 
 ###### ID79
 
@@ -2220,7 +2233,7 @@ isNaN("100"); //false
 
 Q:: =============================================  
 
-##### What are the differences between undeclared and undefined variables  
+##### What are the differences between undeclared and undefined variables
 
 ###### ID80
 
@@ -2234,7 +2247,7 @@ Below are the major differences between undeclared(not defined) and undefined va
 
 Q:: =============================================  
 
-##### What are global variables  
+##### What are global variables
 
 ###### ID81
 
@@ -2247,7 +2260,7 @@ msg = "Hello"; // var is missing, it becomes global variable
 
 Q:: =============================================  
 
-##### What are the problems with global variables  
+##### What are the problems with global variables
 
 ###### ID82
 
@@ -2256,7 +2269,7 @@ The problem with global variables is the conflict of variable names of local and
 
 Q:: =============================================  
 
-##### What is NaN property  
+##### What is NaN property
 
 ###### ID83
 
@@ -2270,7 +2283,7 @@ parseInt("Hello");
 
 Q:: =============================================  
 
-##### What is the purpose of isFinite function  
+##### What is the purpose of isFinite function
 
 ###### ID84
 
@@ -2287,12 +2300,13 @@ isFinite(100); // true
 
 Q:: =============================================  
 
-##### What is an event flow  
+##### What is an event flow
 
 ###### ID85
 
 A:: =============================================  
-Event flow is the order in which event is received on the web page. When you click an element that is nested in various other elements, before your click actually reaches its destination, or target element, it must trigger the click event for each of its parent elements first, starting at the top with the global window object.  
+Event flow is the order in which event is received on the web page. When you click an element that is nested in various other elements, before your click actually reaches its destination, or target element, it must trigger the click event for each of its parent elements first, starting at the top with the global window object.
+
 There are two ways of event flow
 
 1. Top to Bottom(Event Capturing)
@@ -2300,7 +2314,7 @@ There are two ways of event flow
 
 Q:: =============================================  
 
-##### What is event bubbling  
+##### What is event bubbling
 
 ###### ID86
 
@@ -2309,7 +2323,7 @@ Event bubbling is a type of event propagation where the event first triggers on 
 
 Q:: =============================================  
 
-##### What is event capturing  
+##### What is event capturing
 
 ###### ID87
 
@@ -2318,7 +2332,7 @@ Event capturing is a type of event propagation where the event is first captured
 
 Q:: =============================================  
 
-##### How do you submit a form using JavaScript  
+##### How do you submit a form using JavaScript
 
 ###### ID88
 
@@ -2333,7 +2347,7 @@ function submit() {
 
 Q:: =============================================  
 
-##### How do you find operating system details  
+##### How do you find operating system details
 
 ###### ID89
 
@@ -2346,7 +2360,7 @@ console.log(navigator.platform);
 
 Q:: =============================================  
 
-##### What is the difference between document load and DOMContentLoaded events  
+##### What is the difference between document load and DOMContentLoaded events
 
 ###### ID90
 
@@ -2355,18 +2369,20 @@ The `DOMContentLoaded` event is fired when the initial HTML document has been co
 
 Q:: =============================================  
 
-##### What is the difference between native, host and user objects  
+##### What is the difference between native, host and user objects
 
 ###### ID91
 
 A:: =============================================  
-`Native objects` are objects that are part of the JavaScript language defined by the ECMAScript specification. For example, String, Math, RegExp, Object, Function etc core objects defined in the ECMAScript spec.  
-`Host objects` are objects provided by the browser or runtime environment (Node). For example, window, XmlHttpRequest, DOM nodes etc are considered as host objects.  
+`Native objects` are objects that are part of the JavaScript language defined by the ECMAScript specification. For example, String, Math, RegExp, Object, Function etc core objects defined in the ECMAScript spec.
+
+`Host objects` are objects provided by the browser or runtime environment (Node). For example, window, XmlHttpRequest, DOM nodes etc are considered as host objects.
+
 `User objects` are objects defined in the javascript code. For example, User objects created for profile information.
 
 Q:: =============================================  
 
-##### What are the tools or techniques used for debugging JavaScript code  
+##### What are the tools or techniques used for debugging JavaScript code
 
 ###### ID92
 
@@ -2379,7 +2395,7 @@ You can use below tools or techniques for debugging javascript
 
 Q:: =============================================  
 
-##### What are the pros and cons of promises over callbacks  
+##### What are the pros and cons of promises over callbacks
 
 ###### ID93
 
@@ -2400,7 +2416,7 @@ Below are the list of pros and cons of promises over callbacks,
 
 Q:: =============================================  
 
-##### What is the difference between an attribute and a property  
+##### What is the difference between an attribute and a property
 
 ###### ID94
 
@@ -2428,7 +2444,7 @@ console.log(input.value); // Good evening
 
 Q:: =============================================  
 
-##### What is same-origin policy  
+##### What is same-origin policy
 
 ###### ID95
 
@@ -2437,12 +2453,13 @@ The same-origin policy is a policy that prevents JavaScript from making requests
 
 Q:: =============================================  
 
-##### What is the purpose of void 0  
+##### What is the purpose of void 0
 
 ###### ID96
 
 A:: =============================================  
-Void(0) is used to prevent the page from refreshing. This will be helpful to eliminate the unwanted side-effect, because it will return the undefined primitive value. It is commonly used for HTML documents that use href="JavaScript:Void(0);" within an `<a>` element. i.e, when you click a link, the browser loads a new page or refreshes the same page. But this behavior will be prevented using this expression.  
+Void(0) is used to prevent the page from refreshing. This will be helpful to eliminate the unwanted side-effect, because it will return the undefined primitive value. It is commonly used for HTML documents that use href="JavaScript:Void(0);" within an `<a>` element. i.e, when you click a link, the browser loads a new page or refreshes the same page. But this behavior will be prevented using this expression.
+
 For example, the below link notify the message without reloading the page
 
 ```javascript
@@ -2453,7 +2470,7 @@ For example, the below link notify the message without reloading the page
 
 Q:: =============================================  
 
-##### Is JavaScript a compiled or interpreted language  
+##### Is JavaScript a compiled or interpreted language
 
 ###### ID97
 
@@ -2462,7 +2479,7 @@ JavaScript is an interpreted language, not a compiled language. An interpreter i
 
 Q:: =============================================  
 
-##### Is JavaScript a case-sensitive language  
+##### Is JavaScript a case-sensitive language
 
 ###### ID98
 
@@ -2471,7 +2488,7 @@ Yes, JavaScript is a case sensitive language. The language keywords, variables, 
 
 Q:: =============================================  
 
-##### Is there any relation between Java and JavaScript  
+##### Is there any relation between Java and JavaScript
 
 ###### ID99
 
@@ -2480,7 +2497,7 @@ No, they are entirely two different programming languages and have nothing to do
 
 Q:: =============================================  
 
-##### What are events  
+##### What are events
 
 ###### ID100
 
@@ -2511,7 +2528,7 @@ Let's describe the behavior of click event for button element,
 
 Q:: =============================================  
 
-##### Who created javascript  
+##### Who created javascript
 
 ###### ID101
 
@@ -2520,7 +2537,7 @@ JavaScript was created by Brendan Eich in 1995 during his time at Netscape Commu
 
 Q:: =============================================  
 
-##### What is the use of preventDefault method  
+##### What is the use of preventDefault method
 
 ###### ID102
 
@@ -2537,7 +2554,7 @@ document.getElementById("link").addEventListener("click", function (event) {
 
 Q:: =============================================  
 
-##### What is the use of stopPropagation method  
+##### What is the use of stopPropagation method
 
 ###### ID103
 
@@ -2564,7 +2581,7 @@ function secondFunc() {
 
 Q:: =============================================  
 
-##### What are the steps involved in return false usage  
+##### What are the steps involved in return false usage
 
 ###### ID104
 
@@ -2577,7 +2594,7 @@ The return false statement in event handlers performs the below steps,
 
 Q:: =============================================  
 
-##### What is BOM  
+##### What is BOM
 
 ###### ID105
 
@@ -2588,7 +2605,7 @@ The Browser Object Model (BOM) allows JavaScript to "talk to" the browser. It co
 
 Q:: =============================================  
 
-##### What is the use of setTimeout  
+##### What is the use of setTimeout
 
 ###### ID106
 
@@ -2603,7 +2620,7 @@ setTimeout(function () {
 
 Q:: =============================================  
 
-##### What is the use of setInterval  
+##### What is the use of setInterval
 
 ###### ID107
 
@@ -2618,7 +2635,7 @@ setInterval(function () {
 
 Q:: =============================================  
 
-##### Why is JavaScript treated as Single threaded  
+##### Why is JavaScript treated as Single threaded
 
 ###### ID108
 
@@ -2627,7 +2644,7 @@ JavaScript is a single-threaded language. Because the language specification doe
 
 Q:: =============================================  
 
-##### What is an event delegation  
+##### What is an event delegation
 
 ###### ID109
 
@@ -2652,7 +2669,7 @@ form.addEventListener(
 
 Q:: =============================================  
 
-##### What is ECMAScript  
+##### What is ECMAScript
 
 ###### ID110
 
@@ -2661,7 +2678,7 @@ ECMAScript is the scripting language that forms the basis of JavaScript. ECMAScr
 
 Q:: =============================================  
 
-##### What is JSON  
+##### What is JSON
 
 ###### ID111
 
@@ -2670,7 +2687,7 @@ JSON (JavaScript Object Notation) is a lightweight format that is used for data 
 
 Q:: =============================================  
 
-##### What are the syntax rules of JSON  
+##### What are the syntax rules of JSON
 
 ###### ID112
 
@@ -2684,7 +2701,7 @@ Below are the list of syntax rules of JSON
 
 Q:: =============================================  
 
-##### What is the purpose JSON stringify  
+##### What is the purpose JSON stringify
 
 ###### ID113
 
@@ -2699,7 +2716,7 @@ console.log(userString); //"{"name":"John","age":31}"
 
 Q:: =============================================  
 
-##### How do you parse JSON string  
+##### How do you parse JSON string
 
 ###### ID114
 
@@ -2714,7 +2731,7 @@ console.log(userJSON); // {name: "John", age: 31}
 
 Q:: =============================================  
 
-##### Why do you need JSON  
+##### Why do you need JSON
 
 ###### ID115
 
@@ -2723,7 +2740,7 @@ When exchanging data between a browser and a server, the data can only be text. 
 
 Q:: =============================================  
 
-##### What are PWAs  
+##### What are PWAs
 
 ###### ID116
 
@@ -2732,7 +2749,7 @@ Progressive web applications (PWAs) are a type of mobile app delivered through t
 
 Q:: =============================================  
 
-##### What is the purpose of clearTimeout method  
+##### What is the purpose of clearTimeout method
 
 ###### ID117
 
@@ -2760,7 +2777,7 @@ function stop() {
 
 Q:: =============================================  
 
-##### What is the purpose of clearInterval method  
+##### What is the purpose of clearInterval method
 
 ###### ID118
 
@@ -2788,7 +2805,7 @@ function stop() {
 
 Q:: =============================================  
 
-##### How do you redirect new page in javascript  
+##### How do you redirect new page in javascript
 
 ###### ID119
 
@@ -2803,7 +2820,7 @@ function redirect() {
 
 Q:: =============================================  
 
-##### How do you check whether a string contains a substring  
+##### How do you check whether a string contains a substring
 
 ###### ID120
 
@@ -2836,7 +2853,7 @@ regex.test(mainString);
 
 Q:: =============================================  
 
-##### How do you validate an email in javascript  
+##### How do you validate an email in javascript
 
 ###### ID121
 
@@ -2855,7 +2872,7 @@ The above regular expression accepts unicode characters.
 
 Q:: =============================================  
 
-##### How do you get the current url with javascript  
+##### How do you get the current url with javascript
 
 ###### ID122
 
@@ -2868,7 +2885,7 @@ console.log("location.href", window.location.href); // Returns full URL
 
 Q:: =============================================  
 
-##### What are the various url properties of location object  
+##### What are the various url properties of location object
 
 ###### ID123
 
@@ -2886,7 +2903,7 @@ The below `Location` object properties can be used to access URL components of t
 
 Q:: =============================================  
 
-##### How do get query string values in javascript  
+##### How do get query string values in javascript
 
 ###### ID124
 
@@ -2900,7 +2917,7 @@ const clientCode = urlParams.get("clientCode");
 
 Q:: =============================================  
 
-##### How do you check if a key exists in an object  
+##### How do you check if a key exists in an object
 
 ###### ID125
 
@@ -2938,7 +2955,7 @@ console.log(user.nickName !== undefined); // false
 
 Q:: =============================================  
 
-##### How do you loop through or enumerate javascript object  
+##### How do you loop through or enumerate javascript object
 
 ###### ID126
 
@@ -2961,7 +2978,7 @@ for (var key in object) {
 
 Q:: =============================================  
 
-##### How do you test for an empty object  
+##### How do you test for an empty object
 
 ###### ID127
 
@@ -2996,7 +3013,7 @@ function isEmpty(obj) {
 
 Q:: =============================================  
 
-##### What is an arguments object  
+##### What is an arguments object
 
 ###### ID128
 
@@ -3023,7 +3040,7 @@ var argsArray = Array.prototype.slice.call(arguments);
 
 Q:: =============================================  
 
-##### How do you make first letter of the string in an uppercase  
+##### How do you make first letter of the string in an uppercase
 
 ###### ID129
 
@@ -3038,7 +3055,7 @@ function capitalizeFirstLetter(string) {
 
 Q:: =============================================  
 
-##### What are the pros and cons of for loop  
+##### What are the pros and cons of for loop
 
 ###### ID130
 
@@ -3058,7 +3075,7 @@ The for-loop is a commonly used iteration syntax in javascript. It has both pros
 
 Q:: =============================================  
 
-##### How do you display the current date in javascript  
+##### How do you display the current date in javascript
 
 ###### ID131
 
@@ -3077,7 +3094,7 @@ document.write(today);
 
 Q:: =============================================  
 
-##### How do you compare two date objects  
+##### How do you compare two date objects
 
 ###### ID132
 
@@ -3093,7 +3110,7 @@ console.log(d1 === d2); // False
 
 Q:: =============================================  
 
-##### How do you check if a string starts with another string  
+##### How do you check if a string starts with another string
 
 ###### ID133
 
@@ -3107,7 +3124,7 @@ You can use ECMAScript 6's `String.prototype.startsWith()` method to check if a 
 
 Q:: =============================================  
 
-##### How do you trim a string in javascript  
+##### How do you trim a string in javascript
 
 ###### ID134
 
@@ -3134,7 +3151,7 @@ if (!String.prototype.trim) {
 
 Q:: =============================================  
 
-##### How do you add a key value pair in javascript  
+##### How do you add a key value pair in javascript
 
 ###### ID135
 
@@ -3162,7 +3179,7 @@ obj["key3"] = "value3";
 
 Q:: =============================================  
 
-##### Is the !-- notation represents a special operator  
+##### Is the !-- notation represents a special operator
 
 ###### ID136
 
@@ -3176,7 +3193,7 @@ At first, the value decremented by one and then tested to see if it is equal to 
 
 Q:: =============================================  
 
-##### How do you assign default values to variables  
+##### How do you assign default values to variables
 
 ###### ID137
 
@@ -3191,7 +3208,7 @@ As per the above expression, variable 'a 'will get the value of 'c' only if 'b' 
 
 Q:: =============================================  
 
-##### How do you define multiline strings  
+##### How do you define multiline strings
 
 ###### ID138
 
@@ -3209,7 +3226,7 @@ But if you have a space after the '\\' character, the code will look exactly the
 
 Q:: =============================================  
 
-##### What is an app shell model  
+##### What is an app shell model
 
 ###### ID139
 
@@ -3218,7 +3235,7 @@ An application shell (or app shell) architecture is one way to build a Progressi
 
 Q:: =============================================  
 
-##### Can we define properties for functions  
+##### Can we define properties for functions
 
 ###### ID140
 
@@ -3239,7 +3256,7 @@ fn.profile = function (y) {
 
 Q:: =============================================  
 
-##### What is the way to find the number of parameters expected by a function  
+##### What is the way to find the number of parameters expected by a function
 
 ###### ID141
 
@@ -3255,7 +3272,7 @@ sum.length; // 4 is the number of parameters expected.
 
 Q:: =============================================  
 
-##### What is a polyfill  
+##### What is a polyfill
 
 ###### ID142
 
@@ -3264,7 +3281,7 @@ A polyfill is a piece of JS code used to provide modern functionality on older b
 
 Q:: =============================================  
 
-##### What are break and continue statements  
+##### What are break and continue statements
 
 ###### ID143
 
@@ -3293,7 +3310,7 @@ for (i = 0; i < 10; i++) {
 
 Q:: =============================================  
 
-##### What are js labels  
+##### What are js labels
 
 ###### ID144
 
@@ -3320,7 +3337,7 @@ loop1: for (i = 0; i < 3; i++) {
 
 Q:: =============================================  
 
-##### What are the benefits of keeping declarations at the top  
+##### What are the benefits of keeping declarations at the top
 
 ###### ID145
 
@@ -3334,7 +3351,7 @@ It is recommended to keep all declarations at the top of each script or function
 
 Q:: =============================================  
 
-##### What are the benefits of initializing variables  
+##### What are the benefits of initializing variables
 
 ###### ID146
 
@@ -3347,7 +3364,7 @@ It is recommended to initialize variables because of the below benefits,
 
 Q:: =============================================  
 
-##### What are the recommendations to create new object  
+##### What are the recommendations to create new object
 
 ###### ID147
 
@@ -3376,7 +3393,7 @@ var v7 = function () {};
 
 Q:: =============================================  
 
-##### How do you define JSON arrays  
+##### How do you define JSON arrays
 
 ###### ID148
 
@@ -3393,7 +3410,7 @@ JSON arrays are written inside square brackets and arrays contain javascript obj
 
 Q:: =============================================  
 
-##### How do you generate random integers  
+##### How do you generate random integers
 
 ###### ID149
 
@@ -3409,7 +3426,7 @@ Math.floor(Math.random() * 100) + 1; // returns a random integer from 1 to 100
 
 Q:: =============================================  
 
-##### Can you write a random integers function to print integers with in a range  
+##### Can you write a random integers function to print integers with in a range
 
 ###### ID150
 
@@ -3426,7 +3443,7 @@ randomInteger(1, 1000); // returns a random integer from 1 to 1000
 
 Q:: =============================================  
 
-##### What is tree shaking  
+##### What is tree shaking
 
 ###### ID151
 
@@ -3435,7 +3452,7 @@ Tree shaking is a form of dead code elimination. It means that unused modules wi
 
 Q:: =============================================  
 
-##### What is the need of tree shaking  
+##### What is the need of tree shaking
 
 ###### ID152
 
@@ -3444,7 +3461,7 @@ Tree Shaking can significantly reduce the code size in any application. i.e, The
 
 Q:: =============================================  
 
-##### Is it recommended to use eval  
+##### Is it recommended to use eval
 
 ###### ID153
 
@@ -3453,7 +3470,7 @@ No, it allows arbitrary code to be run which causes a security problem. As we kn
 
 Q:: =============================================  
 
-##### What is a Regular Expression  
+##### What is a Regular Expression
 
 ###### ID154
 
@@ -3472,12 +3489,13 @@ For example, the regular expression or search pattern with case-insensitive user
 
 Q:: =============================================  
 
-##### What are the string methods available in Regular expression  
+##### What are the string methods available in Regular expression
 
 ###### ID155
 
 A:: =============================================  
-Regular Expressions has two string methods: search() and replace().  
+Regular Expressions has two string methods: search() and replace().
+
 The search() method uses an expression to search for a match, and returns the position of the match.
 
 ```javascript
@@ -3494,7 +3512,7 @@ var n = msg.replace(/John/i, "Buttler"); // Hello Buttler
 
 Q:: =============================================  
 
-##### What are modifiers in regular expression  
+##### What are modifiers in regular expression
 
 ###### ID156
 
@@ -3517,7 +3535,7 @@ var result = text.match(pattern); // one,one
 
 Q:: =============================================  
 
-##### What are regular expression patterns  
+##### What are regular expression patterns
 
 ###### ID157
 
@@ -3542,7 +3560,7 @@ Regular Expressions provide a group of patterns in order to match characters. Ba
 
 Q:: =============================================  
 
-##### What is a RegExp object  
+##### What is a RegExp object
 
 ###### ID158
 
@@ -3557,7 +3575,7 @@ console.log(regexp);
 
 Q:: =============================================  
 
-##### How do you search a string for a pattern  
+##### How do you search a string for a pattern
 
 ###### ID159
 
@@ -3571,7 +3589,7 @@ console.log(pattern.test("How are you?")); //true
 
 Q:: =============================================  
 
-##### What is the purpose of exec method  
+##### What is the purpose of exec method
 
 ###### ID160
 
@@ -3585,7 +3603,7 @@ console.log(pattern.exec("How are you?")); //["you", index: 8, input: "How are y
 
 Q:: =============================================  
 
-##### How do you change the style of a HTML element  
+##### How do you change the style of a HTML element
 
 ###### ID161
 
@@ -3606,7 +3624,7 @@ document.getElementById("title").className = "custom-title";
 
 Q:: =============================================  
 
-##### What would be the result of 1+2+'3'  
+##### What would be the result of 1+2+'3'
 
 ###### ID162
 
@@ -3615,13 +3633,15 @@ The output is going to be `33`. Since `1` and `2` are numeric values, the result
 
 Q:: =============================================  
 
-##### What is a debugger statement  
+##### What is a debugger statement
 
 ###### ID163
 
 A:: =============================================  
-The debugger statement invokes any available debugging functionality, such as setting a breakpoint. If no debugging functionality is available, this statement has no effect.  
-For example, in the below function a debugger statement has been inserted. So  
+The debugger statement invokes any available debugging functionality, such as setting a breakpoint. If no debugging functionality is available, this statement has no effect.
+
+For example, in the below function a debugger statement has been inserted. So
+
 execution is paused at the debugger statement just like a breakpoint in the script source.
 
 ```javascript
@@ -3634,7 +3654,7 @@ function getProfile() {
 
 Q:: =============================================  
 
-##### What is the purpose of breakpoints in debugging  
+##### What is the purpose of breakpoints in debugging
 
 ###### ID164
 
@@ -3643,7 +3663,7 @@ You can set breakpoints in the javascript code once the debugger statement is ex
 
 Q:: =============================================  
 
-##### Can I use reserved words as identifiers  
+##### Can I use reserved words as identifiers
 
 ###### ID165
 
@@ -3656,7 +3676,7 @@ var else = "hello"; // Uncaught SyntaxError: Unexpected token else
 
 Q:: =============================================  
 
-##### How do you detect a mobile browser  
+##### How do you detect a mobile browser
 
 ###### ID166
 
@@ -3683,7 +3703,7 @@ window.mobilecheck = function () {
 
 Q:: =============================================  
 
-##### How do you detect a mobile browser without regexp  
+##### How do you detect a mobile browser without regexp
 
 ###### ID167
 
@@ -3710,7 +3730,7 @@ function detectmob() {
 
 Q:: =============================================  
 
-##### How do you get the image width and height using JS  
+##### How do you get the image width and height using JS
 
 ###### ID168
 
@@ -3727,7 +3747,7 @@ img.src = "http://www.google.com/intl/en_ALL/images/logo.gif";
 
 Q:: =============================================  
 
-##### How do you make synchronous HTTP request  
+##### How do you make synchronous HTTP request
 
 ###### ID169
 
@@ -3745,7 +3765,7 @@ function httpGet(theUrl) {
 
 Q:: =============================================  
 
-##### How do you make asynchronous HTTP request  
+##### How do you make asynchronous HTTP request
 
 ###### ID170
 
@@ -3766,7 +3786,7 @@ function httpGetAsync(theUrl, callback) {
 
 Q:: =============================================  
 
-##### How do you convert date to another timezone in javascript  
+##### How do you convert date to another timezone in javascript
 
 ###### ID171
 
@@ -3779,7 +3799,7 @@ console.log(event.toLocaleString("en-GB", { timeZone: "UTC" })); //29/06/2019, 0
 
 Q:: =============================================  
 
-##### What are the properties used to get size of window  
+##### What are the properties used to get size of window
 
 ###### ID172
 
@@ -3800,7 +3820,7 @@ var height =
 
 Q:: =============================================  
 
-##### What is a conditional operator in javascript  
+##### What is a conditional operator in javascript
 
 ###### ID173
 
@@ -3816,7 +3836,7 @@ console.log(
 
 Q:: =============================================  
 
-##### Can you apply chaining on conditional operator  
+##### Can you apply chaining on conditional operator
 
 ###### ID174
 
@@ -3851,7 +3871,7 @@ function traceValue(someParam) {
 
 Q:: =============================================  
 
-##### What are the ways to execute javascript after page load  
+##### What are the ways to execute javascript after page load
 
 ###### ID175
 
@@ -3878,7 +3898,7 @@ document.onload = function ...
 
 Q:: =============================================  
 
-##### What is the difference between proto and prototype  
+##### What is the difference between proto and prototype
 
 ###### ID176
 
@@ -3901,7 +3921,7 @@ There are few more differences,
 
 Q:: =============================================  
 
-##### Give an example where do you really need semicolon  
+##### Give an example where do you really need semicolon
 
 ###### ID177
 
@@ -3936,7 +3956,7 @@ In this case, we are passing the second function as an argument to the first fun
 
 Q:: =============================================  
 
-##### What is a freeze method  
+##### What is a freeze method
 
 ###### ID178
 
@@ -3973,7 +3993,7 @@ user.employment.department = "HR";
 
 Q:: =============================================  
 
-##### What is the purpose of freeze method  
+##### What is the purpose of freeze method
 
 ###### ID179
 
@@ -3985,7 +4005,7 @@ Below are the main benefits of using freeze method,
 
 Q:: =============================================  
 
-##### Why do I need to use freeze method  
+##### Why do I need to use freeze method
 
 ###### ID180
 
@@ -3994,7 +4014,7 @@ In the Object-oriented paradigm, an existing API contains certain elements that 
 
 Q:: =============================================  
 
-##### How do you detect a browser language preference  
+##### How do you detect a browser language preference
 
 ###### ID181
 
@@ -4012,7 +4032,7 @@ console.log(language);
 
 Q:: =============================================  
 
-##### How to convert string to title case with javascript  
+##### How to convert string to title case with javascript
 
 ###### ID182
 
@@ -4030,7 +4050,7 @@ toTitleCase("good morning john"); // Good Morning John
 
 Q:: =============================================  
 
-##### How do you detect javascript disabled in the page  
+##### How do you detect javascript disabled in the page
 
 ###### ID183
 
@@ -4048,7 +4068,7 @@ You can use the `<noscript>` tag to detect javascript disabled or not. The code 
 
 Q:: =============================================  
 
-##### What are various operators supported by javascript  
+##### What are various operators supported by javascript
 
 ###### ID184
 
@@ -4064,7 +4084,7 @@ An operator is capable of manipulating(mathematical and logical computations) a 
 
 Q:: =============================================  
 
-##### What is a rest parameter  
+##### What is a rest parameter
 
 ###### ID185
 
@@ -4098,7 +4118,7 @@ console.log(sum(1, 2, 3, 4, 5)); //15
 
 Q:: =============================================  
 
-##### What happens if you do not use rest parameter as a last argument  
+##### What happens if you do not use rest parameter as a last argument
 
 ###### ID186
 
@@ -4114,7 +4134,7 @@ return;
 
 Q:: =============================================  
 
-##### What are the bitwise operators available in javascript  
+##### What are the bitwise operators available in javascript
 
 ###### ID187
 
@@ -4131,7 +4151,7 @@ Below are the list of bitwise logical operators used in JavaScript
 
 Q:: =============================================  
 
-##### What is a spread operator  
+##### What is a spread operator
 
 ###### ID188
 
@@ -4150,7 +4170,7 @@ console.log(calculateSum(...numbers)); // 6
 
 Q:: =============================================  
 
-##### How do you determine whether object is frozen or not  
+##### How do you determine whether object is frozen or not
 
 ###### ID189
 
@@ -4172,7 +4192,7 @@ console.log(Object.isFrozen(object));
 
 Q:: =============================================  
 
-##### How do you determine two values same or not using object  
+##### How do you determine two values same or not using object
 
 ###### ID190
 
@@ -4200,7 +4220,7 @@ Two values are the same if one of the following holds:
 
 Q:: =============================================  
 
-##### What is the purpose of using object is method  
+##### What is the purpose of using object is method
 
 ###### ID191
 
@@ -4214,7 +4234,7 @@ Some of the applications of Object's `is` method are follows,
 
 Q:: =============================================  
 
-##### How do you copy properties from one object to other  
+##### How do you copy properties from one object to other
 
 ###### ID192
 
@@ -4242,7 +4262,7 @@ As observed in the above code, there is a common property(`b`) from source to ta
 
 Q:: =============================================  
 
-##### What are the applications of assign method  
+##### What are the applications of assign method
 
 ###### ID193
 
@@ -4254,7 +4274,7 @@ Below are the some of main applications of Object.assign() method,
 
 Q:: =============================================  
 
-##### What is a proxy object  
+##### What is a proxy object
 
 ###### ID194
 
@@ -4286,7 +4306,7 @@ In the above code, it uses `get` handler which define the behavior of the proxy 
 
 Q:: =============================================  
 
-##### What is the purpose of seal method  
+##### What is the purpose of seal method
 
 ###### ID195
 
@@ -4306,7 +4326,7 @@ console.log(object.property); //Welcome to object world
 
 Q:: =============================================  
 
-##### What are the applications of seal method  
+##### What are the applications of seal method
 
 ###### ID196
 
@@ -4318,7 +4338,7 @@ Below are the main applications of Object.seal() method,
 
 Q:: =============================================  
 
-##### What are the differences between freeze and seal methods  
+##### What are the differences between freeze and seal methods
 
 ###### ID197
 
@@ -4327,7 +4347,7 @@ If an object is frozen using the Object.freeze() method then its properties beco
 
 Q:: =============================================  
 
-##### How do you determine if an object is sealed or not  
+##### How do you determine if an object is sealed or not
 
 ###### ID198
 
@@ -4351,7 +4371,7 @@ console.log(Object.isSealed(object)); // checking whether the object is sealed o
 
 Q:: =============================================  
 
-##### How do you get enumerable key and value pairs  
+##### How do you get enumerable key and value pairs
 
 ###### ID199
 
@@ -4374,7 +4394,7 @@ for (let [key, value] of Object.entries(object)) {
 
 Q:: =============================================  
 
-##### What is the main difference between Object.values and Object.entries method  
+##### What is the main difference between Object.values and Object.entries method
 
 ###### ID200
 
@@ -4395,7 +4415,7 @@ for (let value of Object.values(object)) {
 
 Q:: =============================================  
 
-##### How can you get the list of keys of any object  
+##### How can you get the list of keys of any object
 
 ###### ID201
 
@@ -4414,7 +4434,7 @@ console.log(Object.keys(user)); //['name', 'gender', 'age']
 
 Q:: =============================================  
 
-##### How do you create an object with prototype  
+##### How do you create an object with prototype
 
 ###### ID202
 
@@ -4438,7 +4458,7 @@ admin.printInfo(); // My name is Nick
 
 Q:: =============================================  
 
-##### What is a WeakSet  
+##### What is a WeakSet
 
 ###### ID203
 
@@ -4462,12 +4482,13 @@ ws.has(user); // false, user has been removed
 
 Q:: =============================================  
 
-##### What are the differences between WeakSet and Set  
+##### What are the differences between WeakSet and Set
 
 ###### ID204
 
 A:: =============================================  
-The main difference is that references to objects in Set are strong while references to objects in WeakSet are weak. i.e, An object in WeakSet can be garbage collected if there is no other reference to it.  
+The main difference is that references to objects in Set are strong while references to objects in WeakSet are weak. i.e, An object in WeakSet can be garbage collected if there is no other reference to it.
+
 Other differences are,
 
 1. Sets can store any value Whereas WeakSets can store only collections of objects
@@ -4477,7 +4498,7 @@ Other differences are,
 
 Q:: =============================================  
 
-##### List down the collection of methods available on WeakSet  
+##### List down the collection of methods available on WeakSet
 
 ###### ID205
 
@@ -4503,7 +4524,7 @@ weakSetObject.delete(secondObject);
 
 Q:: =============================================  
 
-##### What is a WeakMap  
+##### What is a WeakMap
 
 ###### ID206
 
@@ -4527,12 +4548,13 @@ ws.has(user); // false, user has been removed
 
 Q:: =============================================  
 
-##### What are the differences between WeakMap and Map  
+##### What are the differences between WeakMap and Map
 
 ###### ID207
 
 A:: =============================================  
-The main difference is that references to key objects in Map are strong while references to key objects in WeakMap are weak. i.e, A key object in WeakMap can be garbage collected if there is no other reference to it.  
+The main difference is that references to key objects in Map are strong while references to key objects in WeakMap are weak. i.e, A key object in WeakMap can be garbage collected if there is no other reference to it.
+
 Other differences are,
 
 1. Maps can store any key type Whereas WeakMaps can store only collections of key objects
@@ -4542,7 +4564,7 @@ Other differences are,
 
 Q:: =============================================  
 
-##### List down the collection of methods available on WeakMap  
+##### List down the collection of methods available on WeakMap
 
 ###### ID208
 
@@ -4569,7 +4591,7 @@ weakMapObject.delete(secondObject);
 
 Q:: =============================================  
 
-##### What is the purpose of uneval  
+##### What is the purpose of uneval
 
 ###### ID209
 
@@ -4591,7 +4613,7 @@ console.log(user.toString()); // returns "(function user(){})"
 
 Q:: =============================================  
 
-##### How do you encode an URL  
+##### How do you encode an URL
 
 ###### ID210
 
@@ -4606,7 +4628,7 @@ console.log(encoded); // https://mozilla.org/?x=%D1%88%D0%B5%D0%BB%D0%BB%D1%8B
 
 Q:: =============================================  
 
-##### How do you decode an URL  
+##### How do you decode an URL
 
 ###### ID211
 
@@ -4627,7 +4649,7 @@ try {
 
 Q:: =============================================  
 
-##### How do you print the contents of web page  
+##### How do you print the contents of web page
 
 ###### ID212
 
@@ -4642,7 +4664,7 @@ The window object provided a print() method which is used to print the contents 
 
 Q:: =============================================  
 
-##### What is the difference between uneval and eval  
+##### What is the difference between uneval and eval
 
 ###### ID213
 
@@ -4659,7 +4681,7 @@ greeting(); // returns "Hello, Good morning"
 
 Q:: =============================================  
 
-##### What is an anonymous function  
+##### What is an anonymous function
 
 ###### ID214
 
@@ -4692,7 +4714,7 @@ console.log(z); // 50
 
 Q:: =============================================  
 
-##### What is the precedence order between local and global variables  
+##### What is the precedence order between local and global variables
 
 ###### ID215
 
@@ -4710,7 +4732,7 @@ greeting();
 
 Q:: =============================================  
 
-##### What are javascript accessors  
+##### What are javascript accessors
 
 ###### ID216
 
@@ -4736,7 +4758,7 @@ console.log(user.lang); // setter used to set lang as fr
 
 Q:: =============================================  
 
-##### How do you define property on Object constructor  
+##### How do you define property on Object constructor
 
 ###### ID217
 
@@ -4758,7 +4780,7 @@ newObject.newProperty = 200; // It throws an error in strict mode due to writabl
 
 Q:: =============================================  
 
-##### What is the difference between get and defineProperty  
+##### What is the difference between get and defineProperty
 
 ###### ID218
 
@@ -4767,7 +4789,7 @@ Both have similar results until unless you use classes. If you use `get` the pro
 
 Q:: =============================================  
 
-##### What are the advantages of Getters and Setters  
+##### What are the advantages of Getters and Setters
 
 ###### ID219
 
@@ -4782,7 +4804,7 @@ Below are the list of benefits of Getters and Setters,
 
 Q:: =============================================  
 
-##### Can I add getters and setters using defineProperty method  
+##### Can I add getters and setters using defineProperty method
 
 ###### ID220
 
@@ -4824,7 +4846,7 @@ console.log(obj.decrement); //5
 
 Q:: =============================================  
 
-##### What is the purpose of switch-case  
+##### What is the purpose of switch-case
 
 ###### ID221
 
@@ -4854,7 +4876,7 @@ The above multi-way branch statement provides an easy way to dispatch execution 
 
 Q:: =============================================  
 
-##### What are the conventions to be followed for the usage of switch case  
+##### What are the conventions to be followed for the usage of switch case
 
 ###### ID222
 
@@ -4869,7 +4891,7 @@ Below are the list of conventions should be taken care,
 
 Q:: =============================================  
 
-##### What are primitive data types  
+##### What are primitive data types
 
 ###### ID223
 
@@ -4886,7 +4908,7 @@ A primitive data type is data that has a primitive value (which has no propertie
 
 Q:: =============================================  
 
-##### What are the different ways to access object properties  
+##### What are the different ways to access object properties
 
 ###### ID224
 
@@ -4913,7 +4935,7 @@ objectName[expression];
 
 Q:: =============================================  
 
-##### What are the function parameter rules  
+##### What are the function parameter rules
 
 ###### ID225
 
@@ -4934,7 +4956,7 @@ functionName(1);
 
 Q:: =============================================  
 
-##### What is an error object  
+##### What is an error object
 
 ###### ID226
 
@@ -4951,7 +4973,7 @@ try {
 
 Q:: =============================================  
 
-##### When you get a syntax error  
+##### When you get a syntax error
 
 ###### ID227
 
@@ -4968,7 +4990,7 @@ try {
 
 Q:: =============================================  
 
-##### What are the different error names from error object  
+##### What are the different error names from error object
 
 ###### ID228
 
@@ -4986,7 +5008,7 @@ There are 6 different types of error names returned from error object,
 
 Q:: =============================================  
 
-##### What are the various statements in error handling  
+##### What are the various statements in error handling
 
 ###### ID229
 
@@ -5000,17 +5022,18 @@ Below are the list of statements used in an error handling,
 
 Q:: =============================================  
 
-##### What are the two types of loops in javascript  
+##### What are the two types of loops in javascript
 
 ###### ID230
 
 A:: =============================================  
-1. **Entry Controlled loops:** In this kind of loop type, the test condition is tested before entering the loop body. For example, For Loop and While Loop comes under this category.  
+1. **Entry Controlled loops:** In this kind of loop type, the test condition is tested before entering the loop body. For example, For Loop and While Loop comes under this category.
+
 2. **Exit Controlled Loops:** In this kind of loop type, the test condition is tested or evaluated at the end of the loop body. i.e, the loop body will execute at least once irrespective of test condition true or false. For example, do-while loop comes under this category.
 
 Q:: =============================================  
 
-##### What is nodejs  
+##### What is nodejs
 
 ###### ID231
 
@@ -5019,7 +5042,7 @@ Node.js is a server-side platform built on Chrome's JavaScript runtime for easil
 
 Q:: =============================================  
 
-##### What is an Intl object  
+##### What is an Intl object
 
 ###### ID232
 
@@ -5028,7 +5051,7 @@ The Intl object is the namespace for the ECMAScript Internationalization API, wh
 
 Q:: =============================================  
 
-##### How do you perform language specific date and time formatting  
+##### How do you perform language specific date and time formatting
 
 ###### ID233
 
@@ -5043,7 +5066,7 @@ console.log(new Intl.DateTimeFormat("en-AU").format(date)); // 07/08/2019
 
 Q:: =============================================  
 
-##### What is an Iterator  
+##### What is an Iterator
 
 ###### ID234
 
@@ -5052,7 +5075,7 @@ An iterator is an object which defines a sequence and a return value upon its te
 
 Q:: =============================================  
 
-##### How does synchronous iteration works  
+##### How does synchronous iteration works
 
 ###### ID235
 
@@ -5076,7 +5099,7 @@ console.log(iterator.next()); // { value: 'undefined, done: true }
 
 Q:: =============================================  
 
-##### What is an event loop  
+##### What is an event loop
 
 ###### ID236
 
@@ -5087,7 +5110,7 @@ The event loop is a process that continuously monitors both the call stack and t
 
 Q:: =============================================  
 
-##### What is call stack  
+##### What is call stack
 
 ###### ID237
 
@@ -5122,7 +5145,7 @@ The above code processed in a call stack as below,
 
 Q:: =============================================  
 
-##### What is an event queue  
+##### What is an event queue
 
 ###### ID238
 
@@ -5135,7 +5158,7 @@ The event loop constantly checks whether or not the call stack is empty. Once th
 
 Q:: =============================================  
 
-##### What is a decorator  
+##### What is a decorator
 
 ###### ID239
 
@@ -5162,7 +5185,7 @@ console.log(User.isAdmin); //true
 
 Q:: =============================================  
 
-##### What are the properties of Intl object  
+##### What are the properties of Intl object
 
 ###### ID240
 
@@ -5178,7 +5201,7 @@ Below are the list of properties available on Intl object,
 
 Q:: =============================================  
 
-##### What is an Unary operator  
+##### What is an Unary operator
 
 ###### ID241
 
@@ -5197,7 +5220,7 @@ console.log(typeof a, typeof b, b); // string, number, NaN
 
 Q:: =============================================  
 
-##### How do you sort elements in an array  
+##### How do you sort elements in an array
 
 ###### ID242
 
@@ -5212,7 +5235,7 @@ console.log(months); //  ["Aug", "Jan", "June", "Sep"]
 
 Q:: =============================================  
 
-##### What is the purpose of compareFunction while sorting arrays  
+##### What is the purpose of compareFunction while sorting arrays
 
 ###### ID243
 
@@ -5227,7 +5250,7 @@ console.log(numbers); // [5, 4, 3, 2, 1]
 
 Q:: =============================================  
 
-##### How do you reversing an array  
+##### How do you reversing an array
 
 ###### ID244
 
@@ -5243,7 +5266,7 @@ console.log(numbers); // [1, 2, 3, 4 ,5]
 
 Q:: =============================================  
 
-##### How do you find min and max value in an array  
+##### How do you find min and max value in an array
 
 ###### ID245
 
@@ -5265,7 +5288,7 @@ console.log(findMax(marks));
 
 Q:: =============================================  
 
-##### How do you find min and max values without Math functions  
+##### How do you find min and max values without Math functions
 
 ###### ID246
 
@@ -5302,7 +5325,7 @@ console.log(findMax(marks));
 
 Q:: =============================================  
 
-##### What is an empty statement and purpose of it  
+##### What is an empty statement and purpose of it
 
 ###### ID247
 
@@ -5316,7 +5339,7 @@ for (let i = 0; i < a.length; a[i++] = 0);
 
 Q:: =============================================  
 
-##### How do you get metadata of a module  
+##### How do you get metadata of a module
 
 ###### ID248
 
@@ -5330,7 +5353,7 @@ console.log(import.meta); // { url: "file:///home/user/welcome-module.js" }
 
 Q:: =============================================  
 
-##### What is a comma operator  
+##### What is a comma operator
 
 ###### ID249
 
@@ -5346,7 +5369,7 @@ console.log(x); // 2
 
 Q:: =============================================  
 
-##### What is the advantage of a comma operator  
+##### What is the advantage of a comma operator
 
 ###### ID250
 
@@ -5368,7 +5391,7 @@ function myFunction() {
 
 Q:: =============================================  
 
-##### What is typescript  
+##### What is typescript
 
 ###### ID251
 
@@ -5395,7 +5418,7 @@ The greeting method allows only string type as argument.
 
 Q:: =============================================  
 
-##### What are the differences between javascript and typescript  
+##### What are the differences between javascript and typescript
 
 ###### ID252
 
@@ -5412,7 +5435,7 @@ Below are the list of differences between javascript and typescript,
 
 Q:: =============================================  
 
-##### What are the advantages of typescript over javascript  
+##### What are the advantages of typescript over javascript
 
 ###### ID253
 
@@ -5425,7 +5448,7 @@ Below are some of the advantages of typescript over javascript,
 
 Q:: =============================================  
 
-##### What is an object initializer  
+##### What is an object initializer
 
 ###### ID254
 
@@ -5440,7 +5463,7 @@ console.log(initObject.a); // John
 
 Q:: =============================================  
 
-##### What is a constructor method  
+##### What is a constructor method
 
 ###### ID255
 
@@ -5461,7 +5484,7 @@ console.log(employeeObject.name); // John
 
 Q:: =============================================  
 
-##### What happens if you write constructor more than once in a class  
+##### What happens if you write constructor more than once in a class
 
 ###### ID256
 
@@ -5485,7 +5508,7 @@ The "constructor" in a class is a special method and it should be defined only o
 
 Q:: =============================================  
 
-##### How do you call the constructor of a parent class  
+##### How do you call the constructor of a parent class
 
 ###### ID257
 
@@ -5511,7 +5534,7 @@ class Square extends Rectangle {
 
 Q:: =============================================  
 
-##### How do you get the prototype of an object  
+##### How do you get the prototype of an object
 
 ###### ID258
 
@@ -5527,7 +5550,7 @@ console.log(Object.getPrototypeOf(newObject) === newPrototype); // true
 
 Q:: =============================================  
 
-##### What happens If I pass string type for getPrototype method  
+##### What happens If I pass string type for getPrototype method
 
 ###### ID259
 
@@ -5543,7 +5566,7 @@ Object.getPrototypeOf("James"); // String.prototype
 
 Q:: =============================================  
 
-##### How do you set prototype of one object to another  
+##### How do you set prototype of one object to another
 
 ###### ID260
 
@@ -5557,7 +5580,7 @@ Object.setPrototypeOf({}, null);
 
 Q:: =============================================  
 
-##### How do you check whether an object can be extendable or not  
+##### How do you check whether an object can be extendable or not
 
 ###### ID261
 
@@ -5573,7 +5596,7 @@ console.log(Object.isExtensible(newObject)); //true
 
 Q:: =============================================  
 
-##### How do you prevent an object to extend  
+##### How do you prevent an object to extend
 
 ###### ID262
 
@@ -5596,7 +5619,7 @@ try {
 
 Q:: =============================================  
 
-##### What are the different ways to make an object non-extensible  
+##### What are the different ways to make an object non-extensible
 
 ###### ID263
 
@@ -5622,7 +5645,7 @@ Object.isExtensible(frozenObject); // false
 
 Q:: =============================================  
 
-##### How do you define multiple properties on an object  
+##### How do you define multiple properties on an object
 
 ###### ID264
 
@@ -5643,7 +5666,7 @@ Object.defineProperties(newObject, {
 
 Q:: =============================================  
 
-##### What is MEAN in javascript  
+##### What is MEAN in javascript
 
 ###### ID265
 
@@ -5652,12 +5675,13 @@ The MEAN (MongoDB, Express, AngularJS, and Node.js) stack is the most popular op
 
 Q:: =============================================  
 
-##### What Is Obfuscation in javascript  
+##### What Is Obfuscation in javascript
 
 ###### ID266
 
 A:: =============================================  
-Obfuscation is the deliberate act of creating obfuscated javascript code(i.e, source or machine code) that is difficult for humans to understand. It is something similar to encryption, but a machine can understand the code and execute it.  
+Obfuscation is the deliberate act of creating obfuscated javascript code(i.e, source or machine code) that is difficult for humans to understand. It is something similar to encryption, but a machine can understand the code and execute it.
+
 Let's see the below function before Obfuscation,
 
 ```javascript
@@ -5707,7 +5731,7 @@ eval(
 
 Q:: =============================================  
 
-##### Why do you need Obfuscation  
+##### Why do you need Obfuscation
 
 ###### ID267
 
@@ -5721,7 +5745,7 @@ Below are the few reasons for Obfuscation,
 
 Q:: =============================================  
 
-##### What is Minification  
+##### What is Minification
 
 ###### ID268
 
@@ -5730,7 +5754,7 @@ Minification is the process of removing all unnecessary characters(empty spaces 
 
 Q:: =============================================  
 
-##### What are the advantages of minification  
+##### What are the advantages of minification
 
 ###### ID269
 
@@ -5742,7 +5766,7 @@ Normally it is recommended to use minification for heavy traffic and intensive r
 
 Q:: =============================================  
 
-##### What are the differences between Obfuscation and Encryption  
+##### What are the differences between Obfuscation and Encryption
 
 ###### ID270
 
@@ -5757,7 +5781,7 @@ Below are the main differences between Obfuscation and Encryption,
 
 Q:: =============================================  
 
-##### What are the common tools used for minification  
+##### What are the common tools used for minification
 
 ###### ID271
 
@@ -5772,12 +5796,13 @@ There are many online/offline tools to minify the javascript files,
 
 Q:: =============================================  
 
-##### How do you perform form validation using javascript  
+##### How do you perform form validation using javascript
 
 ###### ID272
 
 A:: =============================================  
-JavaScript can be used to perform HTML form validation. For example, if the form field is empty, the function needs to notify, and return false, to prevent the form being submitted.  
+JavaScript can be used to perform HTML form validation. For example, if the form field is empty, the function needs to notify, and return false, to prevent the form being submitted.
+
 Lets' perform user login in an html form,
 
 ```html
@@ -5801,7 +5826,7 @@ function validateForm() {
 
 Q:: =============================================  
 
-##### How do you perform form validation without javascript  
+##### How do you perform form validation without javascript
 
 ###### ID273
 
@@ -5819,7 +5844,7 @@ You can perform HTML form validation automatically without using javascript. The
 
 Q:: =============================================  
 
-##### What are the DOM methods available for constraint validation  
+##### What are the DOM methods available for constraint validation
 
 ###### ID274
 
@@ -5843,7 +5868,7 @@ function myFunction() {
 
 Q:: =============================================  
 
-##### What are the available constraint validation DOM properties  
+##### What are the available constraint validation DOM properties
 
 ###### ID275
 
@@ -5856,7 +5881,7 @@ Below are the list of some of the constraint validation DOM properties available
 
 Q:: =============================================  
 
-##### What are the list of validity properties  
+##### What are the list of validity properties
 
 ###### ID276
 
@@ -5875,7 +5900,7 @@ The validity property of an input element provides a set of properties related t
 
 Q:: =============================================  
 
-##### Give an example usage of rangeOverflow property  
+##### Give an example usage of rangeOverflow property
 
 ###### ID277
 
@@ -5897,7 +5922,7 @@ function myOverflowFunction() {
 
 Q:: =============================================  
 
-##### Is enums feature available in javascript  
+##### Is enums feature available in javascript
 
 ###### ID278
 
@@ -5910,7 +5935,7 @@ var DaysEnum = Object.freeze({"monday":1, "tuesday":2, "wednesday":3, ...})
 
 Q:: =============================================  
 
-##### What is an enum  
+##### What is an enum
 
 ###### ID279
 
@@ -5925,7 +5950,7 @@ enum Color {
 
 Q:: =============================================  
 
-##### How do you list all properties of an object  
+##### How do you list all properties of an object
 
 ###### ID280
 
@@ -5945,7 +5970,7 @@ console.log(Object.getOwnPropertyNames(newObject));
 
 Q:: =============================================  
 
-##### How do you get property descriptors of an object  
+##### How do you get property descriptors of an object
 
 ###### ID281
 
@@ -5967,7 +5992,7 @@ console.log(descriptorsObject.a.value); // 1
 
 Q:: =============================================  
 
-##### What are the attributes provided by a property descriptor  
+##### What are the attributes provided by a property descriptor
 
 ###### ID282
 
@@ -5983,7 +6008,7 @@ A property descriptor is a record which has the following attributes
 
 Q:: =============================================  
 
-##### How do you extend classes  
+##### How do you extend classes
 
 ###### ID283
 
@@ -6015,7 +6040,7 @@ class Square extends Rectangle {
 
 Q:: =============================================  
 
-##### How do I modify the url without reloading the page  
+##### How do I modify the url without reloading the page
 
 ###### ID284
 
@@ -6028,7 +6053,7 @@ window.history.pushState("page2", "Title", "/page2.html");
 
 Q:: =============================================  
 
-##### How do you check whether an array includes a particular value or not  
+##### How do you check whether an array includes a particular value or not
 
 ###### ID285
 
@@ -6045,7 +6070,7 @@ console.log(stringArray.includes("blue")); //true
 
 Q:: =============================================  
 
-##### How do you compare scalar arrays  
+##### How do you compare scalar arrays
 
 ###### ID286
 
@@ -6074,7 +6099,7 @@ console.log(
 
 Q:: =============================================  
 
-##### How to get the value from get parameters  
+##### How to get the value from get parameters
 
 ###### ID287
 
@@ -6090,7 +6115,7 @@ console.log(parameterZ); // 3
 
 Q:: =============================================  
 
-##### How do you print numbers with commas as thousand separators  
+##### How do you print numbers with commas as thousand separators
 
 ###### ID288
 
@@ -6107,7 +6132,7 @@ console.log(convertToThousandFormat(12345.6789));
 
 Q:: =============================================  
 
-##### What is the difference between java and javascript  
+##### What is the difference between java and javascript
 
 ###### ID289
 
@@ -6124,7 +6149,7 @@ Both are totally unrelated programming languages and no relation between them. J
 
 Q:: =============================================  
 
-##### Does JavaScript supports namespace  
+##### Does JavaScript supports namespace
 
 ###### ID290
 
@@ -6145,7 +6170,7 @@ It always calls the second function definition. In this case, namespace will sol
 
 Q:: =============================================  
 
-##### How do you declare namespace  
+##### How do you declare namespace
 
 ###### ID291
 
@@ -6209,7 +6234,7 @@ namespaceTwo.func1(); // This is a second definition
 
 Q:: =============================================  
 
-##### How do you invoke javascript code in an iframe from parent page  
+##### How do you invoke javascript code in an iframe from parent page
 
 ###### ID292
 
@@ -6223,7 +6248,7 @@ window.frames[0].frameElement.contentWindow.targetFunction(); // Accessing ifram
 
 Q:: =============================================  
 
-##### How do get the timezone offset from date  
+##### How do get the timezone offset from date
 
 ###### ID293
 
@@ -6237,7 +6262,7 @@ console.log(offset); // -480
 
 Q:: =============================================  
 
-##### How do you load CSS and JS files dynamically  
+##### How do you load CSS and JS files dynamically
 
 ###### ID294
 
@@ -6265,7 +6290,7 @@ function loadAssets(filename, filetype) {
 
 Q:: =============================================  
 
-##### What are the different methods to find HTML elements in DOM  
+##### What are the different methods to find HTML elements in DOM
 
 ###### ID295
 
@@ -6278,7 +6303,7 @@ If you want to access any element in an HTML page, you need to start with access
 
 Q:: =============================================  
 
-##### What is jQuery  
+##### What is jQuery
 
 ###### ID296
 
@@ -6296,17 +6321,18 @@ $(document).ready(function () {
 
 Q:: =============================================  
 
-##### What is V8 JavaScript engine  
+##### What is V8 JavaScript engine
 
 ###### ID297
 
 A:: =============================================  
-V8 is an open source high-performance JavaScript engine used by the Google Chrome browser, written in C++. It is also being used in the node.js project. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors.  
+V8 is an open source high-performance JavaScript engine used by the Google Chrome browser, written in C++. It is also being used in the node.js project. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors.
+
 **Note:** It can run standalone, or can be embedded into any C++ application.
 
 Q:: =============================================  
 
-##### Why do we call javascript as dynamic language  
+##### Why do we call javascript as dynamic language
 
 ###### ID298
 
@@ -6321,7 +6347,7 @@ age = true; // age is a boolean
 
 Q:: =============================================  
 
-##### What is a void operator  
+##### What is a void operator
 
 ###### ID299
 
@@ -6345,7 +6371,7 @@ Let's display a message without any redirection or reload
 
 Q:: =============================================  
 
-##### How to set the cursor to wait  
+##### How to set the cursor to wait
 
 ###### ID300
 
@@ -6366,7 +6392,7 @@ and this function invoked on page load
 
 Q:: =============================================  
 
-##### How do you create an infinite loop  
+##### How do you create an infinite loop
 
 ###### ID301
 
@@ -6380,7 +6406,7 @@ while (true) {}
 
 Q:: =============================================  
 
-##### Why do you need to avoid with statement  
+##### Why do you need to avoid with statement
 
 ###### ID302
 
@@ -6405,7 +6431,7 @@ But this `with` statement creates performance problems since one cannot predict 
 
 Q:: =============================================  
 
-##### What is the output of below for loops  
+##### What is the output of below for loops
 
 ```javascript  
 for (var i = 0; i < 4; i++) {  
@@ -6421,8 +6447,7 @@ for (let i = 0; i < 4; i++) {
 
 ###### ID303
 
-A:: =============================================
-
+A:: =============================================  
 The output of the above for loops is 4 4 4 4 and 0 1 2 3
 
 **Explanation:** Due to the event queue/loop of javascript, the `setTimeout` callback function is called after the loop has been executed. Since the variable i is declared with the `var` keyword it became a global variable and the value was equal to 4 using iteration when the time `setTimeout` function is invoked. Hence, the output of the first loop is `4 4 4 4`.
@@ -6431,7 +6456,7 @@ Whereas in the second loop, the variable i is declared as the `let` keyword it b
 
 Q:: =============================================  
 
-##### List down some of the features of ES6  
+##### List down some of the features of ES6
 
 ###### ID304
 
@@ -6453,7 +6478,7 @@ Below are the list of some new features of ES6,
 
 Q:: =============================================  
 
-##### What is ES6  
+##### What is ES6
 
 ###### ID305
 
@@ -6462,7 +6487,7 @@ ES6 is the sixth edition of the javascript language and it was released in June 
 
 Q:: =============================================  
 
-##### Can I redeclare let and const variables  
+##### Can I redeclare let and const variables
 
 ###### ID306
 
@@ -6502,7 +6527,7 @@ alert(name);
 
 Q:: =============================================  
 
-##### Is const variable makes the value immutable  
+##### Is const variable makes the value immutable
 
 ###### ID307
 
@@ -6517,7 +6542,7 @@ console.log(userList); // ['John']
 
 Q:: =============================================  
 
-##### What are default parameters  
+##### What are default parameters
 
 ###### ID308
 
@@ -6548,12 +6573,13 @@ console.log(calculateArea()); //300
 
 Q:: =============================================  
 
-##### What are template literals  
+##### What are template literals
 
 ###### ID309
 
 A:: =============================================  
-Template literals or template strings are string literals allowing embedded expressions. These are enclosed by the back-tick (`) character instead of double or single quotes.  
+Template literals or template strings are string literals allowing embedded expressions. These are enclosed by the back-tick (`) character instead of double or single quotes.
+
 In ES6, this feature enables using dynamic expressions as below,
 
 ```javascript
@@ -6570,7 +6596,7 @@ var greeting = 'Welcome to JS World, Mr. ' + firstName + ' ' + lastName.`
 
 Q:: =============================================  
 
-##### How do you write multi-line strings in template literals  
+##### How do you write multi-line strings in template literals
 
 ###### ID310
 
@@ -6590,7 +6616,7 @@ console.log(`This is string sentence
 
 Q:: =============================================  
 
-##### What are nesting templates  
+##### What are nesting templates
 
 ###### ID311
 
@@ -6614,7 +6640,7 @@ const iconStyles = `icon ${
 
 Q:: =============================================  
 
-##### What are tagged templates  
+##### What are tagged templates
 
 ###### ID312
 
@@ -6656,7 +6682,7 @@ console.log(output2); // Mr/Ms. Kane is a/an junior developer in JavaScript
 
 Q:: =============================================  
 
-##### What are raw strings  
+##### What are raw strings
 
 ###### ID313
 
@@ -6687,12 +6713,13 @@ function tag(strings) {
 
 Q:: =============================================  
 
-##### What is destructuring assignment  
+##### What is destructuring assignment
 
 ###### ID314
 
 A:: =============================================  
-The destructuring assignment is a JavaScript expression that makes it possible to unpack values from arrays or properties from objects into distinct variables.  
+The destructuring assignment is a JavaScript expression that makes it possible to unpack values from arrays or properties from objects into distinct variables.
+
 Let's get the month values from an array using destructuring assignment
 
 ```javascript
@@ -6714,7 +6741,7 @@ console.log(age); // 32
 
 Q:: =============================================  
 
-##### What are default values in destructuring assignment  
+##### What are default values in destructuring assignment
 
 ###### ID315
 
@@ -6744,7 +6771,7 @@ console.log(z); // 6
 
 Q:: =============================================  
 
-##### How do you swap variables in destructuring assignment  
+##### How do you swap variables in destructuring assignment
 
 ###### ID316
 
@@ -6762,7 +6789,7 @@ console.log(y); // 10
 
 Q:: =============================================  
 
-##### What are enhanced object literals  
+##### What are enhanced object literals
 
 ###### ID317
 
@@ -6784,12 +6811,13 @@ console.log(obj); // {x: 10, y:20}
 
 Q:: =============================================  
 
-##### What are dynamic imports  
+##### What are dynamic imports
 
 ###### ID318
 
 A:: =============================================  
-The dynamic imports using `import()` function syntax allows us to load modules on demand by using promises or the async/await syntax. Currently this feature is in [stage4 proposal](https://github.com/tc39/proposal-dynamic-import). The main advantage of dynamic imports is reduction of our bundle's sizes, the size/payload response of our requests and overall improvements in the user experience.  
+The dynamic imports using `import()` function syntax allows us to load modules on demand by using promises or the async/await syntax. Currently this feature is in [stage4 proposal](https://github.com/tc39/proposal-dynamic-import). The main advantage of dynamic imports is reduction of our bundle's sizes, the size/payload response of our requests and overall improvements in the user experience.
+
 The syntax of dynamic imports would be as below,
 
 ```javascript
@@ -6798,7 +6826,7 @@ import("./Module").then((Module) => Module.method());
 
 Q:: =============================================  
 
-##### What are the use cases for dynamic imports  
+##### What are the use cases for dynamic imports
 
 ###### ID319
 
@@ -6824,7 +6852,7 @@ import(`messages_${getLocale()}.js`).then(···);
 
 Q:: =============================================  
 
-##### What are typed arrays  
+##### What are typed arrays
 
 ###### ID320
 
@@ -6851,7 +6879,7 @@ const a = new Int8Array(bytes);
 
 Q:: =============================================  
 
-##### What are the advantages of module loaders  
+##### What are the advantages of module loaders
 
 ###### ID321
 
@@ -6866,7 +6894,7 @@ The module loaders provides the below features,
 
 Q:: =============================================  
 
-##### What is collation  
+##### What is collation
 
 ###### ID322
 
@@ -6895,7 +6923,7 @@ console.log(list.sort(l10nSV.compare)); // [ "a", "z", "ä" ]
 
 Q:: =============================================  
 
-##### What is for...of statement  
+##### What is for...of statement
 
 ###### ID323
 
@@ -6913,7 +6941,7 @@ for (let value of arrayIterable) {
 
 Q:: =============================================  
 
-##### What is the output of below spread operator array  
+##### What is the output of below spread operator array
 
 ```javascript  
 [..."John Resig"];  
@@ -6922,13 +6950,13 @@ Q:: =============================================
 ###### ID324
 
 A:: =============================================  
-
 The output of the array is ['J', 'o', 'h', 'n', '', 'R', 'e', 's', 'i', 'g']
+
 **Explanation:** The string is an iterable type and the spread operator within an array maps every character of an iterable to one element. Hence, each character of a string becomes an element within an Array.
 
 Q:: =============================================  
 
-##### Is PostMessage secure  
+##### Is PostMessage secure
 
 ###### ID325
 
@@ -6937,7 +6965,7 @@ Yes, postMessages can be considered very secure as long as the programmer/develo
 
 Q:: =============================================  
 
-##### What are the problems with postmessage target origin as wildcard  
+##### What are the problems with postmessage target origin as wildcard
 
 ###### ID326
 
@@ -6950,7 +6978,7 @@ targetWindow.postMessage(message, "*");
 
 Q:: =============================================  
 
-##### How do you avoid receiving postMessages from attackers  
+##### How do you avoid receiving postMessages from attackers
 
 ###### ID327
 
@@ -6968,7 +6996,7 @@ window.addEventListener("message", function(message){
 
 Q:: =============================================  
 
-##### Can I avoid using postMessages completely  
+##### Can I avoid using postMessages completely
 
 ###### ID328
 
@@ -6977,7 +7005,7 @@ You cannot avoid using postMessages completely(or 100%). Even though your applic
 
 Q:: =============================================  
 
-##### Is postMessages synchronous  
+##### Is postMessages synchronous
 
 ###### ID329
 
@@ -6986,7 +7014,7 @@ The postMessages are synchronous in IE8 browser but they are asynchronous in IE9
 
 Q:: =============================================  
 
-##### What paradigm is Javascript  
+##### What paradigm is Javascript
 
 ###### ID330
 
@@ -6995,17 +7023,18 @@ JavaScript is a multi-paradigm language, supporting imperative/procedural progra
 
 Q:: =============================================  
 
-##### What is the difference between internal and external javascript  
+##### What is the difference between internal and external javascript
 
 ###### ID331
 
 A:: =============================================  
-**Internal JavaScript:** It is the source code within the script tag.  
+**Internal JavaScript:** It is the source code within the script tag.
+
 **External JavaScript:** The source code is stored in an external file(stored with .js extension) and referred with in the tag.
 
 Q:: =============================================  
 
-##### Is JavaScript faster than server side script  
+##### Is JavaScript faster than server side script
 
 ###### ID332
 
@@ -7014,7 +7043,7 @@ Yes, JavaScript is faster than server side scripts. Because JavaScript is a clie
 
 Q:: =============================================  
 
-##### How do you get the status of a checkbox  
+##### How do you get the status of a checkbox
 
 ###### ID333
 
@@ -7032,7 +7061,7 @@ console.log(document.getElementById(‘checkboxname’).checked); // true or fal
 
 Q:: =============================================  
 
-##### What is the purpose of double tilde operator  
+##### What is the purpose of double tilde operator
 
 ###### ID334
 
@@ -7041,7 +7070,7 @@ The double tilde operator(~~) is known as double NOT bitwise operator. This oper
 
 Q:: =============================================  
 
-##### How do you convert character to ASCII code  
+##### How do you convert character to ASCII code
 
 ###### ID335
 
@@ -7060,7 +7089,7 @@ String.fromCharCode(65, 66, 67); // returns 'ABC'
 
 Q:: =============================================  
 
-##### What is ArrayBuffer  
+##### What is ArrayBuffer
 
 ###### ID336
 
@@ -7081,7 +7110,7 @@ let view = new DataView(buffer);
 
 Q:: =============================================  
 
-##### What is the output of below string expression  
+##### What is the output of below string expression
 
 ```javascript  
 console.log("Welcome to JS world"[0]);  
@@ -7090,13 +7119,13 @@ console.log("Welcome to JS world"[0]);
 ###### ID337
 
 A:: =============================================  
-
 The output of the above expression is "W".
+
 **Explanation:** The bracket notation with specific index on a string returns the character at a specific location. Hence, it returns the character "W" of the string. Since this is not supported in IE7 and below versions, you may need to use the .charAt() method to get the desired result.
 
 Q:: =============================================  
 
-##### What is the purpose of Error object  
+##### What is the purpose of Error object
 
 ###### ID338
 
@@ -7120,7 +7149,7 @@ try {
 
 Q:: =============================================  
 
-##### What is the purpose of EvalError object  
+##### What is the purpose of EvalError object
 
 ###### ID339
 
@@ -7142,7 +7171,7 @@ try {
 
 Q:: =============================================  
 
-##### What are the list of cases error thrown from non-strict mode to strict mode  
+##### What are the list of cases error thrown from non-strict mode to strict mode
 
 ###### ID340
 
@@ -7171,7 +7200,7 @@ Hence, the errors from above cases are helpful to avoid errors in development/pr
 
 Q:: =============================================  
 
-##### Do all objects have prototypes  
+##### Do all objects have prototypes
 
 ###### ID341
 
@@ -7180,7 +7209,7 @@ No. All objects have prototypes except for the base object which is created by t
 
 Q:: =============================================  
 
-##### What is the difference between a parameter and an argument  
+##### What is the difference between a parameter and an argument
 
 ###### ID342
 
@@ -7198,7 +7227,7 @@ myFunction("argument1", "argument2", "argument3");
 
 Q:: =============================================  
 
-##### What is the purpose of some method in arrays  
+##### What is the purpose of some method in arrays
 
 ###### ID343
 
@@ -7215,7 +7244,7 @@ console.log(array.some(odd)); // true (the odd element exists)
 
 Q:: =============================================  
 
-##### How do you combine two or more arrays  
+##### How do you combine two or more arrays
 
 ###### ID344
 
@@ -7237,7 +7266,7 @@ console.log(veggiesAndFruits); // Tomato, Carrot, Cabbage, Apple, Orange, Pears
 
 Q:: =============================================  
 
-##### What is the difference between Shallow and Deep copy  
+##### What is the difference between Shallow and Deep copy
 
 ###### ID345
 
@@ -7298,12 +7327,13 @@ Now if you change `empDetailsDeepCopy.name`, it will only affect `empDetailsDeep
 
 Q:: =============================================  
 
-##### How do you create specific number of copies of a string  
+##### How do you create specific number of copies of a string
 
 ###### ID346
 
 A:: =============================================  
-The `repeat()` method is used to construct and return a new string which contains the specified number of copies of the string on which it was called, concatenated together. Remember that this method has been added to the ECMAScript 2015 specification.  
+The `repeat()` method is used to construct and return a new string which contains the specified number of copies of the string on which it was called, concatenated together. Remember that this method has been added to the ECMAScript 2015 specification.
+
 Let's take an example of Hello string to repeat it 4 times,
 
 ```javascript
@@ -7312,7 +7342,7 @@ Let's take an example of Hello string to repeat it 4 times,
 
 Q:: =============================================  
 
-##### How do you return all matching strings against a regular expression  
+##### How do you return all matching strings against a regular expression
 
 ###### ID347
 
@@ -7332,7 +7362,7 @@ console.log(greetingList[2]); //Hello3
 
 Q:: =============================================  
 
-##### How do you trim a string at the beginning or ending  
+##### How do you trim a string at the beginning or ending
 
 ###### ID348
 
@@ -7352,7 +7382,7 @@ console.log(greeting.trimRight()); // "   Hello, Goodmorning!"
 
 Q:: =============================================  
 
-##### What is the output of below console statement with unary operator  
+##### What is the output of below console statement with unary operator
 
 Let's take console statement with unary operator as given below,
 
@@ -7362,13 +7392,12 @@ console.log(+"Hello");
 
 ###### ID349
 
-A:: =============================================
-
+A:: =============================================  
 The output of the above console log statement returns NaN. Because the element is prefixed by the unary operator and the JavaScript interpreter will try to convert that element into a number type. Since the conversion fails, the value of the statement results in NaN value.
 
 Q:: =============================================  
 
-##### Does javascript uses mixins  
+##### Does javascript uses mixins
 
 ###### ID350
 
@@ -7406,7 +7435,7 @@ new User("Dude").cleanRoom(); // Hello Dude, your room is clean now!
 
 Q:: =============================================  
 
-##### What is a thunk function  
+##### What is a thunk function
 
 ###### ID351
 
@@ -7423,7 +7452,7 @@ thunk(); // 5
 
 Q:: =============================================  
 
-##### What are asynchronous thunks  
+##### What are asynchronous thunks
 
 ###### ID352
 
@@ -7450,7 +7479,7 @@ The `getData` function won't be called immediately but it will be invoked only w
 
 Q:: =============================================  
 
-##### What is the output of below function calls  
+##### What is the output of below function calls
 
 **Code snippet:**
 
@@ -7471,15 +7500,14 @@ console.log(circle.perimeter());
 
 ###### ID353
 
-A:: =============================================
-
+A:: =============================================  
 **Output:**
 
 The output is 40 and NaN. Remember that diameter is a regular function, whereas the value of perimeter is an arrow function. The `this` keyword of a regular function(i.e, diameter) refers to the surrounding scope which is a class(i.e, Shape object). Whereas this keyword of perimeter function refers to the surrounding scope which is a window object. Since there is no radius property on window objects it returns an undefined value and the multiple of number value returns NaN value.
 
 Q:: =============================================  
 
-##### How to remove all line breaks from a string  
+##### How to remove all line breaks from a string
 
 ###### ID354
 
@@ -7496,7 +7524,7 @@ In the above expression, g and m are for global and multiline flags.
 
 Q:: =============================================  
 
-##### What is the difference between reflow and repaint  
+##### What is the difference between reflow and repaint
 
 ###### ID355
 
@@ -7505,7 +7533,7 @@ A _repaint_ occurs when changes are made which affect the visibility of an eleme
 
 Q:: =============================================  
 
-##### What happens with negating an array  
+##### What happens with negating an array
 
 ###### ID356
 
@@ -7518,7 +7546,7 @@ console.log(![]); // false
 
 Q:: =============================================  
 
-##### What happens if we add two arrays  
+##### What happens if we add two arrays
 
 ###### ID357
 
@@ -7533,7 +7561,7 @@ console.log(![] + []); // "false", because ![] returns false.
 
 Q:: =============================================  
 
-##### What is the output of prepend additive operator on falsy values  
+##### What is the output of prepend additive operator on falsy values
 
 ###### ID358
 
@@ -7550,7 +7578,7 @@ console.log(+""); // 0
 
 Q:: =============================================  
 
-##### How do you create self string using special characters  
+##### How do you create self string using special characters
 
 ###### ID359
 
@@ -7585,7 +7613,7 @@ Now the character pattern would be created as below,
 
 Q:: =============================================  
 
-##### How do you remove falsy values from an array  
+##### How do you remove falsy values from an array
 
 ###### ID360
 
@@ -7599,7 +7627,7 @@ myArray.filter(Boolean); // [1, 5] // is same as myArray.filter(x => x);
 
 Q:: =============================================  
 
-##### How do you get unique values of an array  
+##### How do you get unique values of an array
 
 ###### ID361
 
@@ -7612,7 +7640,7 @@ console.log([...new Set([1, 2, 4, 4, 3])]); // [1, 2, 4, 3]
 
 Q:: =============================================  
 
-##### What is destructuring aliases  
+##### What is destructuring aliases
 
 ###### ID362
 
@@ -7627,7 +7655,7 @@ const { x: otherName } = obj;
 
 Q:: =============================================  
 
-##### How do you map the array values without using map method  
+##### How do you map the array values without using map method
 
 ###### ID363
 
@@ -7650,7 +7678,7 @@ console.log(cityNames); // ['Delhi, 'Washington', 'Moscow', 'Singapore', 'Beijin
 
 Q:: =============================================  
 
-##### How do you empty an array  
+##### How do you empty an array
 
 ###### ID364
 
@@ -7664,7 +7692,7 @@ cities.length = 0; // cities becomes []
 
 Q:: =============================================  
 
-##### How do you rounding numbers to certain decimals  
+##### How do you rounding numbers to certain decimals
 
 ###### ID365
 
@@ -7678,7 +7706,7 @@ pie = pie.toFixed(3); // 3.142
 
 Q:: =============================================  
 
-##### What is the easiest way to convert an array to an object  
+##### What is the easiest way to convert an array to an object
 
 ###### ID366
 
@@ -7693,7 +7721,7 @@ console.log(fruitsObject); // {0: "banana", 1: "apple", 2: "orange", 3: "waterme
 
 Q:: =============================================  
 
-##### How do you create an array with some data  
+##### How do you create an array with some data
 
 ###### ID367
 
@@ -7707,7 +7735,7 @@ console.log(newArray); // ["0", "0", "0", "0", "0"]
 
 Q:: =============================================  
 
-##### What are the placeholders from console object  
+##### What are the placeholders from console object
 
 ###### ID368
 
@@ -7730,7 +7758,7 @@ console.log(
 
 Q:: =============================================  
 
-##### Is it possible to add CSS to console messages  
+##### Is it possible to add CSS to console messages
 
 ###### ID369
 
@@ -7751,7 +7779,7 @@ The text will be displayed as below,
 
 Q:: =============================================  
 
-##### What is the purpose of dir method of console object  
+##### What is the purpose of dir method of console object
 
 ###### ID370
 
@@ -7768,7 +7796,7 @@ The user object displayed in JSON representation
 
 Q:: =============================================  
 
-##### Is it possible to debug HTML elements in console  
+##### Is it possible to debug HTML elements in console
 
 ###### ID371
 
@@ -7786,7 +7814,7 @@ It prints the HTML element in the console,
 
 Q:: =============================================  
 
-##### How do you display data in a tabular format using console object  
+##### How do you display data in a tabular format using console object
 
 ###### ID372
 
@@ -7809,7 +7837,7 @@ The data visualized in a table format,
 
 Q:: =============================================  
 
-##### How do you verify that an argument is a Number or not  
+##### How do you verify that an argument is a Number or not
 
 ###### ID373
 
@@ -7824,7 +7852,7 @@ function isNumber(n) {
 
 Q:: =============================================  
 
-##### How do you create copy to clipboard button  
+##### How do you create copy to clipboard button
 
 ###### ID374
 
@@ -7842,7 +7870,7 @@ document.querySelector("#copy-button").onclick = function () {
 
 Q:: =============================================  
 
-##### What is the shortcut to get timestamp  
+##### What is the shortcut to get timestamp
 
 ###### ID375
 
@@ -7856,7 +7884,7 @@ console.log(Date.now());
 
 Q:: =============================================  
 
-##### How do you flattening multi dimensional arrays  
+##### How do you flattening multi dimensional arrays
 
 ###### ID376
 
@@ -7896,7 +7924,7 @@ const fullyFlatArray = multiDimensionalArr.flat(Infinity); // [11, 22, 33, 44, 5
 
 Q:: =============================================  
 
-##### What is the easiest multi condition checking  
+##### What is the easiest multi condition checking
 
 ###### ID377
 
@@ -7916,7 +7944,7 @@ if (["first", 1, "second", 2].indexOf(input) !== -1) {
 
 Q:: =============================================  
 
-##### How do you capture browser back button  
+##### How do you capture browser back button
 
 ###### ID378
 
@@ -7950,7 +7978,7 @@ In the preceeding code, When the box element clicked, its background color appea
 
 Q:: =============================================  
 
-##### How do you disable right click in the web page  
+##### How do you disable right click in the web page
 
 ###### ID379
 
@@ -7963,7 +7991,7 @@ The right click on the page can be disabled by returning false from the `onconte
 
 Q:: =============================================  
 
-##### What are wrapper objects  
+##### What are wrapper objects
 
 ###### ID380
 
@@ -7980,7 +8008,7 @@ i.e, Every primitive except null and undefined have Wrapper Objects and the list
 
 Q:: =============================================  
 
-##### What is AJAX  
+##### What is AJAX
 
 ###### ID381
 
@@ -7989,7 +8017,7 @@ AJAX stands for Asynchronous JavaScript and XML and it is a group of related tec
 
 Q:: =============================================  
 
-##### What are the different ways to deal with Asynchronous Code  
+##### What are the different ways to deal with Asynchronous Code
 
 ###### ID382
 
@@ -8003,12 +8031,13 @@ Below are the list of different ways to deal with Asynchronous code.
 
 Q:: =============================================  
 
-##### How to cancel a fetch request  
+##### How to cancel a fetch request
 
 ###### ID383
 
 A:: =============================================  
-Until a few days back, One shortcoming of native promises is no direct way to cancel a fetch request. But the new `AbortController` from js specification allows you to use a signal to abort one or multiple fetch calls.  
+Until a few days back, One shortcoming of native promises is no direct way to cancel a fetch request. But the new `AbortController` from js specification allows you to use a signal to abort one or multiple fetch calls.
+
 The basic flow of cancelling a fetch request would be as below,
 
 1. Create an `AbortController` instance
@@ -8046,7 +8075,7 @@ setTimeout(() => controller.abort(), 2000);
 
 Q:: =============================================  
 
-##### What is web speech API  
+##### What is web speech API
 
 ###### ID384
 
@@ -8086,15 +8115,19 @@ The above examples can be tested on chrome(33+) browser's developer console.
 
 Q:: =============================================  
 
-##### What is minimum timeout throttling  
+##### What is minimum timeout throttling
 
 ###### ID385
 
 A:: =============================================  
-Both browser and NodeJS javascript environments throttles with a minimum delay that is greater than 0ms. That means even though setting a delay of 0ms will not happen instantaneously.  
-**Browsers:** They have a minimum delay of 4ms. This throttle occurs when successive calls are triggered due to callback nesting(certain depth) or after a certain number of successive intervals.  
-Note: The older browsers have a minimum delay of 10ms.  
-**Nodejs:** They have a minimum delay of 1ms. This throttle happens when the delay is larger than 2147483647 or less than 1.  
+Both browser and NodeJS javascript environments throttles with a minimum delay that is greater than 0ms. That means even though setting a delay of 0ms will not happen instantaneously.
+
+**Browsers:** They have a minimum delay of 4ms. This throttle occurs when successive calls are triggered due to callback nesting(certain depth) or after a certain number of successive intervals.
+
+Note: The older browsers have a minimum delay of 10ms.
+
+**Nodejs:** They have a minimum delay of 1ms. This throttle happens when the delay is larger than 2147483647 or less than 1.
+
 The best example to explain this timeout throttling behavior is the order of below code snippet.
 
 ```javascript
@@ -8131,7 +8164,7 @@ Script loaded
 
 Q:: =============================================  
 
-##### How do you implement zero timeout in modern browsers  
+##### How do you implement zero timeout in modern browsers
 
 ###### ID386
 
@@ -8140,12 +8173,13 @@ You can't use setTimeout(fn, 0) to execute the code immediately due to minimum d
 
 Q:: =============================================  
 
-##### What are tasks in event loop  
+##### What are tasks in event loop
 
 ###### ID387
 
 A:: =============================================  
-A task is any javascript code/program which is scheduled to be run by the standard mechanisms such as initially starting to run a program, run an event callback, or an interval or timeout being fired. All these tasks are scheduled on a task queue.  
+A task is any javascript code/program which is scheduled to be run by the standard mechanisms such as initially starting to run a program, run an event callback, or an interval or timeout being fired. All these tasks are scheduled on a task queue.
+
 Below are the list of use cases to add tasks to the task queue,
 
 1. When a new javascript program is executed directly from console or running by the `<script>` element, the task will be added to the task queue.
@@ -8154,19 +8188,20 @@ Below are the list of use cases to add tasks to the task queue,
 
 Q:: =============================================  
 
-##### What is microtask  
+##### What is microtask
 
 ###### ID388
 
 A:: =============================================  
-Microtask is the javascript code which needs to be executed immediately after the currently executing task/microtask is completed. They are kind of blocking in nature. i.e, The main thread will be blocked until the microtask queue is empty.  
+Microtask is the javascript code which needs to be executed immediately after the currently executing task/microtask is completed. They are kind of blocking in nature. i.e, The main thread will be blocked until the microtask queue is empty.
+
 The main sources of microtasks are Promise.resolve, Promise.reject, MutationObservers, IntersectionObservers etc
 
 **Note:** All of these microtasks are processed in the same turn of the event loop.
 
 Q:: =============================================  
 
-##### What are different event loops  
+##### What are different event loops
 
 ###### ID389
 
@@ -8182,7 +8217,7 @@ In JavaScript, there are multiple event loops that can be used depending on the 
 
 Q:: =============================================  
 
-##### What is the purpose of queueMicrotask  
+##### What is the purpose of queueMicrotask
 
 ###### ID390
 
@@ -8205,7 +8240,7 @@ By using queueMicrotask, you can ensure that certain tasks or callbacks are exec
 
 Q:: =============================================  
 
-##### How do you use javascript libraries in typescript file  
+##### How do you use javascript libraries in typescript file
 
 ###### ID391
 
@@ -8224,7 +8259,7 @@ var customLibrary: any;
 
 Q:: =============================================  
 
-##### What are the differences between promises and observables  
+##### What are the differences between promises and observables
 
 ###### ID392
 
@@ -8241,52 +8276,57 @@ Some of the major difference in a tabular form
 
 Q:: =============================================  
 
-##### What is heap  
+##### What is heap
 
 ###### ID393
 
 A:: =============================================  
-Heap(Or memory heap) is the memory location where objects are stored when we define variables. i.e, This is the place where all the memory allocations and de-allocation take place. Both heap and call-stack are two containers of JS runtime.  
+Heap(Or memory heap) is the memory location where objects are stored when we define variables. i.e, This is the place where all the memory allocations and de-allocation take place. Both heap and call-stack are two containers of JS runtime.
+
 Whenever runtime comes across variables and function declarations in the code it stores them in the Heap.
 
 ![heap](../images/heap.png)
 
 Q:: =============================================  
 
-##### What is an event table  
+##### What is an event table
 
 ###### ID394
 
 A:: =============================================  
-Event Table is a data structure that stores and keeps track of all the events which will be executed asynchronously like after some time interval or after the resolution of some API requests. i.e Whenever you call a setTimeout function or invoke async operation, it is added to the Event Table.  
+Event Table is a data structure that stores and keeps track of all the events which will be executed asynchronously like after some time interval or after the resolution of some API requests. i.e Whenever you call a setTimeout function or invoke async operation, it is added to the Event Table.
+
 It doesn't not execute functions on it’s own. The main purpose of the event table is to keep track of events and send them to the Event Queue as shown in the below diagram.
 
 ![event-table](../images/event-table.png)
 
 Q:: =============================================  
 
-##### What is a microTask queue  
+##### What is a microTask queue
 
 ###### ID395
 
 A:: =============================================  
-Microtask Queue is the new queue where all the tasks initiated by promise objects get processed before the callback queue.  
+Microtask Queue is the new queue where all the tasks initiated by promise objects get processed before the callback queue.
+
 The microtasks queue are processed before the next rendering and painting jobs. But if these microtasks are running for a long time then it leads to visual degradation.
 
 Q:: =============================================  
 
-##### What is the difference between shim and polyfill  
+##### What is the difference between shim and polyfill
 
 ###### ID396
 
 A:: =============================================  
-A shim is a library that brings a new API to an older environment, using only the means of that environment. It isn't necessarily restricted to a web application. For example, es5-shim.js is used to emulate ES5 features on older browsers (mainly pre IE9).  
-Whereas polyfill is a piece of code (or plugin) that provides the technology that you, the developer, expect the browser to provide natively.  
+A shim is a library that brings a new API to an older environment, using only the means of that environment. It isn't necessarily restricted to a web application. For example, es5-shim.js is used to emulate ES5 features on older browsers (mainly pre IE9).
+
+Whereas polyfill is a piece of code (or plugin) that provides the technology that you, the developer, expect the browser to provide natively.
+
 In a simple sentence, A polyfill is a shim for a browser API.
 
 Q:: =============================================  
 
-##### How do you detect primitive or non primitive value type  
+##### How do you detect primitive or non primitive value type
 
 ###### ID397
 
@@ -8308,7 +8348,7 @@ If the value is a primitive data type, the Object constructor creates a new wrap
 
 Q:: =============================================  
 
-##### What is babel  
+##### What is babel
 
 ###### ID398
 
@@ -8321,7 +8361,7 @@ Babel is a JavaScript transpiler to convert ECMAScript 2015+ code into a backwar
 
 Q:: =============================================  
 
-##### Is Node.js completely single threaded  
+##### Is Node.js completely single threaded
 
 ###### ID399
 
@@ -8330,7 +8370,7 @@ Node is a single thread, but some of the functions included in the Node.js stand
 
 Q:: =============================================  
 
-##### What are the common use cases of observables  
+##### What are the common use cases of observables
 
 ###### ID400
 
@@ -8339,7 +8379,7 @@ Some of the most common use cases of observables are web sockets with push notif
 
 Q:: =============================================  
 
-##### What is RxJS  
+##### What is RxJS
 
 ###### ID401
 
@@ -8348,7 +8388,7 @@ RxJS (Reactive Extensions for JavaScript) is a library for implementing reactive
 
 Q:: =============================================  
 
-##### What is the difference between Function constructor and function declaration  
+##### What is the difference between Function constructor and function declaration
 
 ###### ID402
 
@@ -8383,7 +8423,7 @@ console.log(createFunction()()); // 200
 
 Q:: =============================================  
 
-##### What is a Short circuit condition  
+##### What is a Short circuit condition
 
 ###### ID403
 
@@ -8404,7 +8444,7 @@ authenticate && loginToPorta();
 
 Q:: =============================================  
 
-##### What is the easiest way to resize an array  
+##### What is the easiest way to resize an array
 
 ###### ID404
 
@@ -8431,12 +8471,13 @@ console.log(array); // []
 
 Q:: =============================================  
 
-##### What is an observable  
+##### What is an observable
 
 ###### ID405
 
 A:: =============================================  
-An Observable is basically a function that can return a stream of values either synchronously or asynchronously to an observer over time. The consumer can get the value by calling `subscribe()` method.  
+An Observable is basically a function that can return a stream of values either synchronously or asynchronously to an observer over time. The consumer can get the value by calling `subscribe()` method.
+
 Let's look at a simple example of an Observable
 
 ```javascript
@@ -8457,7 +8498,7 @@ observable.subscribe((value) => console.log(value));
 
 Q:: =============================================  
 
-##### What is the difference between function and class declarations  
+##### What is the difference between function and class declarations
 
 ###### ID406
 
@@ -8482,7 +8523,7 @@ function User() {}
 
 Q:: =============================================  
 
-##### What is an async function  
+##### What is an async function
 
 ###### ID407
 
@@ -8503,7 +8544,7 @@ It is basically syntax sugar over ES2015 promises and generators.
 
 Q:: =============================================  
 
-##### How do you prevent promises swallowing errors  
+##### How do you prevent promises swallowing errors
 
 ###### ID408
 
@@ -8589,7 +8630,7 @@ But there are many modern JavaScript environments that won't print any errors. Y
 
 Q:: =============================================  
 
-##### What is deno  
+##### What is deno
 
 ###### ID409
 
@@ -8598,7 +8639,7 @@ Deno is a simple, modern and secure runtime for JavaScript and TypeScript that u
 
 Q:: =============================================  
 
-##### How do you make an object iterable in javascript  
+##### How do you make an object iterable in javascript
 
 ###### ID410
 
@@ -8656,7 +8697,7 @@ console.log(iterator.next()); // {value: undefined, done: true}
 
 Q:: =============================================  
 
-##### What is a Proper Tail Call  
+##### What is a Proper Tail Call
 
 ###### ID411
 
@@ -8691,7 +8732,7 @@ The above pattern returns the same output as the first one. But the accumulator 
 
 Q:: =============================================  
 
-##### How do you check an object is a promise or not  
+##### How do you check an object is a promise or not
 
 ###### ID412
 
@@ -8733,7 +8774,7 @@ console.log(isPromise(promise)); // true
 
 Q:: =============================================  
 
-##### How to detect if a function is called as constructor  
+##### How to detect if a function is called as constructor
 
 ###### ID413
 
@@ -8759,7 +8800,7 @@ Myfunc.call({}); // not called with new
 
 Q:: =============================================  
 
-##### What are the differences between arguments object and rest parameter  
+##### What are the differences between arguments object and rest parameter
 
 ###### ID414
 
@@ -8772,7 +8813,7 @@ There are three main differences between arguments object and rest parameters
 
 Q:: =============================================  
 
-##### What are the differences between spread operator and rest parameter  
+##### What are the differences between spread operator and rest parameter
 
 ###### ID415
 
@@ -8781,7 +8822,7 @@ Rest parameter collects all remaining elements into an array. Whereas Spread ope
 
 Q:: =============================================  
 
-##### What are the different kinds of generators  
+##### What are the different kinds of generators
 
 ###### ID416
 
@@ -8853,7 +8894,7 @@ There are five kinds of generators,
 
 Q:: =============================================  
 
-##### What are the built-in iterables  
+##### What are the built-in iterables
 
 ###### ID417
 
@@ -8869,7 +8910,7 @@ Below are the list of built-in iterables in javascript,
 
 Q:: =============================================  
 
-##### What are the differences between for...of and for...in statements  
+##### What are the differences between for...of and for...in statements
 
 ###### ID418
 
@@ -8901,7 +8942,7 @@ Since for..in loop iterates over the keys of the object, the first loop logs 0, 
 
 Q:: =============================================  
 
-##### How do you define instance and non-instance properties  
+##### How do you define instance and non-instance properties
 
 ###### ID419
 
@@ -8926,12 +8967,13 @@ Person.prototype.prototypeAge = 40;
 
 Q:: =============================================  
 
-##### What is the difference between isNaN and Number.isNaN?  
+##### What is the difference between isNaN and Number.isNaN?
 
 ###### ID420
 
 A:: =============================================  
-1. **isNaN**: The global function `isNaN` converts the argument to a Number and returns true if the resulting value is NaN.  
+1. **isNaN**: The global function `isNaN` converts the argument to a Number and returns true if the resulting value is NaN.
+
 2. **Number.isNaN**: This method does not convert the argument. But it returns true when the type is a Number and value is NaN.
 
 Let's see the difference with an example,
@@ -8943,7 +8985,7 @@ Number.isNaN('hello'); // false
 
 Q:: =============================================  
 
-##### How to invoke an IIFE without any extra brackets?  
+##### How to invoke an IIFE without any extra brackets?
 
 ###### ID421
 
@@ -8966,7 +9008,7 @@ void (function (dt) {
 
 Q:: =============================================  
 
-##### Is that possible to use expressions in switch cases?  
+##### Is that possible to use expressions in switch cases?
 
 ###### ID422
 
@@ -8990,7 +9032,7 @@ const weather = (function getWeather(temp) {
 
 Q:: =============================================  
 
-##### What is the easiest way to ignore promise errors?  
+##### What is the easiest way to ignore promise errors?
 
 ###### ID423
 
@@ -9003,7 +9045,7 @@ await promise.catch((e) => void e);
 
 Q:: =============================================  
 
-##### How do style the console output using CSS?  
+##### How do style the console output using CSS?
 
 ###### ID424
 
@@ -9025,7 +9067,7 @@ console.log(
 
 Q:: =============================================  
 
-##### What is nullish coalescing operator (??)?  
+##### What is nullish coalescing operator (??)?
 
 ###### ID425
 
@@ -9040,7 +9082,7 @@ console.log(undefined ?? true); // true
 
 Q:: =============================================  
 
-##### How do you group and nest console output?  
+##### How do you group and nest console output?
 
 ###### ID426
 
@@ -9071,7 +9113,7 @@ You can also use `console.groupCollapsed()` instead of `console.group()` if you 
 
 Q:: =============================================  
 
-##### What is the difference between dense and sparse arrays?  
+##### What is the difference between dense and sparse arrays?
 
 ###### ID427
 
@@ -9097,7 +9139,7 @@ console.log(justiceLeague.length); // 4
 
 Q:: =============================================  
 
-##### What are the different ways to create sparse arrays?  
+##### What are the different ways to create sparse arrays?
 
 ###### ID428
 
@@ -9129,18 +9171,20 @@ There are 4 different ways to create sparse arrays in JavaScript
 
 Q:: =============================================  
 
-##### What is the difference between setTimeout, setImmediate and process.nextTick?  
+##### What is the difference between setTimeout, setImmediate and process.nextTick?
 
 ###### ID429
 
 A:: =============================================  
-1. **Set Timeout:** setTimeout() is to schedule execution of a one-time callback after delay milliseconds.  
-2. **Set Immediate:** The setImmediate function is used to execute a function right after the current event loop finishes.  
+1. **Set Timeout:** setTimeout() is to schedule execution of a one-time callback after delay milliseconds.
+
+2. **Set Immediate:** The setImmediate function is used to execute a function right after the current event loop finishes.
+
 3. **Process NextTick:** If process.nextTick() is called in a given phase, all the callbacks passed to process.nextTick() will be resolved before the event loop continues. This will block the event loop and create I/O Starvation if process.nextTick() is called recursively.
 
 Q:: =============================================  
 
-##### How do you reverse an array without modifying original array?  
+##### How do you reverse an array without modifying original array?
 
 ###### ID430
 
@@ -9221,7 +9265,7 @@ There are few solutions that won't mutate the original array. Let's take a look.
 
 Q:: =============================================  
 
-##### How do you create custom HTML element?  
+##### How do you create custom HTML element?
 
 ###### ID431
 
@@ -9249,7 +9293,7 @@ The creation of custom HTML elements involves two main steps,
 
 Q:: =============================================  
 
-##### What is global execution context?  
+##### What is global execution context?
 
 ###### ID432
 
@@ -9278,7 +9322,7 @@ console.log("GlobalContext");
 
 Q:: =============================================  
 
-##### What is function execution context?  
+##### What is function execution context?
 
 ###### ID433
 
@@ -9287,7 +9331,7 @@ Whenever a function is invoked, the JavaScript engine creates a different type o
 
 Q:: =============================================  
 
-##### What is debouncing?  
+##### What is debouncing?
 
 ###### ID434
 
@@ -9334,7 +9378,7 @@ window.addEventListener("scroll", processChange);
 
 Q:: =============================================  
 
-##### What is throttling?  
+##### What is throttling?
 
 ###### ID435
 
@@ -9361,7 +9405,7 @@ window.addEventListener("scroll", () => {
 
 Q:: =============================================  
 
-##### What is optional chaining?  
+##### What is optional chaining?
 
 ###### ID436
 
@@ -9388,7 +9432,7 @@ console.log(adventurer.someNonExistentMethod?.());
 
 Q:: =============================================  
 
-##### What is an environment record?  
+##### What is an environment record?
 
 ###### ID437
 
@@ -9403,7 +9447,7 @@ Each time such code is evaluated, a new Environment Record is created to record 
 
 Q:: =============================================  
 
-##### How to verify if a variable is an array?  
+##### How to verify if a variable is an array?
 
 ###### ID438
 
@@ -9445,7 +9489,7 @@ It is possible to check if a variable is an array instance using 3 different way
 
 Q:: =============================================  
 
-##### What is pass by value and pass by reference?  
+##### What is pass by value and pass by reference?
 
 ###### ID439
 
@@ -9479,7 +9523,7 @@ In the above code snippet, updating the `age` property of one object will impact
 
 Q:: =============================================  
 
-##### What are the differences between primitives and non-primitives?  
+##### What are the differences between primitives and non-primitives?
 
 ###### ID440
 
@@ -9496,7 +9540,7 @@ JavaScript language has both primitives and non-primitives but there are few dif
 
 Q:: =============================================  
 
-##### How do you create your own bind method using either call or apply method?  
+##### How do you create your own bind method using either call or apply method?
 
 ###### ID441
 
@@ -9519,7 +9563,7 @@ Function.prototype.myOwnBind = function (whoIsCallingMe) {
 
 Q:: =============================================  
 
-##### What are the differences between pure and impure functions?  
+##### What are the differences between pure and impure functions?
 
 ###### ID442
 
@@ -9534,7 +9578,7 @@ Some of the major differences between pure and impure function are as below,
 
 Q:: =============================================  
 
-##### What is referential transparency?  
+##### What is referential transparency?
 
 ###### ID443
 
@@ -9552,7 +9596,7 @@ multiplyBy2(add(2, 3));
 
 Q:: =============================================  
 
-##### What are the possible side-effects in javascript?  
+##### What are the possible side-effects in javascript?
 
 ###### ID444
 
@@ -9568,7 +9612,7 @@ A side effect is the modification of the state through the invocation of a funct
 
 Q:: =============================================  
 
-##### What are compose and pipe functions?  
+##### What are compose and pipe functions?
 
 ###### ID445
 
@@ -9577,7 +9621,7 @@ The "compose" and "pipe" are two techniques commonly used in functional programm
 
 Q:: =============================================  
 
-##### What is module pattern?  
+##### What is module pattern?
 
 ###### ID446
 
@@ -9625,7 +9669,7 @@ console.log(createEmployee.getDepartment());
 
 Q:: =============================================  
 
-##### What is Function Composition?  
+##### What is Function Composition?
 
 ###### ID447
 
@@ -9647,7 +9691,7 @@ console.log(output_final);
 
 Q:: =============================================  
 
-##### How to use await outside of async function prior to ES2022?  
+##### How to use await outside of async function prior to ES2022?
 
 ###### ID448
 
@@ -9674,13 +9718,15 @@ await Promise.resolve(console.log("Hello await")); //Hello await
 
 Q:: =============================================  
 
-##### What is the purpose of the this keyword in JavaScript?  
+##### What is the purpose of the this keyword in JavaScript?
 
 ###### ID449
 
 A:: =============================================  
-- The `this` keyword in JavaScript is a special variable that is used within a function to refer to the object on which the function is invoked. The value of this depends on how the function is called. It allows functions to access and interact with the object they are bound to.  
-- The this keyword in JavaScript is a reference to the object that owns or invokes the current function. Its value is determined by the calling context.  
+- The `this` keyword in JavaScript is a special variable that is used within a function to refer to the object on which the function is invoked. The value of this depends on how the function is called. It allows functions to access and interact with the object they are bound to.
+
+- The this keyword in JavaScript is a reference to the object that owns or invokes the current function. Its value is determined by the calling context.
+
   **Example 1: this in a Global Context**
 
 ```javascript
@@ -9730,7 +9776,7 @@ document.getElementById("myButton").addEventListener("click", function () {
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 var car = new Vehicle("Honda", "white", "2010", "UK");  
@@ -9758,7 +9804,7 @@ The function declarations are hoisted similar to any variables. So the placement
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function foo() {  
@@ -9793,7 +9839,7 @@ Since the block scoped variable x is undefined outside of the function, the type
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function main() {  
@@ -9829,7 +9875,7 @@ The statements order is based on the event loop mechanism. The order of statemen
 
 Q:: =============================================  
 
-##### What is the output of below equality check  
+##### What is the output of below equality check
 
 ```javascript  
 console.log(0.1 + 0.2 === 0.3);  
@@ -9848,7 +9894,7 @@ You can find more details about the explanation here [0.30000000000000004.com/](
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 var y = 1;  
@@ -9887,7 +9933,7 @@ console.log(y);
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function foo() {  
@@ -9924,7 +9970,7 @@ console.log(foo()); // {message: "Hello World"}
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 var myChars = ["a", "b", "c", "d"];  
@@ -9949,7 +9995,7 @@ If you try to print myChars then you can observe that it doesn't set an undefine
 
 Q:: =============================================  
 
-##### What is the output of below code in latest Chrome  
+##### What is the output of below code in latest Chrome
 
 ```javascript  
 var array1 = new Array(3);  
@@ -9978,7 +10024,7 @@ The latest chrome versions display `sparse array`(they are filled with holes) us
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const obj = {  
@@ -10012,7 +10058,7 @@ ES6 provides method definitions and property shorthands for objects. So both pro
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 console.log(1 < 2 < 3);  
@@ -10046,7 +10092,7 @@ Whereas the second statement follows the below order,
 
 Q:: =============================================  
 
-##### What is the output of below code in non-strict mode  
+##### What is the output of below code in non-strict mode
 
 ```javascript  
 function printNumbers(first, second, first) {  
@@ -10072,7 +10118,7 @@ The value of the first parameter is mapped to the third argument which is passed
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const printNumbersArrow = (first, second, first) => {  
@@ -10095,7 +10141,7 @@ Unlike regular functions, the arrow functions doesn't not allow duplicate parame
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const arrowFunc = () => arguments.length;  
@@ -10132,7 +10178,7 @@ console.log(arrowFunc(1, 2, 3));
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 console.log(String.prototype.trimLeft.name === "trimLeft");  
@@ -10151,7 +10197,7 @@ In order to be consistent with functions like `String.prototype.padStart`, the s
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 console.log(Math.max());  
@@ -10172,7 +10218,7 @@ Answer: 4
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 console.log(10 == [10]);  
@@ -10199,7 +10245,7 @@ So it doesn't matter about number brackets([]) around the number, it is always c
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 console.log(10 + "10");  
@@ -10220,7 +10266,7 @@ The concatenation operator(+) is applicable for both number and string types. So
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 console.log([0] == false);  
@@ -10245,7 +10291,7 @@ In comparison operators, the expression `[0]` converted to Number([0].valueOf().
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 console.log([1, 2] + [3, 4]);  
@@ -10265,7 +10311,7 @@ The + operator is not meant or defined for arrays. So it converts arrays into st
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const numbers = new Set([1, 1, 2, 3, 4]);  
@@ -10289,7 +10335,7 @@ Since `Set` object is a collection of unique values, it won't allow duplicate va
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 console.log(NaN === NaN);  
@@ -10307,7 +10353,7 @@ JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never equ
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 let numbers = [1, 2, 3, 4, NaN];  
@@ -10336,7 +10382,7 @@ console.log(numbers.includes(NaN)); // true
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 let [a, ...b] = [1, 2, 3, 4, 5];  
@@ -10363,7 +10409,7 @@ console.log(a, b); // 1, [2, 3, 4, 5]
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 async function func() {  
@@ -10392,7 +10438,7 @@ function func() {
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 async function func() {  
@@ -10421,7 +10467,7 @@ function func() {
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function delay() {  
@@ -10456,7 +10502,7 @@ Even though “processArray” is an async function, the anonymous function that
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function delay() {  
@@ -10502,7 +10548,7 @@ async function processArray(array) {
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 var set = new Set();  
@@ -10527,7 +10573,7 @@ Set has few exceptions from equality check,
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const sym1 = Symbol("one");  
@@ -10558,7 +10604,7 @@ Symbol follows below conventions,
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const sym1 = new Symbol("one");  
@@ -10579,7 +10625,7 @@ Answer: 1
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 let myNumber = 100;  
@@ -10624,7 +10670,7 @@ if (typeof myNumber !== "string")
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 console.log(  
@@ -10652,7 +10698,7 @@ The symbols has below constraints,
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 class A {  
@@ -10683,7 +10729,7 @@ Using constructors, `new.target` refers to the constructor (points to the class 
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const [x, ...y, z] = [1, 2, 3, 4];  
@@ -10704,7 +10750,7 @@ It throws a syntax error because the rest element should not have a trailing com
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const { a: x = 10, b: y = 20 } = { a: 30 };  
@@ -10730,7 +10776,7 @@ The object property follows below rules,
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function area({ length = 10, width = 20 }) {  
@@ -10776,7 +10822,7 @@ area();
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const props = [  
@@ -10803,7 +10849,7 @@ It is possible to combine Array and Object destructuring. In this case, the thir
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function checkType(num = 1) {  
@@ -10835,7 +10881,7 @@ Hence, the result of function calls categorized as below,
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function add(item, items = []) {  
@@ -10859,7 +10905,7 @@ Since the default argument is evaluated at call time, a new object is created ea
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function greet(greeting, name, message = greeting + " " + name) {  
@@ -10882,7 +10928,7 @@ Since parameters defined earlier are available to later default parameters, this
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function outer(f = inner()) {  
@@ -10905,7 +10951,7 @@ The functions and variables declared in the function body cannot be referred fro
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function myFun(x, y, ...manyMoreArgs) {  
@@ -10930,7 +10976,7 @@ The rest parameter is used to hold the remaining parameters of a function and it
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const obj = { key: "value" };  
@@ -10952,7 +10998,7 @@ Spread syntax can be applied only to iterable objects. By default, Objects are n
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function* myGenFunc() {  
@@ -10978,7 +11024,7 @@ Generators are not constructible type. But if you still proceed to do, there wil
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function* yieldAndReturn() {  
@@ -11007,7 +11053,7 @@ A return statement in a generator function will make the generator finish. If a 
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const myGenerator = (function* () {  
@@ -11039,7 +11085,7 @@ The generator should not be re-used once the iterator is closed. i.e, Upon exiti
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const num = 0o38;  
@@ -11058,7 +11104,7 @@ If you use an invalid number(outside of 0-7 range) in the octal literal, JavaScr
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const squareObj = new Square(10);  
@@ -11093,7 +11139,7 @@ Unlike function declarations, class declarations are not hoisted. i.e, First You
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 function Person() {}  
@@ -11128,7 +11174,7 @@ When a regular or prototype method is called without a value for **this**, the m
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 class Vehicle {  
@@ -11166,7 +11212,7 @@ The super keyword is used to call methods of a superclass. Unlike other language
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 const USER = { age: 30 };  
@@ -11188,7 +11234,7 @@ Even though we used constant variables, the content of it is an object and the o
 
 Q:: =============================================  
 
-##### What is the output of below code  
+##### What is the output of below code
 
 ```javascript  
 console.log("🙂" === "🙂");  
@@ -11206,7 +11252,7 @@ Emojis are unicodes and the unicode for smile symbol is "U+1F642". The unicode c
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 console.log(typeof typeof typeof true);  
@@ -11226,7 +11272,7 @@ The typeof operator on any primitive returns a string value. So even if you appl
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 let zero = new Number(0);  
@@ -11255,7 +11301,7 @@ Hence the above code block always goes to if section.
 
 Q:: =============================================  
 
-##### What is the output of below code in non strict mode?  
+##### What is the output of below code in non strict mode?
 
 ```javascript  
 let msg = "Good morning!!";  
@@ -11279,7 +11325,7 @@ It returns undefined for non-strict mode and returns Error for strict mode. In n
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 let count = 10;  
@@ -11310,7 +11356,7 @@ Whereas the second console.log logs 10 by capturing the count variable from oute
 
 Q:: =============================================  
 
-##### What is the output of below code ?  
+##### What is the output of below code ?
 
 - 1: console.log(true && 'hi');  
 - 2: console.log(true && 'hi' && 1);  
@@ -11319,8 +11365,10 @@ Q:: =============================================
 ###### ID506
 
 A:: =============================================  
-- 1: hi  
-- 2: 1  
+- 1: hi
+
+- 2: 1
+
 - 3: ''
 
 Reason : The operator returns the value of the first falsy operand encountered when evaluating from left to right, or the value of the last operand if they are all truthy.
@@ -11335,7 +11383,7 @@ Reason : The operator returns the value of the first falsy operand encountered w
 
 Q:: =============================================  
 
-##### What is the output of below code ?  
+##### What is the output of below code ?
 
 ```javascript  
 let arr = [1, 2, 3];  
@@ -11357,7 +11405,7 @@ Arrays have their own implementation of `toString` method that returns a comma-s
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 getMessage();  
@@ -11381,7 +11429,7 @@ Hoisting will move variables and functions to be the top of scope. Even though g
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 let quickPromise = Promise.resolve();  
@@ -11407,7 +11455,7 @@ Even though a promise is resolved immediately, it won't be executed immediately 
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 console  
@@ -11438,31 +11486,51 @@ Hence, there will be **cannot read properties of undefined** error while applyin
 
 Q:: =============================================  
 
-##### Write a function that returns a random HEX color  
+##### Write a function that returns a random HEX color
 
 ###### ID511
 
 A:: =============================================  
-```javascript  
-const HEX_ALPHABET = [  
-  "0",  
-  "1",  
-  "2",  
-  "3",  
-  "4",  
-  "5",  
-  "6",  
-  "7",  
-  "8",  
-  "9",  
-  "a",  
-  "b",  
-  "c",  
-  "d",  
-  "e",  
-  "f",  
-];  
-const HEX_PREFIX = "#";  
+```javascript
+
+const HEX_ALPHABET = [
+
+  "0",
+
+  "1",
+
+  "2",
+
+  "3",
+
+  "4",
+
+  "5",
+
+  "6",
+
+  "7",
+
+  "8",
+
+  "9",
+
+  "a",
+
+  "b",
+
+  "c",
+
+  "d",
+
+  "e",
+
+  "f",
+
+];
+
+const HEX_PREFIX = "#";
+
 const HEX_LENGTH = 6;
 
 function generateRandomHex() {
@@ -11494,7 +11562,7 @@ function generateRandomHex() {
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 var of = ["of"];  
@@ -11526,7 +11594,7 @@ console.log(in[in]);
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 const numbers = [11, 25, 31, 23, 33, 18, 200];  
@@ -11556,7 +11624,7 @@ console.log(numbers);
 
 Q:: =============================================  
 
-##### What is the output order of below code?  
+##### What is the output order of below code?
 
 ```javascript  
 setTimeout(() => {  
@@ -11580,7 +11648,7 @@ When the JavaScript engine parses the above code, the first two statements are a
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 console.log(name);  
@@ -11615,7 +11683,7 @@ console.log('Hello John: Welcome');
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 message();  
@@ -11642,7 +11710,7 @@ As part of hoisting, initially JavaScript Engine or compiler will store first fu
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 var currentCity = "NewYork";  
@@ -11670,7 +11738,7 @@ Due to hositing feature, the variables declared with `var` will have `undefined`
 
 Q:: =============================================  
 
-##### What is the output of below code in an order?  
+##### What is the output of below code in an order?
 
 ```javascript  
 function second() {  
@@ -11703,7 +11771,7 @@ Each context(global or functional) has it's own variable environment and the cal
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 var expressionOne = function functionOne() {  
@@ -11726,7 +11794,7 @@ The function call `functionOne` is not going to be part of scope chain and it ha
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 const user = {  
@@ -11809,7 +11877,7 @@ user.eat()();
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 let message = "Hello World!";  
@@ -11835,7 +11903,7 @@ In JavaScript, primitives are immutable i.e. there is no way to change a primiti
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 let user1 = {  
@@ -11864,7 +11932,7 @@ In JavaScript, the variables such as objects, arrays and functions comes under p
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 function greeting() {  
@@ -11890,7 +11958,7 @@ The variable `message` is still treated as closure(since it has been used in inn
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 const a = new Number(10);  
@@ -11910,7 +11978,7 @@ Eventhough both variables `a` and `b` refer a number value, the first declaratio
 
 Q:: =============================================  
 
-##### What is the type of below function?  
+##### What is the type of below function?
 
 ```javascript  
 function add(a, b) {  
@@ -11931,7 +11999,7 @@ Eventhough the above function returns the same result for the same arguments(inp
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 const promiseOne = new Promise((resolve, reject) => setTimeout(resolve, 4000));  
@@ -11958,7 +12026,7 @@ Promise.allSettled([promiseOne, promiseTwo]).then((data) => console.log(data));
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 try {  
@@ -11998,7 +12066,7 @@ You can use `.catch()` function in promises to avoid these issues with asynchron
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 let a = 10;  
@@ -12023,7 +12091,7 @@ The variable "a" declared inside "if" has block scope and does not affect the va
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 let arr = [1, 2, 3, 4, 5, -6, 7];  
@@ -12045,7 +12113,7 @@ The length of the array 'arr' has been set to 0, so the array becomes empty.
 
 Q:: =============================================  
 
-##### How do you verify two strings are anagrams?  
+##### How do you verify two strings are anagrams?
 
 ###### ID530
 
@@ -12063,7 +12131,7 @@ console.log(verifyAnagrams("eat", "ate"));
 
 Q:: =============================================  
 
-##### What is the output of below code?  
+##### What is the output of below code?
 
 ```javascript  
 printHello();  
