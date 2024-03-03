@@ -6407,9 +6407,6 @@ Q:: =============================================
 
 ##### What is the output of below for loops  
 
-###### ID303
-
-A:: =============================================  
 ```javascript  
 for (var i = 0; i < 4; i++) {  
   // global scope  
@@ -6421,6 +6418,10 @@ for (let i = 0; i < 4; i++) {
   setTimeout(() => console.log(i));
 }
 ```
+
+###### ID303
+
+A:: =============================================
 
 The output of the above for loops is 4 4 4 4 and 0 1 2 3
 
@@ -6914,12 +6915,13 @@ Q:: =============================================
 
 ##### What is the output of below spread operator array  
 
-###### ID324
-
-A:: =============================================  
 ```javascript  
 [..."John Resig"];  
 ```
+
+###### ID324
+
+A:: =============================================  
 
 The output of the array is ['J', 'o', 'h', 'n', '', 'R', 'e', 's', 'i', 'g']
 **Explanation:** The string is an iterable type and the spread operator within an array maps every character of an iterable to one element. Hence, each character of a string becomes an element within an Array.
@@ -7081,12 +7083,13 @@ Q:: =============================================
 
 ##### What is the output of below string expression  
 
-###### ID337
-
-A:: =============================================  
 ```javascript  
 console.log("Welcome to JS world"[0]);  
 ```
+
+###### ID337
+
+A:: =============================================  
 
 The output of the above expression is "W".
 **Explanation:** The bracket notation with specific index on a string returns the character at a specific location. Hence, it returns the character "W" of the string. Since this is not supported in IE7 and below versions, you may need to use the .charAt() method to get the desired result.
@@ -7351,14 +7354,15 @@ Q:: =============================================
 
 ##### What is the output of below console statement with unary operator  
 
-###### ID349
-
-A:: =============================================  
 Let's take console statement with unary operator as given below,
 
 ```javascript
 console.log(+"Hello");
 ```
+
+###### ID349
+
+A:: =============================================
 
 The output of the above console log statement returns NaN. Because the element is prefixed by the unary operator and the JavaScript interpreter will try to convert that element into a number type. Since the conversion fails, the value of the statement results in NaN value.
 
@@ -7448,9 +7452,6 @@ Q:: =============================================
 
 ##### What is the output of below function calls  
 
-###### ID353
-
-A:: =============================================  
 **Code snippet:**
 
 ```javascript
@@ -7467,6 +7468,10 @@ const circle = {
 console.log(circle.diameter());
 console.log(circle.perimeter());
 ```
+
+###### ID353
+
+A:: =============================================
 
 **Output:**
 
