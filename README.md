@@ -6,14 +6,6 @@ Greetings, code wanderers! Welcome to this dazzling deck of [JavaScript intervie
 
 Behold, the [Anki-adapted version](https://github.com/envico801/javascript-interview-questions)! My goal is to preserve the charm of the original questions while juggling some formatting quirks. *Yes, there might be a bit of indentation errors thanks to a [script I summoned](https://github.com/envico801/obsidian-to-anki-card-converter)*, but fear not 🧙‍♂️ – the questions retain 100% of their original glory.
 
-<p align="center">
-    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/b392b2c4-2d10-4f92-b519-788443f3b727"
-       target="_blank">
-        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/b392b2c4-2d10-4f92-b519-788443f3b727"
-             alt="Indentation errors example" style="height: 400px;">
-    </a>
-</p>
-
 ### Quest for Perfection 🚀
 
 Some might say perfection is a journey, not a destination. In our case, these questions could be jazzed up for easier learning. Picture this: the first question transformed into a symphony of 2 or 3 sub-questions. Alas, as the harbinger of fresh changes, keeping track of when to split or modify questions is akin to herding caffeinated cats. 🐱
@@ -39,32 +31,20 @@ Feeling chatty? Constructive feedback and suggestions are the secret sauce – s
 
 In case Anki forgets its styling magic, tap into the mystical powers of [CSS/HTML styles from my repository](https://github.com/envico801/anki-config/tree/main/cards/basic). Your eyes will thank you for the clarity! Pay special attention to the styles for code blocks and tables – those sneaky code blocks tend to lose their indentations, and table borders play hide and seek.
 
-For an extra dash of brilliance, wield the [Syntax Highlighting (NG)](https://ankiweb.net/shared/info/566351439) addon. Watch the syntax sparkle when a code block emerges from the coding shadows.
-
 <p align="center">
-    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/f310ce3b-18ec-4ed8-8bc3-b411f182c2de"
+    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/5ce13b90-22c6-408a-875a-1ec83ee2d1d2"
        target="_blank">
-        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/f310ce3b-18ec-4ed8-8bc3-b411f182c2de"
-             alt="Card example 1" style="height: 200px;">
-    </a>
-    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/6049c414-1002-45c3-b2fe-e6c769e95390"
-       target="_blank">
-        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/6049c414-1002-45c3-b2fe-e6c769e95390"
-             alt="Card example 2" style="height: 200px;">
-    </a>
-    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/60dc00ab-9c65-4098-8086-c66da8e8bf94"
-       target="_blank">
-        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/60dc00ab-9c65-4098-8086-c66da8e8bf94"
+        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/5ce13b90-22c6-408a-875a-1ec83ee2d1d2"
              alt="Card example 3" style="height: 200px;">
     </a>
-    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/01730604-b57f-4a18-892a-cb71218f37e5"
+    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/960ce138-a7dc-4d83-a83a-27adf9684a20"
        target="_blank">
-        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/01730604-b57f-4a18-892a-cb71218f37e5"
+        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/960ce138-a7dc-4d83-a83a-27adf9684a20"
              alt="Card example 4" style="height: 200px;">
     </a>
-    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/2b0f40f1-ae4a-4955-a960-b85b2e84f5d1"
+    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/87656a26-6313-45fd-a50b-b4a0822277e6"
        target="_blank">
-        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/2b0f40f1-ae4a-4955-a960-b85b2e84f5d1"
+        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/87656a26-6313-45fd-a50b-b4a0822277e6"
              alt="Card example 5" style="height: 200px;">
     </a>
 </p>
