@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.3](https://github.com/envico801/javascript-interview-questions/compare/v2.0.0...v3.0.3) (2024-03-04)
+
+
+### Features
+
+* add latest changes. ([6bb89e6](https://github.com/envico801/javascript-interview-questions/commit/6bb89e60c9de72287134694d0b245cfbabf05912))
+* add questions in html format. ([8ab1793](https://github.com/envico801/javascript-interview-questions/commit/8ab1793720d7dc358ca4d8c352223b69dd50a99d))
+* add the new changes to the deck. ([30195a2](https://github.com/envico801/javascript-interview-questions/commit/30195a217992a9b66cff1054603b7ce1cdd7b17e))
+* update card format. ([2aeea2f](https://github.com/envico801/javascript-interview-questions/commit/2aeea2ff6fc0a4ff14c580ff5487ff9e0d64965c))
+
+
+### Bug Fixes
+
+* correct incomplete questions. ([50ec480](https://github.com/envico801/javascript-interview-questions/commit/50ec4803cc5363dc5a2afe185814a88aca3c32bf))
+* inconsistencies in the questions. ([d42a4a3](https://github.com/envico801/javascript-interview-questions/commit/d42a4a3b14dc0003ec3dd19090acca197708cf1d))
+* indentation errors and update to latest repository version. ([c9bf654](https://github.com/envico801/javascript-interview-questions/commit/c9bf65446d700f0a80ab3df90506ec619bb46ad3))
+
 ## [2.0.0](https://github.com/envico801/javascript-interview-questions/compare/v1.0.0...v2.0.0) (2024-02-15)
 
 

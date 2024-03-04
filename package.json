@@ -1,6 +1,6 @@
 {
   "name": "javascript-interview-questions",
-  "version": "2.0.0",
+  "version": "3.0.3",
   "description": "> Click :star:if you like the project and follow [@SudheerJonna](https://twitter.com/SudheerJonna) for more updates. Coding questions available [here](#coding-exercise). PDF and Epub versions available at [actions tab](https://github.com/sudheerj/JavaScript-Interview-Questions/actions).",
   "main": "index.js",
   "scripts": {
