@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
+* corrected most of the card indentation problems.
+* improved syntax and html markup of code blocks.
+* the default styles caused by the highlighting plugin (addon) have been removed.
+* the styles were adapted to make the cards look good on small screen devices (mobiles) - (media queries).
+* the format of the cards has been updated and now mimics the reading of an article on a website.
+* added quality of life improvements (e.g. removed autofocus when displaying answer)
 * add latest changes. ([6bb89e6](https://github.com/envico801/javascript-interview-questions/commit/6bb89e60c9de72287134694d0b245cfbabf05912))
 * add questions in html format. ([8ab1793](https://github.com/envico801/javascript-interview-questions/commit/8ab1793720d7dc358ca4d8c352223b69dd50a99d))
 * add the new changes to the deck. ([30195a2](https://github.com/envico801/javascript-interview-questions/commit/30195a217992a9b66cff1054603b7ce1cdd7b17e))
