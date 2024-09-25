@@ -1,14 +1,27 @@
 # ✨ Introduction
 
-Greetings, code wanderers! Welcome to this dazzling deck of [JavaScript interview questions](https://github.com/sudheerj/javascript-interview-questions), originally crafted by the coding maestro [Sudheer Jonna](https://twitter.com/SudheerJonna). A round of applause 👏 for Sudheer and [the brilliant minds (contributors)](https://github.com/sudheerj/javascript-interview-questions/graphs/contributors) who've sprinkled their coding magic to improve this repository.
+Greetings, code wanderers! Welcome to this dazzling deck of [Javascript interview questions](https://github.com/sudheerj/javascript-interview-questions), originally crafted by the coding maestro [Sudheer Jonna](https://twitter.com/SudheerJonna). A round of applause 👏 for Sudheer and [the brilliant minds (contributors)](https://github.com/sudheerj/javascript-interview-questions/graphs/contributors) who've sprinkled their coding magic to improve this repository.
 
-### Anki Adaptation Magic ✨
+### Anki Adaptation Sorcery 🧙‍♂️
 
-Behold, the [Anki-adapted version](https://github.com/envico801/javascript-interview-questions)! My goal is to preserve the charm of the original questions while juggling some formatting quirks. *Yes, there might be a bit of indentation errors thanks to a [script I summoned](https://github.com/envico801/obsidian-to-anki-card-converter)*, but fear not 🧙‍♂️ – the questions retain 100% of their original glory.
+A mystical conversion preserves the essence of the original questions, with just a few formatting runes gone awry. Fear not, for though a rogue [spell (script)](https://github.com/envico801/obsidian-to-anki-card-converter) may have left some indentations crooked, the wisdom within remains untouched!
 
-### Quest for Perfection 🚀
+_(translation) - The Anki version's got the same content as the original, just with some wonky formatting._
+
+But wait, there’s more to explore on your journey:
+
+- 🔮 **JavaScript Interview Questions & Answers** – [ankiweb (deck)](https://ankiweb.net/shared/info/1035695037) – [GitHub Repository](https://github.com/envico801/javascript-interview-questions)
+- ⚛️ **React Interview Questions & Answers** – [ankiweb (Deck)](https://ankiweb.net/shared/info/1098877193) – [GitHub Repository](https://github.com/envico801/reactjs-interview-questions)
+- 🧬 **Anki JavaScript Regular Expressions** – ankiweb (deck) **(upload pending)** – [GitHub Repository](https://github.com/envico801/anki-javascript-regular-expressions)
+- 🛡️ **Anki OWASP Top 10** – ankiweb (deck) **(upload pending)** – [GitHub Repository](https://github.com/envico801/anki-owasp-top-10)
+
+The magical journey never ends! Dive into these sacred tomes to unlock new realms of coding prowess.
+
+### 🧪 Quest for Perfection
 
 Some might say perfection is a journey, not a destination. In our case, these questions could be jazzed up for easier learning. Picture this: the first question transformed into a symphony of 2 or 3 sub-questions. Alas, as the harbinger of fresh changes, keeping track of when to split or modify questions is akin to herding caffeinated cats. 🐱
+
+_(translation) - These questions could use some tweaking to make them easier to learn, such as breaking them down into smaller questions._
 
 ## 💖 Support the Sorcerer/s
 
@@ -20,14 +33,14 @@ Extend your digital love to Sudheer – visit [his GitHub profile](https://githu
 
 ## 🆘 Need a Spell Breaker?
 
-Seeking refuge from the digital labyrinth, weary traveler? Fear not, for I am your trusty guide through the treacherous terrain of bugs and glitches. However, let us tread cautiously and steer clear of the murky waters of [Ankiweb.net](https://ankiweb.net/) reviews. Instead, arm yourself with the following:
+Seeking refuge from the digital labyrinth, weary traveler? Fear not, for I am your trusty guide through the treacherous terrain of bugs and glitches. Arm yourself with the following:
 
 * **[Issue Tracker (Preferred)](https://github.com/envico801/javascript-interview-questions/issues):** The sanctified ground for reporting bugs 🐛 and seeking support. The path less traveled but infinitely more efficient.
 * **Carrier Pigeon (Email):** For those who prefer a more personal touch, send a message to [envico801@gmail.com](mailto:envico801@gmail.com?subject=Support%20request%20concerning%20'SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna'&body=Please%20describe%20your%20request%20here%20while%20providing%20as%20many%20details%20as%20possible%20(e.g.%20exact%20instructions%20to%20reproduce%20the%20problem,%20screenshots,%20info%20about%20your%20Anki%20version%20and%20operating%20system,%20etc.)). I promise, the pigeons 🕊️ are well-fed and ready to deliver your digital scrolls.
 
 Feeling chatty? Constructive feedback and suggestions are the secret sauce – sprinkle them generously! 🌟
 
-## 🌟 Usage Tips
+## 🎭 Usage Tips
 
 In case Anki forgets its styling magic, tap into the mystical powers of [CSS/HTML styles from my repository](https://github.com/envico801/anki-config/tree/main/cards/basic). Your eyes will thank you for the clarity! Pay special attention to the styles for code blocks and tables – those sneaky code blocks tend to lose their indentations, and table borders play hide and seek.
 
