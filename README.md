@@ -10,10 +10,15 @@ _(translation) - The Anki version's got the same content as the original, just w
 
 But wait, there’s more to explore on your journey:
 
-- 🔮 **JavaScript Interview Questions & Answers** – [ankiweb (deck)](https://ankiweb.net/shared/info/1035695037) – [GitHub Repository](https://github.com/envico801/javascript-interview-questions)
-- ⚛️ **React Interview Questions & Answers** – [ankiweb (Deck)](https://ankiweb.net/shared/info/1098877193) – [GitHub Repository](https://github.com/envico801/reactjs-interview-questions)
-- 🧬 **Anki JavaScript Regular Expressions** – ankiweb (deck) **(upload pending)** – [GitHub Repository](https://github.com/envico801/anki-javascript-regular-expressions)
-- 🛡️ **Anki OWASP Top 10** – ankiweb (deck) **(upload pending)** – [GitHub Repository](https://github.com/envico801/anki-owasp-top-10)
+**If the ankiweb links appear with this message** `«This shared item is missing or currently unavailable.»` **it is because I am updating the description of the page or the complete deck, if this is the case you will have to wait 24 hours until the page is updated. To have the latest updates (shown in the changelog) you need to re-download the deck.**
+
+- 🔮 **JavaScript Interview Questions & Answers** – [ankiweb (deck)](https://ankiweb.net/shared/info/1035695037) – [GitHub Repository](https://github.com/envico801/javascript-interview-questions) - [Direct download (github)](https://raw.githubusercontent.com/envico801/javascript-interview-questions/master/anki/Javascript__Interview__SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna.apkg)
+
+- ⚛️ **React Interview Questions & Answers** – [ankiweb (deck)](https://ankiweb.net/shared/info/1098877193) – [GitHub Repository](https://github.com/envico801/reactjs-interview-questions) - [Direct download (github)](https://raw.githubusercontent.com/envico801/reactjs-interview-questions/master/anki/Javascript__Interview__SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna.apkg)
+
+- 🧬 **Anki JavaScript Regular Expressions** – ankiweb (deck) **(upload pending)** – [GitHub Repository](https://github.com/envico801/anki-javascript-regular-expressions) - [Direct download (github)](https://raw.githubusercontent.com/envico801/anki-javascript-regular-expressions/main/Javascript__Regular%20expressions__AJREM%20-%20Anki%20javascript%20regular%20expressions%20-%20mozilla.apkg)
+
+- 🛡️ **Anki OWASP Top 10** – ankiweb (deck) **(upload pending)** – [GitHub Repository](https://github.com/envico801/anki-owasp-top-10) - [Direct download (github)](https://raw.githubusercontent.com/envico801/anki-owasp-top-10/main/Web%20Security__OWASP%20Top%2010__OAOT%20-%20Anki%20owasp%20top%2010%20-%20owasp.apkg)
 
 The magical journey never ends! Dive into these sacred tomes to unlock new realms of coding prowess.
 
