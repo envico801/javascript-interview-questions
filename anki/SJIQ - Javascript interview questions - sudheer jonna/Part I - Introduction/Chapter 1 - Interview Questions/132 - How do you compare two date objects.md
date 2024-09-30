@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You need to use date.getTime() method to compare date values instead of
-comparison operators (==, !=, ===, and !== operators)
+You need to use date.getTime() method to compare date values instead of comparison operators (==, !=, ===, and !== operators)
 
 ```javascript
 var d1 = new Date();

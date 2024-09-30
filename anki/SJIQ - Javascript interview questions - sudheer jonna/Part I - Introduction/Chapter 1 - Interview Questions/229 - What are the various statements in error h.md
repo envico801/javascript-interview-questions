@@ -12,8 +12,7 @@ Below are the list of statements used in an error handling,
 
 3. **throw:** This statement is used to create custom errors.
 
-4. **finally:** This statement is used to execute code after try and catch
-    regardless of the result.
+4. **finally:** This statement is used to execute code after try and catch regardless of the result.
 
 ========== Id ==========  
 229

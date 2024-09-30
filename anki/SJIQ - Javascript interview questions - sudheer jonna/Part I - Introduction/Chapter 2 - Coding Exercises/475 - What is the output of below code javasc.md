@@ -18,21 +18,19 @@ array.forEach(item => {
 processArray([1, 2, 3, 4]);
 ```
 
-- 1: SyntaxError
+-   1: SyntaxError
 
-- 2: 1, 2, 3, 4
+-   2: 1, 2, 3, 4
 
-- 3: 4, 4, 4, 4
+-   3: 4, 4, 4, 4
 
-- 4: 4, 3, 2, 1  
+-   4: 4, 3, 2, 1  
 
 ========== Answer ==========  
 
 Answer: 1
 
-Even though “processArray” is an async function, the anonymous function that we
-use for `forEach` is synchronous. If you use await inside a synchronous function
-then it throws a syntax error.
+Even though “processArray” is an async function, the anonymous function that we use for `forEach` is synchronous. If you use await inside a synchronous function then it throws a syntax error.
 
 ========== Id ==========  
 475

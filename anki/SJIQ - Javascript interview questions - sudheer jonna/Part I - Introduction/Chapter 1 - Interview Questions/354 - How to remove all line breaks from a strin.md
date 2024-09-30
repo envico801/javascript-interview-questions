@@ -4,13 +4,11 @@
 
 ========== Answer ==========  
 
-The easiest approach is using regular expressions to detect and replace newlines
-in the string. In this case, we use replace function along with string to
-replace with, which in our case is an empty string.
+The easiest approach is using regular expressions to detect and replace newlines in the string. In this case, we use replace function along with string to replace with, which in our case is an empty string.
 
 ```javascript
 function remove_linebreaks( var message ) {
-     return message.replace( /[\r\n]+/gm, "" );
+    return message.replace( /[\r\n]+/gm, "" );
 }
 ```
 

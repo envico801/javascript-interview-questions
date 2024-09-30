@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The unary(+) operator is used to convert a variable to a number.If the variable
-cannot be converted, it will still become a number but with the value NaN. Let's
-see this behavior in an action.
+The unary(+) operator is used to convert a variable to a number.If the variable cannot be converted, it will still become a number but with the value NaN. Let's see this behavior in an action.
 
 ```javascript
 var x = '100';

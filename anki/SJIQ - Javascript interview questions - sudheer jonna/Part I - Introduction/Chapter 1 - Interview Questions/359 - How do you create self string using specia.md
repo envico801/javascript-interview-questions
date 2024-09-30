@@ -4,18 +4,13 @@
 
 ========== Answer ==========  
 
-The self string can be formed with the combination of `[]()!+` characters. You
-need to remember the below conventions to achieve this pattern.
+The self string can be formed with the combination of `[]()!+` characters. You need to remember the below conventions to achieve this pattern.
 
-1. Since Arrays are truthful values, negating the arrays will produce false: ![]
-    === false
+1. Since Arrays are truthful values, negating the arrays will produce false: ![] === false
 
-2. As per JavaScript coercion rules, the addition of arrays together will
-    toString them: [] + [] === ""
+2. As per JavaScript coercion rules, the addition of arrays together will toString them: [] + [] === ""
 
-3. Prepend an array with + operator will convert an array to false, the negation
-    will make it true and finally converting the result will produce value '1':
-    +(!(+[])) === 1
+3. Prepend an array with + operator will convert an array to false, the negation will make it true and finally converting the result will produce value '1': +(!(+[])) === 1
 
 By applying the above rules, we can derive below conditions
 
@@ -26,7 +21,7 @@ By applying the above rules, we can derive below conditions
 Now the character pattern would be created as below,
 
 ```javascript
-       s               e               l               f
+      s               e               l               f
  ^^^^^^^^^^^^^   ^^^^^^^^^^^^^   ^^^^^^^^^^^^^   ^^^^^^^^^^^^^
  (![] + [])[3] + (![] + [])[4] + (![] + [])[2] + (![] + [])[0]
  ^^^^^^^^^^^^^   ^^^^^^^^^^^^^   ^^^^^^^^^^^^^   ^^^^^^^^^^^^^

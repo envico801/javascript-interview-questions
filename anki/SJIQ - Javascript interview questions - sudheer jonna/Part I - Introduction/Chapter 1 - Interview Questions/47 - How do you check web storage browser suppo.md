@@ -4,14 +4,13 @@
 
 ========== Answer ==========  
 
-You need to check browser support for localStorage and sessionStorage before
-using web storage,
+You need to check browser support for localStorage and sessionStorage before using web storage,
 
 ```javascript
 if (typeof Storage !== 'undefined') {
-  // Code for localStorage/sessionStorage.
+    // Code for localStorage/sessionStorage.
 } else {
-  // Sorry! No Web Storage support..
+    // Sorry! No Web Storage support..
 }
 ```
 

@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-Node is a single thread, but some of the functions included in the Node.js
-standard library(e.g, fs module functions) are not single threaded. i.e, Their
-logic runs outside of the Node.js single thread to improve the speed and
-performance of a program.
+Node is a single thread, but some of the functions included in the Node.js standard library(e.g, fs module functions) are not single threaded. i.e, Their logic runs outside of the Node.js single thread to improve the speed and performance of a program.
 
 ========== Id ==========  
 399

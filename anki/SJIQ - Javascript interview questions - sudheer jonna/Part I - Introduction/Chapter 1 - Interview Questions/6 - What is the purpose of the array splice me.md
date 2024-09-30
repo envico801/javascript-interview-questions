@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The **splice()** method adds/removes items to/from an array, and then returns
-the removed item. The first argument specifies the array position/index for
-insertion or deletion whereas the optional second argument indicates the number
-of elements to be deleted. Each additional argument is added to the array.
+The **splice()** method adds/removes items to/from an array, and then returns the removed item. The first argument specifies the array position/index for insertion or deletion whereas the optional second argument indicates the number of elements to be deleted. Each additional argument is added to the array.
 
 Some of the examples of this method are:
 
@@ -20,8 +17,7 @@ let arrayIntegers2 = arrayIntegersOriginal2.splice(3); // returns [4, 5]; origin
 let arrayIntegers3 = arrayIntegersOriginal3.splice(3, 1, 'a', 'b', 'c'); //returns [4]; original array: [1, 2, 3, "a", "b", "c", 5]
 ```
 
-**Note:** Splice method modifies the original array and returns the deleted
-array.
+**Note:** Splice method modifies the original array and returns the deleted array.
 
 ========== Id ==========  
 6

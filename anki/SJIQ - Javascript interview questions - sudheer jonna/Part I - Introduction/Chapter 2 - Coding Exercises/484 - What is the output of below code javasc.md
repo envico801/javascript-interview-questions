@@ -8,13 +8,13 @@ console.log(x);
 console.log(y);
 ```
 
-- 1: 30, 20
+-   1: 30, 20
 
-- 2: 10, 20
+-   2: 10, 20
 
-- 3: 10, undefined
+-   3: 10, undefined
 
-- 4: 30, undefined  
+-   4: 30, undefined  
 
 ========== Answer ==========  
 
@@ -22,8 +22,7 @@ Answer: 1
 
 The object property follows below rules,
 
-1. The object properties can be retrieved and assigned to a variable with a
-    different name
+1. The object properties can be retrieved and assigned to a variable with a different name
 
 2. The property assigned a default value when the retrieved value is `undefined`
 

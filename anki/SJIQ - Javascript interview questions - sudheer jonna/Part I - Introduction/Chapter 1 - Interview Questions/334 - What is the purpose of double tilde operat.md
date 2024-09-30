@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The double tilde operator(~~) is known as double NOT bitwise operator. This
-operator is a slightly quicker substitute for Math.floor().
+The double tilde operator(~~) is known as double NOT bitwise operator. This operator is a slightly quicker substitute for Math.floor().
 
 ========== Id ==========  
 334

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-No. All objects have prototypes except for the base object which is created by
-the user, or an object that is created using the new keyword.
+No. All objects have prototypes except for the base object which is created by the user, or an object that is created using the new keyword.
 
 ========== Id ==========  
 341

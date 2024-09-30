@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can round numbers to a certain number of decimals using `toFixed` method
-from native javascript.
+You can round numbers to a certain number of decimals using `toFixed` method from native javascript.
 
 ```javascript
 let pie = 3.141592653;

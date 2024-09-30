@@ -6,16 +6,14 @@
 
 Regular Expressions has two string methods: search() and replace().
 
-The search() method uses an expression to search for a match, and returns the
-position of the match.
+The search() method uses an expression to search for a match, and returns the position of the match.
 
 ```javascript
 var msg = 'Hello John';
 var n = msg.search(/John/i); // 6
 ```
 
-The replace() method is used to return a modified string where the pattern is
-replaced.
+The replace() method is used to return a modified string where the pattern is replaced.
 
 ```javascript
 var msg = 'Hello John';

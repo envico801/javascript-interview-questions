@@ -4,31 +4,27 @@
 
 ```javascript
 function greeting() {
-  setTimeout(function () {
-     console.log(message);
-  }, 5000);
-  const message = 'Hello, Good morning';
+    setTimeout(function () {
+        console.log(message);
+    }, 5000);
+    const message = 'Hello, Good morning';
 }
 greeting();
 ```
 
-- 1: Undefined
+-   1: Undefined
 
-- 2: Reference error:
+-   2: Reference error:
 
-- 3: Hello, Good morning
+-   3: Hello, Good morning
 
-- 4: null  
+-   4: null  
 
 ========== Answer ==========  
 
 Answer: 3
 
-The variable `message` is still treated as closure(since it has been used in
-inner function) eventhough it has been declared after setTimeout function. The
-function with in setTimeout function will be sent to WebAPI and the variable
-declaration executed with in 5 seconds with the assigned value. Hence, the text
-declared for the variable will be displayed.
+The variable `message` is still treated as closure(since it has been used in inner function) eventhough it has been declared after setTimeout function. The function with in setTimeout function will be sent to WebAPI and the variable declaration executed with in 5 seconds with the assigned value. Hence, the text declared for the variable will be displayed.
 
 ========== Id ==========  
 523

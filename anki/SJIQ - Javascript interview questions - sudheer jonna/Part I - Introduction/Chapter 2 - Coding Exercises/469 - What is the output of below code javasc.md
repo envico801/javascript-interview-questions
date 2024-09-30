@@ -9,20 +9,19 @@ const browser = new Set('Firefox');
 console.log(browser);
 ```
 
-- 1: {1, 2, 3, 4}, {"F", "i", "r", "e", "f", "o", "x"}
+-   1: {1, 2, 3, 4}, {"F", "i", "r", "e", "f", "o", "x"}
 
-- 2: {1, 2, 3, 4}, {"F", "i", "r", "e", "o", "x"}
+-   2: {1, 2, 3, 4}, {"F", "i", "r", "e", "o", "x"}
 
-- 3: [1, 2, 3, 4], ["F", "i", "r", "e", "o", "x"]
+-   3: [1, 2, 3, 4], ["F", "i", "r", "e", "o", "x"]
 
-- 4: {1, 1, 2, 3, 4}, {"F", "i", "r", "e", "f", "o", "x"}  
+-   4: {1, 1, 2, 3, 4}, {"F", "i", "r", "e", "f", "o", "x"}  
 
 ========== Answer ==========  
 
 Answer: 1
 
-Since `Set` object is a collection of unique values, it won't allow duplicate
-values in the collection. At the same time, it is case sensitive data structure.
+Since `Set` object is a collection of unique values, it won't allow duplicate values in the collection. At the same time, it is case sensitive data structure.
 
 ========== Id ==========  
 469

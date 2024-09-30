@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Typed arrays are array-like objects from ECMAScript 6 API for handling binary
-data. JavaScript provides 8 Typed array types,
+Typed arrays are array-like objects from ECMAScript 6 API for handling binary data. JavaScript provides 8 Typed array types,
 
 1. Int8Array: An array of 8-bit signed integers
 

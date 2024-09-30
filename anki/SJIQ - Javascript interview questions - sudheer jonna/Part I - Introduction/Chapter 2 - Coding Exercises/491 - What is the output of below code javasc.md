@@ -4,26 +4,25 @@
 
 ```javascript
 function myFun(x, y, ...manyMoreArgs) {
-  console.log(manyMoreArgs);
+    console.log(manyMoreArgs);
 }
 myFun(1, 2, 3, 4, 5);
 myFun(1, 2);
 ```
 
-- 1: [3, 4, 5], undefined
+-   1: [3, 4, 5], undefined
 
-- 2: SyntaxError
+-   2: SyntaxError
 
-- 3: [3, 4, 5], []
+-   3: [3, 4, 5], []
 
-- 4: [3, 4, 5], [undefined]  
+-   4: [3, 4, 5], [undefined]  
 
 ========== Answer ==========  
 
 Answer: 3
 
-The rest parameter is used to hold the remaining parameters of a function and it
-becomes an empty array if the argument is not provided.
+The rest parameter is used to hold the remaining parameters of a function and it becomes an empty array if the argument is not provided.
 
 ========== Id ==========  
 491

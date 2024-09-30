@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-You can use the reverse() method to reverse the elements in an array. This
-method is useful to sort an array in descending order. Let's see the usage of
-reverse() method in an example,
+You can use the reverse() method to reverse the elements in an array. This method is useful to sort an array in descending order. Let's see the usage of reverse() method in an example,
 
 ```javascript
 let numbers = [1, 2, 5, 3, 4];

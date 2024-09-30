@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The double exclamation or negation(!!) ensures the resulting type is a boolean.
-If it was falsey (e.g. 0, null, undefined, etc.), it will be false, otherwise,
-it will be true.
+The double exclamation or negation(!!) ensures the resulting type is a boolean. If it was falsey (e.g. 0, null, undefined, etc.), it will be false, otherwise, it will be true.
 
 For example, you can test IE version using this expression as below,
 
@@ -22,8 +20,7 @@ If you don't use this expression then it returns the original value.
 console.log(navigator.userAgent.match(/MSIE 8.0/)); // returns either an Array or null
 ```
 
-**Note:** The expression !! is not an operator, but it is just twice of !
-operator.
+**Note:** The expression !! is not an operator, but it is just twice of ! operator.
 
 ========== Id ==========  
 69

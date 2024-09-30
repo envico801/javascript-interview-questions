@@ -10,10 +10,7 @@ console.log(+'Hello');
 
 ========== Answer ==========  
 
-The output of the above console log statement returns NaN. Because the element
-is prefixed by the unary operator and the JavaScript interpreter will try to
-convert that element into a number type. Since the conversion fails, the value
-of the statement results in NaN value.
+The output of the above console log statement returns NaN. Because the element is prefixed by the unary operator and the JavaScript interpreter will try to convert that element into a number type. Since the conversion fails, the value of the statement results in NaN value.
 
 ========== Id ==========  
 349

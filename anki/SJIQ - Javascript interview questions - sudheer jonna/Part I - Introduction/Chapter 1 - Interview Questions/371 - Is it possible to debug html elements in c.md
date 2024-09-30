@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Yes, it is possible to get and debug HTML elements in the console just like
-inspecting elements.
+Yes, it is possible to get and debug HTML elements in the console just like inspecting elements.
 
 ```javascript
 const element = document.getElementsByTagName('body')[0];

@@ -6,20 +6,19 @@
 console.log([1, 2] + [3, 4]);
 ```
 
-- 1: [1,2,3,4]
+-   1: [1,2,3,4]
 
-- 2: [1,2][3,4]
+-   2: [1,2][3,4]
 
-- 3: SyntaxError
+-   3: SyntaxError
 
-- 4: 1,23,4  
+-   4: 1,23,4  
 
 ========== Answer ==========  
 
 Answer: 4
 
-The + operator is not meant or defined for arrays. So it converts arrays into
-strings and concatenates them.
+The + operator is not meant or defined for arrays. So it converts arrays into strings and concatenates them.
 
 ========== Id ==========  
 468

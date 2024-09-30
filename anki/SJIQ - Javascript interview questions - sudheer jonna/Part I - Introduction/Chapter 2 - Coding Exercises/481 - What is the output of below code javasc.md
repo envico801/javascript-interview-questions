@@ -4,21 +4,20 @@
 
 ```javascript
 console.log(
-  JSON.stringify({ myArray: ['one', undefined, function () {}, Symbol('')] }),
+    JSON.stringify({ myArray: ['one', undefined, function () {}, Symbol('')] }),
 );
 console.log(
-  JSON.stringify({ [Symbol.for('one')]: 'one' }, [Symbol.for('one')]),
+    JSON.stringify({ [Symbol.for('one')]: 'one' }, [Symbol.for('one')]),
 );
 ```
 
-- 1: {"myArray":['one', undefined, {}, Symbol]}, {}
+-   1: {"myArray":['one', undefined, {}, Symbol]}, {}
 
-- 2: {"myArray":['one', null,null,null]}, {}
+-   2: {"myArray":['one', null,null,null]}, {}
 
-- 3: {"myArray":['one', null,null,null]}, "{ [Symbol.for('one')]: 'one' },
-  [Symbol.for('one')]"
+-   3: {"myArray":['one', null,null,null]}, "{ [Symbol.for('one')]: 'one' }, [Symbol.for('one')]"
 
-- 4: {"myArray":['one', undefined, function(){}, Symbol('')]}, {}  
+-   4: {"myArray":['one', undefined, function(){}, Symbol('')]}, {}  
 
 ========== Answer ==========  
 
@@ -26,12 +25,9 @@ Answer: 2
 
 The symbols has below constraints,
 
-1. The undefined, Functions, and Symbols are not valid JSON values. So those
-    values are either omitted (in an object) or changed to null (in an array).
-    Hence, it returns null values for the value array.
+1. The undefined, Functions, and Symbols are not valid JSON values. So those values are either omitted (in an object) or changed to null (in an array). Hence, it returns null values for the value array.
 
-2. All Symbol-keyed properties will be completely ignored. Hence it returns an
-    empty object({}).
+2. All Symbol-keyed properties will be completely ignored. Hence it returns an empty object({}).
 
 ========== Id ==========  
 481

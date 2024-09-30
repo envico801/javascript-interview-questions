@@ -4,31 +4,27 @@
 
 ```javascript
 let user1 = {
-  name: 'Jacob',
-  age: 28,
+    name: 'Jacob',
+    age: 28,
 };
 let user2 = {
-  name: 'Jacob',
-  age: 28,
+    name: 'Jacob',
+    age: 28,
 };
 console.log(user1 === user2);
 ```
 
-- 1: True
+-   1: True
 
-- 2: False
+-   2: False
 
-- 3: Compile time error  
+-   3: Compile time error  
 
 ========== Answer ==========  
 
 Answer: 2
 
-In JavaScript, the variables such as objects, arrays and functions comes under
-pass by reference. When you try to compare two objects with same content, it is
-going to compare memory address or reference of those variables. These variables
-always create separate memory blocks hence the comparison is always going to
-return false value.
+In JavaScript, the variables such as objects, arrays and functions comes under pass by reference. When you try to compare two objects with same content, it is going to compare memory address or reference of those variables. These variables always create separate memory blocks hence the comparison is always going to return false value.
 
 ========== Id ==========  
 522

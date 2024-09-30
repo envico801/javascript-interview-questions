@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-In ES5, it will throw a TypeError exception if the obj parameter isn't an
-object. Whereas in ES2015, the parameter will be coerced to an `Object`.
+In ES5, it will throw a TypeError exception if the obj parameter isn't an object. Whereas in ES2015, the parameter will be coerced to an `Object`.
 
 ```javascript
 // ES5

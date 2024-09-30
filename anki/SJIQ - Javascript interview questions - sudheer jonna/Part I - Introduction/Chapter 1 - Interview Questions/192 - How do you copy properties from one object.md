@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-You can use the Object.assign() method which is used to copy the values and
-properties from one or more source objects to a target object. It returns the
-target object which has properties and values copied from the source objects.
-The syntax would be as below,
+You can use the Object.assign() method which is used to copy the values and properties from one or more source objects to a target object. It returns the target object which has properties and values copied from the source objects. The syntax would be as below,
 
 ```javascript
 Object.assign(target, ...sources);
@@ -23,8 +20,7 @@ console.log(target); // { a: 1, b: 3, c: 4 }
 console.log(returnedTarget); // { a: 1, b: 3, c: 4 }
 ```
 
-As observed in the above code, there is a common property(`b`) from source to
-target so it's value has been overwritten.
+As observed in the above code, there is a common property(`b`) from source to target so it's value has been overwritten.
 
 ========== Id ==========  
 192

@@ -4,35 +4,32 @@
 
 ```javascript
 const myGenerator = (function* () {
-  yield 1;
-  yield 2;
-  yield 3;
+    yield 1;
+    yield 2;
+    yield 3;
 })();
 for (const value of myGenerator) {
-  console.log(value);
-  break;
+    console.log(value);
+    break;
 }
 for (const value of myGenerator) {
-  console.log(value);
+    console.log(value);
 }
 ```
 
-- 1: 1,2,3 and 1,2,3
+-   1: 1,2,3 and 1,2,3
 
-- 2: 1,2,3 and 4,5,6
+-   2: 1,2,3 and 4,5,6
 
-- 3: 1 and 1
+-   3: 1 and 1
 
-- 4: 1  
+-   4: 1  
 
 ========== Answer ==========  
 
 Answer: 4
 
-The generator should not be re-used once the iterator is closed. i.e, Upon
-exiting a loop(on completion or using break & return), the generator is closed
-and trying to iterate over it again does not yield any more results. Hence, the
-second loop doesn't print any value.
+The generator should not be re-used once the iterator is closed. i.e, Upon exiting a loop(on completion or using break & return), the generator is closed and trying to iterate over it again does not yield any more results. Hence, the second loop doesn't print any value.
 
 ========== Id ==========  
 495

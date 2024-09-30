@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The `console.group()` can be used to group related log messages to be able to
-easily read the logs and use console.groupEnd()to close the group. Along with
-this, you can also nest groups which allows to output message in hierarchical
-manner.
+The `console.group()` can be used to group related log messages to be able to easily read the logs and use console.groupEnd()to close the group. Along with this, you can also nest groups which allows to output message in hierarchical manner.
 
 For example, if you’re logging a user’s details:
 
@@ -26,8 +23,7 @@ console.groupEnd();
 console.groupEnd();
 ```
 
-You can also use `console.groupCollapsed()` instead of `console.group()` if you
-want the groups to be collapsed by default.
+You can also use `console.groupCollapsed()` instead of `console.group()` if you want the groups to be collapsed by default.
 
 ========== Id ==========  
 426

@@ -7,19 +7,15 @@ console.log(String.prototype.trimLeft.name === 'trimLeft');
 console.log(String.prototype.trimLeft.name === 'trimStart');
 ```
 
-- 1: True, False
+-   1: True, False
 
-- 2: False, True  
+-   2: False, True  
 
 ========== Answer ==========  
 
 Answer: 2
 
-In order to be consistent with functions like `String.prototype.padStart`, the
-standard method name for trimming the whitespaces is considered as `trimStart`.
-Due to web web compatibility reasons, the old method name 'trimLeft' still acts
-as an alias for 'trimStart'. Hence, the prototype for 'trimLeft' is always
-'trimStart'
+In order to be consistent with functions like `String.prototype.padStart`, the standard method name for trimming the whitespaces is considered as `trimStart`. Due to web web compatibility reasons, the old method name 'trimLeft' still acts as an alias for 'trimStart'. Hence, the prototype for 'trimLeft' is always 'trimStart'
 
 ========== Id ==========  
 463

@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-You can create infinite loops using for and while loops without using any
-expressions. The for loop construct or syntax is better approach in terms of
-ESLint and code optimizer tools,
+You can create infinite loops using for and while loops without using any expressions. The for loop construct or syntax is better approach in terms of ESLint and code optimizer tools,
 
 ```javascript
 for (;;) {}

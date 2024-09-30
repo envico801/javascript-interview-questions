@@ -8,23 +8,19 @@ quickPromise.then(() => console.log('promise finished'));
 console.log('program finished');
 ```
 
-- 1: program finished
+-   1: program finished
 
-- 2: Cannot predict the order
+-   2: Cannot predict the order
 
-- 3: program finished, promise finished
+-   3: program finished, promise finished
 
-- 4: promise finished, program finished  
+-   4: promise finished, program finished  
 
 ========== Answer ==========  
 
 Answer: 3
 
-Even though a promise is resolved immediately, it won't be executed immediately
-because its **.then/catch/finally** handlers or callbacks(aka task) are pushed
-into the queue. Whenever the JavaScript engine becomes free from the current
-program, it pulls a task from the queue and executes it. This is the reason why
-last statement is printed first before the log of promise handler.
+Even though a promise is resolved immediately, it won't be executed immediately because its **.then/catch/finally** handlers or callbacks(aka task) are pushed into the queue. Whenever the JavaScript engine becomes free from the current program, it pulls a task from the queue and executes it. This is the reason why last statement is printed first before the log of promise handler.
 
 **Note:** We call the above queue as "MicroTask Queue"
 

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Modifiers can be used to perform case-insensitive and global searches. Let's
-list down some of the modifiers,
+Modifiers can be used to perform case-insensitive and global searches. Let's list down some of the modifiers,
 
 | Modifier | Description                                             |
 | -------- | ------------------------------------------------------- |

@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The purpose of exec method is similar to test method but it executes a search
-for a match in a specified string and returns a result array, or null instead of
-returning true/false.
+The purpose of exec method is similar to test method but it executes a search for a match in a specified string and returns a result array, or null instead of returning true/false.
 
 ```javascript
 var pattern = /you/;

@@ -4,20 +4,18 @@
 
 ========== Answer ==========  
 
-The Instance properties must be defined inside of class methods. For example,
-name and age properties defined inside constructor as below,
+The Instance properties must be defined inside of class methods. For example, name and age properties defined inside constructor as below,
 
 ```javascript
 class Person {
-  constructor(name, age) {
-     this.name = name;
-     this.age = age;
-  }
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
 }
 ```
 
-But Static(class) and prototype data properties must be defined outside of the
-ClassBody declaration. Let's assign the age value for Person class as below,
+But Static(class) and prototype data properties must be defined outside of the ClassBody declaration. Let's assign the age value for Person class as below,
 
 ```javascript
 Person.staticAge = 30;

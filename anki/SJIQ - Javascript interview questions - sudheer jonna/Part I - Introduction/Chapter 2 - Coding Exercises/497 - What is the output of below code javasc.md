@@ -6,32 +6,29 @@
 const squareObj = new Square(10);
 console.log(squareObj.area);
 class Square {
-  constructor(length) {
-     this.length = length;
-  }
-  get area() {
-     return this.length * this.length;
-  }
-  set area(value) {
-     this.area = value;
-  }
+    constructor(length) {
+        this.length = length;
+    }
+    get area() {
+        return this.length * this.length;
+    }
+    set area(value) {
+        this.area = value;
+    }
 }
 ```
 
-- 1: 100
+-   1: 100
 
-- 2: ReferenceError  
+-   2: ReferenceError  
 
 ========== Answer ==========  
 
 Answer: 2
 
-Unlike function declarations, class declarations are not hoisted. i.e, First You
-need to declare your class and then access it, otherwise it will throw a
-ReferenceError "Uncaught ReferenceError: Square is not defined".
+Unlike function declarations, class declarations are not hoisted. i.e, First You need to declare your class and then access it, otherwise it will throw a ReferenceError "Uncaught ReferenceError: Square is not defined".
 
-**Note:** Class expressions also applies to the same hoisting restrictions of
-class declarations.
+**Note:** Class expressions also applies to the same hoisting restrictions of class declarations.
 
 ========== Id ==========  
 497

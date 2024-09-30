@@ -8,22 +8,19 @@ const array = [...obj];
 console.log(array);
 ```
 
-- 1: ['key', 'value']
+-   1: ['key', 'value']
 
-- 2: TypeError
+-   2: TypeError
 
-- 3: []
+-   3: []
 
-- 4: ['key']  
+-   4: ['key']  
 
 ========== Answer ==========  
 
 Answer: 2
 
-Spread syntax can be applied only to iterable objects. By default, Objects are
-not iterable, but they become iterable when used in an Array, or with iterating
-functions such as `map(), reduce(), and assign()`. If you still try to do it, it
-still throws `TypeError: obj is not iterable`.
+Spread syntax can be applied only to iterable objects. By default, Objects are not iterable, but they become iterable when used in an Array, or with iterating functions such as `map(), reduce(), and assign()`. If you still try to do it, it still throws `TypeError: obj is not iterable`.
 
 ========== Id ==========  
 492

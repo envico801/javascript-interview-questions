@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-WeakSet is used to store a collection of weakly(weak references) held objects.
-The syntax would be as follows,
+WeakSet is used to store a collection of weakly(weak references) held objects. The syntax would be as follows,
 
 ```javascript
 new WeakSet([iterable]);

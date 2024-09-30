@@ -4,17 +4,14 @@
 
 ========== Answer ==========  
 
-An async function is a function declared with the `async` keyword which enables
-asynchronous, promise-based behavior to be written in a cleaner style by
-avoiding promise chains. These functions can contain zero or more `await`
-expressions.
+An async function is a function declared with the `async` keyword which enables asynchronous, promise-based behavior to be written in a cleaner style by avoiding promise chains. These functions can contain zero or more `await` expressions.
 
 Let's take a below async function example,
 
 ```javascript
 async function logger() {
-  let data = await fetch('http://someapi.com/users'); // pause until fetch returns
-  console.log(data);
+    let data = await fetch('http://someapi.com/users'); // pause until fetch returns
+    console.log(data);
 }
 logger();
 ```

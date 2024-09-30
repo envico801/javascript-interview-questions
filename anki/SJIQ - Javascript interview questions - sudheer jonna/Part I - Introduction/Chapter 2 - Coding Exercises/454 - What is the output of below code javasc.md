@@ -5,18 +5,18 @@
 ```javascript
 var y = 1;
 if (function f() {}) {
-  y += typeof f;
+    y += typeof f;
 }
 console.log(y);
 ```
 
-- 1: 1function
+-   1: 1function
 
-- 2: 1object
+-   2: 1object
 
-- 3: ReferenceError
+-   3: ReferenceError
 
-- 4: 1undefined  
+-   4: 1undefined  
 
 ========== Answer ==========  
 
@@ -24,18 +24,16 @@ Answer: 4
 
 The main points in the above code snippets are,
 
-1. You can see function expression instead function declaration inside if
-    statement. So it always returns true.
+1. You can see function expression instead function declaration inside if statement. So it always returns true.
 
-2. Since it is not declared(or assigned) anywhere, f is undefined and typeof f
-    is undefined too.
+2. Since it is not declared(or assigned) anywhere, f is undefined and typeof f is undefined too.
 
 In other words, it is same as
 
 ```javascript
 var y = 1;
 if ('foo') {
-  y += typeof f;
+    y += typeof f;
 }
 console.log(y);
 ```

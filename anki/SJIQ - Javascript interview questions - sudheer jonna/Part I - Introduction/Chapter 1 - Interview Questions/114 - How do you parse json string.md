@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-When receiving the data from a web server, the data is always in a string
-format. But you can convert this string value to a javascript object using
-parse() method.
+When receiving the data from a web server, the data is always in a string format. But you can convert this string value to a javascript object using parse() method.
 
 ```javascript
 var userString = '{"name":"John","age":31}';

@@ -4,20 +4,15 @@
 
 ========== Answer ==========  
 
-A task is any javascript code/program which is scheduled to be run by the
-standard mechanisms such as initially starting to run a program, run an event
-callback, or an interval or timeout being fired. All these tasks are scheduled
-on a task queue.
+A task is any javascript code/program which is scheduled to be run by the standard mechanisms such as initially starting to run a program, run an event callback, or an interval or timeout being fired. All these tasks are scheduled on a task queue.
 
 Below are the list of use cases to add tasks to the task queue,
 
-1. When a new javascript program is executed directly from console or running by
-    the `<script>` element, the task will be added to the task queue.
+1. When a new javascript program is executed directly from console or running by the `<script>` element, the task will be added to the task queue.
 
 2. When an event fires, the event callback added to task queue
 
-3. When a setTimeout or setInterval is reached, the corresponding callback added
-    to task queue
+3. When a setTimeout or setInterval is reached, the corresponding callback added to task queue
 
 ========== Id ==========  
 387

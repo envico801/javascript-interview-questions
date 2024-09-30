@@ -2,35 +2,33 @@
 
 ### What is the output of below code ?
 
-- 1: console.log(true && 'hi');
+-   1: console.log(true && 'hi');
 
-- 2: console.log(true && 'hi' && 1);
+-   2: console.log(true && 'hi' && 1);
 
-- 3: console.log(true && '' && 0);  
+-   3: console.log(true && '' && 0);  
 
 ========== Answer ==========  
 
-- 1: hi
+-   1: hi
 
-- 2: 1
+-   2: 1
 
-- 3: ''
+-   3: ''
 
-Reason : The operator returns the value of the first falsy operand encountered
-when evaluating from left to right, or the value of the last operand if they are
-all truthy.
+Reason : The operator returns the value of the first falsy operand encountered when evaluating from left to right, or the value of the last operand if they are all truthy.
 
 **Note:** Below these values are consider as falsy value
 
-- 1: 0
+-   1: 0
 
-- 2: ''
+-   2: ''
 
-- 3: null
+-   3: null
 
-- 4: undefined
+-   4: undefined
 
-- 5: NAN
+-   5: NAN
 
 ========== Id ==========  
 506

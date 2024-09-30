@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The window.navigator object contains information about the visitor's browser OS
-details. Some of the OS properties are available under platform property,
+The window.navigator object contains information about the visitor's browser OS details. Some of the OS properties are available under platform property,
 
 ```javascript
 console.log(navigator.platform);

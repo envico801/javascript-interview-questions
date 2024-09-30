@@ -8,21 +8,19 @@ USER.age = 25;
 console.log(USER.age);
 ```
 
-- 1: 30
+-   1: 30
 
-- 2: 25
+-   2: 25
 
-- 3: Uncaught TypeError
+-   3: Uncaught TypeError
 
-- 4: SyntaxError  
+-   4: SyntaxError  
 
 ========== Answer ==========  
 
 Answer: 2
 
-Even though we used constant variables, the content of it is an object and the
-object's contents (e.g properties) can be altered. Hence, the change is going to
-be valid in this case.
+Even though we used constant variables, the content of it is an object and the object's contents (e.g properties) can be altered. Hence, the change is going to be valid in this case.
 
 ========== Id ==========  
 500

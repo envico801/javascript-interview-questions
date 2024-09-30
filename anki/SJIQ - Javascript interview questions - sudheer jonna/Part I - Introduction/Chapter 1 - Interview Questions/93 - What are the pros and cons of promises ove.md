@@ -14,8 +14,7 @@ Below are the list of pros and cons of promises over callbacks,
 
 3. Easy to write parallel asynchronous code with Promise.all()
 
-4. Solves some of the common problems of callbacks(call the callback too late,
-    too early, many times and swallow errors/exceptions)
+4. Solves some of the common problems of callbacks(call the callback too late, too early, many times and swallow errors/exceptions)
 
 **Cons:**
 

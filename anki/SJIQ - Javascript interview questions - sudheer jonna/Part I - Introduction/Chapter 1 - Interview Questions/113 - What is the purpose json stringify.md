@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-When sending data to a web server, the data has to be in a string format. You
-can achieve this by converting JSON object into a string using stringify()
-method.
+When sending data to a web server, the data has to be in a string format. You can achieve this by converting JSON object into a string using stringify() method.
 
 ```javascript
 var userJSON = { name: 'John', age: 31 };

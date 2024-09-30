@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can use `new Date().getTime()` to get the current timestamp. There is an
-alternative shortcut to get the value.
+You can use `new Date().getTime()` to get the current timestamp. There is an alternative shortcut to get the value.
 
 ```javascript
 console.log(+new Date());

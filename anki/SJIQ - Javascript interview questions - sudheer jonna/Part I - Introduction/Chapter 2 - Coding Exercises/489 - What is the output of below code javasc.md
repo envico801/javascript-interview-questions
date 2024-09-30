@@ -4,22 +4,21 @@
 
 ```javascript
 function greet(greeting, name, message = greeting + ' ' + name) {
-  console.log([greeting, name, message]);
+    console.log([greeting, name, message]);
 }
 greet('Hello', 'John');
 greet('Hello', 'John', 'Good morning!');
 ```
 
-- 1: SyntaxError
+-   1: SyntaxError
 
-- 2: ['Hello', 'John', 'Hello John'], ['Hello', 'John', 'Good morning!']  
+-   2: ['Hello', 'John', 'Hello John'], ['Hello', 'John', 'Good morning!']  
 
 ========== Answer ==========  
 
 Answer: 2
 
-Since parameters defined earlier are available to later default parameters, this
-code snippet doesn't throw any error.
+Since parameters defined earlier are available to later default parameters, this code snippet doesn't throw any error.
 
 ========== Id ==========  
 489

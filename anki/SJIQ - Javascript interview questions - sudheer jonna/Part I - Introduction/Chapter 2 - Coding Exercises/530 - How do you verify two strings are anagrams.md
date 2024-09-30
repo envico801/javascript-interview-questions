@@ -4,17 +4,13 @@
 
 ========== Answer ==========  
 
-An anagram is a word or phrase formed by rearranging all the letters of a
-different word or phrase exactly once. For example, the anagrams of "eat" word
-are "tea" and "ate".
+An anagram is a word or phrase formed by rearranging all the letters of a different word or phrase exactly once. For example, the anagrams of "eat" word are "tea" and "ate".
 
-You can split each word into characters, followed by sort action and later join
-them back. After that you can compare those two words to verify whether those
-two words are anagrams or not.
+You can split each word into characters, followed by sort action and later join them back. After that you can compare those two words to verify whether those two words are anagrams or not.
 
 ```javascript
 function verifyAnagrams(word1, word2) {
-  return word1.split('').sort().join('') === word2.split('').sort().join('');
+    return word1.split('').sort().join('') === word2.split('').sort().join('');
 }
 console.log(verifyAnagrams('eat', 'ate'));
 ```

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-If you add two arrays together, it will convert them both to strings and
-concatenate them. For example, the result of adding arrays would be as below,
+If you add two arrays together, it will convert them both to strings and concatenate them. For example, the result of adding arrays would be as below,
 
 ```javascript
 console.log(['a'] + ['b']); // "ab"

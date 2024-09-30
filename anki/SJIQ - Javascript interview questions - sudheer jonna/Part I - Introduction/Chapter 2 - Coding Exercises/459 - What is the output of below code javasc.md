@@ -7,20 +7,19 @@ console.log(1 < 2 < 3);
 console.log(3 > 2 > 1);
 ```
 
-- 1: true, true
+-   1: true, true
 
-- 2: true, false
+-   2: true, false
 
-- 3: SyntaxError, SyntaxError,
+-   3: SyntaxError, SyntaxError,
 
-- 4: false, false  
+-   4: false, false  
 
 ========== Answer ==========  
 
 Answer: 2
 
-The important point is that if the statement contains the same operators(e.g, <
-or >) then it can be evaluated from left to right.
+The important point is that if the statement contains the same operators(e.g, < or >) then it can be evaluated from left to right.
 
 The first statement follows the below order,
 

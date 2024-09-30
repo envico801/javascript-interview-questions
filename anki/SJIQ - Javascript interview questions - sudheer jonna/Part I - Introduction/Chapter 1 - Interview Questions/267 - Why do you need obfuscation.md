@@ -6,11 +6,9 @@
 
 Below are the few reasons for Obfuscation,
 
-1. The Code size will be reduced. So data transfers between server and client
-    will be fast.
+1. The Code size will be reduced. So data transfers between server and client will be fast.
 
-2. It hides the business logic from outside world and protects the code from
-    others
+2. It hides the business logic from outside world and protects the code from others
 
 3. Reverse engineering is highly difficult
 

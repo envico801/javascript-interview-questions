@@ -16,7 +16,7 @@ JavaScript functions follow below rules for parameters,
 
 ```javascript
 function functionName(parameter1, parameter2, parameter3) {
-  console.log(parameter1); // 1
+    console.log(parameter1); // 1
 }
 functionName(1);
 ```

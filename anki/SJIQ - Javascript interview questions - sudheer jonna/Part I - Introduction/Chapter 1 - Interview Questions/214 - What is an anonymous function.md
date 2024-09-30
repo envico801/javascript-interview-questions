@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-An anonymous function is a function without a name! Anonymous functions are
-commonly assigned to a variable name or used as a callback function. The syntax
-would be as below,
+An anonymous function is a function without a name! Anonymous functions are commonly assigned to a variable name or used as a callback function. The syntax would be as below,
 
 ```javascript
 function (optionalParameters) {
@@ -24,7 +22,7 @@ Let's see the above anonymous function in an example,
 
 ```javascript
 var x = function (a, b) {
-  return a * b;
+    return a * b;
 };
 var z = x(5, 10);
 console.log(z); // 50

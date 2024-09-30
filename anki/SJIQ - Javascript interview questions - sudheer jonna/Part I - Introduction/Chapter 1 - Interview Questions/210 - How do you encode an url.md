@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The encodeURI() function is used to encode complete URI which has special
-characters except (, / ? : @ & = + $ #) characters.
+The encodeURI() function is used to encode complete URI which has special characters except (, / ? : @ & = + $ #) characters.
 
 ```javascript
 var uri = 'https://mozilla.org/?x=шеллы';

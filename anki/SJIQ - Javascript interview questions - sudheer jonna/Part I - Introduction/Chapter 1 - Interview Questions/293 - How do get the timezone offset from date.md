@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-You can use the `getTimezoneOffset` method of the date object. This method
-returns the time zone difference, in minutes, from current locale (host system
-settings) to UTC
+You can use the `getTimezoneOffset` method of the date object. This method returns the time zone difference, in minutes, from current locale (host system settings) to UTC
 
 ```javascript
 var offset = new Date().getTimezoneOffset();

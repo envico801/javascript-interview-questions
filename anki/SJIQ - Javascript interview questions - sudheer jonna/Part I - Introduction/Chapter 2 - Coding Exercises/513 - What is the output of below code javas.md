@@ -8,22 +8,19 @@ numbers.sort();
 console.log(numbers);
 ```
 
-- 1: [11, 18, 23, 25, 31, 33, 200]
+-   1: [11, 18, 23, 25, 31, 33, 200]
 
-- 2: [11, 18, 200, 23, 25, 31, 33]
+-   2: [11, 18, 200, 23, 25, 31, 33]
 
-- 3: [11, 25, 31, 23, 33, 18, 200]
+-   3: [11, 25, 31, 23, 33, 18, 200]
 
-- 4: Cannot sort numbers  
+-   4: Cannot sort numbers  
 
 ========== Answer ==========  
 
 Answer: 2
 
-By default, the sort method sorts elements alphabetically. This is because
-elemented converted to strings and strings compared in UTF-16 code units order.
-Hence, you will see the above numbers not sorted as expected. In order to sort
-numerically just supply a comparator function which handles numeric sorts.
+By default, the sort method sorts elements alphabetically. This is because elemented converted to strings and strings compared in UTF-16 code units order. Hence, you will see the above numbers not sorted as expected. In order to sort numerically just supply a comparator function which handles numeric sorts.
 
 ```javascript
 const numbers = [11, 25, 31, 23, 33, 18, 200];

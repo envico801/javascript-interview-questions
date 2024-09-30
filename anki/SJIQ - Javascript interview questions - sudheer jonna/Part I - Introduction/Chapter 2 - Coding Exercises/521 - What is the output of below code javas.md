@@ -11,25 +11,19 @@ name = name + ' Smith';
 console.log(name);
 ```
 
-- 1: Jello World!, John Smith
+-   1: Jello World!, John Smith
 
-- 2: Jello World!, John
+-   2: Jello World!, John
 
-- 3: Hello World!, John Smith
+-   3: Hello World!, John Smith
 
-- 4: Hello World!, John  
+-   4: Hello World!, John  
 
 ========== Answer ==========  
 
 Answer: 3
 
-In JavaScript, primitives are immutable i.e. there is no way to change a
-primitive value once it gets created. So when you try to update the string's
-first character, there is no change in the string value and prints the same
-initial value `Hello World!`. Whereas in the later example, the concatenated
-value is re-assigned to the same variable which will result into creation of new
-memory block with the reference pointing to `John Smith` value and the old
-memory block value(`John`) will be garbage collected.
+In JavaScript, primitives are immutable i.e. there is no way to change a primitive value once it gets created. So when you try to update the string's first character, there is no change in the string value and prints the same initial value `Hello World!`. Whereas in the later example, the concatenated value is re-assigned to the same variable which will result into creation of new memory block with the reference pointing to `John Smith` value and the old memory block value(`John`) will be garbage collected.
 
 ========== Id ==========  
 521

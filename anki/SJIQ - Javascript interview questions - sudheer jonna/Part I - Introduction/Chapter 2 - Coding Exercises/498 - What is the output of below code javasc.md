@@ -5,10 +5,10 @@
 ```javascript
 function Person() {}
 Person.prototype.walk = function () {
-  return this;
+    return this;
 };
 Person.run = function () {
-  return this;
+    return this;
 };
 let user = new Person();
 let walk = user.walk;
@@ -17,22 +17,19 @@ let run = Person.run;
 console.log(run());
 ```
 
-- 1: undefined, undefined
+-   1: undefined, undefined
 
-- 2: Person, Person
+-   2: Person, Person
 
-- 3: SyntaxError
+-   3: SyntaxError
 
-- 4: Window, Window  
+-   4: Window, Window  
 
 ========== Answer ==========  
 
 Answer: 4
 
-When a regular or prototype method is called without a value for **this**, the
-methods return an initial this value if the value is not undefined. Otherwise
-global window object will be returned. In our case, the initial `this` value is
-undefined so both methods return window objects.
+When a regular or prototype method is called without a value for **this**, the methods return an initial this value if the value is not undefined. Otherwise global window object will be returned. In our case, the initial `this` value is undefined so both methods return window objects.
 
 ========== Id ==========  
 498

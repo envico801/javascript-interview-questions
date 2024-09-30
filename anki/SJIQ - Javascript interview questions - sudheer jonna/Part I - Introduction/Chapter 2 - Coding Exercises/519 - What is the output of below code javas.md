@@ -4,27 +4,24 @@
 
 ```javascript
 var expressionOne = function functionOne() {
-  console.log('functionOne');
+    console.log('functionOne');
 };
 functionOne();
 ```
 
-- 1: functionOne is not defined
+-   1: functionOne is not defined
 
-- 2: functionOne
+-   2: functionOne
 
-- 3: console.log("functionOne")
+-   3: console.log("functionOne")
 
-- 4: undefined  
+-   4: undefined  
 
 ========== Answer ==========  
 
 Answer: 1
 
-The function call `functionOne` is not going to be part of scope chain and it
-has it's own execution context with the enclosed variable environment. i.e, It
-won't be accessed from global context. Hence, there will be an error while
-invoking the function as `functionOne is not defined`.
+The function call `functionOne` is not going to be part of scope chain and it has it's own execution context with the enclosed variable environment. i.e, It won't be accessed from global context. Hence, there will be an error while invoking the function as `functionOne is not defined`.
 
 ========== Id ==========  
 519

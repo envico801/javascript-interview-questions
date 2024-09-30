@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The `Array#includes()` method is used to determine whether an array includes a
-particular value among its entries by returning either true or false. Let's see
-an example to find an element(numeric and string) within an array.
+The `Array#includes()` method is used to determine whether an array includes a particular value among its entries by returning either true or false. Let's see an example to find an element(numeric and string) within an array.
 
 ```javascript
 var numericArray = [1, 2, 3, 4];

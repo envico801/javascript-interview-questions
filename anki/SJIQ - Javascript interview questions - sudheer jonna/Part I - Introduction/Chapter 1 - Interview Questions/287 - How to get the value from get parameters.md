@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The `new URL()` object accepts the url string and `searchParams` property of
-this object can be used to access the get parameters. Remember that you may need
-to use polyfill or `window.location` to access the URL in older
-browsers(including IE).
+The `new URL()` object accepts the url string and `searchParams` property of this object can be used to access the get parameters. Remember that you may need to use polyfill or `window.location` to access the URL in older browsers(including IE).
 
 ```javascript
 let urlString = 'http://www.some-domain.com/about.html?x=1&y=2&z=3'; //window.location.href

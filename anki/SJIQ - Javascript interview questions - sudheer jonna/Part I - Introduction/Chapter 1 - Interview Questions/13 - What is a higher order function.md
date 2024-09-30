@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-A higher-order function is a function that accepts another function as an
-argument or returns a function as a return value or both.
+A higher-order function is a function that accepts another function as an argument or returns a function as a return value or both.
 
 ```javascript
 const firstOrderFunc = () => console.log('Hello, I am a First order function');

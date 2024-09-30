@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-RxJS (Reactive Extensions for JavaScript) is a library for implementing reactive
-programming using observables that makes it easier to compose asynchronous or
-callback-based code. It also provides utility functions for creating and working
-with observables.
+RxJS (Reactive Extensions for JavaScript) is a library for implementing reactive programming using observables that makes it easier to compose asynchronous or callback-based code. It also provides utility functions for creating and working with observables.
 
 ========== Id ==========  
 401

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The main difference between function declarations and class declarations is
-`hoisting`. The function declarations are hoisted but not class declarations.
+The main difference between function declarations and class declarations is `hoisting`. The function declarations are hoisted but not class declarations.
 
 **Classes:**
 

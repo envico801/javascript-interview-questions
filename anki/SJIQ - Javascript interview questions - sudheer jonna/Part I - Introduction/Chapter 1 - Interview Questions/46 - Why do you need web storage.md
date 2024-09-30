@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-Web storage is more secure, and large amounts of data can be stored locally,
-without affecting website performance. Also, the information is never
-transferred to the server. Hence this is a more recommended approach than
-Cookies.
+Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. Also, the information is never transferred to the server. Hence this is a more recommended approach than Cookies.
 
 ========== Id ==========  
 46

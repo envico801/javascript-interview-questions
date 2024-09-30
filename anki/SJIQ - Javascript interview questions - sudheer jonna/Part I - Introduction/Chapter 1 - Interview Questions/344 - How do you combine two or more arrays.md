@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The concat() method is used to join two or more arrays by returning a new array
-containing all the elements. The syntax would be as below,
+The concat() method is used to join two or more arrays by returning a new array containing all the elements. The syntax would be as below,
 
 ```javascript
 array1.concat(array2, array3, ..., arrayX)

@@ -4,15 +4,11 @@
 
 ========== Answer ==========  
 
-The **Object.seal()** method is used to seal an object, by preventing new
-properties from being added to it and marking all existing properties as
-non-configurable. But values of present properties can still be changed as long
-as they are writable. Let's see the below example to understand more about
-seal() method
+The **Object.seal()** method is used to seal an object, by preventing new properties from being added to it and marking all existing properties as non-configurable. But values of present properties can still be changed as long as they are writable. Let's see the below example to understand more about seal() method
 
 ```javascript
 const object = {
-  property: 'Welcome JS world',
+    property: 'Welcome JS world',
 };
 Object.seal(object);
 object.property = 'Welcome to object world';

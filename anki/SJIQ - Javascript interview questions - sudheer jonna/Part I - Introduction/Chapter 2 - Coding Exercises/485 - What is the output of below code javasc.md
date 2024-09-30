@@ -4,27 +4,24 @@
 
 ```javascript
 function area({ length = 10, width = 20 }) {
-  console.log(length * width);
+    console.log(length * width);
 }
 area();
 ```
 
-- 1: 200
+-   1: 200
 
-- 2: Error
+-   2: Error
 
-- 3: undefined
+-   3: undefined
 
-- 4: 0  
+-   4: 0  
 
 ========== Answer ==========  
 
 Answer: 2
 
-If you leave out the right-hand side assignment for the destructuring object,
-the function will look for at least one argument to be supplied when invoked.
-Otherwise you will receive an error
-`Error: Cannot read property 'length' of undefined` as mentioned above.
+If you leave out the right-hand side assignment for the destructuring object, the function will look for at least one argument to be supplied when invoked. Otherwise you will receive an error `Error: Cannot read property 'length' of undefined` as mentioned above.
 
 You can avoid the error with either of the below changes,
 
@@ -32,7 +29,7 @@ You can avoid the error with either of the below changes,
 
 ```javascript
 function area({ length = 10, width = 20 }) {
-  console.log(length * width);
+    console.log(length * width);
 }
 area({});
 ```
@@ -41,7 +38,7 @@ area({});
 
 ```javascript
 function area({ length = 10, width = 20 } = {}) {
-  console.log(length * width);
+    console.log(length * width);
 }
 area();
 ```

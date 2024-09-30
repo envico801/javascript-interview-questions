@@ -4,15 +4,14 @@
 
 ========== Answer ==========  
 
-The window.history object contains the browser's history. You can load previous
-and next URLs in the history using back() and next() methods.
+The window.history object contains the browser's history. You can load previous and next URLs in the history using back() and next() methods.
 
 ```javascript
 function goBack() {
-  window.history.back();
+    window.history.back();
 }
 function goForward() {
-  window.history.forward();
+    window.history.forward();
 }
 ```
 

@@ -4,13 +4,12 @@
 
 ========== Answer ==========  
 
-Yes, you can apply CSS styles to console messages similar to html text on the
-web page.
+Yes, you can apply CSS styles to console messages similar to html text on the web page.
 
 ```javascript
 console.log(
-  '%c The text has blue color, with large font and red background',
-  'color: blue; font-size: x-large; background: red',
+    '%c The text has blue color, with large font and red background',
+    'color: blue; font-size: x-large; background: red',
 );
 ```
 

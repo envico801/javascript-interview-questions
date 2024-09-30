@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-TypeScript is a typed superset of JavaScript created by Microsoft that adds
-optional types, classes, async/await, and many other features, and compiles to
-plain JavaScript. Angular built entirely in TypeScript and used as a primary
-language. You can install it globally as
+TypeScript is a typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await, and many other features, and compiles to plain JavaScript. Angular built entirely in TypeScript and used as a primary language. You can install it globally as
 
 ```bash
 npm install -g typescript
@@ -17,7 +14,7 @@ Let's see a simple example of TypeScript usage,
 
 ```typescript
 function greeting(name: string): string {
-  return 'Hello, ' + name;
+    return 'Hello, ' + name;
 }
 let user = 'Sudheer';
 console.log(greeting(user));

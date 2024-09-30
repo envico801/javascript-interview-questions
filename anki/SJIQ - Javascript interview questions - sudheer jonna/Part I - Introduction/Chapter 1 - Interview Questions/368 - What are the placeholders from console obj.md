@@ -17,9 +17,9 @@ Below are the list of placeholders available from console object,
 ```javascript
 const user = { name: 'John', id: 1, city: 'Delhi' };
 console.log(
-  'Hello %s, your details %o are available in the object form',
-  'John',
-  user,
+    'Hello %s, your details %o are available in the object form',
+    'John',
+    user,
 ); // Hello John, your details {name: "John", id: 1, city: "Delhi"} are available in object
 ```
 

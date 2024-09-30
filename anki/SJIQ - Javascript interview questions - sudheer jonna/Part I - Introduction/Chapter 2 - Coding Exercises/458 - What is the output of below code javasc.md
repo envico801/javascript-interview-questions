@@ -4,35 +4,34 @@
 
 ```javascript
 const obj = {
-  prop1: function () {
-     return 0;
-  },
-  prop2() {
-     return 1;
-  },
-  ['prop' + 3]() {
-     return 2;
-  },
+    prop1: function () {
+        return 0;
+    },
+    prop2() {
+        return 1;
+    },
+    ['prop' + 3]() {
+        return 2;
+    },
 };
 console.log(obj.prop1());
 console.log(obj.prop2());
 console.log(obj.prop3());
 ```
 
-- 1: 0, 1, 2
+-   1: 0, 1, 2
 
-- 2: 0, { return 1 }, 2
+-   2: 0, { return 1 }, 2
 
-- 3: 0, { return 1 }, { return 2 }
+-   3: 0, { return 1 }, { return 2 }
 
-- 4: 0, 1, undefined  
+-   4: 0, 1, undefined  
 
 ========== Answer ==========  
 
 Answer: 1
 
-ES6 provides method definitions and property shorthands for objects. So both
-prop2 and prop3 are treated as regular function values.
+ES6 provides method definitions and property shorthands for objects. So both prop2 and prop3 are treated as regular function values.
 
 ========== Id ==========  
 458

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Regular Expressions provide a group of patterns in order to match characters.
-Basically they are categorized into 3 types,
+Regular Expressions provide a group of patterns in order to match characters. Basically they are categorized into 3 types,
 
 1. **Brackets:** These are used to find a range of characters.
 
@@ -33,11 +32,9 @@ Basically they are categorized into 3 types,
 
     1. n+: Used to find matches for any string that contains at least one n
 
-    2. n\*: Used to find matches for any string that contains zero or more
-       occurrences of n
+    2. n\*: Used to find matches for any string that contains zero or more occurrences of n
 
-    3. n?: Used to find matches for any string that contains zero or one
-       occurrences of n
+    3. n?: Used to find matches for any string that contains zero or one occurrences of n
 
 ========== Id ==========  
 157

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The session storage provided methods for reading, writing and clearing the
-session data
+The session storage provided methods for reading, writing and clearing the session data
 
 ```javascript
 // Save data to sessionStorage

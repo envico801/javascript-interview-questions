@@ -4,22 +4,20 @@
 
 ========== Answer ==========  
 
-You can use the `super` keyword to call the constructor of a parent class.
-Remember that `super()` must be called before using 'this' reference. Otherwise
-it will cause a reference error. Let's the usage of it,
+You can use the `super` keyword to call the constructor of a parent class. Remember that `super()` must be called before using 'this' reference. Otherwise it will cause a reference error. Let's the usage of it,
 
 ```javascript
 class Square extends Rectangle {
-  constructor(length) {
-     super(length, length);
-     this.name = 'Square';
-  }
-  get area() {
-     return this.width * this.height;
-  }
-  set area(value) {
-     this.area = value;
-  }
+    constructor(length) {
+        super(length, length);
+        this.name = 'Square';
+    }
+    get area() {
+        return this.width * this.height;
+    }
+    set area(value) {
+        this.area = value;
+    }
 }
 ```
 

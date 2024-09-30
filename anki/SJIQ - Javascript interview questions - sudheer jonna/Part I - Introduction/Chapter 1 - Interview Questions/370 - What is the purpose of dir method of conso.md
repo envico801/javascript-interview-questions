@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The `console.dir()` is used to display an interactive list of the properties of
-the specified JavaScript object as JSON.
+The `console.dir()` is used to display an interactive list of the properties of the specified JavaScript object as JSON.
 
 ```javascript
 const user = { name: 'John', id: 1, city: 'Delhi' };

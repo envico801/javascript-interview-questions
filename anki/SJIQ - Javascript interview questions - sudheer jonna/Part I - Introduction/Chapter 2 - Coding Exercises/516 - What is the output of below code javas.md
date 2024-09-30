@@ -5,28 +5,26 @@
 ```javascript
 message();
 function message() {
-  console.log('Hello');
+    console.log('Hello');
 }
 function message() {
-  console.log('Bye');
+    console.log('Bye');
 }
 ```
 
-- 1: Reference error: message is not defined
+-   1: Reference error: message is not defined
 
-- 2: Hello
+-   2: Hello
 
-- 3: Bye
+-   3: Bye
 
-- 4: Compile time error  
+-   4: Compile time error  
 
 ========== Answer ==========  
 
 Answer: 3
 
-As part of hoisting, initially JavaScript Engine or compiler will store first
-function in heap memory but later rewrite or replaces with redefined function
-content.
+As part of hoisting, initially JavaScript Engine or compiler will store first function in heap memory but later rewrite or replaces with redefined function content.
 
 ========== Id ==========  
 516

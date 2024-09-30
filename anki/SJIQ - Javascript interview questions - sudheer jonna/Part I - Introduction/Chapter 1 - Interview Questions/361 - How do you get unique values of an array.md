@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can get unique values of an array with the combination of `Set` and rest
-expression/spread(...) syntax.
+You can get unique values of an array with the combination of `Set` and rest expression/spread(...) syntax.
 
 ```javascript
 console.log([...new Set([1, 2, 4, 4, 3])]); // [1, 2, 4, 3]

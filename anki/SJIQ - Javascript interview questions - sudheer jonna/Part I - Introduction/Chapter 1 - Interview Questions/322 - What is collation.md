@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Collation is used for sorting a set of strings and searching within a set of
-strings. It is parameterized by locale and aware of Unicode. Let's take
-comparison and sorting features,
+Collation is used for sorting a set of strings and searching within a set of strings. It is parameterized by locale and aware of Unicode. Let's take comparison and sorting features,
 
 1. **Comparison:**
 

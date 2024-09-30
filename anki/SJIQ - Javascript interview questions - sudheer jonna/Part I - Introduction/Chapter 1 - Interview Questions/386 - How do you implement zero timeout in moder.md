@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-You can't use setTimeout(fn, 0) to execute the code immediately due to minimum
-delay of greater than 0ms. But you can use window.postMessage() to achieve this
-behavior.
+You can't use setTimeout(fn, 0) to execute the code immediately due to minimum delay of greater than 0ms. But you can use window.postMessage() to achieve this behavior.
 
 ========== Id ==========  
 386

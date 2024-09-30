@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-A variable can be assigned a default value when the value unpacked from the
-array or object is undefined during destructuring assignment. It helps to avoid
-setting default values separately for each assignment. Let's take an example for
-both arrays and object use cases,
+A variable can be assigned a default value when the value unpacked from the array or object is undefined during destructuring assignment. It helps to avoid setting default values separately for each assignment. Let's take an example for both arrays and object use cases,
 
 **Arrays destructuring:**
 

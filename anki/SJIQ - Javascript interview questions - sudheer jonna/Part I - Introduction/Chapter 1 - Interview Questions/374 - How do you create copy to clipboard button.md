@@ -4,16 +4,14 @@
 
 ========== Answer ==========  
 
-You need to select the content(using .select() method) of the input element and
-execute the copy command with execCommand (i.e, execCommand('copy')). You can
-also execute other system commands like cut and paste.
+You need to select the content(using .select() method) of the input element and execute the copy command with execCommand (i.e, execCommand('copy')). You can also execute other system commands like cut and paste.
 
 ```javascript
 document.querySelector('#copy-button').onclick = function () {
-  // Select the content
-  document.querySelector('#copy-input').select();
-  // Copy to the clipboard
-  document.execCommand('copy');
+    // Select the content
+    document.querySelector('#copy-input').select();
+    // Copy to the clipboard
+    document.execCommand('copy');
 };
 ```
 

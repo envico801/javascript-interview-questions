@@ -4,16 +4,11 @@
 
 ========== Answer ==========  
 
-Microtask is the javascript code which needs to be executed immediately after
-the currently executing task/microtask is completed. They are kind of blocking
-in nature. i.e, The main thread will be blocked until the microtask queue is
-empty.
+Microtask is the javascript code which needs to be executed immediately after the currently executing task/microtask is completed. They are kind of blocking in nature. i.e, The main thread will be blocked until the microtask queue is empty.
 
-The main sources of microtasks are Promise.resolve, Promise.reject,
-MutationObservers, IntersectionObservers etc
+The main sources of microtasks are Promise.resolve, Promise.reject, MutationObservers, IntersectionObservers etc
 
-**Note:** All of these microtasks are processed in the same turn of the event
-loop.
+**Note:** All of these microtasks are processed in the same turn of the event loop.
 
 ========== Id ==========  
 388

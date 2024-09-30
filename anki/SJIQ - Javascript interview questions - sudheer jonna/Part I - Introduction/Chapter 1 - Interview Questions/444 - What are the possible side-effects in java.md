@@ -4,22 +4,19 @@
 
 ========== Answer ==========  
 
-A side effect is the modification of the state through the invocation of a
-function or expression. These side effects make our function impure by default.
-Below are some side effects which make function impure,
+A side effect is the modification of the state through the invocation of a function or expression. These side effects make our function impure by default. Below are some side effects which make function impure,
 
-- Making an HTTP request. Asynchronous functions such as fetch and promise are
-  impure.
+-   Making an HTTP request. Asynchronous functions such as fetch and promise are impure.
 
-- DOM manipulations
+-   DOM manipulations
 
-- Mutating the input data
+-   Mutating the input data
 
-- Printing to a screen or console: For example, console.log() and alert()
+-   Printing to a screen or console: For example, console.log() and alert()
 
-- Fetching the current time
+-   Fetching the current time
 
-- Math.random() calls: Modifies the internal state of Math object
+-   Math.random() calls: Modifies the internal state of Math object
 
 ========== Id ==========  
 444

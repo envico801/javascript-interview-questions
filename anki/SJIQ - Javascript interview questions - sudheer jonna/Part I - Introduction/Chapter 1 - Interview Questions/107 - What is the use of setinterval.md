@@ -4,13 +4,11 @@
 
 ========== Answer ==========  
 
-The setInterval() method is used to call a function or evaluate an expression at
-specified intervals (in milliseconds). For example, let's log a message after 2
-seconds using setInterval method,
+The setInterval() method is used to call a function or evaluate an expression at specified intervals (in milliseconds). For example, let's log a message after 2 seconds using setInterval method,
 
 ```javascript
 setInterval(function () {
-  console.log('Good morning');
+    console.log('Good morning');
 }, 2000);
 ```
 

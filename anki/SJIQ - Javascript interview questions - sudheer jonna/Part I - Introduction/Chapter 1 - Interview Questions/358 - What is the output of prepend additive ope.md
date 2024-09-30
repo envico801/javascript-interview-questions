@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-If you prepend the additive(+) operator on falsy values(null, undefined, NaN,
-false, ""), the falsy value converts to a number value zero. Let's display them
-on browser console as below,
+If you prepend the additive(+) operator on falsy values(null, undefined, NaN, false, ""), the falsy value converts to a number value zero. Let's display them on browser console as below,
 
 ```javascript
 console.log(+null); // 0

@@ -4,13 +4,12 @@
 
 ========== Answer ==========  
 
-The conditional (ternary) operator is the only JavaScript operator that takes
-three operands which acts as a shortcut for if statements.
+The conditional (ternary) operator is the only JavaScript operator that takes three operands which acts as a shortcut for if statements.
 
 ```javascript
 var isAuthenticated = false;
 console.log(
-  isAuthenticated ? 'Hello, welcome' : 'Sorry, you are not authenticated',
+    isAuthenticated ? 'Hello, welcome' : 'Sorry, you are not authenticated',
 ); //Sorry, you are not authenticated
 ```
 

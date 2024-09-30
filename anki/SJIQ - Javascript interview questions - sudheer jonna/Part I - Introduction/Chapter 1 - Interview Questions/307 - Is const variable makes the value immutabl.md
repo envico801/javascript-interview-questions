@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-No, the const variable doesn't make the value immutable. But it disallows
-subsequent assignments(i.e, You can declare with assignment but can't assign
-another value later)
+No, the const variable doesn't make the value immutable. But it disallows subsequent assignments(i.e, You can declare with assignment but can't assign another value later)
 
 ```javascript
 const userList = [];

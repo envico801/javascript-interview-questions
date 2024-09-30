@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Some of the most common use cases of observables are web sockets with push
-notifications, user input changes, repeating intervals, etc
+Some of the most common use cases of observables are web sockets with push notifications, user input changes, repeating intervals, etc
 
 ========== Id ==========  
 400

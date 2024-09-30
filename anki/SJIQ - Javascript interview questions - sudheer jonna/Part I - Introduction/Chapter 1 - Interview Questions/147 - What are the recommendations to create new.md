@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-It is recommended to avoid creating new objects using `new Object()`. Instead
-you can initialize values based on it's type to create the objects.
+It is recommended to avoid creating new objects using `new Object()`. Instead you can initialize values based on it's type to create the objects.
 
 1. Assign {} instead of new Object()
 

@@ -5,21 +5,21 @@
 ```javascript
 let count = 10;
 (function innerFunc() {
-  if (count === 10) {
-     let count = 11;
-     console.log(count);
-  }
-  console.log(count);
+    if (count === 10) {
+        let count = 11;
+        console.log(count);
+    }
+    console.log(count);
 })();
 ```
 
-- 1: 11, 10
+-   1: 11, 10
 
-- 2: 11, 11
+-   2: 11, 11
 
-- 3: 10, 11
+-   3: 10, 11
 
-- 4: 10, 10  
+-   4: 10, 10  
 
 ========== Answer ==========  
 
@@ -27,13 +27,9 @@ Answer: 1
 
 11 and 10 is logged to the console.
 
-The innerFunc is a closure which captures the count variable from the
-outerscope. i.e, 10. But the conditional has another local variable `count`
-which overwrites the ourter `count` variable. So the first console.log displays
-value 11.
+The innerFunc is a closure which captures the count variable from the outerscope. i.e, 10. But the conditional has another local variable `count` which overwrites the ourter `count` variable. So the first console.log displays value 11.
 
-Whereas the second console.log logs 10 by capturing the count variable from
-outerscope.
+Whereas the second console.log logs 10 by capturing the count variable from outerscope.
 
 ========== Id ==========  
 505

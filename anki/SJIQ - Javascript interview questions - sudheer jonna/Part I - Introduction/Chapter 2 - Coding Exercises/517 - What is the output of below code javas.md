@@ -5,33 +5,26 @@
 ```javascript
 var currentCity = 'NewYork';
 var changeCurrentCity = function () {
-  console.log('Current City:', currentCity);
-  var currentCity = 'Singapore';
-  console.log('Current City:', currentCity);
+    console.log('Current City:', currentCity);
+    var currentCity = 'Singapore';
+    console.log('Current City:', currentCity);
 };
 changeCurrentCity();
 ```
 
-- 1: NewYork, Singapore
+-   1: NewYork, Singapore
 
-- 2: NewYork, NewYork
+-   2: NewYork, NewYork
 
-- 3: undefined, Singapore
+-   3: undefined, Singapore
 
-- 4: Singapore, Singapore  
+-   4: Singapore, Singapore  
 
 ========== Answer ==========  
 
 Answer: 3
 
-Due to hositing feature, the variables declared with `var` will have `undefined`
-value in the creation phase so the outer variable `currentCity` will get same
-`undefined` value. But after few lines of code JavaScript engine found a new
-function call(`changeCurrentCity()`) to update the current city with `var`
-re-declaration. Since each function call will create a new execution context,
-the same variable will have `undefined` value before the declaration and new
-value(`Singapore`) after the declarion. Hence, the value `undefined` print first
-followed by new value `Singapore` in the execution phase.
+Due to hositing feature, the variables declared with `var` will have `undefined` value in the creation phase so the outer variable `currentCity` will get same `undefined` value. But after few lines of code JavaScript engine found a new function call(`changeCurrentCity()`) to update the current city with `var` re-declaration. Since each function call will create a new execution context, the same variable will have `undefined` value before the declaration and new value(`Singapore`) after the declarion. Hence, the value `undefined` print first followed by new value `Singapore` in the execution phase.
 
 ========== Id ==========  
 517

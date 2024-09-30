@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-A unary function (i.e. monadic) is a function that accepts exactly one argument.
-It stands for a single argument accepted by a function.
+A unary function (i.e. monadic) is a function that accepts exactly one argument. It stands for a single argument accepted by a function.
 
 Let us take an example of unary function,
 

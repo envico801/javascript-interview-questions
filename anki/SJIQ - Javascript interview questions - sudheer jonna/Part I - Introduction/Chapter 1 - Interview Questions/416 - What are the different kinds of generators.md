@@ -10,9 +10,9 @@ There are five kinds of generators,
 
     ```javascript
     function* myGenFunc() {
-      yield 1;
-      yield 2;
-      yield 3;
+        yield 1;
+        yield 2;
+        yield 3;
     }
     const genObj = myGenFunc();
     ```
@@ -21,9 +21,9 @@ There are five kinds of generators,
 
     ```javascript
     const myGenFunc = function* () {
-      yield 1;
-      yield 2;
-      yield 3;
+        yield 1;
+        yield 2;
+        yield 3;
     };
     const genObj = myGenFunc();
     ```
@@ -32,11 +32,11 @@ There are five kinds of generators,
 
     ```javascript
     const myObj = {
-      *myGeneratorMethod() {
-        yield 1;
-        yield 2;
-        yield 3;
-      },
+        *myGeneratorMethod() {
+            yield 1;
+            yield 2;
+            yield 3;
+        },
     };
     const genObj = myObj.myGeneratorMethod();
     ```
@@ -45,11 +45,11 @@ There are five kinds of generators,
 
     ```javascript
     class MyClass {
-      *myGeneratorMethod() {
-        yield 1;
-        yield 2;
-        yield 3;
-      }
+        *myGeneratorMethod() {
+            yield 1;
+            yield 2;
+            yield 3;
+        }
     }
     const myObject = new MyClass();
     const genObj = myObject.myGeneratorMethod();
@@ -59,11 +59,11 @@ There are five kinds of generators,
 
     ```javascript
     const SomeObj = {
-      *[Symbol.iterator]() {
-        yield 1;
-        yield 2;
-        yield 3;
-      },
+        *[Symbol.iterator]() {
+            yield 1;
+            yield 2;
+            yield 3;
+        },
     };
     console.log(Array.from(SomeObj)); // [ 1, 2, 3 ]
     ```

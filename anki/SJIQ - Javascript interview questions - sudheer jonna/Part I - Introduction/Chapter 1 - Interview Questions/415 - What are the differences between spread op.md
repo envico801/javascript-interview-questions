@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-Rest parameter collects all remaining elements into an array. Whereas Spread
-operator allows iterables( arrays / objects / strings ) to be expanded into
-single arguments/elements. i.e, Rest parameter is opposite to the spread
-operator.
+Rest parameter collects all remaining elements into an array. Whereas Spread operator allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements. i.e, Rest parameter is opposite to the spread operator.
 
 ========== Id ==========  
 415

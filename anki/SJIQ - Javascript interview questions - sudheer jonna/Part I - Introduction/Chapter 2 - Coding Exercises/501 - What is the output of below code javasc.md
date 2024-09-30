@@ -6,17 +6,15 @@
 console.log('🙂' === '🙂');
 ```
 
-- 1: false
+-   1: false
 
-- 2: true  
+-   2: true  
 
 ========== Answer ==========  
 
 Answer: 2
 
-Emojis are unicodes and the unicode for smile symbol is "U+1F642". The unicode
-comparision of same emojies is equivalent to string comparison. Hence, the
-output is always true.
+Emojis are unicodes and the unicode for smile symbol is "U+1F642". The unicode comparision of same emojies is equivalent to string comparison. Hence, the output is always true.
 
 ========== Id ==========  
 501

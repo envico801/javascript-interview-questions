@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The `void` operator evaluates the given expression and then returns
-undefined(i.e, without returning value). The syntax would be as below,
+The `void` operator evaluates the given expression and then returns undefined(i.e, without returning value). The syntax would be as below,
 
 ```javascript
 void expression;
@@ -16,12 +15,11 @@ Let's display a message without any redirection or reload
 
 ```javascript
 <a href="javascript:void(alert('Welcome to JS world'))">
-  Click here to see a message
+    Click here to see a message
 </a>
 ```
 
-**Note:** This operator is often used to obtain the undefined primitive value,
-using "void(0)".
+**Note:** This operator is often used to obtain the undefined primitive value, using "void(0)".
 
 ========== Id ==========  
 299

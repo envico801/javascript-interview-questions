@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can convert an array to an object with the same data using spread(...)
-operator.
+You can convert an array to an object with the same data using spread(...) operator.
 
 ```javascript
 var fruits = ['banana', 'apple', 'orange', 'watermelon'];

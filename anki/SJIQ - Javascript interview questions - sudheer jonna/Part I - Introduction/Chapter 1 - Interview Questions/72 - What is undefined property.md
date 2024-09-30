@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The undefined property indicates that a variable has not been assigned a value,
-or declared but not initialized at all. The type of undefined value is undefined
-too.
+The undefined property indicates that a variable has not been assigned a value, or declared but not initialized at all. The type of undefined value is undefined too.
 
 ```javascript
 var user; // Value is undefined, type is undefined

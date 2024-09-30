@@ -7,21 +7,19 @@ const sym1 = new Symbol('one');
 console.log(sym1);
 ```
 
-- 1: SyntaxError
+-   1: SyntaxError
 
-- 2: one
+-   2: one
 
-- 3: Symbol('one')
+-   3: Symbol('one')
 
-- 4: Symbol  
+-   4: Symbol  
 
 ========== Answer ==========  
 
 Answer: 1
 
-`Symbol` is a just a standard function and not an object constructor(unlike
-other primitives new Boolean, new String and new Number). So if you try to call
-it with the new operator will result in a TypeError
+`Symbol` is a just a standard function and not an object constructor(unlike other primitives new Boolean, new String and new Number). So if you try to call it with the new operator will result in a TypeError
 
 ========== Id ==========  
 479

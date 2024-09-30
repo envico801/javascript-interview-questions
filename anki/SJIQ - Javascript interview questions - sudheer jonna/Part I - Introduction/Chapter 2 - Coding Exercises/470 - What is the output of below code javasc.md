@@ -6,16 +6,15 @@
 console.log(NaN === NaN);
 ```
 
-- 1: True
+-   1: True
 
-- 2: False  
+-   2: False  
 
 ========== Answer ==========  
 
 Answer: 2
 
-JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never
-equal for floating-point numbers.
+JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never equal for floating-point numbers.
 
 ========== Id ==========  
 470

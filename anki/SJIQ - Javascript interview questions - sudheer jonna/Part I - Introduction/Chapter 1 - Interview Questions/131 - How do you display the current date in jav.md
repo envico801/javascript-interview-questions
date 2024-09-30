@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can use `new Date()` to generate a new Date object containing the current
-date and time. For example, let's display the current date in mm/dd/yyyy
+You can use `new Date()` to generate a new Date object containing the current date and time. For example, let's display the current date in mm/dd/yyyy
 
 ```javascript
 var today = new Date();

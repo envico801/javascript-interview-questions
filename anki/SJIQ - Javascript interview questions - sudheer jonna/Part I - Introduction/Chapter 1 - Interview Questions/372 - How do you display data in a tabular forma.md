@@ -4,14 +4,13 @@
 
 ========== Answer ==========  
 
-The `console.table()` is used to display data in the console in a tabular format
-to visualize complex arrays or objects.
+The `console.table()` is used to display data in the console in a tabular format to visualize complex arrays or objects.
 
 ```js
 const users = [
-  { name: 'John', id: 1, city: 'Delhi' },
-  { name: 'Max', id: 2, city: 'London' },
-  { name: 'Rod', id: 3, city: 'Paris' },
+    { name: 'John', id: 1, city: 'Delhi' },
+    { name: 'Max', id: 2, city: 'London' },
+    { name: 'Rod', id: 3, city: 'Paris' },
 ];
 console.table(users);
 ```

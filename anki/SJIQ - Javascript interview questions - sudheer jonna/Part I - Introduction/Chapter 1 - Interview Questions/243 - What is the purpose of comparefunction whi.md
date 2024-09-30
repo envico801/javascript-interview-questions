@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The compareFunction is used to define the sort order. If omitted, the array
-elements are converted to strings, then sorted according to each character's
-Unicode code point value. Let's take an example to see the usage of
-compareFunction,
+The compareFunction is used to define the sort order. If omitted, the array elements are converted to strings, then sorted according to each character's Unicode code point value. Let's take an example to see the usage of compareFunction,
 
 ```javascript
 let numbers = [1, 2, 5, 3, 4];

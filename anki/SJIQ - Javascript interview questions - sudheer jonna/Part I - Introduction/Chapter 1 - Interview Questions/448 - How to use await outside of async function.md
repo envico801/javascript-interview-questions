@@ -4,19 +4,17 @@
 
 ========== Answer ==========  
 
-Prior to ES2022, if you attempted to use an await outside of an async function
-resulted in a SyntaxError.
+Prior to ES2022, if you attempted to use an await outside of an async function resulted in a SyntaxError.
 
 ```javascript
 await Promise.resolve(console.log('Hello await')); // SyntaxError: await is only valid in async function
 ```
 
-But you can fix this issue with an alternative IIFE (Immediately Invoked
-Function Expression) to get access to the feature.
+But you can fix this issue with an alternative IIFE (Immediately Invoked Function Expression) to get access to the feature.
 
 ```javascript
 (async function () {
-  await Promise.resolve(console.log('Hello await')); // Hello await
+    await Promise.resolve(console.log('Hello await')); // Hello await
 })();
 ```
 

@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The length property of an array is useful to resize or empty an array quickly.
-Let's apply length property on number array to resize the number of elements
-from 5 to 2,
+The length property of an array is useful to resize or empty an array quickly. Let's apply length property on number array to resize the number of elements from 5 to 2,
 
 ```javascript
 var array = [1, 2, 3, 4, 5];

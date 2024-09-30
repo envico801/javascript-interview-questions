@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Cookies are used to remember information about the user profile(such as
-username). It basically involves two steps,
+Cookies are used to remember information about the user profile(such as username). It basically involves two steps,
 
 1. When a user visits a web page, the user profile can be stored in a cookie.
 

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can use the test() method of regular expression in order to search a string
-for a pattern, and return true or false depending on the result.
+You can use the test() method of regular expression in order to search a string for a pattern, and return true or false depending on the result.
 
 ```javascript
 var pattern = /you/;

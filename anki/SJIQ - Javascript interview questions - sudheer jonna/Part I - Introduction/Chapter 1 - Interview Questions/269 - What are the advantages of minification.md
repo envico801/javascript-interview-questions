@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Normally it is recommended to use minification for heavy traffic and intensive
-requirements of resources. It reduces file sizes with below benefits,
+Normally it is recommended to use minification for heavy traffic and intensive requirements of resources. It reduces file sizes with below benefits,
 
 1. Decreases loading times of a web page
 

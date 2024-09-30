@@ -4,38 +4,35 @@
 
 ```javascript
 function foo() {
-  return;
-  {
-     message: 'Hello World';
-  }
+    return;
+    {
+        message: 'Hello World';
+    }
 }
 console.log(foo());
 ```
 
-- 1: Hello World
+-   1: Hello World
 
-- 2: Object {message: "Hello World"}
+-   2: Object {message: "Hello World"}
 
-- 3: Undefined
+-   3: Undefined
 
-- 4: SyntaxError  
+-   4: SyntaxError  
 
 ========== Answer ==========  
 
 Answer: 3
 
-This is a semicolon issue. Normally semicolons are optional in JavaScript. So if
-there are any statements(in this case, return) missing semicolon, it is
-automatically inserted immediately. Hence, the function returned as undefined.
+This is a semicolon issue. Normally semicolons are optional in JavaScript. So if there are any statements(in this case, return) missing semicolon, it is automatically inserted immediately. Hence, the function returned as undefined.
 
-Whereas if the opening curly brace is along with the return keyword then the
-function is going to be returned as expected.
+Whereas if the opening curly brace is along with the return keyword then the function is going to be returned as expected.
 
 ```javascript
 function foo() {
-  return {
-     message: 'Hello World',
-  };
+    return {
+        message: 'Hello World',
+    };
 }
 console.log(foo()); // {message: "Hello World"}
 ```

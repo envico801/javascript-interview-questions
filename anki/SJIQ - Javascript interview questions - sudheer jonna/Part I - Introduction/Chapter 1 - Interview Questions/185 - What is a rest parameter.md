@@ -4,26 +4,23 @@
 
 ========== Answer ==========  
 
-Rest parameter is an improved way to handle function parameters which allows us
-to represent an indefinite number of arguments as an array. The syntax would be
-as below,
+Rest parameter is an improved way to handle function parameters which allows us to represent an indefinite number of arguments as an array. The syntax would be as below,
 
 ```javascript
 function f(a, b, ...theArgs) {
-  // ...
+    // ...
 }
 ```
 
-For example, let's take a sum example to calculate on dynamic number of
-parameters,
+For example, let's take a sum example to calculate on dynamic number of parameters,
 
 ```javascript
 function sum(...args) {
-  let total = 0;
-  for (const i of args) {
-     total += i;
-  }
-  return total;
+    let total = 0;
+    for (const i of args) {
+        total += i;
+    }
+    return total;
 }
 console.log(sum(1, 2)); //3
 console.log(sum(1, 2, 3)); //6

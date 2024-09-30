@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-If you want to access any element in an HTML page, you need to start with
-accessing the document object. Later you can use any of the below methods to
-find the HTML element,
+If you want to access any element in an HTML page, you need to start with accessing the document object. Later you can use any of the below methods to find the HTML element,
 
 1. document.getElementById(id): It finds an element by Id
 

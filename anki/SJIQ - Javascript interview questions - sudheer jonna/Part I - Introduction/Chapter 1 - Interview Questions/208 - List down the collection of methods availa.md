@@ -6,16 +6,13 @@
 
 Below are the list of methods available on WeakMap,
 
-1. set(key, value): Sets the value for the key in the WeakMap object. Returns
-    the WeakMap object.
+1. set(key, value): Sets the value for the key in the WeakMap object. Returns the WeakMap object.
 
 2. delete(key): Removes any value associated to the key.
 
-3. has(key): Returns a Boolean asserting whether a value has been associated to
-    the key in the WeakMap object or not.
+3. has(key): Returns a Boolean asserting whether a value has been associated to the key in the WeakMap object or not.
 
-4. get(key): Returns the value associated to the key, or undefined if there is
-    none.
+4. get(key): Returns the value associated to the key, or undefined if there is none.
 
     Let's see the functionality of all the above methods in an example,
 

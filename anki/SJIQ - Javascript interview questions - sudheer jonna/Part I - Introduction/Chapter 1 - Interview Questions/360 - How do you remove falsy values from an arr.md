@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-You can apply the filter method on the array by passing Boolean as a parameter.
-This way it removes all falsy values(0, undefined, null, false and "") from the
-array.
+You can apply the filter method on the array by passing Boolean as a parameter. This way it removes all falsy values(0, undefined, null, false and "") from the array.
 
 ```javascript
 const myArray = [false, null, 1, 5, undefined];

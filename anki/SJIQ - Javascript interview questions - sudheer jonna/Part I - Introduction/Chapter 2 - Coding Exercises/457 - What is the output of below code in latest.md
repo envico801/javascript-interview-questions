@@ -12,21 +12,19 @@ var array3 = [, , ,];
 console.log(array3);
 ```
 
-- 1: [undefined × 3], [undefined × 2, 100], [undefined × 3]
+-   1: [undefined × 3], [undefined × 2, 100], [undefined × 3]
 
-- 2: [empty × 3], [empty × 2, 100], [empty × 3]
+-   2: [empty × 3], [empty × 2, 100], [empty × 3]
 
-- 3: [null × 3], [null × 2, 100], [null × 3]
+-   3: [null × 3], [null × 2, 100], [null × 3]
 
-- 4: [], [100], []  
+-   4: [], [100], []  
 
 ========== Answer ==========  
 
 Answer: 2
 
-The latest chrome versions display `sparse array`(they are filled with holes)
-using this empty x n notation. Whereas the older versions have undefined x n
-notation.
+The latest chrome versions display `sparse array`(they are filled with holes) using this empty x n notation. Whereas the older versions have undefined x n notation.
 
 **Note:** The latest version of FF displays `n empty slots` notation.
 

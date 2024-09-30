@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The for-loop is a commonly used iteration syntax in javascript. It has both pros
-and cons
+The for-loop is a commonly used iteration syntax in javascript. It has both pros and cons
 
 #### Pros
 

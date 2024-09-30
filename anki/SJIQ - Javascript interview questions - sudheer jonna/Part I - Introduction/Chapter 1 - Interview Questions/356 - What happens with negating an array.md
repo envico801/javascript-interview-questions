@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Negating an array with `!` character will coerce the array into a boolean. Since
-Arrays are considered to be truthy So negating it will return `false`.
+Negating an array with `!` character will coerce the array into a boolean. Since Arrays are considered to be truthy So negating it will return `false`.
 
 ```javascript
 console.log(![]); // false

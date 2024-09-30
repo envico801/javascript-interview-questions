@@ -4,16 +4,13 @@
 
 ========== Answer ==========  
 
-You can use the `String.prototype.charCodeAt()` method to convert string
-characters to ASCII numbers. For example, let's find ASCII code for the first
-letter of 'ABC' string,
+You can use the `String.prototype.charCodeAt()` method to convert string characters to ASCII numbers. For example, let's find ASCII code for the first letter of 'ABC' string,
 
 ```javascript
 'ABC'.charCodeAt(0); // returns 65
 ```
 
-Whereas `String.fromCharCode()` method converts numbers to equal ASCII
-characters.
+Whereas `String.fromCharCode()` method converts numbers to equal ASCII characters.
 
 ```javascript
 String.fromCharCode(65, 66, 67); // returns 'ABC'

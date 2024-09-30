@@ -8,13 +8,13 @@ set.add('+0').add('-0').add(NaN).add(undefined).add(NaN);
 console.log(set);
 ```
 
-- 1: Set(4) {"+0", "-0", NaN, undefined}
+-   1: Set(4) {"+0", "-0", NaN, undefined}
 
-- 2: Set(3) {"+0", NaN, undefined}
+-   2: Set(3) {"+0", NaN, undefined}
 
-- 3: Set(5) {"+0", "-0", NaN, undefined, NaN}
+-   3: Set(5) {"+0", "-0", NaN, undefined, NaN}
 
-- 4: Set(4) {"+0", NaN, undefined, NaN}  
+-   4: Set(4) {"+0", NaN, undefined, NaN}  
 
 ========== Answer ==========  
 

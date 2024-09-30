@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can use URLSearchParams to get query string values in javascript. Let's see
-an example to get the client code value from URL query string,
+You can use URLSearchParams to get query string values in javascript. Let's see an example to get the client code value from URL query string,
 
 ```javascript
 const urlParams = new URLSearchParams(window.location.search);

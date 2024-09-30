@@ -6,8 +6,7 @@
 
 **Internal JavaScript:** It is the source code within the script tag.
 
-**External JavaScript:** The source code is stored in an external file(stored
-with .js extension) and referred with in the tag.
+**External JavaScript:** The source code is stored in an external file(stored with .js extension) and referred with in the tag.
 
 ========== Id ==========  
 331

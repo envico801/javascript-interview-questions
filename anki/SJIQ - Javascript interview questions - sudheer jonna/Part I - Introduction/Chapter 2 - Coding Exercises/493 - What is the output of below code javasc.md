@@ -4,28 +4,27 @@
 
 ```javascript
 function* myGenFunc() {
-  yield 1;
-  yield 2;
-  yield 3;
+    yield 1;
+    yield 2;
+    yield 3;
 }
 var myGenObj = new myGenFunc();
 console.log(myGenObj.next().value);
 ```
 
-- 1: 1
+-   1: 1
 
-- 2: undefined
+-   2: undefined
 
-- 3: SyntaxError
+-   3: SyntaxError
 
-- 4: TypeError  
+-   4: TypeError  
 
 ========== Answer ==========  
 
 Answer: 4
 
-Generators are not constructible type. But if you still proceed to do, there
-will be an error saying "TypeError: myGenFunc is not a constructor"
+Generators are not constructible type. But if you still proceed to do, there will be an error saying "TypeError: myGenFunc is not a constructor"
 
 ========== Id ==========  
 493

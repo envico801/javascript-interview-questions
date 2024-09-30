@@ -12,8 +12,7 @@ You can change inline style or classname of a HTML element using javascript
 document.getElementById('title').style.fontSize = '30px';
 ```
 
-1. **Using ClassName property:** It is easy to modify element class using
-    className property
+1. **Using ClassName property:** It is easy to modify element class using className property
 
 ```javascript
 document.getElementById('title').className = 'custom-title';

@@ -7,21 +7,19 @@ console.log(10 + '10');
 console.log(10 - '10');
 ```
 
-- 1: 20, 0
+-   1: 20, 0
 
-- 2: 1010, 0
+-   2: 1010, 0
 
-- 3: 1010, 10-10
+-   3: 1010, 10-10
 
-- 4: NaN, NaN  
+-   4: NaN, NaN  
 
 ========== Answer ==========  
 
 Answer: 2
 
-The concatenation operator(+) is applicable for both number and string types. So
-if any operand is string type then both operands concatenated as strings.
-Whereas subtract(-) operator tries to convert the operands as number type.
+The concatenation operator(+) is applicable for both number and string types. So if any operand is string type then both operands concatenated as strings. Whereas subtract(-) operator tries to convert the operands as number type.
 
 ========== Id ==========  
 466

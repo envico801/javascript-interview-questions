@@ -4,12 +4,11 @@
 
 ========== Answer ==========  
 
-The combination of IsNaN and isFinite methods are used to confirm whether an
-argument is a number or not.
+The combination of IsNaN and isFinite methods are used to confirm whether an argument is a number or not.
 
 ```javascript
 function isNumber(n) {
-  return !isNaN(parseFloat(n)) && isFinite(n);
+    return !isNaN(parseFloat(n)) && isFinite(n);
 }
 ```
 

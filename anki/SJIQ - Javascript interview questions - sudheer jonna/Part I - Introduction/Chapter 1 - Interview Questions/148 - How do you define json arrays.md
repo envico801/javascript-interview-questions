@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-JSON arrays are written inside square brackets and arrays contain javascript
-objects. For example, the JSON array of users would be as below,
+JSON arrays are written inside square brackets and arrays contain javascript objects. For example, the JSON array of users would be as below,
 
 ```javascript
 "users":[

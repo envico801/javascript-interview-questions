@@ -10,8 +10,7 @@ A promise must follow a specific set of rules:
 
 2. A pending promise may transition into either fulfilled or rejected state
 
-3. A fulfilled or rejected promise is settled and it must not transition into
-    any other state.
+3. A fulfilled or rejected promise is settled and it must not transition into any other state.
 
 4. Once a promise is settled, the value must not change.
 

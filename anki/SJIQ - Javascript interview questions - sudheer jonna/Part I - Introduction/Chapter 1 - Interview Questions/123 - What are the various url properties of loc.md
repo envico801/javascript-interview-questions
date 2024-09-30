@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The below `Location` object properties can be used to access URL components of
-the page,
+The below `Location` object properties can be used to access URL components of the page,
 
 1. href - The entire URL
 

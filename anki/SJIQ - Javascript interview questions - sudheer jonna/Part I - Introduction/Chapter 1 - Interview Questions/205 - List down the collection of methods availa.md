@@ -10,8 +10,7 @@ Below are the list of methods available on WeakSet,
 
 2. delete(value): Deletes the value from the WeakSet collection.
 
-3. has(value): It returns true if the value is present in the WeakSet
-    Collection, otherwise it returns false.
+3. has(value): It returns true if the value is present in the WeakSet Collection, otherwise it returns false.
 
 Let's see the functionality of all the above methods in an example,
 

@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-Whenever a function is invoked, the JavaScript engine creates a different type
-of Execution Context known as a Function Execution Context (FEC) within the
-Global Execution Context (GEC) to evaluate and execute the code within that
-function.
+Whenever a function is invoked, the JavaScript engine creates a different type of Execution Context known as a Function Execution Context (FEC) within the Global Execution Context (GEC) to evaluate and execute the code within that function.
 
 ========== Id ==========  
 433

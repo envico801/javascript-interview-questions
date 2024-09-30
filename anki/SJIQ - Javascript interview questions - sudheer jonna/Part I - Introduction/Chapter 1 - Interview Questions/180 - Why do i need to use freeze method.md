@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-In the Object-oriented paradigm, an existing API contains certain elements that
-are not intended to be extended, modified, or re-used outside of their current
-context. Hence it works as the `final` keyword which is used in various
-languages.
+In the Object-oriented paradigm, an existing API contains certain elements that are not intended to be extended, modified, or re-used outside of their current context. Hence it works as the `final` keyword which is used in various languages.
 
 ========== Id ==========  
 180

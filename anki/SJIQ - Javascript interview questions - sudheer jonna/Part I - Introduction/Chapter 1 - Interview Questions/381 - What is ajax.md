@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-AJAX stands for Asynchronous JavaScript and XML and it is a group of related
-technologies(HTML, CSS, JavaScript, XMLHttpRequest API etc) used to display data
-asynchronously. i.e. We can send data to the server and get data from the server
-without reloading the web page.
+AJAX stands for Asynchronous JavaScript and XML and it is a group of related technologies(HTML, CSS, JavaScript, XMLHttpRequest API etc) used to display data asynchronously. i.e. We can send data to the server and get data from the server without reloading the web page.
 
 ========== Id ==========  
 381

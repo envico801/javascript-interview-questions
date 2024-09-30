@@ -4,17 +4,16 @@
 
 ========== Answer ==========  
 
-You can map the array values without using the `map` method by just using the
-`from` method of Array. Let's map city names from Countries array,
+You can map the array values without using the `map` method by just using the `from` method of Array. Let's map city names from Countries array,
 
 ```javascript
 const countries = [
-  { name: 'India', capital: 'Delhi' },
-  { name: 'US', capital: 'Washington' },
-  { name: 'Russia', capital: 'Moscow' },
-  { name: 'Singapore', capital: 'Singapore' },
-  { name: 'China', capital: 'Beijing' },
-  { name: 'France', capital: 'Paris' },
+    { name: 'India', capital: 'Delhi' },
+    { name: 'US', capital: 'Washington' },
+    { name: 'Russia', capital: 'Moscow' },
+    { name: 'Singapore', capital: 'Singapore' },
+    { name: 'China', capital: 'Beijing' },
+    { name: 'France', capital: 'Paris' },
 ];
 const cityNames = Array.from(countries, ({ capital }) => capital);
 console.log(cityNames); // ['Delhi, 'Washington', 'Moscow', 'Singapore', 'Beijing', 'Paris']

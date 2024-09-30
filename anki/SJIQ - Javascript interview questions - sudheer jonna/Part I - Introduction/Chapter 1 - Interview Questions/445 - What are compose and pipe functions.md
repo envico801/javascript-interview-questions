@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The "compose" and "pipe" are two techniques commonly used in functional
-programming to simplify complex operations and make code more readable. They are
-not native to JavaScript and higher-order functions. the `compose()` applies
-right to left any number of functions to the output of the previous function.
+The "compose" and "pipe" are two techniques commonly used in functional programming to simplify complex operations and make code more readable. They are not native to JavaScript and higher-order functions. the `compose()` applies right to left any number of functions to the output of the previous function.
 
 ========== Id ==========  
 445

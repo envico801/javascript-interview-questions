@@ -6,18 +6,16 @@
 
 Below are some of the use cases of using dynamic imports over static imports,
 
-1. Import a module on-demand or conditionally. For example, if you want to load
-    a polyfill on legacy browser
+1. Import a module on-demand or conditionally. For example, if you want to load a polyfill on legacy browser
 
 ```javascript
 if (isLegacyBrowser()) {
-     import(···)
-     .then(···);
+    import(···)
+    .then(···);
 }
 ```
 
-1. Compute the module specifier at runtime. For example, you can use it for
-    internationalization.
+1. Compute the module specifier at runtime. For example, you can use it for internationalization.
 
 ```javascript
 import(`messages_${getLocale()}.js`).then(···);

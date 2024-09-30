@@ -5,26 +5,25 @@
 ```javascript
 let zero = new Number(0);
 if (zero) {
-  console.log('If');
+    console.log('If');
 } else {
-  console.log('Else');
+    console.log('Else');
 }
 ```
 
-- 1: If
+-   1: If
 
-- 2: Else
+-   2: Else
 
-- 3: NaN
+-   3: NaN
 
-- 4: SyntaxError  
+-   4: SyntaxError  
 
 ========== Answer ==========  
 
 Answer: 1
 
-1. The type of operator on new Number always returns object. i.e, typeof new
-    Number(0) --> object.
+1. The type of operator on new Number always returns object. i.e, typeof new Number(0) --> object.
 
 2. Objects are always truthy in if block
 

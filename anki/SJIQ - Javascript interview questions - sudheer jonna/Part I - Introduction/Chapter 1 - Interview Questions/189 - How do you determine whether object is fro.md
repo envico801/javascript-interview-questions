@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Object.isFrozen() method is used to determine if an object is frozen or not.An
-object is frozen if all of the below conditions hold true,
+Object.isFrozen() method is used to determine if an object is frozen or not.An object is frozen if all of the below conditions hold true,
 
 1. If it is not extensible.
 
@@ -17,7 +16,7 @@ object is frozen if all of the below conditions hold true,
 
 ```javascript
 const object = {
-  property: 'Welcome JS world',
+    property: 'Welcome JS world',
 };
 Object.freeze(object);
 console.log(Object.isFrozen(object));

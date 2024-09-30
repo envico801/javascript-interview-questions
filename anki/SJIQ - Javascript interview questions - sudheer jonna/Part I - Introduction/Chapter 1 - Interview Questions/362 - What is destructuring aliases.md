@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Sometimes you would like to have a destructured variable with a different name
-than the property name. In that case, you'll use a `: newName` to specify a name
-for the variable. This process is called destructuring aliases.
+Sometimes you would like to have a destructured variable with a different name than the property name. In that case, you'll use a `: newName` to specify a name for the variable. This process is called destructuring aliases.
 
 ```javascript
 const obj = { x: 1 };

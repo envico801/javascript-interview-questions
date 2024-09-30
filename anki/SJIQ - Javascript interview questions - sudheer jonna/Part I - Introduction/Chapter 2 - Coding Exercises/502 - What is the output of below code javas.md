@@ -6,20 +6,19 @@
 console.log(typeof typeof typeof true);
 ```
 
-- 1: string
+-   1: string
 
-- 2: boolean
+-   2: boolean
 
-- 3: NaN
+-   3: NaN
 
-- 4: number  
+-   4: number  
 
 ========== Answer ==========  
 
 Answer: 1
 
-The typeof operator on any primitive returns a string value. So even if you
-apply the chain of typeof operators on the return value, it is always string.
+The typeof operator on any primitive returns a string value. So even if you apply the chain of typeof operators on the return value, it is always string.
 
 ========== Id ==========  
 502

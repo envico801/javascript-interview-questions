@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The Object.isSealed() method is used to determine if an object is sealed or not.
-An object is sealed if all of the below conditions hold true
+The Object.isSealed() method is used to determine if an object is sealed or not. An object is sealed if all of the below conditions hold true
 
 1. If it is not extensible.
 
@@ -17,7 +16,7 @@ An object is sealed if all of the below conditions hold true
 
 ```javascript
 const object = {
-  property: 'Hello, Good morning',
+    property: 'Hello, Good morning',
 };
 Object.seal(object); // Using seal() method to seal the object
 console.log(Object.isSealed(object)); // checking whether the object is sealed or not

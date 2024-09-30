@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The easiest and safest way to ignore promise errors is void that error. This
-approach is ESLint friendly too.
+The easiest and safest way to ignore promise errors is void that error. This approach is ESLint friendly too.
 
 ```js
 await promise.catch((e) => void e);

@@ -10,15 +10,11 @@ Below are the list of conventions should be taken care,
 
 2. Duplicate values are not allowed for the expression.
 
-3. The default statement is optional. If the expression passed to switch does
-    not match with any case value then the statement within default case will be
-    executed.
+3. The default statement is optional. If the expression passed to switch does not match with any case value then the statement within default case will be executed.
 
-4. The break statement is used inside the switch to terminate a statement
-    sequence.
+4. The break statement is used inside the switch to terminate a statement sequence.
 
-5. The break statement is optional. But if it is omitted, the execution will
-    continue on into the next case.
+5. The break statement is optional. But if it is omitted, the execution will continue on into the next case.
 
 ========== Id ==========  
 222

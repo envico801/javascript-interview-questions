@@ -4,11 +4,9 @@
 
 ========== Answer ==========  
 
-Below are the list of some of the constraint validation DOM properties
-available,
+Below are the list of some of the constraint validation DOM properties available,
 
-1. validity: It provides a list of boolean properties related to the validity of
-    an input element.
+1. validity: It provides a list of boolean properties related to the validity of an input element.
 
 2. validationMessage: It displays the message when the validity is false.
 

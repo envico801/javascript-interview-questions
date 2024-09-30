@@ -8,19 +8,15 @@ const b = 10;
 console.log(a === b);
 ```
 
-- 1: False
+-   1: False
 
-- 2: True  
+-   2: True  
 
 ========== Answer ==========  
 
 Answer: 1
 
-Eventhough both variables `a` and `b` refer a number value, the first
-declaration is based on constructor function and the type of the variable is
-going to be `object` type. Whereas the second declaration is primitive
-assignment with a number and the type is `number` type. Hence, the equality
-operator `===` will output `false` value.
+Eventhough both variables `a` and `b` refer a number value, the first declaration is based on constructor function and the type of the variable is going to be `object` type. Whereas the second declaration is primitive assignment with a number and the type is `number` type. Hence, the equality operator `===` will output `false` value.
 
 ========== Id ==========  
 524

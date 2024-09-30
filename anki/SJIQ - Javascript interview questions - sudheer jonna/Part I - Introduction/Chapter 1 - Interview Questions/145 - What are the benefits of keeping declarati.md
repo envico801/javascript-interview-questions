@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-It is recommended to keep all declarations at the top of each script or
-function. The benefits of doing this are,
+It is recommended to keep all declarations at the top of each script or function. The benefits of doing this are,
 
 1. Gives cleaner code
 

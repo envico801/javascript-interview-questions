@@ -7,17 +7,15 @@ const num = 0o38;
 console.log(num);
 ```
 
-- 1: SyntaxError
+-   1: SyntaxError
 
-- 2: 38  
+-   2: 38  
 
 ========== Answer ==========  
 
 Answer: 1
 
-If you use an invalid number(outside of 0-7 range) in the octal literal,
-JavaScript will throw a SyntaxError. In ES5, it treats the octal literal as a
-decimal number.
+If you use an invalid number(outside of 0-7 range) in the octal literal, JavaScript will throw a SyntaxError. In ES5, it treats the octal literal as a decimal number.
 
 ========== Id ==========  
 496

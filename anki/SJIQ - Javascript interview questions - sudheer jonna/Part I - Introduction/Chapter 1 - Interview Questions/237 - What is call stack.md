@@ -4,12 +4,9 @@
 
 ========== Answer ==========  
 
-Call Stack is a data structure for javascript interpreters to keep track of
-function calls(creates execution context) in the program. It has two major
-actions,
+Call Stack is a data structure for javascript interpreters to keep track of function calls(creates execution context) in the program. It has two major actions,
 
-1. Whenever you call a function for its execution, you are pushing it to the
-    stack.
+1. Whenever you call a function for its execution, you are pushing it to the stack.
 
 2. Whenever the execution is completed, the function is popped out of the stack.
 
@@ -17,10 +14,10 @@ Let's take an example and it's state representation in a diagram format
 
 ```javascript
 function hungry() {
-  eatFruits();
+    eatFruits();
 }
 function eatFruits() {
-  return "I'm eating fruits";
+    return "I'm eating fruits";
 }
 // Invoke the `hungry` function
 hungry();
@@ -34,8 +31,7 @@ The above code processed in a call stack as below,
 
 3. Delete the `eatFruits()` function from our call stack list.
 
-4. Delete the `hungry()` function from the call stack list since there are no
-    items anymore.
+4. Delete the `hungry()` function from the call stack list since there are no items anymore.
 
 ![call-stack](../../../../images/call-stack.png)
 

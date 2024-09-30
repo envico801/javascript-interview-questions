@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The uneval() is an inbuilt function which is used to create a string
-representation of the source code of an Object. It is a top-level function and
-is not associated with any object. Let's see the below example to know more
-about it's functionality,
+The uneval() is an inbuilt function which is used to create a string representation of the source code of an Object. It is a top-level function and is not associated with any object. Let's see the below example to know more about it's functionality,
 
 ```javascript
 var a = 1;
@@ -15,8 +12,7 @@ uneval(a); // returns a String containing 1
 uneval(function user() {}); // returns "(function user(){})"
 ```
 
-The `uneval()` function has been deprecated. It is recommended to use
-`toString()` for functions and `JSON.toStringify()` for other cases.
+The `uneval()` function has been deprecated. It is recommended to use `toString()` for functions and `JSON.toStringify()` for other cases.
 
 ```javascript
 function user() {}

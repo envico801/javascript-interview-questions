@@ -6,37 +6,32 @@
 let myNumber = 100;
 let myString = '100';
 if (!typeof myNumber === 'string') {
-  console.log('It is not a string!');
+    console.log('It is not a string!');
 } else {
-  console.log('It is a string!');
+    console.log('It is a string!');
 }
 if (!typeof myString === 'number') {
-  console.log('It is not a number!');
+    console.log('It is not a number!');
 } else {
-  console.log('It is a number!');
+    console.log('It is a number!');
 }
 ```
 
-- 1: SyntaxError
+-   1: SyntaxError
 
-- 2: It is not a string!, It is not a number!
+-   2: It is not a string!, It is not a number!
 
-- 3: It is not a string!, It is a number!
+-   3: It is not a string!, It is a number!
 
-- 4: It is a string!, It is a number!  
+-   4: It is a string!, It is a number!  
 
 ========== Answer ==========  
 
 Answer: 4
 
-The return value of `typeof myNumber` or `typeof myString` is always a truthy
-value (either "number" or "string"). The ! operator operates on either
-`typeof myNumber` or `typeof myString`, converting them to boolean values. Since
-the value of both `!typeof myNumber` and `!typeof myString` is false, the if
-condition fails, and control goes to else block.
+The return value of `typeof myNumber` or `typeof myString` is always a truthy value (either "number" or "string"). The ! operator operates on either `typeof myNumber` or `typeof myString`, converting them to boolean values. Since the value of both `!typeof myNumber` and `!typeof myString` is false, the if condition fails, and control goes to else block.
 
-To make the ! operator operate on the equality expression, one needs to add
-parentheses:
+To make the ! operator operate on the equality expression, one needs to add parentheses:
 
 ```
 if (!(typeof myNumber === "string"))

@@ -4,11 +4,9 @@
 
 ========== Answer ==========  
 
-1. **isNaN**: The global function `isNaN` converts the argument to a Number and
-    returns true if the resulting value is NaN.
+1. **isNaN**: The global function `isNaN` converts the argument to a Number and returns true if the resulting value is NaN.
 
-2. **Number.isNaN**: This method does not convert the argument. But it returns
-    true when the type is a Number and value is NaN.
+2. **Number.isNaN**: This method does not convert the argument. But it returns true when the type is a Number and value is NaN.
 
 Let's see the difference with an example,
 

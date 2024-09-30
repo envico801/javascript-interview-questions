@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The `matchAll()` method can be used to return an iterator of all results
-matching a string against a regular expression. For example, the below example
-returns an array of matching string results against a regular expression,
+The `matchAll()` method can be used to return an iterator of all results matching a string against a regular expression. For example, the below example returns an array of matching string results against a regular expression,
 
 ```javascript
 let regexp = /Hello(\d?))/g;

@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The destructuring assignment is a JavaScript expression that makes it possible
-to unpack values from arrays or properties from objects into distinct variables.
+The destructuring assignment is a JavaScript expression that makes it possible to unpack values from arrays or properties from objects into distinct variables.
 
 Let's get the month values from an array using destructuring assignment
 

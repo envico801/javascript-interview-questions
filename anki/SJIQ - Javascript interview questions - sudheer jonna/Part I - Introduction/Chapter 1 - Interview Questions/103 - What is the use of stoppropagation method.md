@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-The stopPropagation method is used to stop the event from bubbling up the event
-chain. For example, the below nested divs with stopPropagation method prevents
-default event propagation when clicking on nested div(Div1)
+The stopPropagation method is used to stop the event from bubbling up the event chain. For example, the below nested divs with stopPropagation method prevents default event propagation when clicking on nested div(Div1)
 
 ```javascript
 <p>Click DIV1 Element</p>

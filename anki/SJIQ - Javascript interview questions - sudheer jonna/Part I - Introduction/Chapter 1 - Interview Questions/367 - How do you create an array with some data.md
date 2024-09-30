@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-You can create an array with some data or an array with the same values using
-`fill` method.
+You can create an array with some data or an array with the same values using `fill` method.
 
 ```javascript
 var newArray = new Array(5).fill('0');

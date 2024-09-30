@@ -8,22 +8,19 @@ msg.name = 'John';
 console.log(msg.name);
 ```
 
-- 1: ""
+-   1: ""
 
-- 2: Error
+-   2: Error
 
-- 3: John
+-   3: John
 
-- 4: Undefined  
+-   4: Undefined  
 
 ========== Answer ==========  
 
 Answer: 4
 
-It returns undefined for non-strict mode and returns Error for strict mode. In
-non-strict mode, the wrapper object is going to be created and get the mentioned
-property. But the object get disappeared after accessing the property in next
-line.
+It returns undefined for non-strict mode and returns Error for strict mode. In non-strict mode, the wrapper object is going to be created and get the mentioned property. But the object get disappeared after accessing the property in next line.
 
 ========== Id ==========  
 504

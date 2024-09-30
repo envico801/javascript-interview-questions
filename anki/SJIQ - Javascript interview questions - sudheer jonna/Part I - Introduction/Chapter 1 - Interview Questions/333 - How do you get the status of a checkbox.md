@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-You can apply the `checked` property on the selected checkbox in the DOM. If the
-value is `true` it means the checkbox is checked, otherwise it is unchecked. For
-example, the below HTML checkbox element can be access using javascript as
-below:
+You can apply the `checked` property on the selected checkbox in the DOM. If the value is `true` it means the checkbox is checked, otherwise it is unchecked. For example, the below HTML checkbox element can be access using javascript as below:
 
 ```html
 <input type="checkbox" id="checkboxname" value="Agree" /> Agree the

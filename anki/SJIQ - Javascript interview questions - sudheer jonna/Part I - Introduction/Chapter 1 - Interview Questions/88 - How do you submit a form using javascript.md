@@ -4,12 +4,11 @@
 
 ========== Answer ==========  
 
-You can submit a form using `document.forms[0].submit()`. All the form input's
-information is submitted using onsubmit event handler
+You can submit a form using `document.forms[0].submit()`. All the form input's information is submitted using onsubmit event handler
 
 ```javascript
 function submit() {
-  document.forms[0].submit();
+    document.forms[0].submit();
 }
 ```
 

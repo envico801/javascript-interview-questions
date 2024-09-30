@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-WebWorkers don't have access to below javascript objects since they are defined
-in an external files
+WebWorkers don't have access to below javascript objects since they are defined in an external files
 
 1. Window object
 

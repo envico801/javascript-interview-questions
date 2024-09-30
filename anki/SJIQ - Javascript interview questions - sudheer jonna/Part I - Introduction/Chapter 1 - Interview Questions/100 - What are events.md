@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Events are "things" that happen to HTML elements. When JavaScript is used in
-HTML pages, JavaScript can `react` on these events. Some of the examples of HTML
-events are,
+Events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can `react` on these events. Some of the examples of HTML events are,
 
 1. Web page has finished loading
 
@@ -20,14 +18,14 @@ Let's describe the behavior of click event for button element,
 <!doctype html>
 <html>
  <head>
-    <script>
-      function greeting() {
-        alert('Hello! Good morning');
-      }
-    </script>
+   <script>
+     function greeting() {
+       alert('Hello! Good morning');
+     }
+   </script>
  </head>
  <body>
-    <button type="button" onclick="greeting()">Click me</button>
+   <button type="button" onclick="greeting()">Click me</button>
  </body>
 </html>
 ```

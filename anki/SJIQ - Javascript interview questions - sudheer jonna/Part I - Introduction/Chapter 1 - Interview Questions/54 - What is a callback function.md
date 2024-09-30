@@ -4,18 +4,17 @@
 
 ========== Answer ==========  
 
-A callback function is a function passed into another function as an argument.
-This function is invoked inside the outer function to complete an action.
+A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
 
 Let's take a simple example of how to use callback function
 
 ```javascript
 function callbackFunction(name) {
-  console.log('Hello ' + name);
+    console.log('Hello ' + name);
 }
 function outerFunction(callback) {
-  let name = prompt('Please enter your name.');
-  callback(name);
+    let name = prompt('Please enter your name.');
+    callback(name);
 }
 outerFunction(callbackFunction);
 ```

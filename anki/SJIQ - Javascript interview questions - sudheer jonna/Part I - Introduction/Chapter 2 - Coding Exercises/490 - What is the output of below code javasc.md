@@ -4,24 +4,22 @@
 
 ```javascript
 function outer(f = inner()) {
-  function inner() {
-     return 'Inner';
-  }
+    function inner() {
+        return 'Inner';
+    }
 }
 outer();
 ```
 
-- 1: ReferenceError
+-   1: ReferenceError
 
-- 2: Inner  
+-   2: Inner  
 
 ========== Answer ==========  
 
 Answer: 1
 
-The functions and variables declared in the function body cannot be referred
-from default value parameter initializers. If you still try to access, it throws
-a run-time ReferenceError(i.e, `inner` is not defined).
+The functions and variables declared in the function body cannot be referred from default value parameter initializers. If you still try to access, it throws a run-time ReferenceError(i.e, `inner` is not defined).
 
 ========== Id ==========  
 490

@@ -4,15 +4,13 @@
 
 ========== Answer ==========  
 
-You can use the `Object.keys()` method which is used to return an array of a
-given object's own property names, in the same order as we get with a normal
-loop. For example, you can get the keys of a user object,
+You can use the `Object.keys()` method which is used to return an array of a given object's own property names, in the same order as we get with a normal loop. For example, you can get the keys of a user object,
 
 ```javascript
 const user = {
-  name: 'John',
-  gender: 'male',
-  age: 40,
+    name: 'John',
+    gender: 'male',
+    age: 40,
 };
 console.log(Object.keys(user)); //['name', 'gender', 'age']
 ```

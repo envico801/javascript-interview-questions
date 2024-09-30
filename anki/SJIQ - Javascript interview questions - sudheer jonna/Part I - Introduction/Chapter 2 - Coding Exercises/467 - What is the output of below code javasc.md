@@ -5,28 +5,25 @@
 ```javascript
 console.log([0] == false);
 if ([0]) {
-  console.log("I'm True");
+    console.log("I'm True");
 } else {
-  console.log("I'm False");
+    console.log("I'm False");
 }
 ```
 
-- 1: True, I'm True
+-   1: True, I'm True
 
-- 2: True, I'm False
+-   2: True, I'm False
 
-- 3: False, I'm True
+-   3: False, I'm True
 
-- 4: False, I'm False  
+-   4: False, I'm False  
 
 ========== Answer ==========  
 
 Answer: 1
 
-In comparison operators, the expression `[0]` converted to
-Number([0].valueOf().toString()) which is resolved to false. Whereas `[0]` just
-becomes a truthy value without any conversion because there is no comparison
-operator.
+In comparison operators, the expression `[0]` converted to Number([0].valueOf().toString()) which is resolved to false. Whereas `[0]` just becomes a truthy value without any conversion because there is no comparison operator.
 
 ========== Id ==========  
 467

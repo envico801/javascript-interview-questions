@@ -4,30 +4,28 @@
 
 ```javascript
 async function func() {
-  return 10;
+    return 10;
 }
 console.log(func());
 ```
 
-- 1: Promise {\<fulfilled\>: 10}
+-   1: Promise {\<fulfilled\>: 10}
 
-- 2: 10
+-   2: 10
 
-- 3: SyntaxError
+-   3: SyntaxError
 
-- 4: Promise {\<rejected\>: 10}  
+-   4: Promise {\<rejected\>: 10}  
 
 ========== Answer ==========  
 
 Answer: 1
 
-Async functions always return a promise. But even if the return value of an
-async function is not explicitly a promise, it will be implicitly wrapped in a
-promise. The above async function is equivalent to below expression,
+Async functions always return a promise. But even if the return value of an async function is not explicitly a promise, it will be implicitly wrapped in a promise. The above async function is equivalent to below expression,
 
 ```javascript
 function func() {
-  return Promise.resolve(10);
+    return Promise.resolve(10);
 }
 ```
 

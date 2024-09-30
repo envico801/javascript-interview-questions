@@ -4,17 +4,16 @@
 
 ========== Answer ==========  
 
-You can use `indexOf` to compare input with multiple values instead of checking
-each value as one condition.
+You can use `indexOf` to compare input with multiple values instead of checking each value as one condition.
 
 ```javascript
 // Verbose approach
 if (input === 'first' || input === 1 || input === 'second' || input === 2) {
-  someFunction();
+    someFunction();
 }
 // Shortcut
 if (['first', 1, 'second', 2].indexOf(input) !== -1) {
-  someFunction();
+    someFunction();
 }
 ```
 

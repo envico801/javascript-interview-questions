@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The right click on the page can be disabled by returning false from the
-`oncontextmenu` attribute on the body element.
+The right click on the page can be disabled by returning false from the `oncontextmenu` attribute on the body element.
 
 ```html
 <body oncontextmenu="return false;"></body>

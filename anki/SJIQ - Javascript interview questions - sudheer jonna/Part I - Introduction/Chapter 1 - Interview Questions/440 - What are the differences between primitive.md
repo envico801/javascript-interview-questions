@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-JavaScript language has both primitives and non-primitives but there are few
-differences between them as below,
+JavaScript language has both primitives and non-primitives but there are few differences between them as below,
 
 | Primitives                 | Non-primitives       |
 | -------------------------- | -------------------- |

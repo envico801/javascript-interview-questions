@@ -4,10 +4,7 @@
 
 ========== Answer ==========  
 
-The EvalError object indicates an error regarding the global `eval()` function.
-Even though this exception is not thrown by JavaScript anymore, the EvalError
-object remains for compatibility. The syntax of this expression would be as
-below,
+The EvalError object indicates an error regarding the global `eval()` function. Even though this exception is not thrown by JavaScript anymore, the EvalError object remains for compatibility. The syntax of this expression would be as below,
 
 ```javascript
 new EvalError([message[, fileName[, lineNumber]]])

@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-Template literals or template strings are string literals allowing embedded
-expressions. These are enclosed by the back-tick (`) character instead of double
-or single quotes.
+Template literals or template strings are string literals allowing embedded expressions. These are enclosed by the back-tick (`) character instead of double or single quotes.
 
 In ES6, this feature enables using dynamic expressions as below,
 
@@ -20,8 +18,7 @@ In ES5, you need break string like below,
 var greeting = 'Welcome to JS World, Mr. ' + firstName + ' ' + lastName.`
 ```
 
-**Note:** You can use multi-line strings and string interpolation features with
-template literals.
+**Note:** You can use multi-line strings and string interpolation features with template literals.
 
 ========== Id ==========  
 309

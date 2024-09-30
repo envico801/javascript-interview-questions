@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-An array contains items at each index starting from first(0) to
-last(array.length - 1) is called as Dense array. Whereas if at least one item is
-missing at any index, the array is called as sparse.
+An array contains items at each index starting from first(0) to last(array.length - 1) is called as Dense array. Whereas if at least one item is missing at any index, the array is called as sparse.
 
 Let's see the below two kind of arrays,
 

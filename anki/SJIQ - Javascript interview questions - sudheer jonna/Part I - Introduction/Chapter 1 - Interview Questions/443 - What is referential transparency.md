@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-An expression in javascript that can be replaced by its value without affecting
-the behaviour of the program is called referential transparency. Pure functions
-are referentially transparent.
+An expression in javascript that can be replaced by its value without affecting the behaviour of the program is called referential transparency. Pure functions are referentially transparent.
 
 ```javascript
 const add = (x, y) => x + y;

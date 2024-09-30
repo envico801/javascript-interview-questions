@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-An ArrayBuffer object is used to represent a generic, fixed-length raw binary
-data buffer. You can create it as below,
+An ArrayBuffer object is used to represent a generic, fixed-length raw binary data buffer. You can create it as below,
 
 ```javascript
 let buffer = new ArrayBuffer(16); // create a buffer of length 16

@@ -4,13 +4,11 @@
 
 ========== Answer ==========  
 
-You can use the `Number.prototype.toLocaleString()` method which returns a
-string with a language-sensitive representation such as thousand
-separator,currency etc of this number.
+You can use the `Number.prototype.toLocaleString()` method which returns a string with a language-sensitive representation such as thousand separator,currency etc of this number.
 
 ```javascript
 function convertToThousandFormat(x) {
-  return x.toLocaleString(); // 12,345.679
+    return x.toLocaleString(); // 12,345.679
 }
 console.log(convertToThousandFormat(12345.6789));
 ```

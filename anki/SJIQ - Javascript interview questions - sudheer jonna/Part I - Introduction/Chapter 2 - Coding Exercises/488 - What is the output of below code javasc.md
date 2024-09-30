@@ -4,24 +4,22 @@
 
 ```javascript
 function add(item, items = []) {
-  items.push(item);
-  return items;
+    items.push(item);
+    return items;
 }
 console.log(add('Orange'));
 console.log(add('Apple'));
 ```
 
-- 1: ['Orange'], ['Orange', 'Apple']
+-   1: ['Orange'], ['Orange', 'Apple']
 
-- 2: ['Orange'], ['Apple']  
+-   2: ['Orange'], ['Apple']  
 
 ========== Answer ==========  
 
 Answer: 2
 
-Since the default argument is evaluated at call time, a new object is created
-each time the function is called. So in this case, the new array is created and
-an element pushed to the default empty array.
+Since the default argument is evaluated at call time, a new object is created each time the function is called. So in this case, the new array is created and an element pushed to the default empty array.
 
 ========== Id ==========  
 488

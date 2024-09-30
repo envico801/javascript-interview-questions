@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The sort() method is used to sort the elements of an array in place and returns
-the sorted array. The example usage would be as below,
+The sort() method is used to sort the elements of an array in place and returns the sorted array. The example usage would be as below,
 
 ```javascript
 var months = ['Aug', 'Sep', 'Jan', 'June'];

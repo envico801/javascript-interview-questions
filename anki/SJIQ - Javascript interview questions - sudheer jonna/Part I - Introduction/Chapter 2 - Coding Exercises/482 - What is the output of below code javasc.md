@@ -4,31 +4,28 @@
 
 ```javascript
 class A {
-  constructor() {
-     console.log(new.target.name);
-  }
+    constructor() {
+        console.log(new.target.name);
+    }
 }
 class B extends A {
-  constructor() {
-     super();
-  }
+    constructor() {
+        super();
+    }
 }
 new A();
 new B();
 ```
 
-- 1: A, A
+-   1: A, A
 
-- 2: A, B  
+-   2: A, B  
 
 ========== Answer ==========  
 
 Answer: 2
 
-Using constructors, `new.target` refers to the constructor (points to the class
-definition of class which is initialized) that was directly invoked by new. This
-also applies to the case if the constructor is in a parent class and was
-delegated from a child constructor.
+Using constructors, `new.target` refers to the constructor (points to the class definition of class which is initialized) that was directly invoked by new. This also applies to the case if the constructor is in a parent class and was delegated from a child constructor.
 
 ========== Id ==========  
 482

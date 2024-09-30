@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-When you apply 'use strict'; syntax, some of the below cases will throw a
-SyntaxError before executing the script
+When you apply 'use strict'; syntax, some of the below cases will throw a SyntaxError before executing the script
 
 1. When you use Octal syntax
 
@@ -25,12 +24,11 @@ var n = 022;
 
 ```javascript
 if (someCondition) {
-  function f() {}
+    function f() {}
 }
 ```
 
-Hence, the errors from above cases are helpful to avoid errors in
-development/production environments.
+Hence, the errors from above cases are helpful to avoid errors in development/production environments.
 
 ========== Id ==========  
 340

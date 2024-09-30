@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-JavaScript is a loosely typed or a dynamic language because variables in
-JavaScript are not directly associated with any particular value type, and any
-variable can be assigned/reassigned with values of all types.
+JavaScript is a loosely typed or a dynamic language because variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned/reassigned with values of all types.
 
 ```javascript
 let age = 50; // age is a number now

@@ -4,35 +4,32 @@
 
 ```javascript
 function second() {
-  var message;
-  console.log(message);
+    var message;
+    console.log(message);
 }
 function first() {
-  var message = 'first';
-  second();
-  console.log(message);
+    var message = 'first';
+    second();
+    console.log(message);
 }
 var message = 'default';
 first();
 console.log(message);
 ```
 
-- 1: undefined, first, default
+-   1: undefined, first, default
 
-- 2: default, default, default
+-   2: default, default, default
 
-- 3: first, first, default
+-   3: first, first, default
 
-- 4: undefined, undefined, undefined  
+-   4: undefined, undefined, undefined  
 
 ========== Answer ==========  
 
 Answer: 1
 
-Each context(global or functional) has it's own variable environment and the
-callstack of variables in a LIFO order. So you can see the message variable
-value from second, first functions in an order followed by global context
-message variable value at the end.
+Each context(global or functional) has it's own variable environment and the callstack of variables in a LIFO order. So you can see the message variable value from second, first functions in an order followed by global context message variable value at the end.
 
 ========== Id ==========  
 518

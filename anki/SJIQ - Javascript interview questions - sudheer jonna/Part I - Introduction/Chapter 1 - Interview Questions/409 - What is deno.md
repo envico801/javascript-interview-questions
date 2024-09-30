@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-Deno is a simple, modern and secure runtime for JavaScript and TypeScript that
-uses V8 JavaScript engine and the Rust programming language.
+Deno is a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 JavaScript engine and the Rust programming language.
 
 ========== Id ==========  
 409

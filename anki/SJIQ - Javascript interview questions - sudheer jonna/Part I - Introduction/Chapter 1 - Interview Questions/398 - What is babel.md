@@ -4,14 +4,11 @@
 
 ========== Answer ==========  
 
-Babel is a JavaScript transpiler to convert ECMAScript 2015+ code into a
-backwards compatible version of JavaScript in current and older browsers or
-environments. Some of the main features are listed below,
+Babel is a JavaScript transpiler to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. Some of the main features are listed below,
 
 1. Transform syntax
 
-2. Polyfill features that are missing in your target environment (using
-    @babel/polyfill)
+2. Polyfill features that are missing in your target environment (using @babel/polyfill)
 
 3. Source code transformations (or codemods)
 

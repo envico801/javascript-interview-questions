@@ -4,14 +4,11 @@
 
 ========== Answer ==========  
 
-If you don't use destructuring assignment, swapping two values requires a
-temporary variable. Whereas using a destructuring feature, two variable values
-can be swapped in one destructuring expression. Let's swap two number variables
-in array destructuring assignment,
+If you don't use destructuring assignment, swapping two values requires a temporary variable. Whereas using a destructuring feature, two variable values can be swapped in one destructuring expression. Let's swap two number variables in array destructuring assignment,
 
 ```javascript
 var x = 10,
-  y = 20;
+    y = 20;
 [x, y] = [y, x];
 console.log(x); // 20
 console.log(y); // 10

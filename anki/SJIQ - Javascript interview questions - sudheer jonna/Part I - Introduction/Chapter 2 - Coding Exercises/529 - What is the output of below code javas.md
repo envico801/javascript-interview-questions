@@ -8,13 +8,13 @@ arr.length = 0;
 console.log(arr);
 ```
 
-- 1: 0
+-   1: 0
 
-- 2: Undefined
+-   2: Undefined
 
-- 3: null
+-   3: null
 
-- 4: [ ]  
+-   4: [ ]  
 
 ========== Answer ==========  
 

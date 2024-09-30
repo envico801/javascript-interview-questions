@@ -7,26 +7,23 @@ console.log(name);
 console.log(message());
 var name = 'John';
 (function message() {
-  console.log('Hello John: Welcome');
+    console.log('Hello John: Welcome');
 });
 ```
 
-- 1: John, Hello John: Welcome
+-   1: John, Hello John: Welcome
 
-- 2: undefined, Hello John, Welcome
+-   2: undefined, Hello John, Welcome
 
-- 3: Reference error: name is not defined, Reference error: message is not
-  defined
+-   3: Reference error: name is not defined, Reference error: message is not defined
 
-- 4: undefined, Reference error: message is not defined  
+-   4: undefined, Reference error: message is not defined  
 
 ========== Answer ==========  
 
 Answer: 4
 
-IIFE(Immediately Invoked Function Expression) is just like any other function
-expression which won't be hoisted. Hence, there will be a reference error for
-message call.
+IIFE(Immediately Invoked Function Expression) is just like any other function expression which won't be hoisted. Hence, there will be a reference error for message call.
 
 The behavior would be the same with below function expression of message1,
 

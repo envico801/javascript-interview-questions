@@ -4,8 +4,7 @@
 
 ========== Answer ==========  
 
-The Object.is() method determines whether two values are the same value. For
-example, the usage with different types of values would be,
+The Object.is() method determines whether two values are the same value. For example, the usage with different types of values would be,
 
 ```javascript
 Object.is('hello', 'hello'); // true

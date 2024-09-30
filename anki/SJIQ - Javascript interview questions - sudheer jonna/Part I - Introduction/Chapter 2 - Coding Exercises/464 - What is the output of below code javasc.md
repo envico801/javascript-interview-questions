@@ -6,20 +6,19 @@
 console.log(Math.max());
 ```
 
-- 1: undefined
+-   1: undefined
 
-- 2: Infinity
+-   2: Infinity
 
-- 3: 0
+-   3: 0
 
-- 4: -Infinity  
+-   4: -Infinity  
 
 ========== Answer ==========  
 
 Answer: 4
 
--Infinity is the initial comparant because almost every other value is bigger.
-So when no arguments are provided, -Infinity is going to be returned.
+-Infinity is the initial comparant because almost every other value is bigger. So when no arguments are provided, -Infinity is going to be returned.
 
 **Note:** Zero number of arguments is a valid case.
 

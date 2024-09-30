@@ -4,19 +4,14 @@
 
 ========== Answer ==========  
 
-Primitive Values like string,number and boolean don't have properties and
-methods but they are temporarily converted or coerced to an object(Wrapper
-object) when you try to perform actions on them. For example, if you apply
-toUpperCase() method on a primitive string value, it does not throw an error but
-returns uppercase of the string.
+Primitive Values like string,number and boolean don't have properties and methods but they are temporarily converted or coerced to an object(Wrapper object) when you try to perform actions on them. For example, if you apply toUpperCase() method on a primitive string value, it does not throw an error but returns uppercase of the string.
 
 ```javascript
 let name = 'john';
 console.log(name.toUpperCase()); // Behind the scenes treated as console.log(new String(name).toUpperCase());
 ```
 
-i.e, Every primitive except null and undefined have Wrapper Objects and the list
-of wrapper objects are String,Number,Boolean,Symbol and BigInt.
+i.e, Every primitive except null and undefined have Wrapper Objects and the list of wrapper objects are String,Number,Boolean,Symbol and BigInt.
 
 ========== Id ==========  
 380

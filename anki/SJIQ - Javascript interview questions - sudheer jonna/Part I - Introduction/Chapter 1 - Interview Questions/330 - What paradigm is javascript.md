@@ -4,9 +4,7 @@
 
 ========== Answer ==========  
 
-JavaScript is a multi-paradigm language, supporting imperative/procedural
-programming, Object-Oriented Programming and functional programming. JavaScript
-supports Object-Oriented Programming with prototypical inheritance.
+JavaScript is a multi-paradigm language, supporting imperative/procedural programming, Object-Oriented Programming and functional programming. JavaScript supports Object-Oriented Programming with prototypical inheritance.
 
 ========== Id ==========  
 330
