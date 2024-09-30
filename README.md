@@ -50,20 +50,20 @@ Feeling chatty? Constructive feedback and suggestions are the secret sauce – s
 In case Anki forgets its styling magic, tap into the mystical powers of [CSS/HTML styles from my repository](https://github.com/envico801/anki-config/tree/main/cards/basic). Your eyes will thank you for the clarity! Pay special attention to the styles for code blocks and tables – those sneaky code blocks tend to lose their indentations, and table borders play hide and seek.
 
 <p align="center">
-    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/5ce13b90-22c6-408a-875a-1ec83ee2d1d2"
+    <a href="https://github.com/user-attachments/assets/dc77c57f-0229-4992-9830-8f1f931428c9"
        target="_blank">
-        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/5ce13b90-22c6-408a-875a-1ec83ee2d1d2"
+        <img src="https://github.com/user-attachments/assets/dc77c57f-0229-4992-9830-8f1f931428c9"
+             alt="Card example 1" style="height: 200px;">
+    </a>
+    <a href="https://github.com/user-attachments/assets/6798d932-9b7f-43c2-bdf4-f98d9f7f706d"
+       target="_blank">
+        <img src="https://github.com/user-attachments/assets/6798d932-9b7f-43c2-bdf4-f98d9f7f706d"
+             alt="Card example 2" style="height: 200px;">
+    </a>
+    <a href="https://github.com/user-attachments/assets/6630759e-593e-44eb-931c-7ef907985524"
+       target="_blank">
+        <img src="https://github.com/user-attachments/assets/6630759e-593e-44eb-931c-7ef907985524"
              alt="Card example 3" style="height: 200px;">
-    </a>
-    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/960ce138-a7dc-4d83-a83a-27adf9684a20"
-       target="_blank">
-        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/960ce138-a7dc-4d83-a83a-27adf9684a20"
-             alt="Card example 4" style="height: 200px;">
-    </a>
-    <a href="https://github.com/envico801/javascript-interview-questions/assets/132226893/87656a26-6313-45fd-a50b-b4a0822277e6"
-       target="_blank">
-        <img src="https://github.com/envico801/javascript-interview-questions/assets/132226893/87656a26-6313-45fd-a50b-b4a0822277e6"
-             alt="Card example 5" style="height: 200px;">
     </a>
 </p>
 
