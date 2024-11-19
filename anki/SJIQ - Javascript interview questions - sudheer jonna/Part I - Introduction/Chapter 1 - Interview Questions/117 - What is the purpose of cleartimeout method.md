@@ -16,7 +16,9 @@ function greeting() {
 }
 function start() {
   msg =setTimeout(greeting, 3000);
+
 }
+
 function stop() {
     clearTimeout(msg);
 }

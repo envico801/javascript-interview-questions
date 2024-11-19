@@ -18,6 +18,7 @@ function findMin(arr) {
     }
     return min;
 }
+
 function findMax(arr) {
     var length = arr.length;
     var max = -Infinity;
@@ -28,6 +29,7 @@ function findMax(arr) {
     }
     return max;
 }
+
 console.log(findMin(marks));
 console.log(findMax(marks));
 ```

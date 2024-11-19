@@ -20,14 +20,17 @@ let cleanRoomMixin = {
         alert(`Bye ${this.name}`);
     },
 };
+
 // usage:
 class User {
     constructor(name) {
         this.name = name;
     }
 }
+
 // copy the methods
 Object.assign(User.prototype, cleanRoomMixin);
+
 // now User can clean the room
 new User('Dude').cleanRoom(); // Hello Dude, your room is clean now!
 ```

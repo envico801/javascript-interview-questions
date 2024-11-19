@@ -21,7 +21,9 @@ window.addEventListener('popstate', () => {
     console.log('Clicked browser back button');
     box.style.backgroundColor = 'white';
 });
+
 const box = document.getElementById('div');
+
 box.addEventListener('click', () => {
     box.style.backgroundColor = 'blue';
     window.history.pushState({}, null, null);

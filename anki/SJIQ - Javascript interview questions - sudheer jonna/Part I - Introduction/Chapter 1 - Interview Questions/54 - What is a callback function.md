@@ -12,10 +12,12 @@ Let's take a simple example of how to use callback function
 function callbackFunction(name) {
     console.log('Hello ' + name);
 }
+
 function outerFunction(callback) {
     let name = prompt('Please enter your name.');
     callback(name);
 }
+
 outerFunction(callbackFunction);
 ```
 

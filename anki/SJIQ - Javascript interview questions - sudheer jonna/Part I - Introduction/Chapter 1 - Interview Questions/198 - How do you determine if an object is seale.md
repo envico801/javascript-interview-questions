@@ -18,7 +18,9 @@ The Object.isSealed() method is used to determine if an object is sealed or not.
 const object = {
     property: 'Hello, Good morning',
 };
+
 Object.seal(object); // Using seal() method to seal the object
+
 console.log(Object.isSealed(object)); // checking whether the object is sealed or not
 ```
 

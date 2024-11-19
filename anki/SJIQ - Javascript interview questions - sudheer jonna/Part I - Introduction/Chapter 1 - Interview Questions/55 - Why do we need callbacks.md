@@ -20,6 +20,7 @@ function secondFunction() {
 }
 firstFunction();
 secondFunction();
+
 Output;
 // Second function called
 // First function called

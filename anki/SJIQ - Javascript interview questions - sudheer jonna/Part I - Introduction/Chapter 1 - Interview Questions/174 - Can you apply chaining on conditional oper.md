@@ -15,7 +15,9 @@ function traceValue(someParam) {
         : value4
     );
 }
+
 // The above conditional operator is equivalent to:
+
 function traceValue(someParam) {
     if (condition1) {
         return value1;

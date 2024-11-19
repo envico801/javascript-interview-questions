@@ -32,6 +32,7 @@ function myFunc() {
     let name = 'Abraham'; // Uncaught SyntaxError: Identifier 'name' has already been declared
     alert(name);
 }
+
 myFunc();
 alert(name);
 ```

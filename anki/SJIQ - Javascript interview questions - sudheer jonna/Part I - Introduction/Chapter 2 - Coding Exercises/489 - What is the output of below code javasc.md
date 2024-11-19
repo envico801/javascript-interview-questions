@@ -6,6 +6,7 @@
 function greet(greeting, name, message = greeting + ' ' + name) {
     console.log([greeting, name, message]);
 }
+
 greet('Hello', 'John');
 greet('Hello', 'John', 'Good morning!');
 ```

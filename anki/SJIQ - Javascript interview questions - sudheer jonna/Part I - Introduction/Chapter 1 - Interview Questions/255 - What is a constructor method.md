@@ -12,7 +12,9 @@ class Employee {
         this.name = 'John';
     }
 }
+
 var employeeObject = new Employee();
+
 console.log(employeeObject.name); // John
 ```
 

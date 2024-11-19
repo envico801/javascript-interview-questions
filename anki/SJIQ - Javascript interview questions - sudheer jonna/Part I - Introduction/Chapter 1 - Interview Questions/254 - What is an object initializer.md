@@ -8,6 +8,7 @@ An object initializer is an expression that describes the initialization of an O
 
 ```javascript
 var initObject = { a: 'John', b: 50, c: {} };
+
 console.log(initObject.a); // John
 ```
 

@@ -19,6 +19,7 @@ function hungry() {
 function eatFruits() {
     return "I'm eating fruits";
 }
+
 // Invoke the `hungry` function
 hungry();
 ```

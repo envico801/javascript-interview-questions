@@ -10,6 +10,7 @@ The isFinite() function is used to determine whether a number is a finite, legal
 isFinite(Infinity); // false
 isFinite(NaN); // false
 isFinite(-Infinity); // false
+
 isFinite(100); // true
 ```
 

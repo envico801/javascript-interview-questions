@@ -12,11 +12,13 @@ function fetchData(fn) {
         .then((response) => response.json())
         .then((json) => fn(json));
 }
+
 const asyncThunk = function () {
     return fetchData(function getData(data) {
         console.log(data);
     });
 };
+
 asyncThunk();
 ```
 

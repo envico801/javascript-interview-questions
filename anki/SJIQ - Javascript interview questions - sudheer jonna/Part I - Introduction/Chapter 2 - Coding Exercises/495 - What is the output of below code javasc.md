@@ -12,6 +12,7 @@ for (const value of myGenerator) {
     console.log(value);
     break;
 }
+
 for (const value of myGenerator) {
     console.log(value);
 }

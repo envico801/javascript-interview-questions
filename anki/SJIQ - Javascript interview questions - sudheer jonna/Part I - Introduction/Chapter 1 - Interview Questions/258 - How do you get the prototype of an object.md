@@ -9,6 +9,7 @@ You can use the `Object.getPrototypeOf(obj)` method to return the prototype of t
 ```javascript
 const newPrototype = {};
 const newObject = Object.create(newPrototype);
+
 console.log(Object.getPrototypeOf(newObject) === newPrototype); // true
 ```
 

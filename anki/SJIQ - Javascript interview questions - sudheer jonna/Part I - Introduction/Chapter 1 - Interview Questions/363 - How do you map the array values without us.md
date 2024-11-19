@@ -15,6 +15,7 @@ const countries = [
     { name: 'China', capital: 'Beijing' },
     { name: 'France', capital: 'Paris' },
 ];
+
 const cityNames = Array.from(countries, ({ capital }) => capital);
 console.log(cityNames); // ['Delhi, 'Washington', 'Moscow', 'Singapore', 'Beijing', 'Paris']
 ```

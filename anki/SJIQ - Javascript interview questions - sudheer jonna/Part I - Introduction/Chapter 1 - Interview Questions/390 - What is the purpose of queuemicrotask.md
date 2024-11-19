@@ -10,9 +10,11 @@ Example:
 
 ```javascript
 console.log('Start'); //1
+
 queueMicrotask(() => {
     console.log('Inside microtask'); // 3
 });
+
 console.log('End'); //2
 ```
 

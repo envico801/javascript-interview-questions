@@ -9,6 +9,7 @@ The comma operator is used to evaluate each of its operands from left to right a
 ```javascript
 var x = 1;
 x = (x++, x);
+
 console.log(x); // 2
 ```
 

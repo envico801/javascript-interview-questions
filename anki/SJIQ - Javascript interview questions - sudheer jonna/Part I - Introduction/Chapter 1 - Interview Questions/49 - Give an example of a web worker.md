@@ -10,11 +10,13 @@ You need to follow below steps to start using web workers for counting example
 
 ```javascript
 let i = 0;
+
 function timedCount() {
     i = i + 1;
     postMessage(i);
     setTimeout('timedCount()', 500);
 }
+
 timedCount();
 ```
 

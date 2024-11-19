@@ -7,6 +7,7 @@ function add(item, items = []) {
     items.push(item);
     return items;
 }
+
 console.log(add('Orange'));
 console.log(add('Apple'));
 ```

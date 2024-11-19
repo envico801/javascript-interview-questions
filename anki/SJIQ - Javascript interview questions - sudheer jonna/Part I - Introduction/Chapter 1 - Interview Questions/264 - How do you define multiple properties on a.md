@@ -8,6 +8,7 @@ The `Object.defineProperties()` method is used to define new or modify existing 
 
 ```javascript
 const newObject = {};
+
 Object.defineProperties(newObject, {
     newProperty1: {
         value: 'John',

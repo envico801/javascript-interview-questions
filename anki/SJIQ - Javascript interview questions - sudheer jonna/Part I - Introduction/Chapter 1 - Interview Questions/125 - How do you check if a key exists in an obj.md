@@ -30,6 +30,7 @@ obj.hasOwnProperty('key'); // true
 const user = {
     name: 'John',
 };
+
 console.log(user.name !== undefined); // true
 console.log(user.nickName !== undefined); // false
 ```

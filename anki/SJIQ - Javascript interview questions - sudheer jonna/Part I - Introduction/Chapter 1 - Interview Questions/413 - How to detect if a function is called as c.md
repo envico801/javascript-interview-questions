@@ -18,6 +18,7 @@ function Myfunc() {
         console.log('not called with new');
     }
 }
+
 new Myfunc(); // called with new
 Myfunc(); // not called with new
 Myfunc.call({}); // not called with new

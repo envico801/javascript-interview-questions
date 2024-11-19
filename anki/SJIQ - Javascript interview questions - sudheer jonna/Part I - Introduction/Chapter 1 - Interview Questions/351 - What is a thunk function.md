@@ -8,7 +8,9 @@ A thunk is just a function which delays the evaluation of the value. It doesn’
 
 ```javascript
 const add = (x, y) => x + y;
+
 const thunk = () => add(2, 3);
+
 thunk(); // 5
 ```
 

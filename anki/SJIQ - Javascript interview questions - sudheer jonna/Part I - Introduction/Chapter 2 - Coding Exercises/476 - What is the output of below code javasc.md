@@ -6,10 +6,12 @@
 function delay() {
     return new Promise((resolve) => setTimeout(resolve, 2000));
 }
+
 async function delayedLog(item) {
     await delay();
     console.log(item);
 }
+
 async function process(array) {
     array.forEach(async (item) => {
         await delayedLog(item);

@@ -25,6 +25,7 @@ const promise = new Promise(
     },
     (reject) => {},
 );
+
 promise.then((value) => console.log(value));
 ```
 

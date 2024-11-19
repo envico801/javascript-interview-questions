@@ -5,11 +5,13 @@
 ```javascript
 let myNumber = 100;
 let myString = '100';
+
 if (!typeof myNumber === 'string') {
     console.log('It is not a string!');
 } else {
     console.log('It is a string!');
 }
+
 if (!typeof myString === 'number') {
     console.log('It is not a number!');
 } else {

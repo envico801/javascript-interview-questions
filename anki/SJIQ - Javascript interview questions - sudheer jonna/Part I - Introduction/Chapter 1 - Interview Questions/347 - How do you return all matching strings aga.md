@@ -9,7 +9,9 @@ The `matchAll()` method can be used to return an iterator of all results matchin
 ```javascript
 let regexp = /Hello(\d?))/g;
 let greeting = 'Hello1Hello2Hello3';
+
 let greetingList = [...greeting.matchAll(regexp)];
+
 console.log(greetingList[0]); //Hello1
 console.log(greetingList[1]); //Hello2
 console.log(greetingList[2]); //Hello3

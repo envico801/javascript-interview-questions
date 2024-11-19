@@ -12,6 +12,7 @@ var myNonPrimitive = {};
 function isPrimitive(val) {
     return Object(val) !== val;
 }
+
 isPrimitive(myPrimitive);
 isPrimitive(myNonPrimitive);
 ```

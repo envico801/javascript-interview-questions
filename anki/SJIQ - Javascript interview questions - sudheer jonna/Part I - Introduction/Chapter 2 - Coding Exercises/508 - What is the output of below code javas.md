@@ -4,6 +4,7 @@
 
 ```javascript
 getMessage();
+
 var getMessage = () => {
     console.log('Good morning');
 };

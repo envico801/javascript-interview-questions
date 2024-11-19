@@ -8,6 +8,7 @@ Yes, You can use the `Object.defineProperty()` method to add Getters and Setters
 
 ```javascript
 var obj = { counter: 0 };
+
 // Define getters
 Object.defineProperty(obj, 'increment', {
     get: function () {
@@ -19,6 +20,7 @@ Object.defineProperty(obj, 'decrement', {
         this.counter--;
     },
 });
+
 // Define setters
 Object.defineProperty(obj, 'add', {
     set: function (value) {
@@ -30,6 +32,7 @@ Object.defineProperty(obj, 'subtract', {
         this.counter -= value;
     },
 });
+
 obj.add = 10;
 obj.subtract = 5;
 console.log(obj.increment); //6

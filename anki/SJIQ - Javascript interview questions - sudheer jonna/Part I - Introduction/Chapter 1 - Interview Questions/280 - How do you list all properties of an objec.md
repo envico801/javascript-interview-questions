@@ -12,6 +12,7 @@ const newObject = {
     b: 2,
     c: 3,
 };
+
 console.log(Object.getOwnPropertyNames(newObject));
 ['a', 'b', 'c'];
 ```

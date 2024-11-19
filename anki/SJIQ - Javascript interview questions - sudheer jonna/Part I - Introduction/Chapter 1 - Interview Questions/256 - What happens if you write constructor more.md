@@ -15,7 +15,9 @@ The "constructor" in a class is a special method and it should be defined only o
      this.age = 30;
    }
  }
+
  var employeeObject = new Employee();
+
  console.log(employeeObject.name);
 ```
 

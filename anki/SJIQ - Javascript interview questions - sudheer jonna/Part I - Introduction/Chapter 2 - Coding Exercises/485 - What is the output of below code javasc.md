@@ -6,6 +6,7 @@
 function area({ length = 10, width = 20 }) {
     console.log(length * width);
 }
+
 area();
 ```
 
@@ -31,6 +32,7 @@ You can avoid the error with either of the below changes,
 function area({ length = 10, width = 20 }) {
     console.log(length * width);
 }
+
 area({});
 ```
 
@@ -40,6 +42,7 @@ area({});
 function area({ length = 10, width = 20 } = {}) {
     console.log(length * width);
 }
+
 area();
 ```
 

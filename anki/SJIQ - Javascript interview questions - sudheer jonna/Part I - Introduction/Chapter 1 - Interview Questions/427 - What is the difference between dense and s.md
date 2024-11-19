@@ -14,6 +14,7 @@ console.log(avengers[0]); // 'Ironman'
 console.log(avengers[1]); // 'Hulk'
 console.log(avengers[2]); // 'CaptainAmerica'
 console.log(avengers.length); // 3
+
 const justiceLeague = ['Superman', 'Aquaman', , 'Batman'];
 console.log(justiceLeague[0]); // 'Superman'
 console.log(justiceLeague[1]); // 'Aquaman'

@@ -10,6 +10,7 @@ A variable can be assigned a default value when the value unpacked from the arra
 
 ```javascript
 var x, y, z;
+
 [x = 2, y = 4, z = 6] = [10];
 console.log(x); // 10
 console.log(y); // 4
@@ -20,6 +21,7 @@ console.log(z); // 6
 
 ```javascript
 var { x = 2, y = 4, z = 6 } = { x: 10 };
+
 console.log(x); // 10
 console.log(y); // 4
 console.log(z); // 6

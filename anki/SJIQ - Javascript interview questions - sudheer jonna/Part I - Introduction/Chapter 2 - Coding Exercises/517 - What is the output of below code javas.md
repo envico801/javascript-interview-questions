@@ -4,11 +4,13 @@
 
 ```javascript
 var currentCity = 'NewYork';
+
 var changeCurrentCity = function () {
     console.log('Current City:', currentCity);
     var currentCity = 'Singapore';
     console.log('Current City:', currentCity);
 };
+
 changeCurrentCity();
 ```
 

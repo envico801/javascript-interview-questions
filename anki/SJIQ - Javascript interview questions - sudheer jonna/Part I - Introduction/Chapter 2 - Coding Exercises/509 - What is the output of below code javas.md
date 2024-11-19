@@ -4,7 +4,9 @@
 
 ```javascript
 let quickPromise = Promise.resolve();
+
 quickPromise.then(() => console.log('promise finished'));
+
 console.log('program finished');
 ```
 

@@ -65,6 +65,7 @@ There are five kinds of generators,
             yield 3;
         },
     };
+
     console.log(Array.from(SomeObj)); // [ 1, 2, 3 ]
     ```
 

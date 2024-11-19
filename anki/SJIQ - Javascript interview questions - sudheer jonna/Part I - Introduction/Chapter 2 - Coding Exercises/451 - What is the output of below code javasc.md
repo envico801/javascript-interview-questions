@@ -9,6 +9,7 @@ function foo() {
     y++;
     return x;
 }
+
 console.log(foo(), typeof x, typeof y);
 ```
 

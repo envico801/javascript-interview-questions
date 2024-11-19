@@ -14,10 +14,13 @@ You can mark an object non-extensible in 3 ways,
 
 ```javascript
 var newObject = {};
+
 Object.preventExtensions(newObject); // Prevent objects are non-extensible
 Object.isExtensible(newObject); // false
+
 var sealedObject = Object.seal({}); // Sealed objects are non-extensible
 Object.isExtensible(sealedObject); // false
+
 var frozenObject = Object.freeze({}); // Frozen objects are non-extensible
 Object.isExtensible(frozenObject); // false
 ```

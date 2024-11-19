@@ -14,6 +14,7 @@ function findMin(arr) {
 function findMax(arr) {
     return Math.max.apply(null, arr);
 }
+
 console.log(findMin(marks));
 console.log(findMax(marks));
 ```

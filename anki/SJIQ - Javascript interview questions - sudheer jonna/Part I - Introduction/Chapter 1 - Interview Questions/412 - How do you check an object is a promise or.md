@@ -14,10 +14,12 @@ function isPromise(object) {
         throw 'Promise not supported in your environment';
     }
 }
+
 var i = 1;
 var promise = new Promise(function (resolve, reject) {
     resolve();
 });
+
 console.log(isPromise(i)); // false
 console.log(isPromise(promise)); // true
 ```
@@ -32,6 +34,7 @@ var i = 1;
 var promise = new Promise(function (resolve, reject) {
     resolve();
 });
+
 console.log(isPromise(i)); // false
 console.log(isPromise(promise)); // true
 ```

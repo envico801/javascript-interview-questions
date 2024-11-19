@@ -11,6 +11,7 @@ The module pattern looks like below,
 ```javascript
 (function () {
     // Private variables or functions goes here.
+
     return {
         // Return public variables or functions here.
     };
@@ -26,6 +27,7 @@ const createEmployee = (function () {
     const department = 'Sales';
     const getEmployeeName = () => name;
     const getDepartmentName = () => department;
+
     // Public
     return {
         name,
@@ -34,6 +36,7 @@ const createEmployee = (function () {
         getDepartment: () => getDepartmentName(),
     };
 })();
+
 console.log(createEmployee.name);
 console.log(createEmployee.department);
 console.log(createEmployee.getName());

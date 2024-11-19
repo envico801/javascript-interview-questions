@@ -10,8 +10,10 @@ The **freeze()** method is used to freeze an object. Freezing an object does not
 const obj = {
     prop: 100,
 };
+
 Object.freeze(obj);
 obj.prop = 200; // Throws an error in strict mode
+
 console.log(obj.prop); //100
 ```
 
@@ -26,6 +28,7 @@ const user = {
         department: 'IT',
     },
 };
+
 Object.freeze(user);
 user.employment.department = 'HR';
 ```

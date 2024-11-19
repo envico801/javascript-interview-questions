@@ -10,9 +10,11 @@ An anonymous function is a function without a name! Anonymous functions are comm
 function (optionalParameters) {
   //do something
 }
+
 const myFunction = function(){ //Anonymous function assigned to a variable
   //do something
 };
+
 [1, 2, 3].map(function(element){ //Anonymous function used as a callback function
   //do something
 });

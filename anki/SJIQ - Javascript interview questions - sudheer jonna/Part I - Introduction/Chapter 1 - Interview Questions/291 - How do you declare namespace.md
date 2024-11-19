@@ -32,6 +32,7 @@ namespaceTwo.func1(); // This is a second definition
     }
     fun1();
 })();
+
 (function () {
     function fun1() {
         console.log('This is a second definition');
@@ -50,6 +51,7 @@ namespaceTwo.func1(); // This is a second definition
     myFunction();
 }
 //myFunction(): ReferenceError: myFunction is not defined.
+
 {
     let myFunction = function fun1() {
         console.log('This is a second definition');

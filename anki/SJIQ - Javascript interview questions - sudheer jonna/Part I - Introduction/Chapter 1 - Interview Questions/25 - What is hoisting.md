@@ -25,6 +25,7 @@ In the same fashion, function declarations are hoisted too
 
 ```javascript
 message('Good morning'); //Good morning
+
 function message(name) {
     console.log(name);
 }

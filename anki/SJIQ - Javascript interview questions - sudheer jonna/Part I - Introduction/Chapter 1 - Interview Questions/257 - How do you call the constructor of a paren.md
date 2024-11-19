@@ -12,9 +12,11 @@ class Square extends Rectangle {
         super(length, length);
         this.name = 'Square';
     }
+
     get area() {
         return this.width * this.height;
     }
+
     set area(value) {
         this.area = value;
     }

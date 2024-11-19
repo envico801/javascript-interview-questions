@@ -8,6 +8,7 @@ const props = [
     { id: 2, name: 'Jack' },
     { id: 3, name: 'Tom' },
 ];
+
 const [, , { name }] = props;
 console.log(name);
 ```

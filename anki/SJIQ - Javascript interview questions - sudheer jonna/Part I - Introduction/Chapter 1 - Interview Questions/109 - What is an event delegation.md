@@ -10,6 +10,7 @@ For example, if you wanted to detect field changes in inside a specific form, yo
 
 ```javascript
 var form = document.querySelector('#registration-form');
+
 // Listen for changes to fields inside the form
 form.addEventListener(
     'input',

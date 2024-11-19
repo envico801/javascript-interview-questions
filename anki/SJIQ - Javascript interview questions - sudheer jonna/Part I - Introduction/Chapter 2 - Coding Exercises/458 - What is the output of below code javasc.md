@@ -14,6 +14,7 @@ const obj = {
         return 2;
     },
 };
+
 console.log(obj.prop1());
 console.log(obj.prop2());
 console.log(obj.prop3());

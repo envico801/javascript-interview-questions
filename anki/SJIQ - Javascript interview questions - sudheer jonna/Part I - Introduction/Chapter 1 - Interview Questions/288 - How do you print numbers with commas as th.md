@@ -10,6 +10,7 @@ You can use the `Number.prototype.toLocaleString()` method which returns a strin
 function convertToThousandFormat(x) {
     return x.toLocaleString(); // 12,345.679
 }
+
 console.log(convertToThousandFormat(12345.6789));
 ```
 

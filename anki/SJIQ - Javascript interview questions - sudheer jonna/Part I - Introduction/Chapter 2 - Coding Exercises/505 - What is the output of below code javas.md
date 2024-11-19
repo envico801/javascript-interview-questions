@@ -4,6 +4,7 @@
 
 ```javascript
 let count = 10;
+
 (function innerFunc() {
     if (count === 10) {
         let count = 11;

@@ -11,11 +11,13 @@ The stopPropagation method is used to stop the event from bubbling up the event 
 <div onclick="secondFunc()">DIV 2
   <div onclick="firstFunc(event)">DIV 1</div>
 </div>
+
 <script>
 function firstFunc(event) {
   alert("DIV 1");
   event.stopPropagation();
 }
+
 function secondFunc() {
   alert("DIV 2");
 }

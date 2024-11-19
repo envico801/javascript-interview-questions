@@ -4,7 +4,9 @@
 
 ```javascript
 let msg = 'Good morning!!';
+
 msg.name = 'John';
+
 console.log(msg.name);
 ```
 

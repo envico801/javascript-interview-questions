@@ -10,6 +10,7 @@ The main difference between function declarations and class declarations is `hoi
 
 ```javascript
 const user = new User(); // ReferenceError
+
 class User {}
 ```
 
@@ -17,6 +18,7 @@ class User {}
 
 ```javascript
 const user = new User(); // No error
+
 function User() {}
 ```
 

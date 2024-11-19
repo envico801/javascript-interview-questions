@@ -6,6 +6,7 @@
 let message = 'Hello World!';
 message[0] = 'J';
 console.log(message);
+
 let name = 'John';
 name = name + ' Smith';
 console.log(name);

@@ -9,6 +9,7 @@ The `reverse()` method reverses the order of the elements in an array but it mut
 ```javascript
 const originalArray = [1, 2, 3, 4, 5];
 const newArray = originalArray.reverse();
+
 console.log(newArray); // [ 5, 4, 3, 2, 1]
 console.log(originalArray); // [ 5, 4, 3, 2, 1]
 ```
@@ -22,6 +23,7 @@ There are few solutions that won't mutate the original array. Let's take a look.
     ```javascript
     const originalArray = [1, 2, 3, 4, 5];
     const newArray = originalArray.slice().reverse(); //Slice an array gives a new copy
+
     console.log(originalArray); // [1, 2, 3, 4, 5]
     console.log(newArray); // [ 5, 4, 3, 2, 1]
     ```
@@ -33,6 +35,7 @@ There are few solutions that won't mutate the original array. Let's take a look.
     ```javascript
     const originalArray = [1, 2, 3, 4, 5];
     const newArray = [...originalArray].reverse();
+
     console.log(originalArray); // [1, 2, 3, 4, 5]
     console.log(newArray); // [ 5, 4, 3, 2, 1]
     ```
@@ -46,6 +49,7 @@ There are few solutions that won't mutate the original array. Let's take a look.
     const newArray = originalArray.reduce((accumulator, value) => {
         return [value, ...accumulator];
     }, []);
+
     console.log(originalArray); // [1, 2, 3, 4, 5]
     console.log(newArray); // [ 5, 4, 3, 2, 1]
     ```
@@ -59,6 +63,7 @@ There are few solutions that won't mutate the original array. Let's take a look.
     const newArray = originalArray.reduceRight((accumulator, value) => {
         return [...accumulator, value];
     }, []);
+
     console.log(originalArray); // [1, 2, 3, 4, 5]
     console.log(newArray); // [ 5, 4, 3, 2, 1]
     ```
@@ -73,6 +78,7 @@ There are few solutions that won't mutate the original array. Let's take a look.
         accumulator.push(value);
         return accumulator;
     }, []);
+
     console.log(originalArray); // [1, 2, 3, 4, 5]
     console.log(newArray); // [ 5, 4, 3, 2, 1]
     ```

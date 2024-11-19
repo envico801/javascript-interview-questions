@@ -10,7 +10,9 @@ Let's take an input element to detect the CapsLock on/off behavior with an examp
 
 ```html
 <input type="password" onmousedown="enterInput(event)" />
+
 <p id="feedback"></p>
+
 <script>
     function enterInput(e) {
         var flag = e.getModifierState('CapsLock');

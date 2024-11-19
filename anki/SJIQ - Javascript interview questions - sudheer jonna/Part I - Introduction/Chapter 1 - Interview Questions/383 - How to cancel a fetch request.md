@@ -19,6 +19,7 @@ The basic flow of cancelling a fetch request would be as below,
 ```javascript
 const controller = new AbortController();
 const { signal } = controller;
+
 fetch('http://localhost:8000', { signal })
     .then((response) => {
         console.log(`Request 1 is complete!`);
@@ -28,6 +29,7 @@ fetch('http://localhost:8000', { signal })
             // We know it's been canceled!
         }
     });
+
 fetch('http://localhost:8000', { signal })
     .then((response) => {
         console.log(`Request 2 is complete!`);
@@ -37,6 +39,7 @@ fetch('http://localhost:8000', { signal })
             // We know it's been canceled!
         }
     });
+
 // Wait 2 seconds to abort both requests
 setTimeout(() => controller.abort(), 2000);
 ```

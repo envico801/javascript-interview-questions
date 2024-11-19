@@ -12,13 +12,16 @@ For example, if you’re logging a user’s details:
 console.group('User Details');
 console.log('name: Sudheer Jonna');
 console.log('job: Software Developer');
+
 // Nested Group
 console.group('Address');
 console.log('Street: Commonwealth');
 console.log('City: Los Angeles');
 console.log('State: California');
+
 // Close nested group
 console.groupEnd();
+
 // Close outer group
 console.groupEnd();
 ```

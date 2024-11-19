@@ -16,7 +16,9 @@ function greeting() {
 }
 function start() {
   msg = setInterval(greeting, 3000);
+
 }
+
 function stop() {
     clearInterval(msg);
 }

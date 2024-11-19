@@ -9,6 +9,7 @@ The `Object.preventExtensions()` method is used to prevent new properties from e
 ```javascript
 const newObject = {};
 Object.preventExtensions(newObject); // NOT extendable
+
 try {
     Object.defineProperty(newObject, 'newProperty', {
         // Adding new property

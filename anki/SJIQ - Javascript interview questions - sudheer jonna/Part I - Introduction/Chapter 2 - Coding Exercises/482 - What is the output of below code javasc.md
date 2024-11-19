@@ -8,11 +8,13 @@ class A {
         console.log(new.target.name);
     }
 }
+
 class B extends A {
     constructor() {
         super();
     }
 }
+
 new A();
 new B();
 ```

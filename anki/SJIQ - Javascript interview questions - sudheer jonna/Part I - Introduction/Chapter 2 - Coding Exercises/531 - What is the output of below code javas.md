@@ -4,9 +4,12 @@
 
 ```javascript
 printHello();
+
 printMessage();
+
 function printHello() {
     console.log('Hello');
+
     function printMessage() {
         console.log('Good day');
     }
@@ -31,9 +34,11 @@ But if the second function is invoked in the first function itself, there won't 
 
 ```javascript
 printHello();
+
 function printHello() {
     printMessage();
     console.log('Hello');
+
     function printMessage() {
         console.log('Good day');
     }

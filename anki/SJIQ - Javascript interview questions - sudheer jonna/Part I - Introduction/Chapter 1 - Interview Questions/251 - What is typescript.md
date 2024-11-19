@@ -16,7 +16,9 @@ Let's see a simple example of TypeScript usage,
 function greeting(name: string): string {
     return 'Hello, ' + name;
 }
+
 let user = 'Sudheer';
+
 console.log(greeting(user));
 ```
 

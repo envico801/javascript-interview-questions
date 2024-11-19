@@ -4,6 +4,7 @@
 
 ```javascript
 message();
+
 function message() {
     console.log('Hello');
 }

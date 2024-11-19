@@ -6,6 +6,7 @@
 function checkType(num = 1) {
     console.log(typeof num);
 }
+
 checkType();
 checkType(undefined);
 checkType('');

@@ -26,6 +26,7 @@ But you can use `Array.prototype.findIndex` method to find out the index of NaN 
 ```javascript
 let numbers = [1, 2, 3, 4, NaN];
 console.log(numbers.findIndex(Number.isNaN)); // 4
+
 console.log(numbers.includes(NaN)); // true
 ```
 

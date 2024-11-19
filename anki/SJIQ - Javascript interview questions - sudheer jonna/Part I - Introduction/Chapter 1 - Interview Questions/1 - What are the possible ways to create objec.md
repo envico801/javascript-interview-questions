@@ -63,6 +63,7 @@ There are many ways to create objects in javascript as mentioned below:
             value: 'Golf',
         },
     };
+
     var car = Object.create(vehicle, carProps);
     console.log(car);
     ```
@@ -93,6 +94,7 @@ There are many ways to create objects in javascript as mentioned below:
 
     ```javascript
     function func() {}
+
     new func(x, y, z);
     ```
 
@@ -101,8 +103,10 @@ There are many ways to create objects in javascript as mentioned below:
     ```javascript
     // Create a new instance using function prototype.
     var newInstance = Object.create(func.prototype)
+
     // Call the function
     var result = func.call(newInstance, x, y, z),
+
     // If the result is a non-null object then use it otherwise just use the new instance.
     console.log(result && typeof result === 'object' ? result : newInstance);
     ```
@@ -129,6 +133,7 @@ There are many ways to create objects in javascript as mentioned below:
             this.name = name;
         }
     }
+
     var object = new Person('Sudheer');
     ```
 

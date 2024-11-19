@@ -22,6 +22,7 @@ console.log(this);
 function displayThis() {
     console.log(this);
 }
+
 displayThis();
 ```
 
@@ -36,6 +37,7 @@ const person = {
         console.log('Hello, ' + this.name);
     },
 };
+
 person.greet();
 ```
 

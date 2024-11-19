@@ -12,10 +12,12 @@ function admin(isAdmin) {
        target.isAdmin = isAdmin;
    }
 }
+
 @admin(true)
 class User() {
 }
 console.log(User.isAdmin); //true
+
  @admin(false)
  class User() {
  }

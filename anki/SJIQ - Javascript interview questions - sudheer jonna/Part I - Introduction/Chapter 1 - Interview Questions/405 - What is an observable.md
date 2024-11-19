@@ -10,11 +10,13 @@ Let's look at a simple example of an Observable
 
 ```javascript
 import { Observable } from 'rxjs';
+
 const observable = new Observable((observer) => {
     setTimeout(() => {
         observer.next('Message from a Observable!');
     }, 3000);
 });
+
 observable.subscribe((value) => console.log(value));
 ```
 

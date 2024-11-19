@@ -4,6 +4,7 @@
 
 ```javascript
 let zero = new Number(0);
+
 if (zero) {
     console.log('If');
 } else {

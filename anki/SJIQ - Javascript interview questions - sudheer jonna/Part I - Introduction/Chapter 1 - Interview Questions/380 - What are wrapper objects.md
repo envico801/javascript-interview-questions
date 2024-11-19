@@ -8,6 +8,7 @@ Primitive Values like string,number and boolean don't have properties and method
 
 ```javascript
 let name = 'john';
+
 console.log(name.toUpperCase()); // Behind the scenes treated as console.log(new String(name).toUpperCase());
 ```
 

@@ -11,6 +11,7 @@ In ES5, we need to depend on logical OR operators to handle default values of fu
 var calculateArea = function (height, width) {
     height = height || 50;
     width = width || 60;
+
     return width * height;
 };
 console.log(calculateArea()); //300
@@ -23,6 +24,7 @@ The default parameters makes the initialization more simpler,
 var calculateArea = function (height = 50, width = 60) {
     return width * height;
 };
+
 console.log(calculateArea()); //300
 ```
 

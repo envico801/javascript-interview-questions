@@ -7,10 +7,12 @@ let user1 = {
     name: 'Jacob',
     age: 28,
 };
+
 let user2 = {
     name: 'Jacob',
     age: 28,
 };
+
 console.log(user1 === user2);
 ```
 

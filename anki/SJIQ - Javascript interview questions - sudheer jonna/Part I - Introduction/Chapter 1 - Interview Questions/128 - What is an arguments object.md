@@ -14,6 +14,7 @@ function sum() {
     }
     return total;
 }
+
 sum(1, 2, 3); // returns 6
 ```
 

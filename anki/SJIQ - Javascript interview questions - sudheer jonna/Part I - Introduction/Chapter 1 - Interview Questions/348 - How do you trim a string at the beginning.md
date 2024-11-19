@@ -8,9 +8,11 @@ The `trim` method of string prototype is used to trim on both sides of a string.
 
 ```javascript
 var greeting = '   Hello, Goodmorning!   ';
+
 console.log(greeting); // "   Hello, Goodmorning!   "
 console.log(greeting.trimStart()); // "Hello, Goodmorning!   "
 console.log(greeting.trimLeft()); // "Hello, Goodmorning!   "
+
 console.log(greeting.trimEnd()); // "   Hello, Goodmorning!"
 console.log(greeting.trimRight()); // "   Hello, Goodmorning!"
 ```

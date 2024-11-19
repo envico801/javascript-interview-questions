@@ -26,7 +26,9 @@ const collection = {
         };
     },
 };
+
 const iterator = collection[Symbol.iterator]();
+
 console.log(iterator.next()); // → {value: 1, done: false}
 console.log(iterator.next()); // → {value: 2, done: false}
 console.log(iterator.next()); // → {value: 3, done: false}

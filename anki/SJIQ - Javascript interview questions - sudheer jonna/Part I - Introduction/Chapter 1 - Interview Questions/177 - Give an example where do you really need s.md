@@ -12,6 +12,7 @@ var fn = (function () {
     //...
 })(
     // semicolon missing at this line
+
     // then execute some code inside a closure
     function () {
         //...
