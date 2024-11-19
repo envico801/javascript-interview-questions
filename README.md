@@ -8,9 +8,9 @@ A mystical conversion preserves the essence of the original questions, with just
 
 _(translation) - The Anki version's got the same content as the original, just with some wonky formatting._
 
-But wait, there’s more to explore on your journey:
-
 **If the ankiweb links appear with this message** `«This shared item is missing or currently unavailable.»` **it is because I am updating the description of the page or the complete deck, if this is the case you will have to wait 24 hours until the page is updated. To have the latest updates (shown in the changelog) you need to re-download the deck.**
+
+But wait, there’s more to explore on your journey:
 
 - 🔮 **JavaScript Interview Questions & Answers** – _List of 500 JavaScript Interview Questions_
 
